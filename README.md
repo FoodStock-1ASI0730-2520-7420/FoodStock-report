@@ -1,4 +1,4 @@
-<div>
+<div aling ="center">
 
 <h3>Universidad Peruana de Ciencias Aplicadas</h3>
 
