@@ -5,7 +5,7 @@
 <img alt="upc-logo" src="/assets/images/UPC_logo_transparente.png" width="200"/><br>
 
 <strong>Ingeniería de Software - 2025-2</strong><br>
-<strong>1ASI0730 - App Web</strong><br>
+<strong>1ASI0730 - Aplicaciones Web</strong><br>
 <strong>NRC: 7420</strong><br>
 <strong>Profesor: Alex Humberto Sánchez Ponce</strong><br>
 
