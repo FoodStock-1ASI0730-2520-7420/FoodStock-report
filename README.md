@@ -304,6 +304,9 @@ confiable y proactiva, garantizando que los datos estén siempre actualizados y 
 ![Lean UX Canvas](./assets/images/lean-ux-canvas.png)
 **Enlace al Lean UX Canvas:** [*Ver en Miro*](https://miro.com/welcomeonboard/Y3IzVElSYUZ5bE9rS0xpeE03bzRXUWhESVhFMUE0Rlhyb3lVVlBvS3lLZnBYK1Q5SVZWbnRJaEd5OW1QdFcvRjJWSUVRaEVLNVVxQnJwV3E1bWdQS0lhMFUwdXIwNThuaWpBa3F4dzlXUkljOTlmZllVZEZpR0d3Z1VPU1ZDMTF3VHhHVHd5UWtSM1BidUtUYmxycDRnPT0hdjE=?share_link_id=680165327739)
 ### 1.3. Segmentos objetivo
+El primer usuario objetivo es un dueño de un emprendimiento gastronómico, residente de Lima Metropolitana y con una experiencia básica en la gestión de negocios. Sus intereses principales en la gestión de inventario y administración de ventas.
+
+El segundo usuario objetivo es un administrador de una microempresa gastronómica, ubicada en Lima Metropolitana. Busca soluciones para mejor el control del inventario y administración de las ventas totales, además, desea aumentar la rentabilidad de la microempresa.
 
 ## Capítulo II: Requirements Elicitation & Analysis
 ### 2.1. Competidores
