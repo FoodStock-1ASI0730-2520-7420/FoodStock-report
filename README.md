@@ -171,7 +171,7 @@ obtener una ventaja competitiva.
     <td valign="top" align="center"><img src="assets/images/FoodStock.jpg" alt="FoodStock Logo" height="150" /></td>
     <td valign="top" align="center"><img src="assets/images/Sico-Restaurante.jpg" alt="Sico-Restaurante Logo" height="150" /></td>
     <td valign="top" align="center"><img src="assets/images/Xtracheft.png" alt="Xtracheft Logo" height="150" /></td>
-    <td valign="top" align="center"><img src="assets/images/Panca.png" alt="Panca Logo" height="130" /></td>
+    <td valign="top" align="center"><img src="assets/images/panca.png" alt="Panca Logo" height="130" /></td>
    </tr>
   <tr>
     <td rowspan="2" valign="top">Perfil</td>
