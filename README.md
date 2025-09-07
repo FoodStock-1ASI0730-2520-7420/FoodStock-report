@@ -142,6 +142,13 @@ Impulsar el desarrollo de una plataforma web que permita a los restaurantes perf
 #### -Visión:
 Convertirnos en una startup referente en el Perú en la creación de aplicaciones web dirigidas al sector gastronómico, distinguiéndonos por la innovación constante, la personalización de nuestras soluciones y el aporte significativo a la digitalización de los restaurantes.
 #### 1.1.2. Perfiles de integrantes del equipo
+| Estudiante | Descripción | Conocimientos |
+|------------|-------------|---------------|
+| ( foto ) <br> Melina Liz Santillan Alvarado <br> U202216058 | Soy estudiante de la carrera de Ingeniería de Software en la UPC y tengo 21 años. | Tengo conocimientos en |
+| (foto) <br> nombres apellidos <br> codigo | descripcion | conocimientos |
+| (foto) <br> nombres apellidos <br> codigo | descripcion | conocimientos |
+| (foto) <br> nombres apellidos <br> codigo | descripcion | conocimientos |
+| (foto) <br> nombres apellidos <br> codigo | descripcion | conocimientos |
 ### 1.2. Solution Profile
 #### 1.2.1. Antecedentes y problemática
 #### 1.2.2. Lean UX Process
