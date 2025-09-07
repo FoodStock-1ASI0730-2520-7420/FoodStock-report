@@ -146,6 +146,131 @@
 ## Capítulo II: Requirements Elicitation & Analysis
 ### 2.1. Competidores
 #### 2.1.1. Análisis competitivo
+El análisis competitivo tiene como objetivo principal identificar las características de los competidores, evaluar sus fortalezas y debilidades, y encontrar maneras de diferenciarnos para 
+obtener una ventaja competitiva.
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="7"><b>Competitive Analysis Landscape</b></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2" align="center">¿Por qué llevar a cabo este análisis?</td>
+      <td colspan="5" align="center">El objetivo de este análisis es identificar las características de los competidores, evaluar sus fortalezas y debilidades, y encontrar maneras de diferenciarnos para obtener una ventaja competitiva.</td>
+    </tr>
+      <tr>
+    <td colspan="2" rowspan="2" valign="top">Startup y Competidores</td>
+        <td valign="top" align="center">FoodStock</td>
+        <td valign="top" align="center">SICO RESTAURANTES</td>
+        <td valign="top" align="center">Xtrachef </td>
+        <td valign="top" align="center">Panca</td>
+  </tr>
+  <tr>
+    <td valign="top" align="center"><img src="assets/images/FoodStock.jpg" alt="AgroTrack Logo" height="150" /></td>
+    <td valign="top" align="center"><img src="assets/images/Sico-Restaurante.jpg" alt="Space AG Logo" height="150" /></td>
+    <td valign="top" align="center"><img src="assets/images/Xtracheft.png" alt="AGROS Logo" height="150" /></td>
+    <td valign="top" align="center"><img src="assets/images/Panca.png" alt="AgriSoft Logo" height="130" /></td>
+   </tr>
+  <tr>
+    <td rowspan="2" valign="top">Perfil</td>
+    <td valign="top">Overview</td>
+    <td valign="top">FoodStock es una aplicación web orientada a optimizar la gestión de inventario y ventas en el sector gastronómico. Permite a los dueños y administradores registrar, supervisar y analizar sus operaciones, fortaleciendo la calidad del servicio y la rentabilidad.</td>
+    <td valign="top">SICO RESTAURANTES es un software de gestión para restaurantes que se enfoca en el control del día a día, incluyendo inventario en línea, manejo de recetas, facturación electrónica y gestión de comandas táctiles.</td>
+    <td valign="top">Xtrachef es una herramienta de gestión de inventario y costos diseñada específicamente para el sector gastronómico. Su enfoque principal es el control de recetas, insumos y mermas para optimizar la rentabilidad del negocio.</td>
+    <td valign="top">Panca es un sistema de gestión para restaurantes que integra múltiples funcionalidades, como el punto de venta (POS), inventario y un sistema para gestionar pedidos y delivery.</td>
+  </tr>
+  <tr>
+    <td valign="top">Ventaja competitiva ¿Qué valor ofrece a los clientes?</td>
+    <td valign="top">FoodStock se diferencia por ofrecer una solución que es accesible, fácil de usar y escalable. Proporcionamos una herramienta que no solo organiza, sino que también ayuda a los clientes a aumentar su rentabilidad con análisis clave, ideal para emprendedores y microempresas.</td>
+    <td valign="top">Su valor principal es la automatización y la integración de procesos clave, como comandas táctiles y facturación electrónica, en un solo sistema fácil de usar para restaurantes establecidos y de diversos tipos.</td>
+    <td valign="top">Ofrecen una solución altamente especializada en el control de costos y rentabilidad por plato, lo que lo hace muy atractivo para chefs y gerentes de costos.</td>
+    <td valign="top">Su ventaja radica en ser una solución todo-en-uno que cubre la mayoría de las necesidades operativas de un restaurante, desde el inventario hasta la gestión del salón y el delivery.</td>
+  </tr>
+  <tr>
+    <td rowspan="2" valign="top">Perfil de Marketing</td>
+    <td valign="top">Mercado objetivo</td>
+    <td valign="top">Emprendedores gastronómicos y dueños de pequeños negocios de comida que buscan una solución simple y económica para digitalizar su gestión.</td>
+    <td valign="top">Restaurantes, restobares, cafés y casinos de comida ya establecidos que buscan un control integral de sus operaciones.</td>
+    <td valign="top">Gerentes de costos y chefs que buscan una herramienta especializada en la optimización de la rentabilidad del menú, el control de recetas y la gestión de mermas.</td>
+    <td valign="top">Dueños y administradores de restaurantes que necesitan una solución todo-en-uno que integre POS, inventario, delivery y un sistema de gestión completo.</td>
+  </tr>
+  <tr>
+    <td valign="top">Estrategias de marketing</td>
+    <td valign="top">Publicidad en redes sociales (Facebook, Instagram) con un enfoque en la simplicidad y el ahorro de tiempo</td>
+    <td valign="top">Demo y prueba gratuita: Ofrecen una prueba gratuita de 30 días para que los clientes puedan evaluar la funcionalidad del software.</td>
+    <td valign="top">Publicidad en plataformas especializadas, eventos del sector y colaboraciones con organizaciones que promueven la innovación en la agricultura.</td>
+    <td valign="top">Ventas consultivas, demostraciones del producto a equipos gerenciales y campañas de marketing de contenidos que demuestran la funcionalidad de su Sistema.</td>
+  </tr>
+  <tr>
+    <td rowspan="3" valign="top">Perfil de Producto</td>
+    <td valign="top">Productos & Servicios</td>
+    <td valign="top">Módulo de gestión de inventario, registro de ventas y para el otro plan seria módulo de análisis de rentabilidad, sistema de reservas, reportes avanzados.</td>
+    <td valign="top">Módulos de inventario y stock, manejo de recetas, comandas táctiles, facturación electrónica y reportes de ventas.</td>
+    <td valign="top">Control de recetas, mermas, y precios de menú.</td>
+    <td valign="top">POS, inventario, delivery, gestión de pedidos.</td>
+  </tr>
+  <tr>
+    <td valign="top">Precios & Costos</td>
+    <td valign="top">Costo Mensual para el plan básico ($5 USD), Plan Pro ($25 USD).</td>
+    <td valign="top">(No se conoce el precio mensual)</td>
+    <td valign="top">(No se conoce el precio mensual)</td>
+    <td valign="top">(No se conoce el precio mensual)</td>
+  </tr>
+  <tr>
+    <td valign="top">Canales de distribución (Web y/o Móvil)</td>
+    <td valign="top">Plataforma web responsiva para PC, Tablet y celular, disponible desde cualquier navegador y no requiere descargar una app para usarla.</td>
+    <td valign="top">Ofrecen soluciones en la nube, pero también se pueden instalar en computadoras de escritorio.</td>
+    <td valign="top">Aplicación web con un enfoque en la usabilidad móvil para el uso en la cocina.</td>
+    <td valign="top">Solución en la nube accesible desde web y con aplicaciones dedicadas para dispositivos móviles.</td>
+  </tr>
+  <tr>
+    <td rowspan="4" valign="top">Análisis SWOT</td>
+    <td valign="top">Fortalezas</td>
+    <td valign="top">Precios bajos para un mercado que no puede pagar soluciones más caras, interfaz intuitiva y facil de usar, ideal para emprendedores con poca conocimiento tecnologico y rentabilidad en dar herramientas claves para que los negocios crezcan.</td>
+    <td valign="top">Tiene más de 25 años en la industria del software, lo que genera confianza a los clientes e integra multiples funcionalidades operativas en un solo software.</td>
+    <td valign="top">Herramienta enfocada en un nicho muy especifico que hace muy valioso para gerentes.</td>
+    <td valign="top">Proporcionan un ecosistema completo para el negocio, desde el POS hasta la gestión de inventario.</td>
+  </tr>
+  <tr>
+    <td valign="top">Debilidades</td>
+    <td valign="top">Al ser esta un nuevo Startup tiene un bajo notoriedad de marca. Tambien el plan basico no tiene todas las herramientas que podría tener la competencia.</td>
+    <td valign="top">El precio puede ser muy alto para los pequeños negocios, ya que esta diseñado para empresas establecidas.</td>
+    <td valign="top">Su especialización en costos podría no ser atractiva para negocios que buscan una solución integral.</td>
+    <td valign="top">Su especialización en costos podría no ser atractiva para negocios que buscan una solución integral y sus costos son muy elevados para los negocios que recien estan empezando.</td>
+  </tr>
+  <tr>
+    <td valign="top">Oportunidades</td>
+    <td valign="top">El sector gastronómico se está digitalizando, lo que crea una alta demanda de herramientas como FoodStock y un vacío para una solución que sea económica, simple y que se enfoque en la rentabilidad de los negocios pequeños.</td>
+    <td valign="top">Pueden ofrecer soluciones a otros tipos de negocios (hoteles, minimarkets) para seguir creciendo.</td>
+    <td valign="top">Pueden colaborar con plataformas de POS o de inventario para complementar sus funciones.</td>
+    <td valign="top">Tienen la oportunidad de seguir creciendo al ofrecer más funcionalidades a sus clientes.</td>
+  </tr>
+  <tr>
+    <td valign="top">Amenazas</td>
+    <td valign="top">Pueden surgir competidores que ofrezcan soluciones gratuitas o más baratas y algunos emprendedores prefiren seguir con sus métodos manuales tradicionales.</td>
+    <td valign="top">La entrada de nuevas startups con precios más competitivos puede afectar su cuota de mercado.</td>
+    <td valign="top">El surgimiento de nuevas herramientas puede volver obsoleto su modelo de control de costos.</td>
+    <td valign="top">Al ser un software "todo-en-uno", la llegada de soluciones más especializadas podría afectar su posición.</td>
+  </tr>
+  <tr>
+    <td rowspan="4" valign="top">Precios y costos</td>
+    <td valign="top">Costo Anual</td>
+    <td valign="top">Desde $60 USD hasta $300 USD.</td>
+    <td valign="top">(No se conoce el precio anual).</td>
+    <td valign="top">(No se conoce el precio anual).</td>
+    <td valign="top">(No se conoce el precio anual).</td>
+  </tr>
+  <tr>
+    <td valign="top">Mensual</td>
+    <td valign="top">Plan basico de $5 y pro de $25 USD</td>
+    <td valign="top">(No se conoce el precio mensual)</td>
+    <td valign="top">(No se conoce el precio mensual)</td>
+    <td valign="top">(No se conoce el precio mensual)</td>
+  </tr>
+</table>
+
 #### 2.1.2. Estrategias y tácticas frente a competidores
 ### 2.2. Entrevistas
 #### 2.2.1. Diseño de entrevistas
