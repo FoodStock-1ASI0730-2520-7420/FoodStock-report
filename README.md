@@ -272,6 +272,38 @@ obtener una ventaja competitiva.
 </table>
 
 #### 2.1.2. Estrategias y tácticas frente a competidores
+
+Basándonos en el análisis competitivo frente a plataformas como **SICO RESTAURANTES, Xtrachef y Panca**, se proponen las siguientes estrategias y tácticas para posicionar a **FoodStock** como una solución diferenciada y adaptada al contexto de emprendedores y microempresas gastronómicas en el Perú:  
+
+**Estrategia 1: Accesibilidad y precios competitivos**  
+- Mantener planes asequibles desde **$5 USD mensuales**, destacando la relación costo-beneficio frente a sistemas más caros.  
+- Ofrecer un **plan freemium de prueba** con funciones básicas y la opción de experimentar las características Pro.  
+- Comunicar claramente los beneficios económicos del sistema (ahorro de tiempo, reducción de mermas, control en tiempo real).  
+
+**Estrategia 2: Enfoque en microempresas y emprendimientos**  
+- Diseñar campañas dirigidas a dueños de **pequeños restaurantes y negocios emergentes** que no pueden costear soluciones complejas.  
+- Resaltar la **simplicidad de uso** de la plataforma para usuarios con poca experiencia tecnológica.  
+- Presentar casos de uso reales de microempresas que hayan mejorado su rentabilidad gracias a la digitalización.  
+
+**Estrategia 3: Diferenciación por escalabilidad funcional**  
+- Ofrecer dos planes de servicio: **Básico** (inventario y ventas) y **Pro** (análisis de rentabilidad, reservas y alertas predictivas).  
+- Posicionar al plan Pro como una alternativa más completa frente a sistemas especializados como Xtrachef o soluciones “todo-en-uno” como Panca.  
+- Mostrar la evolución natural de crecimiento: empezar simple y luego pasar a funciones avanzadas.  
+
+**Estrategia 4: Marketing digital de bajo costo y alto alcance**  
+- Publicidad en **redes sociales (Facebook, Instagram)** con mensajes claros sobre organización, simplicidad y ahorro de tiempo.  
+- Uso de **tutoriales audiovisuales y guías rápidas** para demostrar la facilidad de implementación.  
+- Aprovechar **alianzas con asociaciones gastronómicas** para ganar visibilidad y confianza en el sector.  
+
+**Estrategia 5: Experiencia de usuario intuitiva y confiable**  
+- Priorizar un diseño visual simple y accesible desde cualquier dispositivo sin necesidad de instalación adicional.  
+- Implementar **notificaciones inteligentes** (bajo stock, ventas destacadas, reservas pendientes).  
+- Garantizar **datos actualizados en tiempo real**, fortaleciendo la confianza del usuario en la plataforma.  
+
+**Estrategia 6: Posicionamiento como aliado estratégico de negocios pequeños**  
+- Promover testimonios de usuarios que lograron reducir mermas y mejorar la gestión con FoodStock.  
+- Participar en **eventos de innovación gastronómica y digitalización de pymes**.  
+- Comunicar el impacto positivo en la **rentabilidad y eficiencia operativa** de los negocios que adoptan la solución.  
 ### 2.2. Entrevistas
 #### 2.2.1. Diseño de entrevistas
 #### 2.2.2. Registro de entrevistas
