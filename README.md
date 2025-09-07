@@ -134,6 +134,13 @@
 ### 1.1. Startup Profile
 #### 1.1.1. Descripción de la Startup
 #### 1.1.2. Perfiles de integrantes del equipo
+| Estudiante | Descripción | Conocimientos |
+|------------|-------------|---------------|
+| ( foto ) <br> Melina Liz Santillan Alvarado <br> U202216058 | Soy estudiante de la carrera de Ingeniería de Software en la UPC y tengo 21 años | Tengo conocimientos en |
+| (foto) <br> nombres apellidos <br> codigo | descripcion | conocimientos |
+| (foto) <br> nombres apellidos <br> codigo | descripcion | conocimientos |
+| (foto) <br> nombres apellidos <br> codigo | descripcion | conocimientos |
+| (foto) <br> nombres apellidos <br> codigo | descripcion | conocimientos |
 ### 1.2. Solution Profile
 #### 1.2.1. Antecedentes y problemática
 #### 1.2.2. Lean UX Process
