@@ -133,6 +133,14 @@
 ## Capítulo I: Introducción
 ### 1.1. Startup Profile
 #### 1.1.1. Descripción de la Startup
+En GestionPro, ofrecemos soluciones tecnológicas orientadas a optimizar las áreas operativas y comerciales de los restaurantes, con la finalidad de simplificar su organización interna y potenciar su rendimiento. Nuestra aplicación web está diseñada para convertirse en un soporte estratégico para administradores y dueños, facilitando el control de pedidos, la administración de reservas, el monitoreo de ventas y la generación de reportes en tiempo real. De esta manera, buscamos contribuir a que los restaurantes sean más eficientes en sus procesos y brinden una mejor experiencia a sus clientes.
+
+#### -Misión:
+Impulsar el desarrollo de una plataforma web que permita a los restaurantes perfeccionar la calidad de su servicio, gestionar de forma práctica sus operaciones y fortalecer el área comercial, a través de herramientas digitales accesibles, adaptables y fáciles de implementar.
+
+
+#### -Visión:
+Convertirnos en una startup referente en el Perú en la creación de aplicaciones web dirigidas al sector gastronómico, distinguiéndonos por la innovación constante, la personalización de nuestras soluciones y el aporte significativo a la digitalización de los restaurantes.
 #### 1.1.2. Perfiles de integrantes del equipo
 ### 1.2. Solution Profile
 #### 1.2.1. Antecedentes y problemática
