@@ -214,9 +214,95 @@ Mayor eficiencia operativa, reducción de costos, mejor trazabilidad del inventa
 
 #### 1.2.2. Lean UX Process
 ##### 1.2.2.1. Lean UX Problem Statements
-##### 1.2.2.2. Lean UX Assumptions
-##### 1.2.2.3. Lean UX Hypothesis Statements
-##### 1.2.2.4. Lean UX Canvas
+
+En el sector gastronomico actual, muchos restaurantes y negocios de comida operan con sistemas de inventario y ventas manuales o ineficientes. Esto lleva a cabo que estos tengan una necesidad critica de implementar una solución integral que automatice estos procesos, sea accesible desde cualquier dispositivo y brinde información en tiempo real. Esta herramienta debe permitir a 
+los propietarios y administradores visualizar el inventario, registrar entradas y salidas de productos, y monitorear las ventas de manera eficiente para optimizar la operación y mejorar la toma de decisiones estratégicas.
+
+En la actualidad, estos negocios suelen gestionar su stock y ventas con metodos tradicionales, como hojas de cálculo, registros en cuadernos o software muy limitados y presentan serias dificultades como la duplicacion de datos, perdidas de informacion, la falta de actualizaciones, el tiempo valioso buscando datos especificos y generado reportes de manera manual, tambien la 
+ausencia de acceso remoto al sistema de invetario que impedira la supervisión del negocio desde multiples ubicaciones.
+
+Para abordar esta problemática, nos haremos las siguientes preguntas con que nos guiaremos para el desarrolo de **FoodStock**:
+
+¿Cómo se puede digitalizar el inventario de un restaurante? ¿De qué manera podemos evitar el desperdicio de alimentos? ¿Comó se puede registrar las ventas en tiempo real? ¿De qué forma se puede mejorar la toma de pedidos en un restaurante? 
+¿Cómo se puede monitorear el negocio desde cualquier lugar? ¿Cómo pueden los clientes ver el menu y los precios en linea? ¿Comó se registra la entrada y salida de producots de forma rapida y sin errores?
+#### 1.2.2.2. Lean UX Assumptions
+
+#### Business Assumptions
+
+1. **Creo que mis clientes necesitan** una solución para organizar y profesionalizar la gestion de sus negocios, pero que esta solución debe ser escalable para crecer con ellos.
+2. **Estas necesidades se pueden resolver con** una aplicación web que integre gestion de inventario, ventas, reportes y reservas de mesas y que se ofrezca en dos planes: Un Basico
+para ordenar y un Pro para optimizar y crecer.
+3. **Mis clientes iniciales serán** emprendedores y microempresas gastronómicas interesados en digitalizar sus procesos parar mejorar eficiencia y la rentabilidad.
+4. **El valor más importante que el cliente busca de mi servicios es** una herramienta que les ahorre tiempo y les pueda ayudar a tomar decisiones inteligentes para
+aumentar sus ganancias.
+5. **El cliente tambien puede obtener estos benficios adicionales:** en el plan Básico, organizacion simple y un inventario que se descuenta automáticamente; en el plan Pro,
+análisis de rentabilidad, alertas de stock predictivas y un sistema de reservas de mesas.
+6. **Voy a adquirir la mayoria de mis clientes a través de** marketing digital en redes sociales y alianzas con asociaciones gastronómicas.
+7. **Haré dinero a través de** un modulo de suscripción mensual con dos planes: El basico (5 USD) y el Plan Pro (25 USD).
+8. **Mi competencia principal en el mercado será** otras aplicaciones de gestion de restaurantes y sistemas de puntos de venta que ofrecen soluciones de inventario.
+9. **Los venceremos debido a** un enfoque centrado en la simplicidad, un modelo de planes flexible y un claro énfasis en la rentabilidad del cliente, ofreciendo las herramientas que realmente necesitan para crecer.
+10. **Mi mayor riesgo de productos es que** los clientes del plan Básico no vean suficiente valor para pasar al plan Pro.
+11. **Resolveremos esto a traves de** pruebas gratuitas de las funciones Pro y tutoriales que muestren el valor añadido y el retorno de inversión.
+
+#### User Assumptions
+#### ¿Quién es el usuario?
+Los usuarios de FoodStock son dueños de negocios y administradores de restaurantes, que buscan una herramienta para organizar y optimizar la gestión de su negocio.
+#### ¿Qué problemas tiene nuestro producto que resolver?
+FoodStock busca resolver la desorganización en el registro de inventario y ventas, los errores manuales y falta de datos claves que impiden a los dueños de restaurantes tomar decisiones estratégicas.
+#### ¿Qué caracteristicas son importantes?
+Las características clave son la simplicidad y la confiabilidad. Los usuarios necesitan una interfaz intuitiva para registrar inventario y ventas.
+Es crucial que el sistema incluya el descuento automático de ingredientes por cada plato vendido, asi como la capacidad de generar reportes.
+#### ¿Dónde encaja nuestro producto en su trabajo o vida?
+El producto se convierte en una herramienta central que reemplaza los múltiples sistemas desorganizados. Se integra en la rutina diaria de los usuarios
+para facilitar la gestion del negocio.
+#### ¿Cuándo y cómo nuestro producto es usudo?
+El producto se utiliza diariamente para registrar operaciones y semanalmente o mensualmente para análisis estratégicos y toma de decisiones. Su uso es
+a través de una aplicación web accesible desde navegadores de cualquier dispositivo, lo que permitira a los usuarios gestionar su negocio de cualquier lugar
+con conexión a internet.
+#### ¿Cómo debe verse nuestro producto y cómo comportarse?
+El producto debe tener un diseño visual simple y claro, con iconos intuitivos y un lenguaje accesible que permita a los usuarios aprender a usarlo rápidamente. Además, debe comportarse de forma ágil,
+confiable y proactiva, garantizando que los datos estén siempre actualizados y que la experiencia del usuario sea fluida, enviando notificaciones para alertar sobre eventos importantes como el bajo nivel de stock.
+
+#### 1.2.2.3. Lean UX Hypothesis Statements
+#### Hypothesis 01:
+**Creemos que** los emprendedores gastronómicos organizarán mejor su inventario si pueden registrar sus ventas de forma digital y ver cómo el stock se actualiza automáticamente.
+
+**Sabremos que** hemos tenido éxito.
+
+**Cuando** los usuarios del plan Básico registren al menos el 80% de sus ventas diarias en la plataforma.
+
+#### Hypothesis 02:
+**Creemos que** los dueños de microempresas reducirán las pérdidas de stock y mejorarán la eficiencia de sus compras si reciben alertas inteligentes sobre los niveles bajos de inventario.
+
+**Sabremos que** hemos tenido éxito.
+
+**Cuando** los usuarios del plan Pro reporten una reducción de mermas del 15% y utilicen la función de alertas al menos una vez a la semana.
+
+#### Hypothesis 03:
+**Creemos que** los dueños de restaurantes tomarán decisiones más inteligentes sobre su menú si tienen acceso a reportes que les muestren la rentabilidad de cada plato.
+
+**Sabremos que** hemos tenido éxito.
+
+**Cuando** el 60% de los usuarios del plan Pro utilicen el dashboard de rentabilidad y reporten que ajustaron precios o promociones basándose en la información de la plataforma.
+
+#### Hypothesis 04:
+**Creemos que** los administradores de restaurantes mejorarán la organización de su local si cuentan con un sistema de reservas de mesas integrado en la plataforma.
+
+**Sabremos que** hemos tenido éxito.
+
+**Cuando** los usuarios del plan Pro reciban y gestionen al menos 30 reservas al mes a través de la plataforma.
+
+#### Hypothesis 05:
+**Creemos que** la adopción del sistema será más alta si ofrecemos un plan Básico con funciones esenciales a un precio muy accesible.
+
+**Sabremos que** hemos tenido éxito.
+
+**Cuando** logremos una tasa de conversión del 20% de usuarios que prueben el plan Básico y se conviertan en suscriptores de pago.
+
+#### 1.2.2.4. Lean UX Canvas
+**Figura 1. Lean UX Canvas de Agrotrack**
+![Lean UX Canvas](./assets/images/lean-ux-canvas.png)
+**Enlace al Lean UX Canvas:** [*Ver en Miro*](https://miro.com/welcomeonboard/Y3IzVElSYUZ5bE9rS0xpeE03bzRXUWhESVhFMUE0Rlhyb3lVVlBvS3lLZnBYK1Q5SVZWbnRJaEd5OW1QdFcvRjJWSUVRaEVLNVVxQnJwV3E1bWdQS0lhMFUwdXIwNThuaWpBa3F4dzlXUkljOTlmZllVZEZpR0d3Z1VPU1ZDMTF3VHhHVHd5UWtSM1BidUtUYmxycDRnPT0hdjE=?share_link_id=680165327739)
 ### 1.3. Segmentos objetivo
 
 ## Capítulo II: Requirements Elicitation & Analysis
