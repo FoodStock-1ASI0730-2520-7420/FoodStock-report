@@ -152,6 +152,66 @@ Convertirnos en una startup referente en el Perú en la creación de aplicacione
 | (foto) <br> nombres apellidos <br> codigo                                                                                  | descripcion                                                                                                                                                                                                                                                | conocimientos                                                                                   |
 ### 1.2. Solution Profile
 #### 1.2.1. Antecedentes y problemática
+ 
+En la actualidad, una gran parte de los restaurantes y negocios de comida aún gestionan su inventario y ventas mediante métodos manuales o sistemas poco eficientes. Esta situación provoca errores, pérdida de datos y demoras en la toma de decisiones. Además, la falta de control impacta negativamente en la rentabilidad, genera problemas en la disponibilidad de insumos y afecta la calidad del servicio al cliente.  
+
+#### 5W + 2H FoodStock  
+
+##### WHAT (QUÉ)  
+- **¿Cuál es el problema?**  
+El problema surge de los métodos manuales e ineficientes que muchos restaurantes y negocios de comida emplean para registrar inventario y ventas. Los encargados deben desplazarse al almacén para verificar cantidades, revisar manualmente las ventas del mes o copiar datos en distintos soportes, lo que ocasiona duplicidad, errores y desactualización de la información. Este sistema también limita el análisis estadístico y la toma de decisiones estratégicas.  
+
+- **¿Qué consecuencias tiene?**  
+La falta de control ocasiona pérdidas de ventas, retrasos en la atención, desabastecimiento de productos y fallas en la gestión administrativa, lo que afecta la rentabilidad del negocio y la satisfacción de los clientes.  
+
+##### WHEN (CUÁNDO)  
+- **¿Cuándo sucede el problema?**  
+Cada vez que los dueños o administradores requieren consultar inventarios, ventas o reportes de manera remota y no cuentan con un sistema centralizado. También cuando se necesitan análisis rápidos de estadísticas o información de clientes en fechas específicas.  
+
+- **¿Cuándo utiliza el cliente el producto?**  
+El sistema se emplea a diario: para registrar ventas, actualizar inventarios, generar reportes estadísticos y consultar información en cualquier momento, optimizando la productividad y la agilidad del negocio.  
+
+
+
+##### WHERE (DÓNDE)  
+- **¿Dónde se presenta el problema?**  
+En restaurantes y negocios de comida que aún dependen de registros físicos, hojas de cálculo o software limitados sin acceso flexible y en tiempo real.  
+
+- **¿Dónde se usa el producto?**  
+FoodStock se utiliza en cualquier dispositivo con conexión a internet (computadora, laptop, tablet o celular), lo que permite consultar y actualizar información desde el local, la oficina, el hogar o incluso en movimiento.  
+
+
+##### WHO (QUIÉN)  
+- **¿Quién tiene este problema?**  
+Los negocios de comida y restaurantes que manejan inventarios físicos y requieren un sistema más ágil y confiable para gestionar sus procesos.  
+
+- **¿Quién se beneficia del producto?**  
+Dueños, administradores y empleados al contar con una herramienta centralizada y práctica; y los clientes, quienes reciben un servicio más rápido, organizado y confiable.  
+
+
+
+##### WHY (POR QUÉ)  
+- **¿Por qué ocurre el problema?**  
+Porque muchos negocios aún no han adoptado herramientas digitales modernas y siguen usando métodos tradicionales que generan errores, falta de control y pérdida de oportunidades de crecimiento.  
+
+- **¿Por qué es importante automatizar?**  
+Porque la digitalización asegura un seguimiento en tiempo real del inventario, evita pérdidas de información, reduce costos y mejora la toma de decisiones. Como menciona *Castagnino*, fundador de Restaurant.pe, los restaurantes que no aprovechan las ventajas de la tecnología corren el riesgo de quedarse atrás. La transformación digital no solo permite mejorar la operativa interna, sino también otorga una ventaja competitiva al ofrecer un servicio más ágil, personalizado y adaptado a las nuevas exigencias de los consumidores.  
+
+
+##### HOW (CÓMO)  
+- **¿Cómo soluciona el producto el problema?**  
+FoodStock centraliza la gestión de inventario y ventas en una aplicación web accesible desde cualquier dispositivo. Permite registrar operaciones de forma rápida, generar reportes estadísticos en tiempo real y ofrecer catálogos digitales a los clientes.  
+En este sentido, *Castagnino* señala que la transformación digital es la clave del cambio en la industria gastronómica, pues permite operaciones más ágiles, fidelización de clientes y decisiones estratégicas basadas en indicadores como *food cost*, mermas y rotación de insumos. 
+
+
+##### HOW MUCH (CUÁNTO)  
+- **¿Cuánto mejora el producto la situación actual?**  
+FoodStock reduce de manera considerable el tiempo invertido en tareas manuales, minimiza errores, evita duplicidad de información y facilita la planificación del negocio con datos confiables.  
+
+- **¿Qué beneficios se obtienen al digitalizar y automatizar?**  
+Mayor eficiencia operativa, reducción de costos, mejor trazabilidad del inventario, control de stock más preciso,  atención al cliente más ágil y profesional.
+
+
 #### 1.2.2. Lean UX Process
 ##### 1.2.2.1. Lean UX Problem Statements
 ##### 1.2.2.2. Lean UX Assumptions
