@@ -314,29 +314,6 @@ El segundo usuario objetivo es un administrador de una microempresa gastronómic
 #### 2.1.2. Estrategias y tácticas frente a competidores
 ### 2.2. Entrevistas
 #### 2.2.1. Diseño de entrevistas
-#### Emprendedores
-1. ¿Comó gestionas normalmente tu inventario y tus ventas?
-2. ¿Qué dificultades tienes en el control de stock en tu inventario?
-3. ¿Cuánto tiempo requieres para registrar todo tu inventario?
-4. ¿Qué problemas tienes con los alimentos de corta duración?
-5. ¿Qué opinas sobre una aplicación web que te permitar gestionar tu inventario y tus ventas?
-6. ¿Qué otros funcionalidad desearías que tenga la aplicación web?
-7. ¿Qué información desearías que tengan un reporte de ventas?
-8. ¿Estarías dispuesto a pagar una membresía mensual para acceder a una aplicación web que te ayude en tu área de operaciones y comercial? ¿Por qué?
-9. ¿Qué beneficios crees que podría tener tu emprendimiento si accedieras a esta aplicación web?
-
-#### Microempresas
-1. ¿Comó gestionas normalmente tu inventario y tus ventas?
-2. ¿Qué dificultades tienes en las reservas de mesas?
-3. ¿Qué herramienta utilizas para hacer el registro de una reserva de mesa?
-4. ¿Cuánto tiempo requieres para registrar todo tu inventario?
-5. ¿Qué dificultades tienes en el control de stock en tu inventario?
-6. ¿Qué opinas sobre una aplicación web que te permitar gestionar tu inventario y tus ventas?
-7. ¿Qué otros funcionalidad desearías que tenga la aplicación web?
-8. ¿Qué información desearías que tengan un reporte de ventas?
-9. ¿Qué problemas tienes con los alimentos de corta duración?
-10. ¿Estarías dispuesto a pagar una membresía mensual para acceder a una aplicación web que te ayude en tu área de operaciones y comercial? ¿Por qué?
-
 #### 2.2.2. Registro de entrevistas
 #### 2.2.3. Análisis de entrevistas
 ### 2.3. Needfinding
