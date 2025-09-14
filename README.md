@@ -162,7 +162,18 @@
 ## Capítulo III: Requirements Specification
 ### 3.1. To-Be Scenario Mapping
 ### 3.2. User Stories
-| Epic/Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
+
+#### Epic Story
+| Epic ID | Título | Descripción |
+|-------|----------------|-------------|
+|1      |                |             |
+|2      |                |             |
+|3      |                |             |
+|4      |                |             |
+|5      |                |             |
+
+#### Users Stories
+| Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
 |-------|----------------|-------------|-------------------------|---------------------------|
 |1      |                |             |                         |                           |
 |2      |                |             |                         |                           |
