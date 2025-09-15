@@ -369,7 +369,31 @@ Luego de hablar con mi grupo mejoramos e identificamos un mejor sistema
 
 Este proceso le dio al equipo una visión general de los eventos clave del negocio. Esto fue fundamental para identificar los puntos críticos y establecer las prioridades para las siguientes fases del proyecto.
 ### 2.5. Ubiquitous Language
+El Lenguaje Ubicuo es el vocabulario común y consistente que el equipo ha definido para describir el negocio y el sistema, eliminando cualquier ambigüedad.
+Los siguientes términos son clave para el entendimiento y desarrollo del proyecto GestionPro.
 
+* Emprendedor / Microempresa: Actor principal del sistema, dueño de un negocio gastronómico. Es el usuario que interactúa con la plataforma para gestionar su restaurante.
+
+
+* Venta registrada: Un hecho que ocurre en el sistema una vez que un pedido ha sido pagado y completado. Este evento es el punto de partida para otras acciones, como la actualización del inventario.
+
+
+* Mesa reservada: Un evento que indica que una mesa ha sido asignada a un cliente por un período de tiempo específico.
+
+
+* Inventario abierto: Un evento que sucede cuando el inventario está disponible para ser revisado y modificado por el usuario.
+
+
+* Alerta de stock crítico: Un evento que ocurre automáticamente cuando la cantidad de un producto o insumo alcanza un nivel bajo, alertando al usuario para que reabastezca su inventario.
+
+
+* Proveedor agregado: Un evento que indica que los datos de un nuevo proveedor han sido ingresados en el sistema.
+
+
+* Reporte de ingresos: Un evento que se genera una vez que se compila y presenta un informe sobre las ventas y ganancias del negocio.
+
+
+* Punto Pivotal (Pivotal Point): Una pregunta o problema crítico que fue identificado por el equipo. Estas preguntas, como "¿Qué sucede si un cliente no llega a su reserva?" o "¿Habrá límite de proveedores?", definen las reglas de negocio más importantes.
 ## Capítulo III: Requirements Specification
 ### 3.1. To-Be Scenario Mapping
 ### 3.2. User Stories
