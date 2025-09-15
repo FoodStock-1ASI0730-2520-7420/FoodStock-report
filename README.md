@@ -337,6 +337,37 @@ Basándonos en el análisis competitivo frente a plataformas como **SICO RESTAUR
 #### 2.3.3. User Journey Mapping
 #### 2.3.4. Empathy Mapping
 ### 2.4. Big Picture EventStorming
+En esta sección, se detalla el proceso de Big Picture Event Storming que el equipo llevó a cabo para obtener una comprensión completa de las operaciones
+del negocio de los restaurantes. El proceso se realizó de forma remota a través de una llamada en Discord, utilizando la herramienta Miro para plasmar visualmente la metodología.
+
+#### 1. Open:
+consiste en la exploración no estructurada de eventos. El objetivo principal fue generar la mayor cantidad de eventos de dominio posibles, es decir, 
+todo lo que ocurre en el negocio de un restaurante. Estos eventos se escribieron en post-its naranjas y se colocaron en el tablero de Miro.
+
+<img alt="upc-logo" src="/assets/images/Big Picture Event Storming/open.png"/><br>
+
+#### 2. Explore:
+Después de la fase inicial de lluvia de ideas, el equipo se concentró en dar orden al caos. El objetivo principal fue convertir un conjunto de ideas 
+dispersas en un mapa estructurado. Esto se logró a través de una revisión colaborativa de todos los eventos generados, reordenando los post-its naranjas en una única línea de tiempo, de izquierda a derecha.
+
+<img alt="upc-logo" src="/assets/images/Big Picture Event Storming/Explore.png"/><br>
+
+Finalmente se muestra el Big Picture EventStorming:
+
+<img alt="upc-logo" src="/assets/images/Big Picture Event Storming/terminado_big.png"/><br>
+
+#### 3. Close:
+La fase de cierre representó la consolidación final de todo el trabajo realizado en el Event Storming. En lugar de ser un paso de creación, fue una etapa de documentación y análisis crítico. El equipo se
+enfocó en tomar las decisiones finales y estructurar los hallazgos para convertirlos en un plan de acción claro.
+
+<img alt="upc-logo" src="/assets/images/Big Picture Event Storming/Close.png"/><br>
+
+Luego de hablar con mi grupo mejoramos e identificamos un mejor sistema
+
+<img alt="upc-logo" src="/assets/images/Big Picture Event Storming/acabado.png"/><br>
+[Enlace del Miro donde se realizó el Big Picture Event Storming](https://miro.com/welcomeonboard/b1drT3dtWE13bnpIVkh2UkRUdlRlZmlsV1hRUHBHUHAxS2NwT0dkWGVkeXdVcjlPcXNVaHFpZE53SVhSNjFvdjhXMGZoclpZTjVWZVNBZDcyWFRPdzRhMFUwdXIwNThuaWpBa3F4dzlXUktKMGZSZFZxcjJ1cFo4NEhWd255N1V0R2lncW1vRmFBVnlLcVJzTmdFdlNRPT0hdjE=?share_link_id=544211227950)
+
+Este proceso le dio al equipo una visión general de los eventos clave del negocio. Esto fue fundamental para identificar los puntos críticos y establecer las prioridades para las siguientes fases del proyecto.
 ### 2.5. Ubiquitous Language
 
 ## Capítulo III: Requirements Specification
