@@ -21,8 +21,8 @@
 |             Member              |    Code    |
 |:-------------------------------:|:----------:|
 |  José María Franco Del Carpio   |    ...     |
-|   Jean Pool Huaman De La Cruz   |    ...     |
-|  Javier Masaru Nikaido Vargas   |    U20221G099     |
+|   Jean Pool Huaman De La Cruz   |    U20201E781  |
+|  Javier Masaru Nikaido Vargas   |    U20221G099  |
 | Quintanilla Pozo Gonzalo Samuel | u202315007 |
 |  Melina Liz Santillan Alvarado  | U202216058 |
 
@@ -149,7 +149,7 @@ Convertirnos en una startup referente en el Perú en la creación de aplicacione
 | <img src="assets/images/masaru.jpg" alt="AgroTrack Logo" height="150" /> <br> Javier Masaru Nikaido Vargas <br> U20221G099 | Estudiante de Ingenieria de Software de 5to ciclo de la Universidad Peruana de Ciencias. Me gusta hacer las cosas con tiempo y ordenadamente, trabajar con tranquilidad y terminar mis deberes a tiempo.| conocimientos en C++, java, python.  |
 | (foto) <br> nombres apellidos <br> codigo                                                                                  | descripcion                                                                                                                                                                                                                                                | conocimientos                                                                                   |
 | (foto) <br> Gonzalo Samuel Quintanilla Pozo <br> U202315007                                                                | Soy estudiante de la carrera de Ingenieria de Software en la UPC y tengo 20 años, como compañero me gusta apoyar y tomar iniciativa en trabajos grupales | Me especializo en los lenguajes CSS, Java y Pyhton. Tengo experiencia desarrolando  paginas web |
-| (foto) <br> nombres apellidos <br> codigo                                                                                  | descripcion                                                                                                                                                                                                                                                | conocimientos                                                                                   |
+| <img src="assets/images/fotoJean.png" alt="fotoJean" height="150" /> <br> Jean Pool Huaman De La Cruz <br> U20201E781                                                                                 | Soy estudiante de la carrera de Ingenieria de Software en la UPC y Tengo 22 años. A lo largo de mi formación me he destacado por mi compromiso con el aprendizaje constante, siempre buscando reforzar mis conocimientos y mejorar en las áreas que lo requieren.                                                                                                                                                                 | Conocimientos en Python, C++ y otros lenguajes de programación.    | 
 ### 1.2. Solution Profile
 #### 1.2.1. Antecedentes y problemática
  
