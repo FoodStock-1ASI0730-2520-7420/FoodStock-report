@@ -166,7 +166,7 @@
 #### Epic Story
 | Epic ID | Título                | Descripción |
 |-------|-----------------------|-------------|
-|1      |                       |             |
+|1      |   Usuario  |Como usuario quiero registrar y gestionar mi cuenta personal para poder acceder a los servicios de la plataforma, iniciar y cerrar sesión de forma segura, actualizar mi perfil, administrar mi suscripción y tener todo los servicios necesario.|
 |2      | Getión de proveedores | Como usuario quiero gestionar todos mis proveedores, y poder agregar, editar o eliminar su información para tener un control sobre quiénes me abastecen. |
 |3      |                       |             |
 |4      | Gestión de ventas     | Como usuario quiero gestionar todas mis ventas y tener acceso a reportes de ventas para tener una mejor organización de mis gananacias. |
