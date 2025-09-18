@@ -415,6 +415,38 @@ El análisis también revela que las necesidades de los dos segmentos se encuent
 ### 2.3. Needfinding
 #### 2.3.1. User Personas
 #### 2.3.2. User Task Matrix
+
+La *User Task Matrix* organiza y prioriza las tareas principales que los segmentos de usuarios deben realizar en el sistema.  
+Esto permite identificar en qué funciones debe enfocarse FoodStock para responder a las necesidades reales de **emprendedores** y **microempresas**.
+
+| Tareas principales                                   | Juan Cordero (Emprendedor) | Sebastián Pereira (Microempresa) |
+|------------------------------------------------------|-----------------------------|----------------------------------|
+| Registrar y gestionar inventario                     | Frecuencia: Siempre<br>Importancia: Alta | Frecuencia: Siempre<br>Importancia: Alta |
+| Controlar insumos perecibles con alertas             | Frecuencia: A veces<br>Importancia: Alta | Frecuencia: Siempre<br>Importancia: Alta |
+| Analizar ventas y gastos diarios                     | Frecuencia: Siempre<br>Importancia: Alta | Frecuencia: A veces<br>Importancia: Media |
+| Generar reportes automatizados                       | Frecuencia: A veces<br>Importancia: Media | Frecuencia: A veces<br>Importancia: Alta |
+| Gestionar proveedores y pedidos                      | Frecuencia: A veces<br>Importancia: Media | Frecuencia: Siempre<br>Importancia: Alta |
+| Administrar reservaciones de clientes                | ❌ No aplica                 | Frecuencia: Siempre<br>Importancia: Alta |
+| Conectar pagos digitales (Yape, Plin, etc.)          | ❌ No aplica                 | Frecuencia: A veces<br>Importancia: Alta |
+
+---
+
+#### Análisis
+
+- **Emprendedores (Juan Cordero):**  
+  Su foco está en **inventario, insumos perecibles y reportes diarios**, con énfasis en la simplicidad y ahorro de tiempo.  
+  Las reservaciones no son relevantes para este segmento.
+
+- **Microempresas (Sebastián Pereira):**  
+  Requieren una **gestión más integral**, donde además del inventario, cobran gran importancia las **reservaciones, proveedores y pagos digitales**.  
+  Sus operaciones son más complejas, por lo que valoran los reportes avanzados y la integración con métodos de pago.  
+
+- **Coincidencias:**  
+  Ambos segmentos valoran el **control del inventario** y la **gestión de productos perecibles** como actividades de alta frecuencia e importancia.
+
+---
+
+
 #### 2.3.3. User Journey Mapping
 #### 2.3.4. Empathy Mapping
 ### 2.4. Big Picture EventStorming
