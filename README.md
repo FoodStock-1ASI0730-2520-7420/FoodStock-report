@@ -414,6 +414,16 @@ El análisis también revela que las necesidades de los dos segmentos se encuent
 
 ### 2.3. Needfinding
 #### 2.3.1. User Personas
+
+### Segmento 1:
+
+<img alt="User Persona 1" src=assets/images/userpersona1.png/> 
+ 
+### Segmento 2:
+ 
+<img alt="User Persona 2" src=assets/images/userpersona2.png/> 
+
+ 
 #### 2.3.2. User Task Matrix
 
 La *User Task Matrix* organiza y prioriza las tareas principales que los segmentos de usuarios deben realizar en el sistema.  
@@ -426,8 +436,8 @@ Esto permite identificar en qué funciones debe enfocarse FoodStock para respond
 | Analizar ventas y gastos diarios                     | Frecuencia: Siempre<br>Importancia: Alta | Frecuencia: A veces<br>Importancia: Media |
 | Generar reportes automatizados                       | Frecuencia: A veces<br>Importancia: Media | Frecuencia: A veces<br>Importancia: Alta |
 | Gestionar proveedores y pedidos                      | Frecuencia: A veces<br>Importancia: Media | Frecuencia: Siempre<br>Importancia: Alta |
-| Administrar reservaciones de clientes                | ❌ No aplica                 | Frecuencia: Siempre<br>Importancia: Alta |
-| Conectar pagos digitales (Yape, Plin, etc.)          | ❌ No aplica                 | Frecuencia: A veces<br>Importancia: Alta |
+| Administrar reservaciones de clientes                |  No aplica                 | Frecuencia: Siempre<br>Importancia: Alta |
+| Conectar pagos digitales (Yape, Plin, etc.)          |  No aplica                 | Frecuencia: A veces<br>Importancia: Alta |
 
 ---
 
