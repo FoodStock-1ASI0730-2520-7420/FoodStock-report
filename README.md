@@ -165,6 +165,8 @@
 ### Emprendedor 
 <img alt="To-Be-Scenario-Mapping-Emprendedor" src="assets/images/ToBeScenarioMapping_Emprendedor.jpg" width="100%"/><br>
 
+### Administrador gastronómico 
+<img alt="To-Be-Scenario-Mapping-Administrador" src="assets/images/ToBeScenarioMapping_Administrador.jpg" width="100%"/><br>
 
 
 ### 3.2. User Stories
