@@ -463,23 +463,12 @@ El **User Journey Mapping** permite visualizar la experiencia de los diferentes 
 
 ##### Caso 1: Emprendedor (ej. Juan Cordero)
 
-| Etapa | Acción del usuario | Emociones | Puntos de dolor | Oportunidades para FoodStock |
-|-------|--------------------|-----------|-----------------|------------------------------|
-| Inicio | Abre su libreta para revisar inventario | Frustración | No tiene datos actualizados | Interfaz web accesible y rápida |
-| Registro | Anota manualmente las cantidades | Cansancio | Tarda mucho y puede cometer errores | Registro digital simplificado |
-| Control de perecibles | Revisa visualmente qué productos están por vencer | Ansiedad | Se olvida de insumos y pierde dinero | Alertas automáticas de vencimiento |
-| Reporte | Calcula ventas en papel o Excel | Estrés | Le toma mucho tiempo sacar reportes | Generación automática de reportes |
-| Resultado | Pierde dinero por caducidad de productos | Decepción | No hay control eficiente | FoodStock evita mermas y optimiza compras |
+ <img alt="UJM1" src="assets/images/UJM1.png"/>   
+
 
 ##### Caso 2: Microempresa (ej. Sebastián Pereira)
 
-| Etapa | Acción del usuario | Emociones | Puntos de dolor | Oportunidades para FoodStock |
-|-------|--------------------|-----------|-----------------|------------------------------|
-| Inicio | Revisa su sistema actual y hojas de Excel | Frustración | La información está dispersa en varias herramientas | Plataforma unificada |
-| Registro | Ingresa inventario manualmente | Cansancio | Duplicación de datos | Sincronización automática |
-| Control de perecibles | Supervisa insumos perecibles a diario | Preocupación | Pérdida de productos como carnes y mariscos | Alertas de stock crítico |
-| Reservas | Administra reservas por WhatsApp y llamadas | Estrés | Cancelaciones de último minuto | Integración con calendario de reservas |
-| Reportes | Intenta consolidar ventas e inventario | Agobio | Falta de reportes claros | Reportes automáticos y gráficos |
+ <img alt="UJM2" src="assets/images/UJM2.png"/>   
 
 ---
 
