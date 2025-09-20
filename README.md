@@ -129,6 +129,120 @@
 ---
 
 ## Student Outcome
+**ABET – EAC - Student Outcome 5**  **Criterio:** La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.  
+En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 5.  
+
+<div>
+<table>
+  <thead>
+    <tr>
+      <th>Criterio específico</th>
+      <th>Nombre</th>
+      <th>Acciones realizadas</th>
+      <th>Conclusiones</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- Criterio 1 -->
+    <tr>
+      <td rowspan="5">Trabaja en equipo para proporcionar liderazgo en forma conjunta </td>
+      <td>Gonzalo Samuel Quintanilla Pozo </td>
+      <td>
+        TB1:<br>
+        TP:<br>
+        TB2:<br>
+        TF:
+      </td>
+      <td rowspan="5">"Aquí se escribe la conclusión del grupo sobre este criterio"</td>
+    </tr>
+    <tr>
+      <td>Melina Liz Santillan Alvarado</td>
+      <td>
+        TB1:<br>
+        TP:<br>
+        TB2:<br>
+        TF:
+      </td>
+    </tr>
+    <tr>
+      <td>Javier Masaru Nikaido Vargas</td>
+      <td>
+        TB1:<br>
+        TP:<br>
+        TB2:<br>
+        TF:
+      </td>
+    </tr>
+    <tr>
+      <td>Jean Pool Huaman De La Cruz</td>
+      <td>
+        TB1:<br>
+        TP:<br>
+        TB2:<br>
+        TF:
+      </td>
+    </tr>
+    <tr>
+      <td>José María Franco Del Carpio</td>
+      <td>
+        TB1:<br>
+        TP:<br>
+        TB2:<br>
+        TF:
+      </td>
+    </tr>
+    <!-- Criterio 2 -->
+    <tr>
+      <td rowspan="5">Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. </td>
+      <td>Gonzalo Samuel Quintanilla Pozo </td>
+      <td>
+        TB1:<br>
+        TP:<br>
+        TB2:<br>
+        TF:
+      </td>
+      <td rowspan="5">"Aquí se escribe la conclusión del grupo sobre este criterio"</td>
+    </tr>
+    <tr>
+      <td>Melina Liz Santillan Alvarado</td>
+      <td>
+        TB1:<br>
+        TP:<br>
+        TB2:<br>
+        TF:
+      </td>
+    </tr>
+    <tr>
+      <td>Javier Masaru Nikaido Vargas</td>
+      <td>
+        TB1:<br>
+        TP:<br>
+        TB2:<br>
+        TF:
+      </td>
+    </tr>
+    <tr>
+      <td>Jean Pool Huaman De La Cruz</td>
+      <td>
+        TB1:<br>
+        TP:<br>
+        TB2:<br>
+        TF:
+      </td>
+    </tr>
+    <tr>
+      <td>José María Franco Del Carpio</td>
+      <td>
+        TB1:<br>
+        TP:<br>
+        TB2:<br>
+        TF:
+      </td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
 
 ## Capítulo I: Introducción
 ### 1.1. Startup Profile
