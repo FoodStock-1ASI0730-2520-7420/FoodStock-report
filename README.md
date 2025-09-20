@@ -458,7 +458,51 @@ Esto permite identificar en qué funciones debe enfocarse FoodStock para respond
 
 
 #### 2.3.3. User Journey Mapping
+
+El **User Journey Mapping** permite visualizar la experiencia de los diferentes segmentos al interactuar con FoodStock, identificando emociones, puntos de dolor y oportunidades de mejora.
+
+##### Caso 1: Emprendedor (ej. Juan Cordero)
+
+| Etapa | Acción del usuario | Emociones | Puntos de dolor | Oportunidades para FoodStock |
+|-------|--------------------|-----------|-----------------|------------------------------|
+| Inicio | Abre su libreta para revisar inventario | 😕 Frustración | No tiene datos actualizados | Interfaz web accesible y rápida |
+| Registro | Anota manualmente las cantidades | 😩 Cansancio | Tarda mucho y puede cometer errores | Registro digital simplificado |
+| Control de perecibles | Revisa visualmente qué productos están por vencer | 😓 Ansiedad | Se olvida de insumos y pierde dinero | Alertas automáticas de vencimiento |
+| Reporte | Calcula ventas en papel o Excel | 😤 Estrés | Le toma mucho tiempo sacar reportes | Generación automática de reportes |
+| Resultado | Pierde dinero por caducidad de productos | 😔 Decepción | No hay control eficiente | FoodStock evita mermas y optimiza compras |
+
+##### Caso 2: Microempresa (ej. Sebastián Pereira)
+
+| Etapa | Acción del usuario | Emociones | Puntos de dolor | Oportunidades para FoodStock |
+|-------|--------------------|-----------|-----------------|------------------------------|
+| Inicio | Revisa su sistema actual y hojas de Excel | 😕 Frustración | La información está dispersa en varias herramientas | Plataforma unificada |
+| Registro | Ingresa inventario manualmente | 😩 Cansancio | Duplicación de datos | Sincronización automática |
+| Control de perecibles | Supervisa insumos perecibles a diario | 😓 Preocupación | Pérdida de productos como carnes y mariscos | Alertas de stock crítico |
+| Reservas | Administra reservas por WhatsApp y llamadas | 😤 Estrés | Cancelaciones de último minuto | Integración con calendario de reservas |
+| Reportes | Intenta consolidar ventas e inventario | 😔 Agobio | Falta de reportes claros | Reportes automáticos y gráficos |
+
+---
+
 #### 2.3.4. Empathy Mapping
+
+El **Empathy Mapping** ayuda a comprender mejor lo que dicen, piensan, sienten y hacen los usuarios, así como lo que realmente necesitan.
+
+##### Caso 1: Emprendedor gastronómico
+
+- **Dice:** “Me toma demasiado tiempo registrar todo”, “A veces se me vencen los insumos sin darme cuenta”.  
+- **Piensa:** “Necesito algo más ordenado y rápido”, “Quiero evitar pérdidas de dinero”.  
+- **Siente:** Frustración por el tiempo perdido, preocupación por perder clientes.  
+- **Hace:** Anota inventario en una libreta, revisa manualmente insumos perecibles.  
+- **Necesita:** Una herramienta digital sencilla, con alertas de stock crítico y reportes claros.  
+
+##### Caso 2: Microempresa gastronómica
+
+- **Dice:** “Ya tengo un sistema, pero no se conecta con reservas ni proveedores”.  
+- **Piensa:** “Quiero todo en un solo sistema”, “Necesito optimizar procesos”.  
+- **Siente:** Estrés por la falta de integración, inseguridad por perder datos.  
+- **Hace:** Usa varias herramientas digitales aisladas (Excel, WhatsApp, sistemas de caja).  
+- **Necesita:** Una plataforma integral con inventario, ventas, reservas y proveedores conectados.  
+
 ### 2.4. Big Picture EventStorming
 En esta sección, se detalla el proceso de Big Picture Event Storming que el equipo llevó a cabo para obtener una comprensión completa de las operaciones
 del negocio de los restaurantes. El proceso se realizó de forma remota a través de una llamada en Discord, utilizando la herramienta Miro para plasmar visualmente la metodología.
