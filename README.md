@@ -485,24 +485,12 @@ El **User Journey Mapping** permite visualizar la experiencia de los diferentes 
 
 #### 2.3.4. Empathy Mapping
 
-El **Empathy Mapping** ayuda a comprender mejor lo que dicen, piensan, sienten y hacen los usuarios, así como lo que realmente necesitan.
 
-##### Caso 1: Emprendedor gastronómico
-
-- **Dice:** “Me toma demasiado tiempo registrar todo”, “A veces se me vencen los insumos sin darme cuenta”.  
-- **Piensa:** “Necesito algo más ordenado y rápido”, “Quiero evitar pérdidas de dinero”.  
-- **Siente:** Frustración por el tiempo perdido, preocupación por perder clientes.  
-- **Hace:** Anota inventario en una libreta, revisa manualmente insumos perecibles.  
-- **Necesita:** Una herramienta digital sencilla, con alertas de stock crítico y reportes claros.  
-
-##### Caso 2: Microempresa gastronómica
-
-- **Dice:** “Ya tengo un sistema, pero no se conecta con reservas ni proveedores”.  
-- **Piensa:** “Quiero todo en un solo sistema”, “Necesito optimizar procesos”.  
-- **Siente:** Estrés por la falta de integración, inseguridad por perder datos.  
-- **Hace:** Usa varias herramientas digitales aisladas (Excel, WhatsApp, sistemas de caja).  
-- **Necesita:** Una plataforma integral con inventario, ventas, reservas y proveedores conectados.  
-
+### Juan Cordero
+ <img alt="Empathy1" src="assets/images/empathy1.png"/>     
+ 
+### Sebastián Fernando Pereira Chávez
+ <img alt="Empathy2" src="assets/images/empathy2.png"/> 
 ### 2.4. Big Picture EventStorming
 En esta sección, se detalla el proceso de Big Picture Event Storming que el equipo llevó a cabo para obtener una comprensión completa de las operaciones
 del negocio de los restaurantes. El proceso se realizó de forma remota a través de una llamada en Discord, utilizando la herramienta Miro para plasmar visualmente la metodología.
