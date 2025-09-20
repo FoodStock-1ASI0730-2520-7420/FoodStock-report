@@ -161,6 +161,12 @@
 
 ## Capítulo III: Requirements Specification
 ### 3.1. To-Be Scenario Mapping
+
+### Emprendedor 
+<img alt="To-Be-Scenario-Mapping-Emprendedor" src="assets/images/ToBeScenarioMapping_Emprendedor.jpg" width="100%"/><br>
+
+
+
 ### 3.2. User Stories
 
 #### Epic Story
