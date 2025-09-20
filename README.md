@@ -229,6 +229,30 @@
 
 ### 3.4. Product Backlog
 
+| # Orden | User Story Id | Título | Descripción | Story Points (1/2/3/5/8) |
+|-------|---------------|--------|-------------|---------------------------|
+| 1     | US19          | Visualización de planes y precios | Como visitante, quiero ver los planes disponibles para elegir el más conveniente. | 1 |
+| 2     | US24          | Acceso a preguntas frecuentes (FAQ) | Como visitante, quiero consultar preguntas frecuentes en la landing page, para resolver mis dudas rápidamente sin contacto directo. | 1 |
+| 3     | US25          | Información institucional | Como visitante, quiero acceder a la información institucional (misión, visión, contacto) para conocer mejor a la empresa. | 1 |
+| 4     | US26          | Cambiar idioma de la Landing Page | Como visitante quiero cambiar el idioma de la landing page para entender mejor la información. | 1 |
+| 5     | US28          | Crear reservación | Como usuario quiero registrar una reservación de un cliente para organizar la ocupación del restaurante. | 3 |
+| 6     | US29          | Editar reservación | Como usuario quiero editar una reservación existente para actualizar los datos de mis clientes.  | 3 |
+| 7     | US30          | Cancelar reservación | Como usuario quiero cancelar una reservación para liberar espacio en la agenda. | 3 |
+| 8     | US31          | Ver calendario de reservaciones | Como usuario quiero visualizar todas las reservaciones en un calendario para tener una vista clara de la disponibilidad diaria y semanal. | 3 |
+| 9     | US32          | Enviar confirmación al cliente | Como usuario quiero que el sistema envíe una confirmación automática al cliente al registrar su reservación para brindar confianza en el servicio.| 3 |
+| 10    | US33          | Recordatorio de reservación | Como usuario quiero que el sistema envíe recordatorios automáticos a los clientes antes de su reservación para reducir inasistencias. | 3 |
+| 11    | US1           | Crear grupo de ventas | Como usuario, quiero crear un grupo de ventas para poder agrupar todas mis ventas en un solo grupo. | 4 |
+| 12    | US3           | Registrar una venta | CComo usuario, quiero registrar una venta para tener una mejor organización. | 4 |
+| 13    | US5           | Editar una venta | Como usuario, quiero editar una venta para cambiar el contenido de una venta.| 4 |
+| 14    | US6           | Generar reporte de ventas | Como usuario, quiero generar un reporte de ventas para tener conocimiento de mis ganancias. | 4 |
+| 15    | US8           | Agregar un proveedor | Como usuario, quiero agregar la información de un nuevo proveedor para poder registrar a las empresas que me abastecen. | 2 |
+| 16    | US11          | Ver el listado de proveedores | Como usuario, quiero ver la lista de todos mis proveedores para tener un panorama de con quiénes trabajo. | 2 |
+| 17    | US18          | Recibir alerta de stock crítico | Como usuario, quiero recibir una notificación cuando el stock de un producto llegue a un nivel crítico para poder contactar al proveedor a tiempo. | 2 |
+| 18    | US35          | Registrar producto en inventario |Como usuario, quiero registrar un nuevo producto en el inventario para poder llevar el control de mis insumos. | 5 |
+
+
+
+
 ## Capítulo IV: Product Design
 ### 4.1. Style Guidelines
 #### 4.1.1. General Style Guidelines
