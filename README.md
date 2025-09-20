@@ -170,7 +170,7 @@
 |2      | Getión de proveedores | Como usuario quiero gestionar todos mis proveedores, y poder agregar, editar o eliminar su información para tener un control sobre quiénes me abastecen. |
 |3      |          Reservaciones               |       Como usuario quiero gestionar las reservaciones de mis clientes para organizar mejor la disponibilidad, evitar conflictos de horario y mejorar la atención.    |
 |4      | Gestión de ventas     | Como usuario quiero gestionar todas mis ventas y tener acceso a reportes de ventas para tener una mejor organización de mis gananacias. |
-|5      |                       |             |
+|5      | Inventario    |Como usuario quiero gestionar el inventario de insumos y productos del restaurante, para registrar entradas y salidas, controlar stocky y recibir alertas que me ayuden a organizar mejor el abastecimiento. |
 
 #### Users Stories
 | Story ID | Título                                          | Descripción                                                                                                                                                                     | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | Relacionado con (Epic ID) |
