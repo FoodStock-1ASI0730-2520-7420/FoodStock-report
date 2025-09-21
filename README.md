@@ -129,7 +129,9 @@
 ---
 
 ## Student Outcome
-**ABET – EAC - Student Outcome 5**  **Criterio:** La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.  
+**ABET – EAC - Student Outcome 5**  
+**Criterio:** La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.  
+
 En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 5.  
 
 <div>
@@ -145,20 +147,22 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
   <tbody>
     <!-- Criterio 1 -->
     <tr>
-      <td rowspan="5">Trabaja en equipo para proporcionar liderazgo en forma conjunta </td>
-      <td>Gonzalo Samuel Quintanilla Pozo </td>
+      <td rowspan="5">Trabaja en equipo para proporcionar liderazgo en forma conjunta</td>
+      <td>Gonzalo Samuel Quintanilla Pozo</td>
       <td>
-        TB1:<br>
+        TB1: Realizó la mayor parte del Capítulo 4: Information Architecture, Landing Page UI Design, Web Applications UX/UI Design, Prototyping y Domain-Driven Software Architecture. También aportó en User Stories, análisis de competidores y Lean UX Process (Problem Statements, Assumptions, Hypothesis Statements, Lean UX Canvas).
+        <br>
         TP:<br>
         TB2:<br>
         TF:
       </td>
-      <td rowspan="5">"Aquí se escribe la conclusión del grupo sobre este criterio"</td>
+      <td rowspan="5">El equipo demostró liderazgo conjunto mediante la organización, coordinación y desarrollo de tareas clave, asegurando que cada miembro contribuyera de manera estratégica al proyecto.</td>
     </tr>
     <tr>
       <td>Melina Liz Santillan Alvarado</td>
       <td>
-        TB1:<br>
+        TB1: Diseñó wireframes, mock-ups, diagramas de base de datos y de clases, style guidelines, segmentación de objetivos y diseño de entrevistas, además de aportar en User Stories.
+        <br>
         TP:<br>
         TB2:<br>
         TF:
@@ -167,7 +171,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
     <tr>
       <td>Javier Masaru Nikaido Vargas</td>
       <td>
-        TB1:<br>
+        TB1: Aportó en Capítulo II: Requirements Elicitation & Analysis, análisis de competidores, User Stories, Wireframes, Wireflow Diagrams, Mock-ups y User Flow Diagrams, Web Applications Prototyping y Domain-Driven Software Architecture.
+        <br>
         TP:<br>
         TB2:<br>
         TF:
@@ -176,7 +181,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
     <tr>
       <td>Jean Pool Huaman De La Cruz</td>
       <td>
-        TB1:<br>
+        TB1: Elaboró antecedentes y problemática, To-Be Scenario Mapping, Lean UX Process, definición de segmentos objetivo, Impact Mapping y Product Backlog.
+        <br>
         TP:<br>
         TB2:<br>
         TF:
@@ -185,7 +191,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
     <tr>
       <td>José María Franco Del Carpio</td>
       <td>
-        TB1:<br>
+        TB1: Aportó ideas puntuales en User Stories y en entrevistas iniciales.
+        <br>
         TP:<br>
         TB2:<br>
         TF:
@@ -193,20 +200,23 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
     </tr>
     <!-- Criterio 2 -->
     <tr>
-      <td rowspan="5">Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. </td>
-      <td>Gonzalo Samuel Quintanilla Pozo </td>
+      <td rowspan="5">Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</td>
+      <td>Gonzalo Samuel Quintanilla Pozo</td>
       <td>
-        TB1:<br>
+        TB1: Coordinó tareas del capítulo 4, revisó prototipos de la landing page, definió etiquetas SEO y sistemas de navegación, y apoyó en User Stories.
+        <br>
         TP:<br>
         TB2:<br>
         TF:
       </td>
-      <td rowspan="5">"Aquí se escribe la conclusión del grupo sobre este criterio"</td>
+      <td rowspan="5">El equipo fomentó un entorno colaborativo e inclusivo mediante la distribución de tareas, coordinación entre miembros y planificación de actividades para cumplir los objetivos del proyecto.
+        </td>
     </tr>
     <tr>
       <td>Melina Liz Santillan Alvarado</td>
       <td>
-        TB1:<br>
+        TB1: Diseñó wireframes y mock-ups, elaboró diagramas de base de datos y de clases, definió style guidelines, segmentación de objetivos y diseñó entrevistas.
+        <br>
         TP:<br>
         TB2:<br>
         TF:
@@ -215,7 +225,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
     <tr>
       <td>Javier Masaru Nikaido Vargas</td>
       <td>
-        TB1:<br>
+        TB1: Realizó análisis de competidores, elaboró User Stories, Wireframes, Wireflow Diagrams y Mock-ups, y participó en prototipado y arquitectura orientada a dominios.
+        <br>
         TP:<br>
         TB2:<br>
         TF:
@@ -224,7 +235,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
     <tr>
       <td>Jean Pool Huaman De La Cruz</td>
       <td>
-        TB1:<br>
+        TB1: Elaboró antecedentes y problemática, definió To-Be Scenario Mapping, segmentación de objetivos, Impact Mapping y Product Backlog.
+        <br>
         TP:<br>
         TB2:<br>
         TF:
@@ -233,7 +245,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
     <tr>
       <td>José María Franco Del Carpio</td>
       <td>
-        TB1:<br>
+        TB1: Aportó ideas puntuales en User Stories y en entrevistas iniciales.
+        <br>
         TP:<br>
         TB2:<br>
         TF:
@@ -242,6 +255,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
   </tbody>
 </table>
 </div>
+
 
 
 ## Capítulo I: Introducción
