@@ -170,22 +170,205 @@
 #### 4.1.1. General Style Guidelines
 #### 4.1.2. Web Style Guidelines
 ### 4.2. Information Architecture
+
+La arquitectura de la información de FoodStock está diseñada para que los administradores gastronómicos encuentren y gestionen sus datos de manera rápida y eficiente. El objetivo principal es ofrecer una plataforma intuitiva y clara, que reduzca la curva de aprendizaje y ayude a los usuarios a optimizar sus operaciones diarias sin complicaciones técnicas.
+
+El diseño se centra en la usabilidad, asegurando que las funcionalidades clave —como la gestión de ventas, inventario y proveedores— estén siempre al alcance del usuario, permitiendo un control total del negocio desde un único lugar.
+
+
 #### 4.2.1. Organization Systems
+
+En FoodStock, la información se organiza para reflejar las operaciones naturales de un restaurante. Se aplicarán sistemas de organización que faciliten la gestión de los módulos principales, como ventas, inventario, reservas y proveedores.
+
+* **Jerárquica (Categorización):** El panel principal o Dashboard organiza la información más relevante en la parte superior: ventas del día, alertas de stock crítico e indicadores de rendimiento. Esto dirige la atención del usuario a lo más importante. La navegación principal también sigue esta jerarquía para agrupar módulos relacionados.
+
+
+* **Matriz (Grid):** Se utilizará en los listados de Ventas, Inventario y Proveedores. Cada elemento (una venta, un producto o un proveedor) se mostrará como una tarjeta o una fila en una tabla con datos resumidos. Esta organización permite al usuario escanear y localizar rápidamente la información que necesita.
+
+
+* **Secuencial (Paso a paso):** Los procesos de registro, como Registrar una venta, Agregar un proveedor o Crear una reservación, se diseñarán como flujos paso a paso. Esto guía al usuario a través de la entrada de datos, minimiza errores y asegura que toda la información necesaria se capture correctamente
+
+
+* **Por Tópicos:** La información de la aplicación se agrupará en módulos temáticos que se corresponden con las necesidades del negocio: Ventas, Inventario, Proveedores, Reservaciones y Reportes. Esto permite a los usuarios ir directamente a la sección que necesitan.
+
+
 #### 4.2.2. Labeling Systems
+
+El sistema de etiquetado de FoodStock será claro, conciso y directo, utilizando un lenguaje familiar para los administradores gastronómicos. El objetivo es que las etiquetas comuniquen la función de cada elemento de la interfaz de manera inmediata, sin necesidad de explicaciones adicionales.
+
+**Etiquetas para la Navegación Principal:**
+
+* Dashboard: Vista general con resúmenes clave.
+
+* Ventas: Gestión de todas las transacciones.
+
+* Inventario: Control de stock y productos.
+
+* Reservaciones: Agenda y organización de reservas.
+
+* Proveedores: Listado y contacto de proveedores.
+
+* Reportes: Generación de informes financieros y de inventario.
+
+* Mi Perfil: Configuración de la cuenta y los datos del usuario.
+
+**Etiquetas para Acciones y Botones:**
+
+* Registrar venta
+
+* Agregar producto
+
+* Crear reservación
+
+* Generar reporte
+
+* Editar
+
+* Eliminar
+
+* Guardar cambios
+
 #### 4.2.3. SEO Tags and Meta Tags
+
+La landing page de FoodStock será el principal punto de entrada para nuevos usuarios, por lo que su optimización para motores de búsqueda es fundamental.
+
+**Landing Page SEO Tags and Meta Tags**
+
+- **Title:** "FoodStock - Software de gestión para restaurantes y bares"
+
+
+- **Description**: "Optimiza las operaciones de tu negocio gastronómico. Gestiona inventario, ventas, reservas y proveedores con el software todo-en-uno de FoodStock."
+
+
+- **Author:** "Equipo FoodStock"
+
+
+- **Viewport:** width=device-width, initial-scale=1.0 (Para asegurar la correcta visualización en móviles y otros dispositivos).
+
+
+- **Charset:** UTF-8 (Para compatibilidad con todos los caracteres).
+
+
+- **Keywords:** "software restaurante, gestión gastronómica, control de inventario, ventas restaurante, sistema de reservas, software foodstock"
+
+```html
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FoodStock - Software de gestión para restaurantes y bares</title>
+  <meta name="description" content="Optimiza las operaciones de tu negocio gastronómico. Gestiona inventario, ventas, reservas y proveedores con el software todo-en-uno de FoodStock.">
+  <meta name="keywords" content="software restaurante, gestión gastronómica, control de inventario, ventas restaurante, sistema de reservas, software foodstock">
+  <meta name="author" content="Equipo FoodStock">
+</head>
+```
+**Aplicación Web SEO Tags and Meta Tags (después del login)**
+
+- **Title:** "Dashboard | FoodStock App"
+
+
+- **Description:** "Panel de control de FoodStock: Accede a tus ventas, inventario, reservas y reportes en tiempo real para tomar las mejores decisiones para tu restaurante."
+
+
+- **Author:** "Equipo FoodStock"
+
+
+- **Viewport:** width=device-width, initial-scale=1.0
+
+
+- **Charset:** UTF-8
+
 #### 4.2.4. Searching Systems
+El sistema de búsqueda en FoodStock se centrará en los módulos que contienen grandes listas de datos. El objetivo es que el usuario pueda encontrar rápidamente cualquier elemento sin tener que navegar por largos listados.
+
+- **Inventario:** Se implementará una barra de búsqueda que permita filtrar productos por nombre, categoría o proveedor.
+
+
+- **Proveedores:** Una barra de búsqueda simple para encontrar proveedores por nombre de la empresa o persona de contacto.
+
+
+- **Reservaciones:** Un filtro en la vista de calendario que permita buscar por nombre del cliente o fecha de la reserva.
+
+
+
 #### 4.2.5. Navigation Systems
+
+El sistema de navegación de FoodStock está diseñado para ser consistente y fácil de usar en toda la plataforma.
+
+1. **Landing Page:**
+
+ * Una barra de navegación superior fija con enlaces a las secciones principales: Inicio, Características, Quiénes Somos, Planes, Preguntas Frecuentes y el botón Iniciar Sesión.
+
+2. **Aplicación Web (después del login):**
+
+ * Una barra de navegación lateral (sidebar) en el lado izquierdo. Esta barra tendrá accesos directos a todos los módulos principales (Dashboard, Ventas, Inventario, Proveedores, Reservaciones, etc.). En dispositivos móviles, la barra lateral colapsará en un menú de "hamburguesa".
+
+
+ * Navegación contextual: Se usarán breadcrumbs para mostrar la ubicación del usuario dentro de la aplicación, como por ejemplo: Inventario > Detalle de producto > Historial.
 ### 4.3. Landing Page UI Design
+
 #### 4.3.1. Landing Page Wireframe
+**Landing Page para Desktop Browser**
+
+En esta sección se presenta los wireframes de la versión Desktop de la landing page, donde se observa la estructura que tiene como el Header o el Hero section para llamar a nuestros segmentos objetivos. Así mismo, esta cumple con los principios de arquitectura de la información y diseño inclusivo con la opción de cambiar de idioma.
+
+<img alt="upc-logo" src="/assets/images/wireframe/1.png"/><br>
+
+<img alt="upc-logo" src="/assets/images/wireframe/2.png"/><br>
+
+<img alt="upc-logo" src="/assets/images/wireframe/3.png"/><br>
+
+<img alt="upc-logo" src="/assets/images/wireframe/4.png"/><br>
+
+**Landing Page para Mobile Browser**
+
+A continuación, se muestra la landing page visualizada desde un navegador web en un dispositivo móvil.
+
+<img alt="upc-logo" src="/assets/images/wireframe/1.1.png"/><br>
+
+<img alt="upc-logo" src="/assets/images/wireframe/2.2.png"/><br>
+
+<img alt="upc-logo" src="/assets/images/wireframe/3.3.png"/><br>
+
+<img alt="upc-logo" src="/assets/images/wireframe/4.4.png"/><br>
+
+
 #### 4.3.2. Landing Page Mock-up
+
+En esta sección se presenta los mock-ups de nuestra landing page, donde se refleja el cumplimiento de nuestra guía estilos, arquitectura de información mediante las secciones del header y diseño inclusivo con la opción de cambiar de idioma.
+
+<img alt="upc-logo" src="/assets/images/Mackups/1.png"/><br>
+
+<img alt="upc-logo" src="/assets/images/Mackups/2.png"/><br>
+
+<img alt="upc-logo" src="/assets/images/Mackups/3.png"/><br>
+
+<img alt="upc-logo" src="/assets/images/Mackups/4.png"/><br>
+
 ### 4.4. Web Applications UX/UI Design
 #### 4.4.1. Web Applications Wireframes
 #### 4.4.2. Web Applications Wireflow Diagrams
+<img alt="upc-logo" src="/assets/images/Wireframes_app.png"/><br>
+
 #### 4.4.2. Web Applications Mock-ups
 #### 4.4.3. Web Applications User Flow Diagrams
+
+**User goal:** Acceder a la web application
+**User persona:** Microoempresa y emprendedores
+<img alt="upc-logo" src="/assets/images/FlowMockups/1.png"/><br>
+**Restos del Flow Diagrams**
+<img alt="upc-logo" src="/assets/images/FlowMockups/2.png"/><br>
+
 ### 4.5. Web Applications Prototyping
+
+**Enlace al Prototyping del Mockups**
+
+[Enlace a OneDrive](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315007_upc_edu_pe/EeAzZ7O94UNBjI-m3GEFAJoBVW11hItenEJ7mAAKLgwJbA?e=DwgiSO&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 ### 4.6. Domain-Driven Software Architecture
 #### 4.6.1. Software Architecture Context Diagram
+En esta sección se explica y evidencia el proceso de Design-Level EventStorming, que sirvió para plantear una aproximación revisada y mejorada al modelado de nivel general para el dominio del problema.
+
+<img alt="upc-logo" src="/assets/images/4.6.png"/><br>
+**[Ver En mirow Paso a Paso](https://miro.com/welcomeonboard/b1drT3dtWE13bnpIVkh2UkRUdlRlZmlsV1hRUHBHUHAxS2NwT0dkWGVkeXdVcjlPcXNVaHFpZE53SVhSNjFvdjhXMGZoclpZTjVWZVNBZDcyWFRPdzRhMFUwdXIwNThuaWpBa3F4dzlXUkpEdnpnTnM1M0tVcEMwbHhIMlBzQnp3VHhHVHd5UWtSM1BidUtUYmxycDRnPT0hdjE=?share_link_id=832178409755)**
 #### 4.6.2. Software Architecture Container Diagrams
 #### 4.6.3. Software Architecture Components Diagrams
 ### 4.7. Software Object-Oriented Design
