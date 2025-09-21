@@ -20,7 +20,7 @@
 
 |             Member              |    Code    |
 |:-------------------------------:|:----------:|
-|  José María Franco Del Carpio   |    ...     |
+|  José María Franco Del Carpio   |   U202319178   |
 |   Jean Pool Huaman De La Cruz   |    U20201E781  |
 |  Javier Masaru Nikaido Vargas   |    U20221G099  |
 | Quintanilla Pozo Gonzalo Samuel | u202315007 |
