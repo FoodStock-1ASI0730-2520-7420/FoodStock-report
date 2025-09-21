@@ -186,6 +186,10 @@ El logotipo se integra de manera armoniosa con la paleta de colores y representa
 Por otro lado, se utilizó una tipografía diseñada para garantizar una fácil lectura en toda la plataforma. El tamaño de la letra se ajusta según el uso del texto, por ejemplo, los títulos cuentan con un tamaño destacada para resaltar la jerarquía, mientras que el contenido principal mantiene un tamaño optimo para facilitar la lectura continua. La tipografía seleccionada es Inter.
 
 #### 4.1.2. Web Style Guidelines
+Para la aplicación web se integraron los colores seleccionados de manera que armonicen con el landing page, garantizando coherencia visual en todo el producto. Además, se incorporaron iconos que mejoran el diseño y facilitan la comprensión de lase secciones.<br>
+En cuento el lenguaje, se utiliza un tono formal y respetuoso, lo que permite mantener una comunicación clara y profesional con los usuarios.<br>
+Respecto al diseño, la aplicación es responsive, adaptándose tanto al formato de escritorio como al móvil, asegurando que la apariencia y funcionalidad se mantengan consistentes en cualquier dispositivo.
+
 ### 4.2. Information Architecture
 
 La arquitectura de la información de FoodStock está diseñada para que los administradores gastronómicos encuentren y gestionen sus datos de manera rápida y eficiente. El objetivo principal es ofrecer una plataforma intuitiva y clara, que reduzca la curva de aprendizaje y ayude a los usuarios a optimizar sus operaciones diarias sin complicaciones técnicas.
