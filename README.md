@@ -30,11 +30,42 @@
 </div>
 
 # Registro de Versiones del Informe
+<table>
+  <tr>
+    <th>Versión</th>
+    <th>Fecha</th>
+    <th>Autor</th>
+    <th>Descripción de modificación</th>
+  </tr>
+  <tr>
+    <td>TB1</td>
+    <td>2025-09-20</td>
+    <td>
+      <ul> 
+        <li>José María Franco Del Carpio</li> 
+        <li>Jean Pool Huaman De La Cruz</li> 
+        <li>Javier Masaru Nikaido Vargas</li>
+        <li>Quintanilla Pozo Gonzalo Samuel</li>
+        <li>Melina Liz Santillan Alvarado</li>
+      </ul>
+    </td>
+    <td> Se han incluído los siguientes capítulos:
+        <ul>
+          <li>Capítulo I: Introducción</li>
+          <li>Capítulo II: Requirements Elicitation & Analysis</li>
+          <li>Capítulo III: Requirements Specification</li>
+          <li>Capítulo IV: Product Design</li>
+          <li>Avance del Capítulo V: Product Implementation, Validation & Deployment hasta el punto 5.2.1.8</li>
+          <li>Avance de Conclusiones, Bibliografía y Anexos</li>
+        </ul>
+    </td>
+  </tr>
+</table>
 
 
 # Project Report Collaboration Insights
 
----
+
 
 # Contenido
 
