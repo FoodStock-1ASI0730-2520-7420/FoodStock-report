@@ -168,6 +168,24 @@
 ## Capítulo IV: Product Design
 ### 4.1. Style Guidelines
 #### 4.1.1. General Style Guidelines
+El diseño del producto refleja modernidad y ha sido cuidadosamente desarrollado para ofrecer una experiencia de usuario optima.
+La paleta de colores principal transmite calidez y claridad, mientras que los botones destacan en colore naranja y azul, facilitando su visualización y guiando la interacción del usuario de manera intuitiva. <br>
+Se utilizaron los siguientes códigos de colores: <br>
+#FF9800<br>
+#2196F3<br>
+#E3F2FD<br>
+
+<img alt="diagrama-base de datos" src="/assets/images/colores.png"/>
+
+El logotipo se integra de manera armoniosa con la paleta de colores y representa la identidad del producto, proyectando la apariencia y los valores que se desean transmitir a los clientes.<br>
+<br>
+<img alt="diagrama-base de datos" src="/assets/images/Logo1.jpeg" width="300"/>
+<img alt="diagrama-base de datos" src="/assets/images/Logo2.jpeg" width="300"/>
+<img alt="diagrama-base de datos" src="/assets/images/Logo3.jpeg" width="300"/>
+
+Por otro lado, se utilizó una tipografía se utilizo una que permita la fácil visualización, además, el tamaño de la tipografía depende de que uso se da el texto, por ejemplo, en los títulos tiene un tamaño razonable, para los contenidos un tamaño que facilita la lectura. La tipografía utilizada es Inter.
+Por otro lado, se utilizó una tipografía diseñada para garantizar una fácil lectura en toda la plataforma. El tamaño de la letra se ajusta según el uso del texto, por ejemplo, los títulos cuentan con un tamaño destacada para resaltar la jerarquía, mientras que el contenido principal mantiene un tamaño optimo para facilitar la lectura continua. La tipografía seleccionada es Inter.
+
 #### 4.1.2. Web Style Guidelines
 ### 4.2. Information Architecture
 #### 4.2.1. Organization Systems
