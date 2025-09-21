@@ -190,8 +190,11 @@
 #### 4.6.3. Software Architecture Components Diagrams
 ### 4.7. Software Object-Oriented Design
 #### 4.7.1. Class Diagrams
+<img alt="diagrama-clases" src="/assets/images/diagrama-clases.png"/>
+
 ### 4.8. Database Design
 #### 4.8.1. Database Diagrams
+<img alt="diagrama-base de datos" src="/assets/images/diagrama-base de datos.png"/>
 
 ## Capítulo V: Product Implementation, Validation & Deployment
 ### 5.1. Software Configuration Management
