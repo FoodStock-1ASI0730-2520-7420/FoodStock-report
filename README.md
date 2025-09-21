@@ -414,7 +414,7 @@ confiable y proactiva, garantizando que los datos estén siempre actualizados y 
 **Cuando** logremos una tasa de conversión del 20% de usuarios que prueben el plan Básico y se conviertan en suscriptores de pago.
 
 #### 1.2.2.4. Lean UX Canvas
-**Figura 1. Lean UX Canvas de Agrotrack**
+**Figura 1. Lean UX Canvas de FoodStock**
 ![Lean UX Canvas](./assets/images/lean-ux-canvas.png)
 **Enlace al Lean UX Canvas:** [*Ver en Miro*](https://miro.com/welcomeonboard/Y3IzVElSYUZ5bE9rS0xpeE03bzRXUWhESVhFMUE0Rlhyb3lVVlBvS3lLZnBYK1Q5SVZWbnRJaEd5OW1QdFcvRjJWSUVRaEVLNVVxQnJwV3E1bWdQS0lhMFUwdXIwNThuaWpBa3F4dzlXUkljOTlmZllVZEZpR0d3Z1VPU1ZDMTF3VHhHVHd5UWtSM1BidUtUYmxycDRnPT0hdjE=?share_link_id=680165327739)
 ### 1.3. Segmentos objetivo
