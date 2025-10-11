@@ -1325,7 +1325,8 @@ Basándonos en las lecciones aprendidas durante el proyecto, se proponen las sig
 
 - Estrategia de Crecimiento: Definir una estrategia de lanzamiento escalonado para probar la plataforma con un grupo reducido de usuarios (beta testers) antes de un lanzamiento masivo. Esto permitirá identificar errores y puntos de mejora en un entorno controlado.
 
-# Bibliografía
+### Bibliografía
+
 Agencia Andina. (2024, octubre 5). Transformación digital en restaurantes permite ahorrar tiempo y mejorar rentabilidad. Andina. https://andina.pe/agencia/noticia-transformacion-digital-restaurantes-permite-ahorrar-tiempo-y-mejorar-rentabilidad-1002883.aspx
-=======
-# Anexos
+
+### Anexos
