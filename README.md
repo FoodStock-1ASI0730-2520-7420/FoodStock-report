@@ -924,6 +924,18 @@ Los siguientes términos son clave para el entendimiento y desarrollo del proyec
 | US36 | Clasificar productos por categorías             | Como usuario quiero clasificar mis productos (carnes, verduras, bebidas, postres) para organizar mejor el inventario. | Escenario 1: Crear categoría. Dado que el usuario accede a inventario, cuando selecciona “Nueva categoría” e ingresa un nombre, entonces el sistema guarda la categoría. Escenario 2: Asignar categoría. Cuando registra o edita un producto, puede seleccionar una categoría. | 5         |
 
 
+### Technical Epic
+| Technical Epic ID | Título                                          | Descripción                                                                                                                                                                                                                                                                                                                                                               |
+| ----------------- | ----------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1              | Sistema de alertas y notificaciones automáticas | Epic que agrupa todas las funcionalidades técnicas relacionadas con alertas y notificaciones automáticas al usuario, incluyendo stock crítico, niveles mínimos de inventario, fechas de vencimiento próximas y recordatorios de reservaciones. Garantiza que el sistema notifique oportunamente eventos críticos, mejorando la gestión operativa y la toma de decisiones. |
+| 2              | Optimización de rendimiento y búsqueda          | Epic que engloba todas las funcionalidades técnicas orientadas a mejorar el rendimiento del sistema, incluyendo la generación rápida de reportes de ventas y la búsqueda optimizada de productos en el inventario. Su objetivo es garantizar eficiencia y rapidez en operaciones críticas.                                                                                |
+| 3              | Servicio de comunicación automática             | Epic que agrupa las funcionalidades técnicas relacionadas con el envío automático de correos y confirmaciones a los clientes, asegurando que las comunicaciones se envíen de manera confiable y oportuna.                                                                                                                                                                 |
+
+
+
+
+
+
 
 ### 3.3. Impact Mapping
 
