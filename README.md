@@ -1292,6 +1292,9 @@ Para desplegar el la app web se uso Render aqui muestro las evidencia
 #### 5.2.2.5. Execution Evidence for Sprint Review.
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review.
 #### 5.2.2.7.  Deployment Evidence for Sprint Review.
+<img alt="upc-logo" src="/assets/images/render sprint2.png"/><br>
+<img alt="upc-logo" src="/assets/images/deploy sprint2.png"/><br>
+
 ##### 5.2.1.8. Team Collaboration Insights during Sprint 2
 
 Evidencia de avance de equipo en el github
