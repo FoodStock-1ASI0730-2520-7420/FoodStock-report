@@ -1342,6 +1342,6 @@ Agencia Andina. (2024, octubre 5). Transformación digital en restaurantes permi
 
 # Anexos
 - Landing Page: Desplegado en Render https://foodstock-landingpage.onrender.com/
-- Video de exposición 
+- Video de exposición https://upcedupe-my.sharepoint.com/:f:/g/personal/u202315007_upc_edu_pe/Evlv0pljdSVLt_cnpfplxWABoKVx52CHBJNqV8AG5rU2iw?e=BMj1Sv
 - Prototipo web https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315007_upc_edu_pe/EeAzZ7O94UNBjI-m3GEFAJoBdh7icX2NrDKKDqoguOUnNA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=eT6CO0
-- FoodStock - Web Application: desplegado en render 
+- FoodStock - Web Application: desplegado en render https://foodstock-p2lr.onrender.com/suppliers
