@@ -299,6 +299,201 @@ El despliegue de la landing page de FoodStock se realizó exitosamente en la pla
 
 Evidencia de avance de equipo en el github
 <img alt="upc-logo" src="/assets/images/EvidenciaGit.png"/><br>
+
+#### 5.2.1.1. Sprint Planning 2
+
+| Sprint #                             | Sprint 2                                                                                                                                                                                                                                                  |
+|--------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Sprint planning <br> background      |                                                                                                                                                                                                                                                           |
+| Date                                 | 2025/10/11                                                                                                                                                                                                                                                |
+| Time                                 | 10:59 AM                                                                                                                                                                                                                                                  |
+| Location                             | Llamada grupal en la plataforma Discord                                                                                                                                                                                                                   |
+| Prepared By                          | Gonzalo Quintanilla                                                                                                                                                                                                                                       |
+| Attendees <br> (to planning meeting) | Melina Santillan, Jean Pool Huaman, Javier Nikaido, José Maria Del Carpio                                                                                                                                                                                 |
+| Sprint 1 Review                      | Se hizo mejoras en la agregacionde las TS en los User Story, se modifico el diagrama de clase y el de base de datos, se agrego el C4, se sacmbio los ID de products Backlog, Se corrigio la parte de competidores mencionado sus precios correspondientes |
+| **Sprint Goal & User Stories**       |                                                                                                                                                                                                                                                           |
+| Sprint 2 Goal                        | En esta parte nos enfocamos en deployar la app web con un fake api utilizando vue, nos enfocamos en la parte de frontend guiandonos de bounden Context                                                                                                    |
+| Sprint 2 Velocity                    | 13                                                                                                                                                                                                                                                        |
+| Sum of story points                  | 38                                                                                                                                                                                                                                                        |
+
+#### 5.2.2.2. Aspect Leaders and Collaborators.
+
+<div style="font-size:70%;">
+
+| **Team Member** <br> Last Name, First Name | **GitHub Username** | **Report** <br> L/C | **Reservation** <br> L/C | **Inventory** <br> L/C | **Suppliers** <br> L/C | **Sales** <br> L/C |
+|:------------------------------------------:|:-------------------:|:-------------------:|:------------------------:|:----------------------:|:----------------------:|:------------------:|
+|          **Quintanilla Gonzalo**           |       GoldQP        |          C          |            C             |           L            |           L            |         C          |
+|            **Huaman Jean Pool**            |     charlie404x     |          L          |            L             |           C            |           C            |         C          |
+|            **Santillan Melina**            |  melinaasantillan   |          C          |            C             |           C            |           C            |         L          |
+|             **Nikaido Javier**             |     MassiFlip       |          C          |            C             |           C            |           L            |         C          |
+|         **Del Carpio José María**          |       VoltTrd       |          C          |            C             |           C            |           C            |         C          |
+
+</div>
+
+<div style="text-align: center; font-size:85%; margin-top: 0.5rem;">
+
+**Nota.** L = *Leader* (responsable principal del aspecto).  
+C = *Collaborator* (apoya el desarrollo del aspecto).
+
+</div>
+
+#### 5.2.2.3. Sprint Backlog 2.
+Nuestro enfoque principal en este sprint fue desarrollar la aplicación web utilizando Vue.js y una API falsa para simular la funcionalidad del backend. Nos centramos en implementar las funcionalidades clave de los módulos de Inventario, Proveedores y Ventas, siguiendo la arquitectura definida en el diagrama C4.
+
+<table>
+  <tr>
+    <td>Sprint #</td>
+    <td colspan="7">Sprint 2</td>
+  </tr>
+  <tr>
+    <td colspan="2">User Story</td>
+    <td colspan="2">Work-Item / Task</td>
+    <td>Description</td>
+    <td>Estimation (Hours)</td>
+    <td>Assigned To</td>
+    <td>Status (To-do / In-Process / Done)</td>
+  </tr>
+  <tr>
+    <td>Id</td>
+    <td>Title</td>
+    <td>Id</td>
+    <td>Title</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <td>US08, US11</td>
+    <td>Agregar/Ver listado de proveedores</td>
+    <td>T7</td>
+    <td>Implementar Vistas de Proveedores</td>
+    <td>Desarrollo de las interfaces (frontend) de registro y listado de Proveedores.</td>
+    <td>5 hr</td>
+    <td>Dev Frontend</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US27, US28, US29, US31</td>
+    <td>CRUD de Reservas y Asignación de Mesas</td>
+    <td>T1</td>
+    <td>Implementar API REST (CRUD) de Reservas y Mesas</td>
+    <td>Implementación del backend (CRUD) para gestionar Reservaciones y la Asignación de Mesas.</td>
+    <td>12 hr</td>
+    <td>Dev Backend</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TS02, TS05, TS06</td>
+    <td>Alertas de Stock/Vencimiento</td>
+    <td>T10</td>
+    <td>Desarrollar Sistema de Alertas</td>
+    <td>Desarrollo del sistema de Alertas automáticas (Stock Crítico y Fechas de Vencimiento).</td>
+    <td>8 hr</td>
+    <td>Dev Fullstack</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US01, US03, US05</td>
+    <td>CRUD de Ventas y Grupos</td>
+    <td>T4</td>
+    <td>Implementar API REST (CRUD) de Ventas y Grupos</td>
+    <td>Implementación del backend (CRUD) para Ventas y la creación de Grupos de ventas.</td>
+    <td>14 hr</td>
+    <td>Dev Backend</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US06, TS01</td>
+    <td>Vista de Reporte de Ventas</td>
+    <td>T12</td>
+    <td>Implementar Vista de Reportes de Ventas</td>
+    <td>Desarrollo de la vista de Reportes de Ventas con filtros de tiempo y optimización de rendimiento.</td>
+    <td>5 hr</td>
+    <td>Dev Frontend</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US12, US34</td>
+    <td>Asociar Proveedor y Historial</td>
+    <td>T9</td>
+    <td>Desarrollar Lógica de Trazabilidad</td>
+    <td>Desarrollo de la lógica para asociar Proveedores a productos y consultar el Historial de movimientos.</td>
+    <td>8 hr</td>
+    <td>Dev Fullstack</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US08, US09, US10, US11</td>
+    <td>CRUD de Proveedores</td>
+    <td>T6</td>
+    <td>Implementar API REST (CRUD) de Proveedores</td>
+    <td>Implementación del backend (CRUD) para la gestión de Proveedores.</td>
+    <td>7 hr</td>
+    <td>Dev Backend</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US30</td>
+    <td>Ver Calendario</td>
+    <td>T2</td>
+    <td>Implementar Vista de Calendario</td>
+    <td>Desarrollo de la vista de Calendario de Reservas y disponibilidad.</td>
+    <td>7 hr</td>
+    <td>Dev Frontend</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US06, US35</td>
+    <td>Generar reportes</td>
+    <td>T11</td>
+    <td>Implementar Servicios de Reporte (Ventas y General)</td>
+    <td>Implementación de la lógica para generar Reportes de Ventas y de Inventario.</td>
+    <td>9 hr</td>
+    <td>Dev Backend</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US03, US05</td>
+    <td>Registrar/Editar venta</td>
+    <td>T5</td>
+    <td>Implementar Interfaces de Gestión de Ventas</td>
+    <td>Desarrollo de las interfaces (frontend) de registro y edición de Ventas.</td>
+    <td>6 hr</td>
+    <td>Dev Frontend</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US35, US36</td>
+    <td>Gestión de Inventario</td>
+    <td>T8</td>
+    <td>Implementar API REST de Productos, Stock y Categorías</td>
+    <td>Implementación del backend para Productos, control de Stock y Clasificación por Categorías.</td>
+    <td>10 hr</td>
+    <td>Dev Backend</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TS03, TS04</td>
+    <td>Notificaciones y Recordatorios</td>
+    <td>T3</td>
+    <td>Implementar Servicio de Notificaciones y Recordatorios</td>
+    <td>Desarrollo del servicio de envío automático de confirmaciones y recordatorios a clientes.</td>
+    <td>8 hr</td>
+    <td>Dev Fullstack</td>
+    <td>Done</td>
+  </tr>
+</table>
+
+#### 5.2.2.4. Development Evidence for Sprint Review.
+#### 5.2.2.5. Execution Evidence for Sprint Review.
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review.
+#### 5.2.2.7.  Deployment Evidence for Sprint Review.
+#### 5.2.2.8. Team Collaboration Insights during Sprint
+
+
+
 # Conclusiones
 ## Conlusiones y recomendaciones
 
