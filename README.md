@@ -1113,8 +1113,8 @@ Evidencia de avance de equipo en el github
 | Sprint 1 Review                      | Se hizo mejoras en la agregacionde las TS en los User Story, se modifico el diagrama de clase y el de base de datos, se agrego el C4, se sacmbio los ID de products Backlog, Se corrigio la parte de competidores mencionado sus precios correspondientes |
 | **Sprint Goal & User Stories**       |                                                                                                                                                                                                                                                           |
 | Sprint 2 Goal                        | En esta parte nos enfocamos en deployar la app web con un fake api utilizando vue, nos enfocamos en la parte de frontend guiandonos de bounden Context                                                                                                    |
-| Sprint 2 Velocity                    | 13                                                                                                                                                                                                                                                        |
-| Sum of story points                  | 38                                                                                                                                                                                                                                                        |
+| Sprint 2 Velocity                    | 21                                                                                                                                                                                                                                                        |
+| Sum of story points                  | 66                                                                                                                                                                                                                                                        |
 
 #### 5.2.2.2. Aspect Leaders and Collaborators.
 
@@ -1287,10 +1287,15 @@ Nuestro enfoque principal en este sprint fue desarrollar la aplicación web util
 </table>
 
 #### 5.2.2.4. Development Evidence for Sprint Review.
+Para desplegar el la app web se uso Render aqui muestro las evidencia
+
 #### 5.2.2.5. Execution Evidence for Sprint Review.
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review.
 #### 5.2.2.7.  Deployment Evidence for Sprint Review.
-#### 5.2.2.8. Team Collaboration Insights during Sprint
+##### 5.2.1.8. Team Collaboration Insights during Sprint 2
+
+Evidencia de avance de equipo en el github
+<img alt="upc-logo" src="/assets/images/sprint2.png"/><br>
 
 
 
