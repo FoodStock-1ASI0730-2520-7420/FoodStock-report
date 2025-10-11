@@ -1341,3 +1341,7 @@ Basándonos en las lecciones aprendidas durante el proyecto, se proponen las sig
 Agencia Andina. (2024, octubre 5). Transformación digital en restaurantes permite ahorrar tiempo y mejorar rentabilidad. Andina. https://andina.pe/agencia/noticia-transformacion-digital-restaurantes-permite-ahorrar-tiempo-y-mejorar-rentabilidad-1002883.aspx
 
 # Anexos
+- Landing Page: Desplegado en Render https://foodstock-landingpage.onrender.com/
+- Video de exposición 
+- Prototipo web https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315007_upc_edu_pe/EeAzZ7O94UNBjI-m3GEFAJoBdh7icX2NrDKKDqoguOUnNA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=eT6CO0
+- FoodStock - Web Application: desplegado en render 
