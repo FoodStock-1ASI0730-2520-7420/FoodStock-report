@@ -953,10 +953,10 @@ Los siguientes términos son clave para el entendimiento y desarrollo del proyec
 | 8     | US31          | Ver calendario de reservaciones | Como usuario quiero visualizar todas las reservaciones en un calendario para tener una vista clara de la disponibilidad diaria y semanal. | 3 |
 | 9     | US32          | Enviar confirmación al cliente | Como usuario quiero que el sistema envíe una confirmación automática al cliente al registrar su reservación para brindar confianza en el servicio.| 3 |
 | 10    | US33          | Recordatorio de reservación | Como usuario quiero que el sistema envíe recordatorios automáticos a los clientes antes de su reservación para reducir inasistencias. | 3 |
-| 11    | US1           | Crear grupo de ventas | Como usuario, quiero crear un grupo de ventas para poder agrupar todas mis ventas en un solo grupo. | 4 |
-| 12    | US3           | Registrar una venta | CComo usuario, quiero registrar una venta para tener una mejor organización. | 4 |
-| 13    | US5           | Editar una venta | Como usuario, quiero editar una venta para cambiar el contenido de una venta.| 4 |
-| 14    | US6           | Generar reporte de ventas | Como usuario, quiero generar un reporte de ventas para tener conocimiento de mis ganancias. | 4 |
+| 11    | US1           | Crear grupo de ventas | Como usuario, quiero crear un grupo de ventas para poder agrupar todas mis ventas en un solo grupo. | 5 |
+| 12    | US3           | Registrar una venta | CComo usuario, quiero registrar una venta para tener una mejor organización. | 5 |
+| 13    | US5           | Editar una venta | Como usuario, quiero editar una venta para cambiar el contenido de una venta.| 5 |
+| 14    | US6           | Generar reporte de ventas | Como usuario, quiero generar un reporte de ventas para tener conocimiento de mis ganancias. | 5 |
 | 15    | US8           | Agregar un proveedor | Como usuario, quiero agregar la información de un nuevo proveedor para poder registrar a las empresas que me abastecen. | 2 |
 | 16    | US11          | Ver el listado de proveedores | Como usuario, quiero ver la lista de todos mis proveedores para tener un panorama de con quiénes trabajo. | 2 |
 | 17    | US18          | Recibir alerta de stock crítico | Como usuario, quiero recibir una notificación cuando el stock de un producto llegue a un nivel crítico para poder contactar al proveedor a tiempo. | 2 |
