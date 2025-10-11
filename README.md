@@ -254,21 +254,36 @@ obtener una ventaja competitiva.
     <td valign="top">El surgimiento de nuevas herramientas puede volver obsoleto su modelo de control de costos.</td>
     <td valign="top">Al ser un software "todo-en-uno", la llegada de soluciones más especializadas podría afectar su posición.</td>
   </tr>
-  <tr>
+ <tr>
     <td rowspan="4" valign="top">Precios y costos</td>
     <td valign="top">Costo Anual</td>
-    <td valign="top">Desde $60 USD hasta $300 USD.</td>
-    <td valign="top">(No se conoce el precio anual).</td>
-    <td valign="top">(No se conoce el precio anual).</td>
-    <td valign="top">(No se conoce el precio anual).</td>
-  </tr>
-  <tr>
+    <td valign="top">Desde $60 USD hasta $300 USD</td>
+    <td valign="top">$500–$1,500 USD (estimado según módulos y tamaño de restaurante)</td>
+    <td valign="top">$1,000–$3,000+ USD (estimado, según plan y volumen de negocio)</td>
+    <td valign="top">$400–$1,200 USD (estimado para microempresas, más alto con integraciones)</td>
+</tr>
+<tr>
     <td valign="top">Mensual</td>
-    <td valign="top">Plan basico de $5 y pro de $25 USD</td>
-    <td valign="top">(No se conoce el precio mensual)</td>
-    <td valign="top">(No se conoce el precio mensual)</td>
-    <td valign="top">(No se conoce el precio mensual)</td>
-  </tr>
+    <td valign="top">Plan Básico $5 USD, Plan Pro $25 USD</td>
+    <td valign="top">$50–$150 USD (dependiendo de módulos seleccionados)</td>
+    <td valign="top">$99–$299 USD (básico a premium según volumen o ubicaciones)</td>
+    <td valign="top">$40–$120 USD (estimado para microempresas, más alto con integraciones)</td>
+</tr>
+<tr>
+    <td valign="top">Modelo de precios</td>
+    <td valign="top">Planes fijos accesibles para microempresas</td>
+    <td valign="top">Cotización personalizada, modular, nube u on-premise</td>
+    <td valign="top">Suscripción escalable según volumen de facturación o ubicaciones; opción freemium limitada</td>
+    <td valign="top">Cotización personalizada, todo-en-uno con setup inicial</td>
+</tr>
+<tr>
+    <td valign="top">Notas y fuentes</td>
+    <td valign="top">Precios públicos y accesibles; ideal para startups y microempresas</td>
+    <td valign="top">No hay precios fijos en sitio oficial; comparadores de software indican “cotización personalizada”</td>
+    <td valign="top">Sitio oficial y reseñas (G2, TrustRadius) indican rangos desde $99/mes; integración con Toast POS</td>
+    <td valign="top">Estimaciones basadas en microempresas peruanas; incluye soporte local y cumplimiento SUNAT</td>
+</tr>
+
 </table>
 
 #### 2.1.2. Estrategias y tácticas frente a competidores
