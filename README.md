@@ -1507,13 +1507,13 @@ Para desplegar el la app web se uso Render aqui muestro las evidencia
 Evidencia de avance de equipo en el github
 <img alt="upc-logo" src="/assets/images/sprint2.png"/><br>
 
-# 5.2.3. Sprint 3
+# 5.3. Sprint 3
 
 El tercer sprint se centró en la validación del prototipo funcional de FoodStock mediante entrevistas con emprendedores reales. El objetivo fue confirmar que las funcionalidades principales (inventario, registro de productos, alertas y navegación general) sean comprendidas y valoradas por los usuarios objetivo.
 
 
 
-## 5.2.3.1. Sprint Planning 3
+## 5.3.1. Sprint Planning 3
 
 **Sprint #:** Sprint 3  
 
@@ -1532,7 +1532,7 @@ Esto se confirmará cuando los usuarios puedan completar tareas clave sin dificu
 
 ---
 
-## 5.2.3.2. Aspect Leaders and Collaborators
+## 5.3.2. Aspect Leaders and Collaborators
 
 El equipo utilizó la Matriz LACX para distribuir las tareas y responsabilidades:
 
@@ -1553,7 +1553,7 @@ El equipo utilizó la Matriz LACX para distribuir las tareas y responsabilidades
 
 ---
 
-## 5.2.3.3. Sprint Backlog 3
+## 5.3.3. Sprint Backlog 3
 
 ### Tareas del Sprint
 
@@ -1568,7 +1568,7 @@ El equipo utilizó la Matriz LACX para distribuir las tareas y responsabilidades
 
 
 
-## 5.2.3.4. Development Evidence for Sprint Review
+## 5.3.4. Development Evidence for Sprint Review
 
 Evidencias del desarrollo:  
 - Implementación del registro de productos.  
@@ -1578,7 +1578,7 @@ Evidencias del desarrollo:
 
 
 
-## 5.2.3.5. Execution Evidence for Sprint Review
+## 5.3.5. Execution Evidence for Sprint Review
 
 Durante la revisión del sprint se validaron:  
 - Registro exitoso de productos en el prototipo.  
@@ -1588,7 +1588,7 @@ Durante la revisión del sprint se validaron:
 
 
 
-## 5.2.3.6. Services Documentation Evidence for Sprint Review
+## 5.3.6. Services Documentation Evidence for Sprint Review
 
 Incluye:  
 - Documentación técnica breve del prototipo.  
@@ -1598,7 +1598,7 @@ Incluye:
 
 
 
-## 5.2.3.7. Software Deployment Evidence for Sprint Review
+## 5.3.7. Software Deployment Evidence for Sprint Review
 
 El prototipo fue desplegado en Render temporalmente para permitir la interacción directa de los entrevistados.  
 Los logs muestran un despliegue exitoso y funcionamiento estable durante las pruebas.
@@ -1614,7 +1614,7 @@ Demostrando coordinación efectiva y trabajo sincronizado.
 
 
 
-## 5.2.3.9. Validation Interviews (Resumen)
+## 5.3.9. Validation Interviews (Resumen)
 
 ### Entrevistado 1: Aldo Zavala — Emprendedor gastronómico  
 Percibió el prototipo como claro y útil. Consideró práctico el inventario y las alertas. Señaló que la interfaz es entendible y que usaría la app en su negocio.
@@ -1624,7 +1624,7 @@ Valoró la simplicidad del registro y el control de vencimientos. Señaló que l
 
 
 
-## 5.2.3.10. Sprint 3 Findings
+## 5.3.10. Sprint 3 Findings
 
 ### Aspectos Positivos
 - Flujo de registro simple y entendible.  
@@ -1641,7 +1641,7 @@ Valoró la simplicidad del registro y el control de vencimientos. Señaló que l
 
 
 
-## 5.2.3.11. Sprint 3 Conclusion
+## 5.3.11. Sprint 3 Conclusion
 
 El Sprint 3 cumplió su objetivo principal: validar el prototipo con usuarios reales.  
 La retroalimentación recibida fue valiosa y confirma que FoodStock tiene potencial real para emprendedores que manejan inventarios pequeños.  
