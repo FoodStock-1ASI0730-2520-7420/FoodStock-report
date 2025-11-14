@@ -1190,8 +1190,15 @@ En esta sección se explica y evidencia el proceso de Design-Level EventStorming
 
 <img alt="upc-logo" src="/assets/images/4.6.png"/><br>
 **[Ver En mirow Paso a Paso](https://miro.com/welcomeonboard/b1drT3dtWE13bnpIVkh2UkRUdlRlZmlsV1hRUHBHUHAxS2NwT0dkWGVkeXdVcjlPcXNVaHFpZE53SVhSNjFvdjhXMGZoclpZTjVWZVNBZDcyWFRPdzRhMFUwdXIwNThuaWpBa3F4dzlXUkpEdnpnTnM1M0tVcEMwbHhIMlBzQnp3VHhHVHd5UWtSM1BidUtUYmxycDRnPT0hdjE=?share_link_id=832178409755)**
+
 #### 4.6.2. Software Architecture Container Diagrams
+<img alt="c41" src="/assets/images/C41.jpg"/>
+
 #### 4.6.3. Software Architecture Components Diagrams
+<img alt="c42" src="/assets/images/C42.jpg"/>
+
+### 4.6.4. Software Architecture Components Diagrams
+<img alt="c42" src="/assets/images/C43.jpg"/>
 ### 4.7. Software Object-Oriented Design
 #### 4.7.1. Class Diagrams
 <img alt="diagrama-clases" src="/assets/images/diagrama-clases.png"/>
