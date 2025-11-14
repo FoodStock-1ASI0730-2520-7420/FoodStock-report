@@ -1619,9 +1619,11 @@ https://github.com/FoodStock-1ASI0730-2520-7420/FoodStock-report.git
 
 ## 5.3.7. Software Deployment Evidence for Sprint Review
 
-El prototipo fue desplegado temporalmente en Render para permitir pruebas reales durante las entrevistas.
+El prototipo fue desplegado temporalmente en Azure para permitir pruebas reales durante las entrevistas.
 
 Los logs del despliegue confirman estabilidad y correcto funcionamiento.
+
+Link: https://app-251113235013.azurewebsites.net/swagger/index.html
 
 ---
 
