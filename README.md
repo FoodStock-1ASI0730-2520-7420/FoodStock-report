@@ -1516,143 +1516,195 @@ Evidencia de avance de equipo en el github
 
 # 5.3. Sprint 3
 
-El tercer sprint se centró en la validación del prototipo funcional de FoodStock mediante entrevistas con emprendedores reales. El objetivo fue confirmar que las funcionalidades principales (inventario, registro de productos, alertas y navegación general) sean comprendidas y valoradas por los usuarios objetivo.
+El tercer sprint se centró en validar el prototipo funcional de FoodStock mediante entrevistas con emprendedores reales, además de revisar el avance técnico del backend y definir mejoras prioritarias. Este sprint fue clave para determinar la utilidad del sistema y la claridad de sus flujos principales.
 
-
+---
 
 ## 5.3.1. Sprint Planning 3
 
 **Sprint #:** Sprint 3  
 
-**Sprint Planning:**  
-- **Fecha:** 2025/11/09  
-- **Hora:** 6:00 PM  
-- **Lugar:** Reunión grupal en Discord  
+**Sprint Planning background**
 
-**Objetivo del Sprint:**  
-Validar si el prototipo inicial de FoodStock es fácil de utilizar y si genera valor real para emprendedores.  
-Creemos que esto permitirá identificar mejoras necesarias antes de ampliar funcionalidades en el siguiente sprint.  
-Esto se confirmará cuando los usuarios puedan completar tareas clave sin dificultad y brinden retroalimentación clara.
+- **Date:** 2025/11/09  
+- **Time:** 6:00 PM  
+- **Location:** Reunión grupal en Discord  
+- **Prepared By:** Gonzalo Quintanilla  
+- **Attendees:** Melina Santillán, Jean Pool Huamán, Javier Nikaido, José María Del Carpio, Gonzalo Quintanilla
 
-**Velocidad del Sprint (Sprint Velocity):** 18  
-**Puntos de Historia (Sum of story points):** 32  
+---
+
+### **Sprint 1 Review**  
+Se completó la landing page.  
+En este sprint se revisó nuevamente y se determinó que **aún faltan mejoras** para actualizarla con la información del producto real.
+
+### **Sprint 2 Review**  
+Se logró el despliegue con Vue + fake API.  
+En el Sprint 3 se identificó que:
+
+- Se avanzó en inventario y ventas.  
+- Hay una **base inicial del backend**, pero incompleta.  
+- Faltan varios **bounded contexts** importantes.  
+- Algunos módulos están avanzados, pero **no pudieron incluirse en este sprint** por límite de tiempo y líneas implementadas.
+
+**Conclusión:**  
+➡ Hay mejoras, pero **todavía falta bastante trabajo técnico**, que pasará al Sprint 4.
+
+---
+
+### **Sprint Goal & User Stories**
+
+**Sprint 3 Goal:**  
+Validar el prototipo con usuarios reales y consolidar un backend mínimo funcional (inventario + ventas).
+
+**Sprint 3 Velocity:** 18  
+**Sum of Story Points:** 32
 
 ---
 
 ## 5.3.2. Aspect Leaders and Collaborators
 
-El equipo utilizó la Matriz LACX para distribuir las tareas y responsabilidades:
-
 - **Gonzalo Samuel Quintanilla Pozo — Sprint Leader (L)**  
-  Responsable de la coordinación del sprint, supervisión del avance y validación final del prototipo.
-
 - **Javier Masaru Nikaido Vargas — Documentation & Integration (L/C)**  
-  Encargado de registrar hallazgos, actualizar documentación, analizar entrevistas y apoyar en ajustes del prototipo.
+- **Melina Liz Santillán Alvarado — UX Testing & QA (L/C)**  
+- **Jean Pool Huamán De La Cruz — Frontend Logic (C)**  
+- **José María Franco del Carpio — UI Layout (C)**  
 
-- **Melina Liz Santillán Alvarado — UX & QA (L/C)**  
-  Responsable de revisión de interfaz, pruebas funcionales y reporte de mejoras visuales.
-
-- **Jean Pool Huamán De La Cruz — Frontend/Logic Support (C)**  
-  Apoyo en ajustes del flujo de inventario, validación técnica y corrección de componentes.
-
-- **José María Franco Del Carpio — Frontend/UI Support (C)**  
-  Colaborador en mejoras de la vista del prototipo y soporte visual.
+**Nota:**  
+Aiko Napanga, Aldo Zavala y Gabriel Cermeño **no pertenecen al equipo**.  
+Solo participaron como **entrevistados externos para validación**.
 
 ---
 
 ## 5.3.3. Sprint Backlog 3
 
-### Tareas del Sprint
+- Implementar registro de productos.  
+- Mejorar vista de inventario.  
+- Agregar alertas básicas de vencimiento.  
+- Preparar prototipo navegable para entrevistas.  
+- Realizar 3 entrevistas de validación.  
+- Documentar hallazgos y mejoras.  
+- Refinar botones, textos y navegación.  
+- Consolidar backend base de inventario y ventas.  
 
-- Completar el flujo funcional de registro de productos.  
-- Ajustar la vista de inventario para mostrar cantidad y fecha de vencimiento.  
-- Configurar alertas básicas de expiración.  
-- Preparar prototipo navegable para pruebas con usuarios.  
-- Realizar entrevistas con emprendedores del segmento objetivo.  
-- Analizar hallazgos y registrar oportunidades de mejora.  
-- Refinar textos, botones y microinteracciones.  
-- Documentar correctamente el sprint.
-
-
+---
 
 ## 5.3.4. Development Evidence for Sprint Review
 
-Evidencias del desarrollo:  
-- Implementación del registro de productos.  
-- Inventario funcional mostrando datos relevantes.  
-- Alertas iniciales funcionando según fechas.  
+- Registro de productos implementado.  
+- Inventario funcionando con fechas y cantidades.  
+- Alertas básicas agregadas.  
+- Backend conectado parcialmente al módulo de inventario/ventas.
 
+Código en GitHub:  
+https://github.com/FoodStock-1ASI0730-2520-7420/FoodStock-report.git
 
-
+---
 
 ## 5.3.5. Execution Evidence for Sprint Review
 
-Durante la revisión del sprint se validaron:  
-- Registro exitoso de productos en el prototipo.  
-- Navegación fluida entre vistas.  
-- Visualización correcta del inventario actualizado.  
+- Pruebas realizadas durante grabación de entrevistas.  
+- Capturas de registro, inventario y alertas.  
+- Demostración del prototipo ejecutado en navegador.
 
-
-
+---
 
 ## 5.3.6. Services Documentation Evidence for Sprint Review
 
-Incluye:  
-- Documentación técnica breve del prototipo.  
-- Notas de pruebas utilizadas en entrevistas.  
-- Actualización del README con instrucciones de despliegue.  
-- Registro de dependencias y entorno utilizado.
+- README.md actualizado.  
+- Manual interno de pruebas.  
+- Documentación inicial del backend.  
 
-
+---
 
 ## 5.3.7. Software Deployment Evidence for Sprint Review
 
-El prototipo fue desplegado en Render temporalmente para permitir la interacción directa de los entrevistados.  
-Los logs muestran un despliegue exitoso y funcionamiento estable durante las pruebas.
+El prototipo fue desplegado temporalmente en Render para permitir pruebas reales durante las entrevistas.
 
+Los logs del despliegue confirman estabilidad y correcto funcionamiento.
+
+---
 
 ## 5.3.8. Team Collaboration Insights during Sprint
 
-- Comunicación constante vía Discord.  
-- Trabajo colaborativo visible en commits del repositorio.  
-- Ajustes rápidos según el feedback de entrevistas.  
+- Reuniones constantes por Discord.  
+- Flujo de trabajo compartido vía GitHub.  
+- Ejecución rápida de cambios según feedback de entrevistas.  
 
-Demostrando coordinación efectiva y trabajo sincronizado.
+---
 
+# 5.3.9. Validation Interviews
 
+Durante este sprint se realizaron entrevistas con emprendedores y microempresarios para validar la claridad, utilidad y usabilidad del prototipo.
 
-## 5.3.9. Validation Interviews (Resumen)
+---
 
-### Entrevistado 1: Aldo Zavala — Emprendedor gastronómico  
-Percibió el prototipo como claro y útil. Consideró práctico el inventario y las alertas. Señaló que la interfaz es entendible y que usaría la app en su negocio.
+## 5.3.9.1. Diseño de Entrevistas
 
-### Entrevistado 2: Gabriel Cermeño — Emprendedor de ventas desde casa  
-Valoró la simplicidad del registro y el control de vencimientos. Señaló que la aplicación sería útil para evitar pérdidas y mejorar la organización.
+### **Objetivo**
+Validar la comprensión del prototipo, la utilidad del inventario y la efectividad de las alertas en el día a día de emprendedores.
 
+### **Elementos Evaluados**
+- Landing page  
+- Inicio de sesión  
+- Registro de productos  
+- Inventario  
+- Alertas  
+- Flujo de uso general  
 
+### **Preguntas Aplicadas**
+1. ¿Qué entendiste de la landing page?  
+2. ¿Te generó confianza?  
+3. ¿Te registrarías?  
+4. ¿Qué información agregarías?  
+5. ¿Cómo te pareció el inicio de sesión?  
+6. ¿Cómo te fue registrando un producto?  
+7. ¿Agregarías campos adicionales?  
+8. ¿Qué opinas del inventario?  
+9. ¿Te servirían las alertas?  
+10. ¿Por dónde las preferirías?  
+11. ¿Usarías FoodStock en tu negocio?  
+12. ¿Qué mejorarías?  
+13. ¿Lo recomendarías?  
+
+---
+
+## 5.3.9.2. Registro de Entrevistas (Resumen)
+
+### **Entrevistado 1: Aldo Zavala — Emprendedor gastronómico**  
+Encontró el sistema claro y útil. Consideró las alertas esenciales para evitar pérdidas. Sugirió mejorar la edición de productos.
+
+### **Entrevistado 2: Gabriel Cermeño — Emprendedor desde casa**  
+Valoró la facilidad del registro y la claridad del inventario. Recomendó agregar campos como lote y fecha de elaboración.
+
+### **Entrevistado 3: Aiko Napanga, 18 años — Microemprendedora**  
+Consideró que la landing es clara y confiable. Vio el inventario como fácil de usar y destacó que las alertas por WhatsApp serían ideales. Recomendó ampliar opciones de actualización de productos.
+
+---
 
 ## 5.3.10. Sprint 3 Findings
 
-### Aspectos Positivos
-- Flujo de registro simple y entendible.  
-- Los entrevistados comprendieron el valor de las alertas.  
-- El inventario fue considerado claro y funcional.  
-- La interfaz resultó intuitiva para ambos usuarios.
+### **Aspectos Positivos**
+- El prototipo es intuitivo.  
+- Las alertas fueron la funcionalidad más valorada.  
+- El inventario resultó claro y ordenado.  
+- El registro de productos fue considerado fácil.  
+- Los 3 entrevistados recomendarían el sistema a otros emprendedores.
 
-### Oportunidades de Mejora
-- Ingreso con número telefónico.  
-- Permitir agregar fotos al producto.  
-- Agregar un botón para duplicar productos.  
-- Mejorar ejemplos visuales en la landing page.  
-- Optimizar registro masivo de productos.
+### **Oportunidades de Mejora**
+- Acceso con número telefónico.  
+- Campos como lote y fecha de elaboración.  
+- Mejoras en edición y actualización.  
+- Completar bounded contexts del backend.  
+- Incluir ejemplos reales en la landing.
 
-
+---
 
 ## 5.3.11. Sprint 3 Conclusion
 
-El Sprint 3 cumplió su objetivo principal: validar el prototipo con usuarios reales.  
-La retroalimentación recibida fue valiosa y confirma que FoodStock tiene potencial real para emprendedores que manejan inventarios pequeños.  
-Los hallazgos obtenidos guían claramente las prioridades para el Sprint 4.
+El Sprint 3 cumplió con validar el prototipo con emprendedores reales, confirmando la utilidad del sistema para controlar inventarios y evitar pérdidas.  
+Aunque existe una base de backend funcionando, aún faltan bounded contexts clave por desarrollar.  
+Los hallazgos obtenidos guiarán el Sprint 4 para fortalecer el producto y completar la arquitectura.
 
 
 
