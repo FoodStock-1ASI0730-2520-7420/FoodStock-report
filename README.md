@@ -1188,7 +1188,9 @@ En esta sección se presenta los mock-ups de nuestra landing page, donde se refl
 #### 4.6.1. Software Architecture Context Diagram
 En esta sección se explica y evidencia el proceso de Design-Level EventStorming, que sirvió para plantear una aproximación revisada y mejorada al modelado de nivel general para el dominio del problema.
 
-<img alt="upc-logo" src="/assets/images/4.6.png"/><br>
+<img alt="upc-logo" src="/assets/images/4.6.png"/><br>\
+
+
 **[Ver En mirow Paso a Paso](https://miro.com/welcomeonboard/b1drT3dtWE13bnpIVkh2UkRUdlRlZmlsV1hRUHBHUHAxS2NwT0dkWGVkeXdVcjlPcXNVaHFpZE53SVhSNjFvdjhXMGZoclpZTjVWZVNBZDcyWFRPdzRhMFUwdXIwNThuaWpBa3F4dzlXUkpEdnpnTnM1M0tVcEMwbHhIMlBzQnp3VHhHVHd5UWtSM1BidUtUYmxycDRnPT0hdjE=?share_link_id=832178409755)**
 
 #### 4.6.2. Software Architecture Container Diagrams
