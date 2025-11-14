@@ -1188,14 +1188,19 @@ En esta sección se presenta los mock-ups de nuestra landing page, donde se refl
 #### 4.6.1. Software Architecture Context Diagram
 En esta sección se explica y evidencia el proceso de Design-Level EventStorming, que sirvió para plantear una aproximación revisada y mejorada al modelado de nivel general para el dominio del problema.
 
-<img alt="upc-logo" src="/assets/images/4.6.png"/><br>
+<img alt="upc-logo" src="/assets/images/4.6.png"/><br>\
+
+
 **[Ver En mirow Paso a Paso](https://miro.com/welcomeonboard/b1drT3dtWE13bnpIVkh2UkRUdlRlZmlsV1hRUHBHUHAxS2NwT0dkWGVkeXdVcjlPcXNVaHFpZE53SVhSNjFvdjhXMGZoclpZTjVWZVNBZDcyWFRPdzRhMFUwdXIwNThuaWpBa3F4dzlXUkpEdnpnTnM1M0tVcEMwbHhIMlBzQnp3VHhHVHd5UWtSM1BidUtUYmxycDRnPT0hdjE=?share_link_id=832178409755)**
+
 #### 4.6.2. Software Architecture Container Diagrams
-<img alt="C4 container" src="/assets/images/2C4.png"/><br>
+<img alt="c41" src="/assets/images/C41.jpg"/>
 
 #### 4.6.3. Software Architecture Components Diagrams
-<img alt="C4 components" src="/assets/images/3C4.png"/><br>
+<img alt="c42" src="/assets/images/C42.jpg"/>
 
+### 4.6.4. Software Architecture Components Diagrams
+<img alt="c42" src="/assets/images/C43.jpg"/>
 ### 4.7. Software Object-Oriented Design
 #### 4.7.1. Class Diagrams
 <img alt="diagrama-clases" src="/assets/images/diagrama-clases.png"/>
@@ -1310,6 +1315,403 @@ El despliegue de la landing page de FoodStock se realizó exitosamente en la pla
 
 Evidencia de avance de equipo en el github
 <img alt="upc-logo" src="/assets/images/EvidenciaGit.png"/><br>
+
+#### 5.2.1.1. Sprint Planning 2
+
+| Sprint #                             | Sprint 2                                                                                                                                                                                                                                                  |
+|--------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Sprint planning <br> background      |                                                                                                                                                                                                                                                           |
+| Date                                 | 2025/10/11                                                                                                                                                                                                                                                |
+| Time                                 | 10:59 AM                                                                                                                                                                                                                                                  |
+| Location                             | Llamada grupal en la plataforma Discord                                                                                                                                                                                                                   |
+| Prepared By                          | Gonzalo Quintanilla                                                                                                                                                                                                                                       |
+| Attendees <br> (to planning meeting) | Melina Santillan, Jean Pool Huaman, Javier Nikaido, José Maria Del Carpio                                                                                                                                                                                 |
+| Sprint 1 Review                      | Se hizo mejoras en la agregacionde las TS en los User Story, se modifico el diagrama de clase y el de base de datos, se agrego el C4, se sacmbio los ID de products Backlog, Se corrigio la parte de competidores mencionado sus precios correspondientes |
+| **Sprint Goal & User Stories**       |                                                                                                                                                                                                                                                           |
+| Sprint 2 Goal                        | En esta parte nos enfocamos en deployar la app web con un fake api utilizando vue, nos enfocamos en la parte de frontend guiandonos de bounden Context                                                                                                    |
+| Sprint 2 Velocity                    | 21                                                                                                                                                                                                                                                        |
+| Sum of story points                  | 66                                                                                                                                                                                                                                                        |
+
+#### 5.2.2.2. Aspect Leaders and Collaborators.
+
+<div style="font-size:70%;">
+
+| **Team Member** <br> Last Name, First Name | **GitHub Username** | **Report** <br> L/C | **Reservation** <br> L/C | **Inventory** <br> L/C | **Suppliers** <br> L/C | **Sales** <br> L/C |
+|:------------------------------------------:|:-------------------:|:-------------------:|:------------------------:|:----------------------:|:----------------------:|:------------------:|
+|          **Quintanilla Gonzalo**           |       GoldQP        |          C          |            C             |           L            |           L            |         C          |
+|            **Huaman Jean Pool**            |     charlie404x     |          L          |            L             |           C            |           C            |         C          |
+|            **Santillan Melina**            |  melinaasantillan   |          C          |            C             |           C            |           C            |         L          |
+|             **Nikaido Javier**             |     MassiFlip       |          C          |            C             |           C            |           L            |         C          |
+|         **Del Carpio José María**          |       VoltTrd       |          C          |            C             |           C            |           C            |         C          |
+
+</div>
+
+<div style="text-align: center; font-size:85%; margin-top: 0.5rem;">
+
+**Nota.** L = *Leader* (responsable principal del aspecto).  
+C = *Collaborator* (apoya el desarrollo del aspecto).
+
+</div>
+
+#### 5.2.2.3. Sprint Backlog 2.
+Nuestro enfoque principal en este sprint fue desarrollar la aplicación web utilizando Vue.js y una API falsa para simular la funcionalidad del backend. Nos centramos en implementar las funcionalidades clave de los módulos de Inventario, Proveedores y Ventas, siguiendo la arquitectura definida en el diagrama C4.
+
+<table>
+  <tr>
+    <td>Sprint #</td>
+    <td colspan="7">Sprint 2</td>
+  </tr>
+  <tr>
+    <td colspan="2">User Story</td>
+    <td colspan="2">Work-Item / Task</td>
+    <td>Description</td>
+    <td>Estimation (Hours)</td>
+    <td>Assigned To</td>
+    <td>Status (To-do / In-Process / Done)</td>
+  </tr>
+  <tr>
+    <td>Id</td>
+    <td>Title</td>
+    <td>Id</td>
+    <td>Title</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <td>US08, US11</td>
+    <td>Agregar/Ver listado de proveedores</td>
+    <td>T7</td>
+    <td>Implementar Vistas de Proveedores</td>
+    <td>Desarrollo de las interfaces (frontend) de registro y listado de Proveedores.</td>
+    <td>5 hr</td>
+    <td>Dev Frontend</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US27, US28, US29, US31</td>
+    <td>CRUD de Reservas y Asignación de Mesas</td>
+    <td>T1</td>
+    <td>Implementar API REST (CRUD) de Reservas y Mesas</td>
+    <td>Implementación del backend (CRUD) para gestionar Reservaciones y la Asignación de Mesas.</td>
+    <td>12 hr</td>
+    <td>Dev Backend</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TS02, TS05, TS06</td>
+    <td>Alertas de Stock/Vencimiento</td>
+    <td>T10</td>
+    <td>Desarrollar Sistema de Alertas</td>
+    <td>Desarrollo del sistema de Alertas automáticas (Stock Crítico y Fechas de Vencimiento).</td>
+    <td>8 hr</td>
+    <td>Dev Fullstack</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US01, US03, US05</td>
+    <td>CRUD de Ventas y Grupos</td>
+    <td>T4</td>
+    <td>Implementar API REST (CRUD) de Ventas y Grupos</td>
+    <td>Implementación del backend (CRUD) para Ventas y la creación de Grupos de ventas.</td>
+    <td>14 hr</td>
+    <td>Dev Backend</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US06, TS01</td>
+    <td>Vista de Reporte de Ventas</td>
+    <td>T12</td>
+    <td>Implementar Vista de Reportes de Ventas</td>
+    <td>Desarrollo de la vista de Reportes de Ventas con filtros de tiempo y optimización de rendimiento.</td>
+    <td>5 hr</td>
+    <td>Dev Frontend</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US12, US34</td>
+    <td>Asociar Proveedor y Historial</td>
+    <td>T9</td>
+    <td>Desarrollar Lógica de Trazabilidad</td>
+    <td>Desarrollo de la lógica para asociar Proveedores a productos y consultar el Historial de movimientos.</td>
+    <td>8 hr</td>
+    <td>Dev Fullstack</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US08, US09, US10, US11</td>
+    <td>CRUD de Proveedores</td>
+    <td>T6</td>
+    <td>Implementar API REST (CRUD) de Proveedores</td>
+    <td>Implementación del backend (CRUD) para la gestión de Proveedores.</td>
+    <td>7 hr</td>
+    <td>Dev Backend</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US30</td>
+    <td>Ver Calendario</td>
+    <td>T2</td>
+    <td>Implementar Vista de Calendario</td>
+    <td>Desarrollo de la vista de Calendario de Reservas y disponibilidad.</td>
+    <td>7 hr</td>
+    <td>Dev Frontend</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US06, US35</td>
+    <td>Generar reportes</td>
+    <td>T11</td>
+    <td>Implementar Servicios de Reporte (Ventas y General)</td>
+    <td>Implementación de la lógica para generar Reportes de Ventas y de Inventario.</td>
+    <td>9 hr</td>
+    <td>Dev Backend</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US03, US05</td>
+    <td>Registrar/Editar venta</td>
+    <td>T5</td>
+    <td>Implementar Interfaces de Gestión de Ventas</td>
+    <td>Desarrollo de las interfaces (frontend) de registro y edición de Ventas.</td>
+    <td>6 hr</td>
+    <td>Dev Frontend</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US35, US36</td>
+    <td>Gestión de Inventario</td>
+    <td>T8</td>
+    <td>Implementar API REST de Productos, Stock y Categorías</td>
+    <td>Implementación del backend para Productos, control de Stock y Clasificación por Categorías.</td>
+    <td>10 hr</td>
+    <td>Dev Backend</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TS03, TS04</td>
+    <td>Notificaciones y Recordatorios</td>
+    <td>T3</td>
+    <td>Implementar Servicio de Notificaciones y Recordatorios</td>
+    <td>Desarrollo del servicio de envío automático de confirmaciones y recordatorios a clientes.</td>
+    <td>8 hr</td>
+    <td>Dev Fullstack</td>
+    <td>Done</td>
+  </tr>
+</table>
+
+#### 5.2.2.4. Development Evidence for Sprint Review.
+Para desplegar el la app web se uso Render aqui muestro las evidencia
+
+#### 5.2.2.5. Execution Evidence for Sprint Review.
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review.
+#### 5.2.2.7.  Deployment Evidence for Sprint Review.
+<img alt="upc-logo" src="/assets/images/render sprint2.png"/><br>
+<img alt="upc-logo" src="/assets/images/deploy sprint2.png"/><br>
+
+##### 5.2.1.8. Team Collaboration Insights during Sprint 2
+
+Evidencia de avance de equipo en el github
+<img alt="upc-logo" src="/assets/images/sprint2.png"/><br>
+
+# 5.3. Sprint 3
+
+El tercer sprint se centró en validar el prototipo funcional de FoodStock mediante entrevistas con emprendedores reales, además de revisar el avance técnico del backend y definir mejoras prioritarias. Este sprint fue clave para determinar la utilidad del sistema y la claridad de sus flujos principales.
+
+---
+
+## 5.3.1. Sprint Planning 3
+
+**Sprint #:** Sprint 3  
+
+**Sprint Planning background**
+
+- **Date:** 2025/11/09  
+- **Time:** 6:00 PM  
+- **Location:** Reunión grupal en Discord  
+- **Prepared By:** Gonzalo Quintanilla  
+- **Attendees:** Melina Santillán, Jean Pool Huamán, Javier Nikaido, José María Del Carpio, Gonzalo Quintanilla
+
+---
+
+### **Sprint 1 Review**  
+Se completó la landing page.  
+En este sprint se revisó nuevamente y se determinó que **aún faltan mejoras** para actualizarla con la información del producto real.
+
+### **Sprint 2 Review**  
+Se logró el despliegue con Vue + fake API.  
+En el Sprint 3 se identificó que:
+
+- Se avanzó en inventario y ventas.  
+- Hay una **base inicial del backend**, pero incompleta.  
+- Faltan varios **bounded contexts** importantes.  
+- Algunos módulos están avanzados, pero **no pudieron incluirse en este sprint** por límite de tiempo y líneas implementadas.
+
+**Conclusión:**  
+➡ Hay mejoras, pero **todavía falta bastante trabajo técnico**, que pasará al Sprint 4.
+
+---
+
+### **Sprint Goal & User Stories**
+
+**Sprint 3 Goal:**  
+Validar el prototipo con usuarios reales y consolidar un backend mínimo funcional (inventario + ventas).
+
+**Sprint 3 Velocity:** 18  
+**Sum of Story Points:** 32
+
+---
+
+## 5.3.2. Aspect Leaders and Collaborators
+
+- **Gonzalo Samuel Quintanilla Pozo — Sprint Leader (L)**  
+- **Javier Masaru Nikaido Vargas — Documentation & Integration (L/C)**  
+- **Melina Liz Santillán Alvarado — UX Testing & QA (L/C)**  
+- **Jean Pool Huamán De La Cruz — Frontend Logic (C)**  
+- **José María Franco del Carpio — UI Layout (C)**  
+
+**Nota:**  
+Aiko Napanga, Aldo Zavala y Gabriel Cermeño **no pertenecen al equipo**.  
+Solo participaron como **entrevistados externos para validación**.
+
+---
+
+## 5.3.3. Sprint Backlog 3
+
+- Implementar registro de productos.  
+- Mejorar vista de inventario.  
+- Agregar alertas básicas de vencimiento.  
+- Preparar prototipo navegable para entrevistas.  
+- Realizar 3 entrevistas de validación.  
+- Documentar hallazgos y mejoras.  
+- Refinar botones, textos y navegación.  
+- Consolidar backend base de inventario y ventas.  
+
+---
+
+## 5.3.4. Development Evidence for Sprint Review
+
+- Registro de productos implementado.  
+- Inventario funcionando con fechas y cantidades.  
+- Alertas básicas agregadas.  
+- Backend conectado parcialmente al módulo de inventario/ventas.
+
+Código en GitHub:  
+https://github.com/FoodStock-1ASI0730-2520-7420/FoodStock-report.git
+
+---
+
+## 5.3.5. Execution Evidence for Sprint Review
+
+- Pruebas realizadas durante grabación de entrevistas.  
+- Capturas de registro, inventario y alertas.  
+- Demostración del prototipo ejecutado en navegador.
+
+---
+
+## 5.3.6. Services Documentation Evidence for Sprint Review
+
+- README.md actualizado.  
+- Manual interno de pruebas.  
+- Documentación inicial del backend.  
+
+---
+
+## 5.3.7. Software Deployment Evidence for Sprint Review
+
+El prototipo fue desplegado temporalmente en Azure para permitir pruebas reales durante las entrevistas.
+
+Los logs del despliegue confirman estabilidad y correcto funcionamiento.
+
+Link: https://app-251113235013.azurewebsites.net/swagger/index.html
+
+---
+
+## 5.3.8. Team Collaboration Insights during Sprint
+
+- Reuniones constantes por Discord.  
+- Flujo de trabajo compartido vía GitHub.  
+- Ejecución rápida de cambios según feedback de entrevistas.  
+
+---
+
+# 5.3.9. Validation Interviews
+
+Durante este sprint se realizaron entrevistas con emprendedores y microempresarios para validar la claridad, utilidad y usabilidad del prototipo.
+
+---
+
+## 5.3.9.1. Diseño de Entrevistas
+
+### **Objetivo**
+Validar la comprensión del prototipo, la utilidad del inventario y la efectividad de las alertas en el día a día de emprendedores.
+
+### **Elementos Evaluados**
+- Landing page  
+- Inicio de sesión  
+- Registro de productos  
+- Inventario  
+- Alertas  
+- Flujo de uso general  
+
+### **Preguntas Aplicadas**
+1. ¿Qué entendiste de la landing page?  
+2. ¿Te generó confianza?  
+3. ¿Te registrarías?  
+4. ¿Qué información agregarías?  
+5. ¿Cómo te pareció el inicio de sesión?  
+6. ¿Cómo te fue registrando un producto?  
+7. ¿Agregarías campos adicionales?  
+8. ¿Qué opinas del inventario?  
+9. ¿Te servirían las alertas?  
+10. ¿Por dónde las preferirías?  
+11. ¿Usarías FoodStock en tu negocio?  
+12. ¿Qué mejorarías?  
+13. ¿Lo recomendarías?  
+
+---
+
+## 5.3.9.2. Registro de Entrevistas (Resumen)
+
+### **Entrevistado 1: Aldo Zavala — Emprendedor gastronómico**  
+Encontró el sistema claro y útil. Consideró las alertas esenciales para evitar pérdidas. Sugirió mejorar la edición de productos.
+
+### **Entrevistado 2: Gabriel Cermeño — Emprendedor desde casa**  
+Valoró la facilidad del registro y la claridad del inventario. Recomendó agregar campos como lote y fecha de elaboración.
+
+### **Entrevistado 3: Aiko Napanga, 18 años — Microemprendedora**  
+Consideró que la landing es clara y confiable. Vio el inventario como fácil de usar y destacó que las alertas por WhatsApp serían ideales. Recomendó ampliar opciones de actualización de productos.
+
+---
+
+## 5.3.10. Sprint 3 Findings
+
+### **Aspectos Positivos**
+- El prototipo es intuitivo.  
+- Las alertas fueron la funcionalidad más valorada.  
+- El inventario resultó claro y ordenado.  
+- El registro de productos fue considerado fácil.  
+- Los 3 entrevistados recomendarían el sistema a otros emprendedores.
+
+### **Oportunidades de Mejora**
+- Acceso con número telefónico.  
+- Campos como lote y fecha de elaboración.  
+- Mejoras en edición y actualización.  
+- Completar bounded contexts del backend.  
+- Incluir ejemplos reales en la landing.
+
+---
+
+## 5.3.11. Sprint 3 Conclusion
+
+El Sprint 3 cumplió con validar el prototipo con emprendedores reales, confirmando la utilidad del sistema para controlar inventarios y evitar pérdidas.  
+Aunque existe una base de backend funcionando, aún faltan bounded contexts clave por desarrollar.  
+Los hallazgos obtenidos guiarán el Sprint 4 para fortalecer el producto y completar la arquitectura.
+
+
+
 # Conclusiones
 ## Conlusiones y recomendaciones
 
@@ -1341,7 +1743,13 @@ Basándonos en las lecciones aprendidas durante el proyecto, se proponen las sig
 
 - Estrategia de Crecimiento: Definir una estrategia de lanzamiento escalonado para probar la plataforma con un grupo reducido de usuarios (beta testers) antes de un lanzamiento masivo. Esto permitirá identificar errores y puntos de mejora en un entorno controlado.
 
-# Bibliografía
+### Bibliografía
+
 Agencia Andina. (2024, octubre 5). Transformación digital en restaurantes permite ahorrar tiempo y mejorar rentabilidad. Andina. https://andina.pe/agencia/noticia-transformacion-digital-restaurantes-permite-ahorrar-tiempo-y-mejorar-rentabilidad-1002883.aspx
 
-# Anexos
+### Anexos
+- About the team : https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315007_upc_edu_pe/IQAZmOZB8p74TIR9eVHuI0YYAXk_94GXw5yC9uG_dQS2VdY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=wnHZxh
+- Landing Page: Desplegado en Render https://foodstock-landingpage.onrender.com/
+- Video de exposición https://upcedupe-my.sharepoint.com/:f:/g/personal/u202315007_upc_edu_pe/Evlv0pljdSVLt_cnpfplxWABoKVx52CHBJNqV8AG5rU2iw?e=BMj1Sv
+- Prototipo web https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315007_upc_edu_pe/EeAzZ7O94UNBjI-m3GEFAJoBdh7icX2NrDKKDqoguOUnNA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=eT6CO0
+- FoodStock - Web Application: desplegado en render https://foodstock-p2lr.onrender.com/suppliers
