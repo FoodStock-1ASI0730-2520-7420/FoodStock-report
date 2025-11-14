@@ -1604,7 +1604,7 @@ El prototipo fue desplegado en Render temporalmente para permitir la interacció
 Los logs muestran un despliegue exitoso y funcionamiento estable durante las pruebas.
 
 
-## 5.2.3.8. Team Collaboration Insights during Sprint
+## 5.3.8. Team Collaboration Insights during Sprint
 
 - Comunicación constante vía Discord.  
 - Trabajo colaborativo visible en commits del repositorio.  
