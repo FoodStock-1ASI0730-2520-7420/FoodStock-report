@@ -1192,10 +1192,15 @@ En esta sección se explica y evidencia el proceso de Design-Level EventStorming
 
 
 **[Ver En mirow Paso a Paso](https://miro.com/welcomeonboard/b1drT3dtWE13bnpIVkh2UkRUdlRlZmlsV1hRUHBHUHAxS2NwT0dkWGVkeXdVcjlPcXNVaHFpZE53SVhSNjFvdjhXMGZoclpZTjVWZVNBZDcyWFRPdzRhMFUwdXIwNThuaWpBa3F4dzlXUkpEdnpnTnM1M0tVcEMwbHhIMlBzQnp3VHhHVHd5UWtSM1BidUtUYmxycDRnPT0hdjE=?share_link_id=832178409755)**
+
 #### 4.6.2. Software Architecture Container Diagrams
+<img alt="c41" src="/assets/images/C41.jpg"/>
 
 #### 4.6.3. Software Architecture Components Diagrams
+<img alt="c42" src="/assets/images/C42.jpg"/>
 
+### 4.6.4. Software Architecture Components Diagrams
+<img alt="c42" src="/assets/images/C43.jpg"/>
 ### 4.7. Software Object-Oriented Design
 #### 4.7.1. Class Diagrams
 <img alt="diagrama-clases" src="/assets/images/diagrama-clases.png"/>
@@ -1511,6 +1516,200 @@ Para desplegar el la app web se uso Render aqui muestro las evidencia
 Evidencia de avance de equipo en el github
 <img alt="upc-logo" src="/assets/images/sprint2.png"/><br>
 
+# 5.3. Sprint 3
+
+El tercer sprint se centró en validar el prototipo funcional de FoodStock mediante entrevistas con emprendedores reales, además de revisar el avance técnico del backend y definir mejoras prioritarias. Este sprint fue clave para determinar la utilidad del sistema y la claridad de sus flujos principales.
+
+---
+
+## 5.3.1. Sprint Planning 3
+
+**Sprint #:** Sprint 3  
+
+**Sprint Planning background**
+
+- **Date:** 2025/11/09  
+- **Time:** 6:00 PM  
+- **Location:** Reunión grupal en Discord  
+- **Prepared By:** Gonzalo Quintanilla  
+- **Attendees:** Melina Santillán, Jean Pool Huamán, Javier Nikaido, José María Del Carpio, Gonzalo Quintanilla
+
+---
+
+### **Sprint 1 Review**  
+Se completó la landing page.  
+En este sprint se revisó nuevamente y se determinó que **aún faltan mejoras** para actualizarla con la información del producto real.
+
+### **Sprint 2 Review**  
+Se logró el despliegue con Vue + fake API.  
+En el Sprint 3 se identificó que:
+
+- Se avanzó en inventario y ventas.  
+- Hay una **base inicial del backend**, pero incompleta.  
+- Faltan varios **bounded contexts** importantes.  
+- Algunos módulos están avanzados, pero **no pudieron incluirse en este sprint** por límite de tiempo y líneas implementadas.
+
+**Conclusión:**  
+➡ Hay mejoras, pero **todavía falta bastante trabajo técnico**, que pasará al Sprint 4.
+
+---
+
+### **Sprint Goal & User Stories**
+
+**Sprint 3 Goal:**  
+Validar el prototipo con usuarios reales y consolidar un backend mínimo funcional (inventario + ventas).
+
+**Sprint 3 Velocity:** 18  
+**Sum of Story Points:** 32
+
+---
+
+## 5.3.2. Aspect Leaders and Collaborators
+
+- **Gonzalo Samuel Quintanilla Pozo — Sprint Leader (L)**  
+- **Javier Masaru Nikaido Vargas — Documentation & Integration (L/C)**  
+- **Melina Liz Santillán Alvarado — UX Testing & QA (L/C)**  
+- **Jean Pool Huamán De La Cruz — Frontend Logic (C)**  
+- **José María Franco del Carpio — UI Layout (C)**  
+
+**Nota:**  
+Aiko Napanga, Aldo Zavala y Gabriel Cermeño **no pertenecen al equipo**.  
+Solo participaron como **entrevistados externos para validación**.
+
+---
+
+## 5.3.3. Sprint Backlog 3
+
+- Implementar registro de productos.  
+- Mejorar vista de inventario.  
+- Agregar alertas básicas de vencimiento.  
+- Preparar prototipo navegable para entrevistas.  
+- Realizar 3 entrevistas de validación.  
+- Documentar hallazgos y mejoras.  
+- Refinar botones, textos y navegación.  
+- Consolidar backend base de inventario y ventas.  
+
+---
+
+## 5.3.4. Development Evidence for Sprint Review
+
+- Registro de productos implementado.  
+- Inventario funcionando con fechas y cantidades.  
+- Alertas básicas agregadas.  
+- Backend conectado parcialmente al módulo de inventario/ventas.
+
+Código en GitHub:  
+https://github.com/FoodStock-1ASI0730-2520-7420/FoodStock-report.git
+
+---
+
+## 5.3.5. Execution Evidence for Sprint Review
+
+- Pruebas realizadas durante grabación de entrevistas.  
+- Capturas de registro, inventario y alertas.  
+- Demostración del prototipo ejecutado en navegador.
+
+---
+
+## 5.3.6. Services Documentation Evidence for Sprint Review
+
+- README.md actualizado.  
+- Manual interno de pruebas.  
+- Documentación inicial del backend.  
+
+---
+
+## 5.3.7. Software Deployment Evidence for Sprint Review
+
+El prototipo fue desplegado temporalmente en Azure para permitir pruebas reales durante las entrevistas.
+
+Los logs del despliegue confirman estabilidad y correcto funcionamiento.
+
+Link: https://app-251113235013.azurewebsites.net/swagger/index.html
+
+---
+
+## 5.3.8. Team Collaboration Insights during Sprint
+
+- Reuniones constantes por Discord.  
+- Flujo de trabajo compartido vía GitHub.  
+- Ejecución rápida de cambios según feedback de entrevistas.  
+
+---
+
+# 5.3.9. Validation Interviews
+
+Durante este sprint se realizaron entrevistas con emprendedores y microempresarios para validar la claridad, utilidad y usabilidad del prototipo.
+
+---
+
+## 5.3.9.1. Diseño de Entrevistas
+
+### **Objetivo**
+Validar la comprensión del prototipo, la utilidad del inventario y la efectividad de las alertas en el día a día de emprendedores.
+
+### **Elementos Evaluados**
+- Landing page  
+- Inicio de sesión  
+- Registro de productos  
+- Inventario  
+- Alertas  
+- Flujo de uso general  
+
+### **Preguntas Aplicadas**
+1. ¿Qué entendiste de la landing page?  
+2. ¿Te generó confianza?  
+3. ¿Te registrarías?  
+4. ¿Qué información agregarías?  
+5. ¿Cómo te pareció el inicio de sesión?  
+6. ¿Cómo te fue registrando un producto?  
+7. ¿Agregarías campos adicionales?  
+8. ¿Qué opinas del inventario?  
+9. ¿Te servirían las alertas?  
+10. ¿Por dónde las preferirías?  
+11. ¿Usarías FoodStock en tu negocio?  
+12. ¿Qué mejorarías?  
+13. ¿Lo recomendarías?  
+
+---
+
+## 5.3.9.2. Registro de Entrevistas (Resumen)
+
+### **Entrevistado 1: Aldo Zavala — Emprendedor gastronómico**  
+Encontró el sistema claro y útil. Consideró las alertas esenciales para evitar pérdidas. Sugirió mejorar la edición de productos.
+
+### **Entrevistado 2: Gabriel Cermeño — Emprendedor desde casa**  
+Valoró la facilidad del registro y la claridad del inventario. Recomendó agregar campos como lote y fecha de elaboración.
+
+### **Entrevistado 3: Aiko Napanga, 18 años — Microemprendedora**  
+Consideró que la landing es clara y confiable. Vio el inventario como fácil de usar y destacó que las alertas por WhatsApp serían ideales. Recomendó ampliar opciones de actualización de productos.
+
+---
+
+## 5.3.10. Sprint 3 Findings
+
+### **Aspectos Positivos**
+- El prototipo es intuitivo.  
+- Las alertas fueron la funcionalidad más valorada.  
+- El inventario resultó claro y ordenado.  
+- El registro de productos fue considerado fácil.  
+- Los 3 entrevistados recomendarían el sistema a otros emprendedores.
+
+### **Oportunidades de Mejora**
+- Acceso con número telefónico.  
+- Campos como lote y fecha de elaboración.  
+- Mejoras en edición y actualización.  
+- Completar bounded contexts del backend.  
+- Incluir ejemplos reales en la landing.
+
+---
+
+## 5.3.11. Sprint 3 Conclusion
+
+El Sprint 3 cumplió con validar el prototipo con emprendedores reales, confirmando la utilidad del sistema para controlar inventarios y evitar pérdidas.  
+Aunque existe una base de backend funcionando, aún faltan bounded contexts clave por desarrollar.  
+Los hallazgos obtenidos guiarán el Sprint 4 para fortalecer el producto y completar la arquitectura.
+
 
 
 # Conclusiones
@@ -1549,6 +1748,7 @@ Basándonos en las lecciones aprendidas durante el proyecto, se proponen las sig
 Agencia Andina. (2024, octubre 5). Transformación digital en restaurantes permite ahorrar tiempo y mejorar rentabilidad. Andina. https://andina.pe/agencia/noticia-transformacion-digital-restaurantes-permite-ahorrar-tiempo-y-mejorar-rentabilidad-1002883.aspx
 
 ### Anexos
+- About the team : https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315007_upc_edu_pe/IQAZmOZB8p74TIR9eVHuI0YYAXk_94GXw5yC9uG_dQS2VdY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=wnHZxh
 - Landing Page: Desplegado en Render https://foodstock-landingpage.onrender.com/
 - Video de exposición https://upcedupe-my.sharepoint.com/:f:/g/personal/u202315007_upc_edu_pe/Evlv0pljdSVLt_cnpfplxWABoKVx52CHBJNqV8AG5rU2iw?e=BMj1Sv
 - Prototipo web https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315007_upc_edu_pe/EeAzZ7O94UNBjI-m3GEFAJoBdh7icX2NrDKKDqoguOUnNA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=eT6CO0
