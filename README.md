@@ -1700,6 +1700,148 @@ Validar la comprensión del prototipo, la utilidad del inventario y la efectivid
 - Los hallazgos guían el Sprint 4 para reforzar las funciones clave.
 
 
+# 5.4. Sprint 4
+
+El cuarto sprint se centró en la consolidación técnica del sistema FoodStock, abordando las mejoras identificadas en el Sprint 3 y fortaleciendo la arquitectura del backend. En este sprint se priorizó la optimización de los módulos existentes, la implementación de campos adicionales solicitados por los usuarios y la estabilización general del sistema, sin realizar nuevas entrevistas.
+
+---
+
+## 5.4.1 Sprint Planning 4
+
+| Sprint #    | Sprint 4                                                                                              |
+| ----------- | ----------------------------------------------------------------------------------------------------- |
+| Date        | 2025/11/16                                                                                            |
+| Time        | 6:30 PM                                                                                               |
+| Location    | Reunión grupal en Discord                                                                             |
+| Prepared By | Gonzalo Quintanilla                                                                                   |
+| Attendees   | Melina Santillán, Jean Pool Huamán, Javier Nikaido, José María Franco Del Caprio, Gonzalo Quintanilla |
+
+### Sprint 3 Review
+
+* Se validó el prototipo con emprendedores reales.
+* Se identificaron mejoras técnicas prioritarias.
+* El backend presentaba bounded contexts incompletos.
+* Se detectaron fallas en edición y gestión de productos.
+
+### Sprint Goal
+
+Fortalecer el backend y optimizar los módulos de inventario y productos, implementando mejoras solicitadas por los usuarios para lograr un sistema más estable y escalable.
+
+| Sprint Velocity     | 20 |
+| ------------------- | -- |
+| Sum of Story Points | 34 |
+
+---
+
+## 5.4.2 Aspect Leaders and Collaborators
+
+| Miembro                      | Rol | Responsabilidad                     |
+| ---------------------------- | --- | ----------------------------------- |
+| Gonzalo Samuel Quintanilla   | L   | Sprint Leader                       |
+| Javier Masaru Nikaido        | L/C | Arquitectura y optimización backend |
+| Melina Liz Santillán         | L/C | Optimización UX y QA                |
+| Jean Pool Huamán             | C   | Lógica del frontend                 |
+| José María Franco Del Caprio | C   | Layout UI y pruebas funcionales     |
+
+---
+
+## 5.4.3 Sprint Backlog 4
+
+* Completar bounded contexts del backend.
+* Optimizar módulo de inventario.
+* Mejorar edición y actualización de productos.
+* Implementar campos adicionales (lote y fecha de elaboración).
+* Optimizar sistema de alertas.
+* Ajustar navegación general del sistema.
+* Refactorizar código para mayor escalabilidad.
+* Mejorar rendimiento y estabilidad general.
+
+---
+
+## 5.4.4 Development Evidence for Sprint Review
+
+* Nuevos bounded contexts implementados.
+* Backend optimizado para inventario y ventas.
+* Edición de productos mejorada.
+* Integración de campos de lote y fecha de elaboración.
+* Sistema de alertas optimizado.
+* Refactorización de estructura del proyecto.
+
+Repositorio:
+
+```
+https://github.com/FoodStock-1ASI0730-2520-7420/FoodStock-report.git
+```
+
+---
+
+## 5.4.5 Execution Evidence for Sprint Review
+
+* Pruebas técnicas internas del backend.
+* Validación de edición y actualización de productos.
+* Simulación de alertas por vencimiento.
+* Evaluación de estabilidad del sistema.
+* Pruebas de integración frontend-backend.
+
+---
+
+## 5.4.6 Services Documentation Evidence for Sprint Review
+
+* README.md actualizado.
+* Documentación técnica ampliada.
+* Manual interno de pruebas del Sprint 4.
+* Registro de endpoints optimizados.
+
+---
+
+## 5.4.7 Software Deployment Evidence for Sprint Review
+
+El sistema fue desplegado en Azure para pruebas técnicas:
+
+```
+https://app-251113235013.azurewebsites.net/swagger/index.html
+```
+
+Los logs confirmaron estabilidad y correcto funcionamiento tras las mejoras implementadas.
+
+---
+
+## 5.4.8 Team Collaboration Insights during Sprint
+
+* Reuniones técnicas constantes por Discord.
+* Trabajo colaborativo mediante GitHub.
+* Coordinación eficiente de tareas.
+* Seguimiento de commits y avances durante todo el sprint.
+
+---
+
+## 5.4.9 Sprint 4 Findings
+
+### Fortalezas
+
+* Backend más completo y estructurado.
+* Mayor estabilidad del sistema.
+* Mejora significativa en edición de productos.
+* Integración efectiva de mejoras solicitadas.
+* Flujo de inventario más eficiente.
+
+### Oportunidades de mejora
+
+* Implementar autenticación con número telefónico.
+* Integrar alertas por WhatsApp.
+* Optimizar tiempos de respuesta.
+* Continuar fortaleciendo la seguridad del sistema.
+
+---
+
+## 5.4.10 Sprint 4 Conclusion
+
+* Se consolidó el sistema FoodStock a nivel técnico.
+* Se implementaron mejoras basadas en hallazgos del Sprint 3.
+* Se fortaleció la arquitectura del backend para mayor escalabilidad.
+* El Sprint 4 permitió cerrar brechas técnicas y avanzar hacia una versión más robusta del producto.
+
+
 
 # Conclusiones
 ## Conlusiones y recomendaciones
