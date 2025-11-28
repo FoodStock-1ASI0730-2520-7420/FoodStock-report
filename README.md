@@ -70,94 +70,114 @@
 # Contenido
 
 ## Tabla de contenidos
-- [Student Outcome](#student-outcome)
-- [Capítulo I: Introducción](#capítulo-i-introducción)
-    - [1.1. Startup Profile](#11-startup-profile)
-        - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
-        - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
-    - [1.2. Solution Profile](#12-solution-profile)
-        - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
-        - [1.2.2. Lean UX Process](#122-lean-ux-process)
-            - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-            - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-            - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-            - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
-    - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
-- [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
-    - [2.1. Competidores](#21-competidores)
-        - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
-        - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
-    - [2.2. Entrevistas](#22-entrevistas)
-        - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
-        - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
-        - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
-    - [2.3. Needfinding](#23-needfinding)
-        - [2.3.1. User Personas](#231-user-personas)
-        - [2.3.2. User Task Matrix](#232-user-task-matrix)
-        - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
-        - [2.3.4. Empathy Mapping](#234-empathy-mapping)
-    - [2.4. Big Picture EventStorming](#24-big-picture-eventstorming)
-    - [2.5. Ubiquitous Language](#25-ubiquitous-language)
-- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
-    - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
-    - [3.2. User Stories](#32-user-stories)
-    - [3.3. Impact Mapping](#33-impact-mapping)
-    - [3.4. Product Backlog](#34-product-backlog)
-- [Capítulo IV: Product Design](#capítulo-iv-product-design)
-    - [4.1. Style Guidelines](#41-style-guidelines)
-        - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
-        - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
-    - [4.2. Information Architecture](#42-information-architecture)
-        - [4.2.1. Organization Systems](#421-organization-systems)
-        - [4.2.2. Labeling Systems](#422-labeling-systems)
-        - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
-        - [4.2.4. Searching Systems](#424-searching-systems)
-        - [4.2.5. Navigation Systems](#425-navigation-systems)
-    - [4.3. Landing Page UI Design](#43-landing-page-ui-design)
-        - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
-        - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
-    - [4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)
-        - [4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)
-        - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
-        - [4.4.2. Web Applications Mock-ups](#442-web-applications-mock-ups)
-        - [4.4.3. Web Applications User Flow Diagrams](#443-web-applications-user-flow-diagrams)
-    - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
-    - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
-        - [4.6.1. Software Architecture Context Diagram](#461-software-architecture-context-diagram)
-        - [4.6.2. Software Architecture Container Diagrams](#462-software-architecture-container-diagrams)
-        - [4.6.3. Software Architecture Components Diagrams](#463-software-architecture-components-diagrams)
-    - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
-        - [4.7.1. Class Diagrams](#471-class-diagrams)
-    - [4.8. Database Design](#48-database-design)
-        - [4.8.1. Database Diagrams](#481-database-diagrams)
-- [Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation--deployment)
-    - [5.1. Software Configuration Management](#51-software-configuration-management)
-        - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
-        - [5.1.2. Source Code Management](#512-source-code-management)
-        - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
-        - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
-    - [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
-        - [5.2.1. Sprint 1](#521-sprint-1)
-            - [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
-            - [5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
-            - [5.2.1.3. Sprint Backlog 1](#5213-sprint-backlog-1)
-            - [5.2.1.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
-            - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
-            - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
-            - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
-            - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
-    - [5.3. Validation Interviews](#53-validation-interviews)
-      - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
-      - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
-      - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
-    - [5.4. Video About-the-Product](#54-video-about-the-product)
-- [Conclusiones](#conclusiones)
-- [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
-- [Video About-the-Team](#video-about-the-team)
-- [Bibliografía](#bibliografía)
-- [Anexos](#anexos)
 
----
+
+  - [1.1. Startup Profile](#11-startup-profile)
+      - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+      - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+   - [1.2. Solution Profile](#12-solution-profile)
+      - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
+      - [5W + 2H FoodStock](#5w-2h-foodstock)
+      - [1.2.2. Lean UX Process](#122-lean-ux-process)
+        - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+   - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
+   - [2.1. Competidores](#21-competidores)
+      - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+      - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+   - [2.2. Entrevistas](#22-entrevistas)
+      - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+      - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+      - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+   - [2.3. Needfinding](#23-needfinding)
+      - [2.3.1. User Personas](#231-user-personas)
+      - [2.3.2. User Task Matrix](#232-user-task-matrix)
+      - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
+      - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+   - [2.4. Big Pgiticture EventStorming](#24-big-pgiticture-eventstorming)
+   - [2.4. Big Picture EventStorming](#24-big-picture-eventstorming)
+      - [1. Open:](#1-open)
+      - [2. Explore:](#2-explore)
+      - [3. Close:](#3-close)
+  - [2.5. Ubiquitous Language](#25-ubiquitous-language)
+  - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
+   - [3.2. User Stories](#32-user-stories)
+   - [3.3. Impact Mapping](#33-impact-mapping)
+    - [3.4. Product Backlog](#34-product-backlog)
+  - [4.1. Style Guidelines](#41-style-guidelines)
+      - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
+      - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
+   - [4.2. Information Architecture](#42-information-architecture)
+      - [4.2.1. Organization Systems](#421-organization-systems)
+      - [4.2.2. Labeling Systems](#422-labeling-systems)
+      - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
+      - [4.2.4. Searching Systems](#424-searching-systems)
+      - [4.2.5. Navigation Systems](#425-navigation-systems)
+  - [4.3. Landing Page UI Design](#43-landing-page-ui-design)
+      - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
+      - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
+   - [4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)
+      - [4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)
+      - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
+      - [4.4.2. Web Applications Mock-ups](#442-web-applications-mock-ups)
+      - [4.4.3. Web Applications User Flow Diagrams](#443-web-applications-user-flow-diagrams)
+   - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
+   - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
+      - [4.6.1. Software Architecture Context Diagram](#461-software-architecture-context-diagram)
+      - [4.6.2. Software Architecture Container Diagrams](#462-software-architecture-container-diagrams)
+      - [4.6.3. Software Architecture Components Diagrams](#463-software-architecture-components-diagrams)
+      - [4.6.4. Software Architecture Components Diagrams](#464-software-architecture-components-diagrams)
+   - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
+      - [4.7.1. Class Diagrams](#471-class-diagrams)
+  - [4.8. Database Design](#48-database-design)
+      - [4.8.1. Database Diagrams](#481-database-diagrams)
+   - [5.1. Software Configuration Management](#51-software-configuration-management)
+      - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
+      - [5.1.2. Source Code Management](#512-source-code-management)
+      - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide-conventions)
+      - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
+   - [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services-applications-implementation)
+      - [5.2.1. Sprint 1](#521-sprint-1)
+        - [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
+        - [5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
+        - [5.2.1.3. Sprint Backlog 1](#5213-sprint-backlog-1)
+        - [5.2.1.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
+        - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
+        - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
+        - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
+        - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
+      - [5.2.1.1. Sprint Planning 2](#5211-sprint-planning-2)
+      - [5.2.2.2. Aspect Leaders and Collaborators.](#5222-aspect-leaders-and-collaborators)
+      - [5.2.2.3. Sprint Backlog 2.](#5223-sprint-backlog-2)
+      - [5.2.2.4. Development Evidence for Sprint Review.](#5224-development-evidence-for-sprint-review)
+      - [5.2.2.5. Execution Evidence for Sprint Review.](#5225-execution-evidence-for-sprint-review)
+      - [5.2.2.6. Services Documentation Evidence for Sprint Review.](#5226-services-documentation-evidence-for-sprint-review)
+      - [5.2.2.7.  Deployment Evidence for Sprint Review.](#5227-deployment-evidence-for-sprint-review)
+        - [5.2.1.8. Team Collaboration Insights during Sprint 2](#5218-team-collaboration-insights-during-sprint-2)
+- [5.3. Sprint 3](#53-sprint-3)
+  - [5.3.1. Sprint Planning 3](#531-sprint-planning-3)
+  - [5.3.2. Aspect Leaders and Collaborators](#532-aspect-leaders-and-collaborators)
+  - [5.3.3. Sprint Backlog 3](#533-sprint-backlog-3)
+  - [5.3.4. Development Evidence for Sprint Review](#534-development-evidence-for-sprint-review)
+  - [5.3.5. Execution Evidence for Sprint Review](#535-execution-evidence-for-sprint-review)
+  - [5.3.6. Services Documentation Evidence for Sprint Review](#536-services-documentation-evidence-for-sprint-review)
+  - [5.3.7. Software Deployment Evidence for Sprint Review](#537-software-deployment-evidence-for-sprint-review)
+  - [5.3.8. Team Collaboration Insights during Sprint](#538-team-collaboration-insights-during-sprint)
+- [5.3.9. Validation Interviews](#539-validation-interviews)
+  - [5.3.9.1. Diseño de Entrevistas](#5391-diseño-de-entrevistas)
+  - [5.3.9.2. Registro de Entrevistas (Resumen)](#5392-registro-de-entrevistas-resumen)
+  - [5.3.10. Sprint 3 Findings](#5310-sprint-3-findings)
+  - [5.3.11. Sprint 3 Conclusion](#5311-sprint-3-conclusion)
+- [5.2.4. Sprint 4](#524-sprint-4)
+  - [5.2.4.1. Sprint Planning 4](#5241-sprint-planning-4)
+  - [5.2.4.2. Aspect Leaders and Collaborators](#5242-aspect-leaders-and-collaborators)
+  - [5.2.4.3. Sprint Backlog 4](#5243-sprint-backlog-4)
+  - [5.2.4.4. Development Evidence for Sprint Review](#5244-development-evidence-for-sprint-review)
+  - [5.2.4.5. Execution Evidence for Sprint Review](#5245-execution-evidence-for-sprint-review)
+  - [5.2.4.6. Team Collaboration Insights](#5246-team-collaboration-insights)
+  - [5.2.4.7. Sprint 4 Conclusion](#5247-sprint-4-conclusion)
 
 ## Student Outcome
 **ABET – EAC - Student Outcome 5**  
@@ -578,21 +598,36 @@ obtener una ventaja competitiva.
     <td valign="top">El surgimiento de nuevas herramientas puede volver obsoleto su modelo de control de costos.</td>
     <td valign="top">Al ser un software "todo-en-uno", la llegada de soluciones más especializadas podría afectar su posición.</td>
   </tr>
-  <tr>
+ <tr>
     <td rowspan="4" valign="top">Precios y costos</td>
     <td valign="top">Costo Anual</td>
-    <td valign="top">Desde $60 USD hasta $300 USD.</td>
-    <td valign="top">(No se conoce el precio anual).</td>
-    <td valign="top">(No se conoce el precio anual).</td>
-    <td valign="top">(No se conoce el precio anual).</td>
-  </tr>
-  <tr>
+    <td valign="top">Desde $60 USD hasta $300 USD</td>
+    <td valign="top">$500–$1,500 USD (estimado según módulos y tamaño de restaurante)</td>
+    <td valign="top">$1,000–$3,000+ USD (estimado, según plan y volumen de negocio)</td>
+    <td valign="top">$400–$1,200 USD (estimado para microempresas, más alto con integraciones)</td>
+</tr>
+<tr>
     <td valign="top">Mensual</td>
-    <td valign="top">Plan basico de $5 y pro de $25 USD</td>
-    <td valign="top">(No se conoce el precio mensual)</td>
-    <td valign="top">(No se conoce el precio mensual)</td>
-    <td valign="top">(No se conoce el precio mensual)</td>
-  </tr>
+    <td valign="top">Plan Básico $5 USD, Plan Pro $25 USD</td>
+    <td valign="top">$50–$150 USD (dependiendo de módulos seleccionados)</td>
+    <td valign="top">$99–$299 USD (básico a premium según volumen o ubicaciones)</td>
+    <td valign="top">$40–$120 USD (estimado para microempresas, más alto con integraciones)</td>
+</tr>
+<tr>
+    <td valign="top">Modelo de precios</td>
+    <td valign="top">Planes fijos accesibles para microempresas</td>
+    <td valign="top">Cotización personalizada, modular, nube u on-premise</td>
+    <td valign="top">Suscripción escalable según volumen de facturación o ubicaciones; opción freemium limitada</td>
+    <td valign="top">Cotización personalizada, todo-en-uno con setup inicial</td>
+</tr>
+<tr>
+    <td valign="top">Notas y fuentes</td>
+    <td valign="top">Precios públicos y accesibles; ideal para startups y microempresas</td>
+    <td valign="top">No hay precios fijos en sitio oficial; comparadores de software indican “cotización personalizada”</td>
+    <td valign="top">Sitio oficial y reseñas (G2, TrustRadius) indican rangos desde $99/mes; integración con Toast POS</td>
+    <td valign="top">Estimaciones basadas en microempresas peruanas; incluye soporte local y cumplimiento SUNAT</td>
+</tr>
+
 </table>
 
 #### 2.1.2. Estrategias y tácticas frente a competidores
@@ -885,51 +920,65 @@ Los siguientes términos son clave para el entendimiento y desarrollo del proyec
 |5      | Inventario    |Como usuario quiero gestionar el inventario de insumos y productos del restaurante, para registrar entradas y salidas, controlar stocky y recibir alertas que me ayuden a organizar mejor el abastecimiento. |
 
 #### Users Stories
+
 | Story ID | Título                                          | Descripción                                                                                                                                                                     | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | Relacionado con (Epic ID) |
 |----|-------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|
-| 1  | Crear grupo de ventas                           | Como usuario, quiero crear un grupo de ventas para poder agrupar todas mis ventas en un solo grupo.                                                                             | **Escenario 1: Acceder a la opción "Ventas"** <br> Dado que el usuario se encuentra en el inicio <br> Cuando el usuario selecciona el botón "Ventas" <br> Entonces, el sistema redirecciona al usuario a la ventana de ventas. <br> **Escenario 2: Crear grupo de ventas** <br> Dado que el usuario se encuentra en la ventana de "Ventas" <br> Cuando el usuario selecciona el botón "Crear grupo" <br> Entonces, el sistema pide que el usuario ingrese un nombre para el grupo de ventas.                                                                                                                         | 4                         |
-| 2  | Eliminar grupo de ventas                        | Como usuario, quiero eliminar un grupo de ventas para eliminar todas las ventas que hay en un grupo.                                                                            | **Escenario 1: Acceder a la opción "Ventas"** <br> Dado que el usuario se encuentra en el inicio <br> Cuando el usuario selecciona el botón "Ventas" <br> Entonces, el sistema redirecciona al usuario a la ventana de ventas. <br> **Escenario 2: Eliminar grupo de ventas** <br> Dado que el usuario se encuentra en la ventana de "Ventas" <br> Cuando el usuario selecciona el icono de borrar en un grupo <br> Entonces, el sistema pregunta al usuario si esta seguro en borrar el grupo, en el caso de si, el sistema elimina el grupo de ventas                                                              | 4                         |
-| 3  | Registrar una venta                             | Como usuario, quiero registrar una venta para tener una mejor organización.                                                                                                     | **Escenario 1: Acceder a un grupo de ventas** <br> Dado que el usuario se encuentra en la ventana de "Ventas" <br> Cuando el usuario selecciona un grupo <br> Entonces, el sistema permite que el usuario ingrese al grupo y muestra todas las ventas que pertenecen al grupo seleccionado. <br> **Escenario 2: Registrar venta** <br> Dado que el usuario se encuentra en el grupo seleccionado <br> Cuando el usuario selecciona el botón "Agregar venta" <br> Entonces, el sistema muestra un formulario y pide que el usuario lo complete                                                                        | 4                         |
-| 4  | Eliminar una venta                              | Como usuario, quiero eliminar una venta para deshacerme de una venta que no me sirve.                                                                                           | **Escenario 1: Acceder a un grupo de ventas** <br> Dado que el usuario se encuentra en la ventana de "Ventas" <br> Cuando el usuario seleccionar un grupo <br> Entonces, el sistema permite que el usuario ingrese al grupo y muestra todas las ventas que pertenecen al grupo seleccionado. <br> **Escenario 2: Eliminar venta** <br> Dado que el usuario se encuentra en el grupo seleccionado <br> Cuando el usuario selecciona el icono de borrar en una venta <br> Entonces, el sistema pregunta al usuario si esta seguro en borrar la venta, en el caso de si, el sistema borra la venta                      | 4                         |
-| 5  | Editar una venta                                | Como usuario, quiero editar una venta para cambiar el contenido de una venta.                                                                                                   | **Escenario 1: Acceder a un grupo de ventas** <br> Dado que el usuario se encuentra en la ventana de "Ventas" <br> Cuando el usuario seleccionar un grupo <br> Entonces, el sistema permite que el usuario ingrese al grupo y muestra todas las ventas que pertenecen al grupo seleccionado. <br> **Escenario 2: Editar venta** <br> Dado que el usuario se encuentra en el grupo seleccionado <br> Cuando el usuario selecciona el icono de editar <br> Entonces, el sistema muestra un formulario con los datos registrados y permite que el usuario pueda editar el contenido del formulario                      | 4                         |
-| 6  | Generar reporte de ventas                       | Como usuario, quiero generar un reporte de ventas para tener conocimiento de mis ganancias.                                                                                     | **Escenario 1: Acceder a la opción "Reportes de ventas"** <br> Dado que el usuario se encuentra en el inicio <br> Cuando el usuario selecciona el botón "Reporte de ventas" <br> Entonces, el sistema redirecciona al usuario a la ventana de re portes de ventas. <br> **Escenario 2: Generar reporte de ventas** <br> Dado que el usuario se encuentra en la ventana de "Reporte de ventas" <br> Cuando el usuario selecciona el botón "Generar reporte" <br> Entonces, el sistema pide que el usuario seleccione el período de tiempo.                                                                            | 4                         |
-| 7  | Tiempo para la generación de reportes de ventas | Como desarrollador, quiero que el tiempo de demora en la generación de reportes sea menos de 5 segundos para que el usuario pueda acceder rápidamente a los reportes de ventas. | **Escenario 1: Generación de reportes** <br> Dado que el usuario ha seleccionado el botón de "Generar reporte" <br> Cuando el usuario selecciona el período de tiempo del reporte de ventas <br> Entonces, el sistema debe generar el reporte de ventas en menos de 5 segundos.                                                                                                                                                                                                                                                                                                                                      | 4                         |
-| 8  | Agregar un proveedor                            | Como usuario, quiero agregar la información de un nuevo proveedor para poder registrar a las empresas que me abastecen.                                                         | **Escenario 1: Agregar proveedor exitosamente** <br>Dado que el usuario se encuentra en la ventana de "Proveedores"<br>Cuando el usuario selecciona "Agregar proveedor" e ingresa la información completa<br>Entonces, el sistema guarda el nuevo proveedor y lo muestra en el listado.<br><br>**Escenario 2: Intentar agregar un proveedor sin todos los datos**<br>Dado que el usuario se encuentra en el formulario para agregar proveedor<br>Cuando el usuario intenta guardar el formulario sin completar los campos obligatorios<br>Entonces, el sistema muestra un mensaje de error y no guarda el proveedor. | 2                         |
-| 9  | Editar un proveedor                             | Como usuario, quiero editar la información de un proveedor para poder actualizar sus datos en el sistema.                                                                       | **Escenario 1: Editar proveedor exitosamente**<br>Dado que el usuario se encuentra en la ventana de "Proveedores"<br>Cuando el usuario selecciona un proveedor, modifica su información y guarda los cambios<br>Entonces, el sistema actualiza la información del proveedor en el registro.<br><br>**Escenario 2: Cancelar la edición**<br>Dado que el usuario se encuentra editando la información de un proveedor<br>Cuando el usuario selecciona el botón "Cancelar"<br>Entonces, el sistema descarta los cambios y mantiene la información original.                                                             | 2                         |
-| 10 | Eliminar un proveedor                           | Como usuario, quiero eliminar la información de un proveedor para deshacerme de los proveedores que ya no uso.                                                                  | **Escenario 1: Eliminar proveedor exitosamente**<br>Dado que el usuario se encuentra en la ventana de "Proveedores"<br>Cuando el usuario selecciona el icono de borrar y confirma la eliminación<br>Entonces, el sistema elimina el proveedor del registro.<br><br>**Escenario 2: Cancelar la eliminación**<br>Dado que el usuario ha seleccionado el icono de borrar<br>Cuando el usuario cancela la eliminación en el mensaje de confirmación<br>Entonces, el sistema no elimina el proveedor y lo mantiene en la lista.                                                                                           | 2                         |
-| 11 | Ver el listado de proveedores                   | Como usuario, quiero ver la lista de todos mis proveedores para tener un panorama de con quiénes trabajo.                                                                       | **Escenario 1: Ver el listado**<br>Dado que el usuario se encuentra en la ventana de "Proveedores"<br>Cuando el usuario accede al módulo<br>Entonces, el sistema muestra un listado completo con los nombres y una breve descripción de todos los proveedores registrados.<br><br>**Escenario 2: Listado vacío**<br>Dado que el usuario se encuentra en la ventana de "Proveedores"<br>Cuando no hay proveedores registrados en el sistema<br>Entonces, el sistema muestra un mensaje indicando que no hay proveedores y sugiere agregar uno.                                                                        | 2                         |
-| 12 | Asociar proveedor a un producto                 | Como usuario, quiero asociar un proveedor a un producto para poder rastrear de quién provienen mis insumos.                                                                     | **Escenario 1: Asociar proveedor existente**<br>Dado que el usuario está agregando o editando un producto<br>Cuando el usuario selecciona el campo "Proveedor"<br>Entonces, el sistema despliega un menú con la lista de proveedores para que el usuario pueda elegir uno.<br><br>**Escenario 2: Proveedor no registrado**<br>Dado que el usuario necesita asociar un proveedor que aún no está en el sistema<br>Cuando el usuario busca el proveedor y no lo encuentra<br>Entonces, el sistema le da la opción de agregar un nuevo proveedor directamente desde esa vista.                                          | 2                         |
-| 13 | Recibir alerta de stock crítico                 | Como usuario, quiero recibir una notificación cuando el stock de un producto llegue a un nivel crítico para poder contactar al proveedor a tiempo.                              | **Escenario 1: Alerta por stock bajo**<br>Dado que el inventario de un producto ha bajado del umbral mínimo establecido<br>Cuando el sistema detecta el stock crítico<br>Entonces, el sistema genera una notificación visual o un correo electrónico para alertar al usuario.<br><br>**Escenario 2: Sin alerta**<br>Dado que el usuario ha reabastecido el stock de un producto<br>Cuando el inventario está por encima del umbral mínimo<br>Entonces, el sistema no muestra ninguna alerta de stock crítico para ese producto.                                                                                      | 2                         |
-| 14 | Crear cuenta de usuario                         | Como usuario quiero registrar una cuenta para poder acceder a la plataforma.          | **Escenario 1: Registro exitoso**<br>Dado que el usuario completa el formulario con datos válidos<br>Cuando confirma el registro<br>Entonces el sistema crea la cuenta y muestra un mensaje de bienvenida.<br><br>**Escenario 2: Datos inválidos**<br>Dado que el usuario ingresa información incorrecta<br>Cuando confirma el registro<br>Entonces el sistema muestra un mensaje de error indicando los campos a corregir. | 1         |
-| 15 | Iniciar sesión                                  | Como usuario quiero iniciar sesión con mis credenciales para acceder a mi cuenta.     | **Escenario 1: Inicio exitoso**<br>Dado que el usuario ingresa credenciales correctas<br>Cuando confirma<br>Entonces accede al panel principal.<br><br>**Escenario 2: Error en credenciales**<br>Dado que el usuario ingresa datos inválidos<br>Cuando intenta acceder<br>Entonces el sistema muestra un mensaje de error. | 1         |
-| 16 | Cerrar sesión                                   | Como usuario quiero cerrar sesión para mantener la seguridad de mi cuenta.           | **Escenario 1: Cierre exitoso**<br>Dado que el usuario está autenticado<br>Cuando selecciona “Cerrar sesión”<br>Entonces el sistema finaliza la sesión y redirige al panel de ingreso.                                                                                                                       | 1         |
-| 17 | Actualizar perfil                               | Como usuario quiero actualizar mis datos de perfil para mantener mi información correcta. | **Escenario 1: Actualización válida**<br>Dado que el usuario edita campos del perfil con datos válidos<br>Cuando guarda los cambios<br>Entonces el sistema actualiza la información.<br><br>**Escenario 2: Datos inválidos**<br>Dado que el usuario introduce información incorrecta<br>Cuando intenta guardar<br>Entonces el sistema muestra un mensaje de error. | 1         |
-| 18 | Restablecer contraseña                          | Como usuario quiero restablecer mi contraseña en caso de olvido para poder acceder nuevamente a mi cuenta. | **Escenario 1: Restablecimiento exitoso**<br>Dado que el usuario ha olvidado su contraseña<br>Cuando ingresa su correo válido para restablecerla<br>Entonces el sistema envía un enlace para crear una nueva contraseña.<br><br>**Escenario 2: Error de restablecimiento**<br>Dado que el usuario ha olvidado su contraseña<br>Cuando ingresa un correo inválido<br>Entonces el sistema muestra el mensaje “Correo inválido”. | 1         |
-| 19 | Visualización de planes y precios               | Como visitante, quiero ver los planes disponibles para elegir el más conveniente.    | **Escenario 1:**<br>Dado que entro a la sección de precios<br>Cuando consulto<br>Entonces veo todos los planes.<br><br>**Escenario 2:**<br>Dado que existen varios planes<br>Cuando los comparo<br>Entonces identifico diferencias.                                                                            | 1         |
-| 20 | Cancelar suscripción                            | Como usuario, quiero cancelar mi suscripción en cualquier momento para dejar de usar el servicio. | **Escenario 1: Cancelación exitosa**<br>Dado que el usuario tiene una suscripción activa<br>Cuando selecciona la opción de cancelación<br>Entonces el sistema debe dar de baja la suscripción y notificar la cancelación.<br><br>**Escenario 2: Confirmación de cancelación**<br>Dado que el usuario solicita cancelar<br>Cuando confirma la acción en la ventana emergente<br>Entonces el sistema debe completar la cancelación y enviar un correo de confirmación. | 1         |
-| 21 | Servicio al cliente                             | Como usuario, quiero comunicarme con el servicio al cliente para resolver dudas o problemas. | **Escenario 1: Envío de consulta**<br>Dado que el usuario accede a la sección de soporte<br>Cuando envía una consulta mediante formulario o chat<br>Entonces el sistema debe registrar la solicitud y mostrar un mensaje de confirmación.<br><br>**Escenario 2: Respuesta automática**<br>Dado que el usuario envió una consulta<br>Cuando el sistema recibe la solicitud<br>Entonces debe enviar un correo automático confirmando la recepción. | 1         |
-| 22 | Panel de indicadores clave                      | Como administrador, quiero un panel con indicadores (ventas, stock, gastos), para evaluar el rendimiento general. | **Escenario 1: Ventas diarias**<br>Dado que existen ventas registradas<br>Cuando entro al panel<br>Entonces debo ver el total vendido en el día.<br><br>**Escenario 2: Metas mensuales**<br>Dado que el administrador configuró una meta mensual<br>Cuando el sistema detecta que no se cumple<br>Entonces debe enviar una notificación de alerta. | 1         |
-| 23 | Dashboard de alertas y recordatorios            | Como administrador, quiero un panel central de alertas y recordatorios, para visualizar rápidamente las tareas críticas del restaurante. | **Escenario 1: Visualización de alertas**<br>Dado que existen insumos con stock bajo o reservas pendientes<br>Cuando accedo al dashboard<br>Entonces debo ver un listado de alertas activas.<br><br>**Escenario 2: Recordatorio de tareas críticas**<br>Dado que existen tareas configuradas (ej. cierre de caja)<br>Cuando llega la hora configurada<br>Entonces el sistema debe mostrar un recordatorio en el panel. | 1         |
-| 24 | Acceso a preguntas frecuentes (FAQ)             | Como visitante, quiero consultar preguntas frecuentes en la landing page, para resolver mis dudas rápidamente sin contacto directo. | **Escenario 1: Visualización de FAQ**<br>Dado que el visitante accede a la sección de preguntas frecuentes<br>Cuando selecciona una pregunta<br>Entonces debe mostrarse la respuesta correspondiente.<br><br>**Escenario 2: Búsqueda de dudas**<br>Dado que la sección incluye un buscador<br>Cuando el visitante escribe una palabra clave<br>Entonces el sistema debe mostrar las preguntas relacionadas. | 1         |
-| 25 | Información institucional                       | Como visitante, quiero acceder a la información institucional (misión, visión, contacto) en la landing page, para conocer mejor a la empresa. | **Escenario 1: Acceso a misión y visión**<br>Dado que el visitante accede al footer o sección de “Quiénes somos”<br>Cuando selecciona “Misión” o “Visión”<br>Entonces debe visualizarse el contenido definido.<br><br>**Escenario 2: Acceso a contacto**<br>Dado que el visitante necesita contactar a la empresa<br>Cuando selecciona la opción “Contacto”<br>Entonces debe visualizarse la información de correo, teléfono o formulario. | 1         |
-| 26 | Cambiar idioma de la Landing Page               | Como visitante quiero cambiar el idioma de la landing page para entender mejor la información. | **Escenario 1: Cambio exitoso**<br>Dado que el visitante está en la landing page<br>Cuando selecciona un idioma en el menú<br>Entonces la página se muestra en el idioma elegido.                                                                                                                           | 1         |
-| 27 | Registro de personal                            | Como administrador de una microempresa gastronómica, quiero registrar a mis empleados con diferentes niveles de acceso, para que solo puedan ver las funciones que les corresponden. | **Escenario 1: Asignar rol a un empleado**<br>Dado que el administrador está creando la cuenta de un nuevo empleado<br>Cuando selecciona el rol correspondiente (ej. personal de ventas)<br>Entonces el sistema solo debe permitirle acceso a sus funciones.<br><br>**Escenario 2: Restringir acceso**<br>Dado que un empleado ha iniciado sesión<br>Cuando intenta acceder a un módulo restringido<br>Entonces el sistema debe mostrar un mensaje de error o negar acceso. | 1         |
-| 28 | Crear reservación                               | Como usuario quiero registrar una reservación de un cliente para organizar la ocupación del restaurante.                                                          | Escenario 1: Registro exitoso. Dado que el usuario está en la ventana de "Reservaciones", cuando selecciona "Nueva reservación" e ingresa todos los datos válidos, entonces el sistema guarda la reservación y la muestra en la lista.<br>Escenario 2: Datos incompletos. Dado que el usuario no llena los campos obligatorios, cuando intenta guardar, entonces el sistema muestra un mensaje de error.                                                                                                                           | 3                         |
-| 29 | Editar reservación                              | Como usuario quiero editar una reservación existente para actualizar los datos de mis clientes.                                                                    | Escenario 1: Edición exitosa. Dado que el usuario selecciona una reservación registrada, cuando modifica la información y guarda, entonces el sistema actualiza los datos correctamente.<br>Escenario 2: Cancelar edición. Dado que el usuario está editando, cuando selecciona "Cancelar", entonces el sistema descarta los cambios.                                                                                                                                                                                                                             | 3                         |
-| 30 | Cancelar reservación                            | Como usuario quiero cancelar una reservación para liberar espacio en la agenda.                                                                                    | Escenario 1: Cancelación confirmada. Dado que el usuario selecciona una reservación, cuando hace clic en "Cancelar" y confirma la acción, entonces el sistema elimina la reservación de la lista.<br>Escenario 2: Cancelación rechazada. Dado que el usuario inicia la acción de cancelar, cuando selecciona "No", entonces el sistema mantiene la reservación activa.                                                                                                                                                                                             | 3                         |
-| 31 | Ver calendario de reservaciones                 | Como usuario quiero visualizar todas las reservaciones en un calendario para tener una vista clara de la disponibilidad diaria y semanal.                        | Escenario 1: Calendario con reservaciones. Dado que existen reservaciones registradas, cuando accedo al calendario, entonces se muestran en la fecha y hora correspondientes.<br>Escenario 2: Calendario vacío. Dado que no hay reservaciones registradas, cuando accedo al calendario, entonces el sistema muestra un mensaje indicando "No hay reservaciones".                                                                                                                                                                                                     | 3                         |
-| 32 | Enviar confirmación al cliente                  | Como usuario quiero que el sistema envíe una confirmación automática al cliente al registrar su reservación para brindar confianza en el servicio.                | Escenario 1: Confirmación enviada. Dado que el usuario registra una reservación con correo válido, cuando se guarda exitosamente, entonces el sistema envía un correo de confirmación al cliente.<br>Escenario 2: Correo inválido. Dado que el cliente tiene un correo no válido, cuando se guarda la reservación, entonces el sistema muestra error en el campo correo.                                                                                                                                                                                             | 3                         |
-| 33 | Recordatorio de reservación                     | Como usuario quiero que el sistema envíe recordatorios automáticos a los clientes antes de su reservación para reducir inasistencias.                             | Escenario 1: Recordatorio programado. Dado que existe una reservación registrada, cuando faltan 24 horas para la cita, entonces el sistema envía un recordatorio automático al cliente.<br>Escenario 2: Reservación cancelada. Dado que la reservación fue cancelada, cuando llega la fecha, entonces el sistema no envía recordatorio.                                                                                                                                                                                                                              | 3                         |
-| 34 | Asignar mesa a reservación                      | Como usuario quiero asignar una mesa específica a cada reservación para organizar la distribución del espacio del restaurante.                                     | Escenario 1: Asignación exitosa. Dado que el usuario registra o edita una reservación, cuando selecciona una mesa disponible, entonces el sistema guarda la mesa asignada.<br>Escenario 2: Mesa ocupada. Dado que la mesa seleccionada ya está reservada, cuando el usuario intenta guardarla, entonces el sistema muestra un mensaje de error.                                                                                                                                                                                                                       | 3                         |
-| 35 | Registrar producto en inventario                    | Como usuario, quiero registrar un nuevo producto en el inventario para poder llevar el control de mis insumos.                                                                      | Escenario 1: Registro exitoso: Dado que el usuario se encuentra en la ventana de "Inventario". Cuando selecciona la opción "Agregar producto" e ingresa todos los datos requeridos (nombre, cantidad inicial, precio, proveedor, categoría).Entonces el sistema guarda el producto y lo muestra en la lista de inventario. Escenario 2: Datos incompletos. Dado que el usuario intenta guardar el formulario sin completar los campos obligatorios cuando confirma la acción. Entonces el sistema muestra un mensaje de error y no guarda el producto.                                                                                                                                                                                                                                                                                                                                                                   | 5                         |
-| 36 | Actualizar stock de producto                        | Como usuario, quiero actualizar las cantidades de un producto en el inventario para reflejar compras o ventas realizadas.                                                           | Escenario 1: Incrementar stock Dado que el usuario se encuentra en el detalle de un producto cuando selecciona la opción "Actualizar stock" e ingresa la cantidad adquirida. Entonces el sistema incrementa el stock y actualiza la fecha del último movimiento. Escenario 2: Disminuir stock. Dado que el usuario registra una salida (venta o consumo interno) cuando ingresa la cantidad a descontar. Entonces el sistema reduce el stock, siempre que no sea menor a cero.                                                                                                                                                                                                                                                            | 5                         |
-| 37 | Consultar historial de movimientos de inventario    | Como usuario, quiero consultar el historial de entradas y salidas de cada producto para tener trazabilidad de los movimientos.                                           | Escenario 1: Ver historial de un producto. Dado que el usuario selecciona un producto del inventario cuando accede a la opción "Historial de movimientos". Entonces el sistema muestra un listado con las entradas, salidas, fechas y cantidades. Escenario 2: Historial vacío. Dado que un producto recién fue registrado sin movimientos cuando el usuario consulta el historial. Entonces el sistema muestra un mensaje indicando "No existen movimientos registrados". | 5 |
-| 38 | Controlar fecha de vencimiento                  | Como usuario quiero registrar la fecha de vencimiento de mis insumos y bebidas para evitar pérdidas por productos caducados. | **Escenario 1: Fecha válida**<br>Dado que el usuario registra un producto<br>Cuando ingresa fecha de vencimiento<br>Entonces el sistema la almacena correctamente.<br><br>**Escenario 2: Alerta de vencimiento**<br>Cuando falten 3 días para el vencimiento<br>Entonces el sistema genera una alerta. | 5         |
-| 39 | Generar reporte de inventario general           | Como usuario quiero generar un reporte general del inventario para conocer cantidades disponibles y fechas de vencimiento. | **Escenario 1: Reporte por categoría**<br>Dado que el usuario genera un reporte<br>Cuando selecciona “Por categoría”<br>Entonces el sistema muestra un listado separado (bebidas, carnes, verduras, etc.).<br><br>**Escenario 2: Reporte por fecha**<br>Cuando selecciona un rango de fechas<br>Entonces el sistema genera un reporte de movimientos registrados. | 5         |
-| 40 | Clasificar productos por categorías             | Como usuario quiero clasificar mis productos (carnes, verduras, bebidas, postres) para organizar mejor el inventario. | **Escenario 1: Crear categoría**<br>Dado que el usuario accede a inventario<br>Cuando selecciona “Nueva categoría” e ingresa un nombre<br>Entonces el sistema guarda la categoría.<br><br>**Escenario 2: Asignar categoría**<br>Cuando registra o edita un producto<br>Puede seleccionar una categoría. | 5         |
-| 41 | Buscar productos en inventario                  | Como usuario quiero buscar productos rápidamente en el inventario para ahorrar tiempo en la gestión. | **Escenario 1: Búsqueda exitosa**<br>Dado que el usuario ingresa el nombre de un producto en el buscador<br>Cuando existe<br>Entonces el sistema lo muestra.<br><br>**Escenario 2: Producto no encontrado**<br>Cuando no existe<br>El sistema muestra “Producto no encontrado”. | 5         |
-| 42 | Configurar niveles mínimos de inventario        | Como usuario quiero definir niveles mínimos de stock para cada producto para que el sistema me alerte antes de quedarme sin insumos. | **Escenario 1: Configuración válida**<br>Dado que el usuario edita un producto<br>Cuando define un valor mínimo<br>Entonces el sistema lo guarda.<br><br>**Escenario 2: Activación de alerta**<br>Cuando el stock baja por debajo de ese nivel<br>Entonces el sistema genera alerta. | 5         |
-| 43 | Registrar merma de productos                    | Como usuario quiero registrar las mermas (pérdidas por caducidad, mal estado o desperdicio) para llevar control de los insumos. | **Escenario 1: Registro de merma**<br>Dado que un producto se dañó<br>Cuando selecciono “Registrar merma” e indico cantidad y motivo<br>Entonces el sistema descuenta el stock.<br><br>**Escenario 2: Reporte de mermas**<br>El sistema genera un reporte con historial de mermas por producto. | 5         |
+| US01  | Crear grupo de ventas                           | Como usuario, quiero crear un grupo de ventas para poder agrupar todas mis ventas en un solo grupo.                                                                             | **Escenario 1: Acceder a la opción "Ventas"** <br> Dado que el usuario se encuentra en el inicio <br> Cuando el usuario selecciona el botón "Ventas" <br> Entonces, el sistema redirecciona al usuario a la ventana de ventas. <br> **Escenario 2: Crear grupo de ventas** <br> Dado que el usuario se encuentra en la ventana de "Ventas" <br> Cuando el usuario selecciona el botón "Crear grupo" <br> Entonces, el sistema pide que el usuario ingrese un nombre para el grupo de ventas.                                                                                                                         | 4                         |
+| US02  | Eliminar grupo de ventas                        | Como usuario, quiero eliminar un grupo de ventas para eliminar todas las ventas que hay en un grupo.                                                                            | **Escenario 1: Acceder a la opción "Ventas"** <br> Dado que el usuario se encuentra en el inicio <br> Cuando el usuario selecciona el botón "Ventas" <br> Entonces, el sistema redirecciona al usuario a la ventana de ventas. <br> **Escenario 2: Eliminar grupo de ventas** <br> Dado que el usuario se encuentra en la ventana de "Ventas" <br> Cuando el usuario selecciona el icono de borrar en un grupo <br> Entonces, el sistema pregunta al usuario si esta seguro en borrar el grupo, en el caso de si, el sistema elimina el grupo de ventas                                                              | 4                         |
+| US03  | Registrar una venta                             | Como usuario, quiero registrar una venta para tener una mejor organización.                                                                                                     | **Escenario 1: Acceder a un grupo de ventas** <br> Dado que el usuario se encuentra en la ventana de "Ventas" <br> Cuando el usuario selecciona un grupo <br> Entonces, el sistema permite que el usuario ingrese al grupo y muestra todas las ventas que pertenecen al grupo seleccionado. <br> **Escenario 2: Registrar venta** <br> Dado que el usuario se encuentra en el grupo seleccionado <br> Cuando el usuario selecciona el botón "Agregar venta" <br> Entonces, el sistema muestra un formulario y pide que el usuario lo complete                                                                        | 4                         |
+| US04  | Eliminar una venta                              | Como usuario, quiero eliminar una venta para deshacerme de una venta que no me sirve.                                                                                           | **Escenario 1: Acceder a un grupo de ventas** <br> Dado que el usuario se encuentra en la ventana de "Ventas" <br> Cuando el usuario seleccionar un grupo <br> Entonces, el sistema permite que el usuario ingrese al grupo y muestra todas las ventas que pertenecen al grupo seleccionado. <br> **Escenario 2: Eliminar venta** <br> Dado que el usuario se encuentra en el grupo seleccionado <br> Cuando el usuario selecciona el icono de borrar en una venta <br> Entonces, el sistema pregunta al usuario si esta seguro en borrar la venta, en el caso de si, el sistema borra la venta                      | 4                         |
+| US05  | Editar una venta                                | Como usuario, quiero editar una venta para cambiar el contenido de una venta.                                                                                                   | **Escenario 1: Acceder a un grupo de ventas** <br> Dado que el usuario se encuentra en la ventana de "Ventas" <br> Cuando el usuario seleccionar un grupo <br> Entonces, el sistema permite que el usuario ingrese al grupo y muestra todas las ventas que pertenecen al grupo seleccionado. <br> **Escenario 2: Editar venta** <br> Dado que el usuario se encuentra en el grupo seleccionado <br> Cuando el usuario selecciona el icono de editar <br> Entonces, el sistema muestra un formulario con los datos registrados y permite que el usuario pueda editar el contenido del formulario                      | 4                         |
+| US06  | Generar reporte de ventas                       | Como usuario, quiero generar un reporte de ventas para tener conocimiento de mis ganancias.                                                                                     | **Escenario 1: Acceder a la opción "Reportes de ventas"** <br> Dado que el usuario se encuentra en el inicio <br> Cuando el usuario selecciona el botón "Reporte de ventas" <br> Entonces, el sistema redirecciona al usuario a la ventana de reportes de ventas. <br> **Escenario 2: Generar reporte de ventas** <br> Dado que el usuario se encuentra en la ventana de "Reporte de ventas" <br> Cuando el usuario selecciona el botón "Generar reporte" <br> Entonces, el sistema pide que el usuario seleccione el período de tiempo.                                                                            | 4                         |
+| US07  | Tiempo para la generación de reportes de ventas | Como desarrollador, quiero que el tiempo de demora en la generación de reportes sea menos de 5 segundos para que el usuario pueda acceder rápidamente a los reportes de ventas. | **Escenario 1: Generación de reportes** <br> Dado que el usuario ha seleccionado el botón de "Generar reporte" <br> Cuando el usuario selecciona el período de tiempo del reporte de ventas <br> Entonces, el sistema debe generar el reporte de ventas en menos de 5 segundos.                                                                                                                                                                                                                                                                                                                                      | 4                         |
+| US08  | Agregar un proveedor                            | Como usuario, quiero agregar la información de un nuevo proveedor para poder registrar a las empresas que me abastecen.                                                         | **Escenario 1: Agregar proveedor exitosamente**<br>Dado que el usuario se encuentra en la ventana de "Proveedores"<br>Cuando el usuario selecciona "Agregar proveedor" e ingresa la información completa<br>Entonces, el sistema guarda el nuevo proveedor y lo muestra en el listado.<br><br>**Escenario 2: Intentar agregar un proveedor sin todos los datos**<br>Dado que el usuario no completa los campos obligatorios<br>Cuando intenta guardar<br>Entonces, el sistema muestra un mensaje de error y no guarda el proveedor. | 2                         |
+| US09  | Editar un proveedor                             | Como usuario, quiero editar la información de un proveedor para poder actualizar sus datos en el sistema.                                                                       | **Escenario 1: Editar proveedor exitosamente**<br>Dado que el usuario selecciona un proveedor, modifica su información y guarda los cambios<br>Entonces, el sistema actualiza la información del proveedor en el registro.<br><br>**Escenario 2: Cancelar la edición**<br>Dado que el usuario está editando la información de un proveedor<br>Cuando selecciona el botón "Cancelar"<br>Entonces, el sistema descarta los cambios y mantiene la información original.                                                             | 2                         |
+| US10 | Eliminar un proveedor                           | Como usuario, quiero eliminar la información de un proveedor para deshacerme de los proveedores que ya no uso.                                                                  | **Escenario 1: Eliminar proveedor exitosamente**<br>Dado que el usuario selecciona el icono de borrar y confirma la eliminación<br>Entonces, el sistema elimina el proveedor del registro.<br><br>**Escenario 2: Cancelar la eliminación**<br>Dado que el usuario cancela la eliminación<br>Entonces, el sistema mantiene al proveedor en la lista.                                                                                           | 2                         |
+| US11 | Ver el listado de proveedores                   | Como usuario, quiero ver la lista de todos mis proveedores para tener un panorama de con quiénes trabajo.                                                                       | **Escenario 1: Ver listado**<br>Dado que el usuario accede al módulo de proveedores<br>Cuando entra<br>Entonces el sistema muestra todos los proveedores registrados.<br><br>**Escenario 2: Listado vacío**<br>Dado que no hay proveedores<br>Cuando accede<br>Entonces el sistema muestra mensaje "No hay proveedores".                                                                        | 2                         |
+| US12 | Asociar proveedor a un producto                 | Como usuario, quiero asociar un proveedor a un producto para poder rastrear de quién provienen mis insumos.                                                                     | **Escenario 1: Asociar proveedor existente**<br>Dado que el usuario agrega o edita un producto<br>Cuando selecciona "Proveedor"<br>Entonces se despliega la lista de proveedores.<br><br>**Escenario 2: Proveedor no registrado**<br>Dado que el proveedor no existe<br>Cuando el usuario lo busca<br>Entonces el sistema da opción de agregarlo.                                          | 2                         |
+| US13 | Crear cuenta de usuario                         | Como usuario quiero registrar una cuenta para poder acceder a la plataforma.          | **Escenario 1: Registro exitoso**<br>Dado que el usuario completa el formulario<br>Cuando confirma<br>Entonces el sistema crea la cuenta.<br><br>**Escenario 2: Datos inválidos**<br>Dado que el usuario ingresa información incorrecta<br>Cuando confirma<br>Entonces muestra mensaje de error. | 1         |
+| US14 | Iniciar sesión                                  | Como usuario quiero iniciar sesión con mis credenciales para acceder a mi cuenta.     | **Escenario 1: Inicio exitoso**<br>Dado que ingresa credenciales correctas<br>Cuando confirma<br>Entonces accede al panel.<br><br>**Escenario 2: Error en credenciales**<br>Dado que ingresa datos inválidos<br>Cuando intenta acceder<br>Entonces muestra mensaje de error. | 1         |
+| US15 | Cerrar sesión                                   | Como usuario quiero cerrar sesión para mantener la seguridad de mi cuenta.           | **Escenario 1: Cierre exitoso**<br>Dado que el usuario está autenticado<br>Cuando selecciona “Cerrar sesión”<br>Entonces el sistema finaliza la sesión y redirige al panel de ingreso.                                                                                                                       | 1         |
+| US16 | Actualizar perfil                               | Como usuario quiero actualizar mis datos de perfil para mantener mi información correcta. | **Escenario 1: Actualización válida**<br>Dado que el usuario edita campos del perfil<br>Cuando guarda los cambios<br>Entonces el sistema actualiza la información.<br><br>**Escenario 2: Datos inválidos**<br>Dado que el usuario introduce información incorrecta<br>Cuando intenta guardar<br>Entonces muestra error. | 1         |
+| US17 | Restablecer contraseña                          | Como usuario quiero restablecer mi contraseña en caso de olvido para poder acceder nuevamente a mi cuenta. | **Escenario 1: Restablecimiento exitoso**<br>Dado que el usuario olvidó contraseña<br>Cuando ingresa correo válido<br>Entonces el sistema envía enlace de nueva contraseña.<br><br>**Escenario 2: Error de restablecimiento**<br>Dado que el correo es inválido<br>Cuando intenta restablecer<br>Entonces muestra “Correo inválido”. | 1         |
+| US18 | Visualización de planes y precios               | Como visitante, quiero ver los planes disponibles para elegir el más conveniente.    | **Escenario 1:**<br>Dado que entro a la sección de precios<br>Cuando consulto<br>Entonces veo todos los planes.<br><br>**Escenario 2:**<br>Dado que existen varios planes<br>Cuando los comparo<br>Entonces identifico diferencias.                                                                            | 1         |
+| US19 | Cancelar suscripción                            | Como usuario, quiero cancelar mi suscripción en cualquier momento para dejar de usar el servicio. | **Escenario 1: Cancelación exitosa**<br>Dado que el usuario tiene suscripción activa<br>Cuando selecciona opción de cancelación<br>Entonces el sistema da de baja la suscripción y notifica.<br><br>**Escenario 2: Confirmación**<br>Dado que solicita cancelar<br>Cuando confirma<br>Entonces completa cancelación y envía correo. | 1         |
+| US20 | Servicio al cliente                             | Como usuario, quiero comunicarme con el servicio al cliente para resolver dudas o problemas. | **Escenario 1: Envío de consulta**<br>Dado que el usuario accede a soporte<br>Cuando envía consulta<br>Entonces el sistema registra solicitud y confirma.<br><br>**Escenario 2: Respuesta automática**<br>Dado que se envió consulta<br>Cuando el sistema recibe<br>Entonces envía correo confirmando recepción. | 1         |
+| US21 | Panel de indicadores clave                      | Como administrador, quiero un panel con indicadores (ventas, stock, gastos), para evaluar el rendimiento general. | **Escenario 1: Ventas diarias**<br>Dado que existen ventas registradas<br>Cuando entro al panel<br>Entonces veo total vendido.<br><br>**Escenario 2: Metas mensuales**<br>Dado que configuró meta<br>Cuando no se cumple<br>Entonces envía alerta. | 1         |
+| US22 | Dashboard de alertas y recordatorios            | Como administrador, quiero un panel central de alertas y recordatorios, para visualizar rápidamente las tareas críticas del restaurante. | **Escenario 1: Visualización de alertas**<br>Dado que existen insumos bajos o reservas pendientes<br>Cuando accedo al dashboard<br>Entonces veo alertas activas.<br><br>**Escenario 2: Recordatorio tareas**<br>Dado que existen tareas<br>Cuando llega hora<br>Entonces muestra recordatorio. | 1         |
+| US23 | Acceso a preguntas frecuentes (FAQ)             | Como visitante, quiero consultar preguntas frecuentes en la landing page, para resolver mis dudas rápidamente sin contacto directo. | **Escenario 1: Visualización de FAQ**<br>Dado que accede a FAQ<br>Cuando selecciona pregunta<br>Entonces muestra respuesta.<br><br>**Escenario 2: Búsqueda de dudas**<br>Dado que hay buscador<br>Cuando escribe palabra<br>Entonces muestra preguntas relacionadas. | 1         |
+| US24 | Información institucional                       | Como visitante, quiero acceder a la información institucional (misión, visión, contacto) en la landing page, para conocer mejor a la empresa. | **Escenario 1: Misión y visión**<br>Dado que accede a sección<br>Cuando selecciona Misión o Visión<br>Entonces visualiza contenido.<br><br>**Escenario 2: Contacto**<br>Dado que necesita contacto<br>Cuando selecciona opción<br>Entonces ve correo, teléfono o formulario. | 1         |
+| US25 | Cambiar idioma de la Landing Page               | Como visitante quiero cambiar el idioma de la landing page para entender mejor la información. | **Escenario 1: Cambio exitoso**<br>Dado que está en landing page<br>Cuando selecciona idioma<br>Entonces la página se muestra en el idioma elegido.                                                                                                                           | 1         |
+| US26 | Registro de personal                            | Como administrador de una microempresa gastronómica, quiero registrar a mis empleados con diferentes niveles de acceso, para que solo puedan ver las funciones que les corresponden. | **Escenario 1: Asignar rol**<br>Dado que crea cuenta de empleado<br>Cuando selecciona rol<br>Entonces sistema restringe acceso a funciones.<br><br>**Escenario 2: Restringir acceso**<br>Dado que empleado inicia sesión<br>Cuando intenta acceder a módulo restringido<br>Entonces sistema muestra error. | 1         |
+| US27 | Crear reservación                               | Como usuario quiero registrar una reservación de un cliente para organizar la ocupación del restaurante.                                                          | Escenario 1: Registro exitoso. Dado que el usuario está en la ventana de "Reservaciones", cuando selecciona "Nueva reservación" e ingresa todos los datos válidos, entonces el sistema guarda la reservación y la muestra en la lista.<br>Escenario 2: Datos incompletos. Dado que el usuario no llena los campos obligatorios, cuando intenta guardar, entonces el sistema muestra un mensaje de error.                                                                                                                           | 3                         |
+| US28 | Editar reservación                              | Como usuario quiero editar una reservación existente para actualizar los datos de mis clientes.                                                                    | Escenario 1: Edición exitosa. Dado que el usuario selecciona una reservación registrada, cuando modifica la información y guarda, entonces el sistema actualiza los datos correctamente.<br>Escenario 2: Cancelar edición. Dado que el usuario está editando, cuando selecciona "Cancelar", entonces el sistema descarta los cambios.                                                                                                                                                                                                                             | 3                         |
+| US29 | Cancelar reservación                            | Como usuario quiero cancelar una reservación para liberar espacio en la agenda.                                                                                    | Escenario 1: Cancelación confirmada. Dado que el usuario selecciona una reservación, cuando hace clic en "Cancelar" y confirma, entonces el sistema elimina la reservación de la lista.<br>Escenario 2: Cancelación rechazada. Dado que el usuario inicia la acción de cancelar, cuando selecciona "No", entonces el sistema mantiene la reservación activa.                                                                                                                                                                                             | 3                         |
+| US30 | Ver calendario de reservaciones                 | Como usuario quiero visualizar todas las reservaciones en un calendario para tener una vista clara de la disponibilidad diaria y semanal.                        | Escenario 1: Calendario con reservaciones. Dado que existen reservaciones registradas, cuando accedo al calendario, entonces se muestran en la fecha y hora correspondientes.<br>Escenario 2: Calendario vacío. Dado que no hay reservaciones registradas, cuando accedo al calendario, entonces el sistema muestra un mensaje indicando "No hay reservaciones".                                                                                                                                                                                                     | 3                         |
+| US31 | Asignar mesa a reservación                      | Como usuario quiero asignar una mesa específica a cada reservación para organizar la distribución del espacio del restaurante.                                     | Escenario 1: Asignación exitosa. Dado que el usuario registra o edita una reservación, cuando selecciona una mesa disponible, entonces el sistema guarda la mesa asignada.<br>Escenario 2: Mesa ocupada. Dado que la mesa seleccionada ya está reservada, cuando el usuario intenta guardarla, entonces el sistema muestra un mensaje de error.                                                                                                                                                                                                                       | 3                         |
+| US34 | Consultar historial de movimientos de inventario    | Como usuario, quiero consultar el historial de entradas y salidas de cada producto para tener trazabilidad de los movimientos.                                           | Escenario 1: Ver historial de un producto. Dado que el usuario selecciona un producto del inventario cuando accede a la opción "Historial de movimientos". Entonces el sistema muestra un listado con las entradas, salidas, fechas y cantidades. Escenario 2: Historial vacío. Dado que un producto recién fue registrado sin movimientos cuando el usuario consulta el historial. Entonces el sistema muestra un mensaje indicando "No existen movimientos registrados". | 5 |
+| US35 | Generar reporte de inventario general           | Como usuario quiero generar un reporte general del inventario para conocer cantidades disponibles y fechas de vencimiento. | Escenario 1: Reporte por categoría. Dado que el usuario genera un reporte, cuando selecciona “Por categoría”, entonces el sistema muestra un listado separado (bebidas, carnes, verduras, etc.). Escenario 2: Reporte por fecha. Cuando selecciona un rango de fechas, entonces el sistema genera un reporte de movimientos registrados. | 5         |
+| US36 | Clasificar productos por categorías             | Como usuario quiero clasificar mis productos (carnes, verduras, bebidas, postres) para organizar mejor el inventario. | Escenario 1: Crear categoría. Dado que el usuario accede a inventario, cuando selecciona “Nueva categoría” e ingresa un nombre, entonces el sistema guarda la categoría. Escenario 2: Asignar categoría. Cuando registra o edita un producto, puede seleccionar una categoría. | 5         |
+
+
+### Technical Epic
+| Technical Epic ID | Título                                          | Descripción                                                                                                                                                                                                                                                                                                                                                               |
+| ----------------- | ----------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1              | Sistema de alertas y notificaciones automáticas | Epic que agrupa todas las funcionalidades técnicas relacionadas con alertas y notificaciones automáticas al usuario, incluyendo stock crítico, niveles mínimos de inventario, fechas de vencimiento próximas y recordatorios de reservaciones. Garantiza que el sistema notifique oportunamente eventos críticos, mejorando la gestión operativa y la toma de decisiones. |
+| 2              | Optimización de rendimiento y búsqueda          | Epic que engloba todas las funcionalidades técnicas orientadas a mejorar el rendimiento del sistema, incluyendo la generación rápida de reportes de ventas y la búsqueda optimizada de productos en el inventario. Su objetivo es garantizar eficiencia y rapidez en operaciones críticas.                                                                                |
+| 3              | Servicio de comunicación automática             | Epic que agrupa las funcionalidades técnicas relacionadas con el envío automático de correos y confirmaciones a los clientes, asegurando que las comunicaciones se envíen de manera confiable y oportuna.                                                                                                                                                                 |
+
+
+### Technical Story
+| Technical Story ID | Título                                           | Descripción                                                                                                                                | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                      | Technical Epic ID |
+| ------------------ | ------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------- |
+| TS01               | Optimización de generación de reportes de ventas | Optimizar la generación de reportes de ventas para que se complete en <5 segundos, garantizando rendimiento adecuado.                      | Escenario 1: Al generar un reporte de ventas<br>Dado que el usuario selecciona el período del reporte<br>Cuando el sistema procesa los datos<br>Entonces el reporte se genera en menos de 5 segundos                                                                                                                                         | 2              |
+| TS02               | Sistema de alertas de stock crítico              | Implementar sistema de notificaciones automáticas para alertar al usuario cuando el stock de un producto esté por debajo del nivel mínimo. | Escenario 1: Stock bajo detectado<br>Dado que el inventario cae por debajo del umbral<br>Cuando el sistema detecta la condición<br>Entonces se envía notificación al usuario                                                                                                                                                                 | 1              |
+| TS03               | Servicio de envío automático de correos          | Implementar un servicio de envío automático de correos para confirmaciones de reservaciones de clientes.                                   | Escenario 1: Registro de reservación con correo válido<br>Dado que se registra una reservación<br>Cuando se guarda exitosamente<br>Entonces el cliente recibe un correo de confirmación                                                                                                                                                      | 3              |
+| TS04               | Recordatorios automáticos de reservaciones       | Programar recordatorios automáticos a los clientes antes de su reservación usando cron jobs o colas de mensajes.                           | Escenario 1: Recordatorio programado<br>Dado que existe una reservación registrada<br>Cuando faltan 24 horas para la cita<br>Entonces el sistema envía el recordatorio al cliente                                                                                                                                                            | 1             |
+| TS05               | Alertas automáticas por stock mínimo             | Implementar lógica para activar alertas automáticas cuando el stock de un producto alcanza el nivel mínimo configurado.                    | Escenario 1: Stock alcanza nivel mínimo<br>Dado que el stock de un producto baja del mínimo<br>Cuando el sistema detecta la condición<br>Entonces se activa alerta automática                                                                                                                                                                | 1              |
+| TS06              | Alertas por fecha de vencimiento                 | Implementar verificación automática de fechas de vencimiento de productos y generar alertas cuando falten 3 días para el vencimiento.      | Escenario 1: Fecha próxima a vencimiento<br>Dado que la fecha actual está a 3 días del vencimiento<br>Cuando se revisa el inventario<br>Entonces se genera una alerta al usuario                                                                                                                                                             | 1              |
+| TS07               | Búsqueda optimizada en inventario                | Implementar funcionalidad de búsqueda eficiente en el inventario, usando índices y filtros para mejorar el rendimiento de consultas.       | Escenario 1: Búsqueda exitosa<br>Dado que el usuario ingresa un término de búsqueda<br>Cuando el sistema procesa la consulta<br>Entonces se muestra el producto rápidamente<br>Escenario 2: Producto no encontrado<br>Dado que el término no existe<br>Cuando se realiza la búsqueda<br>Entonces se muestra mensaje “Producto no encontrado” | 2              |
+
+
 
 
 
@@ -953,10 +1002,10 @@ Los siguientes términos son clave para el entendimiento y desarrollo del proyec
 | 8     | US31          | Ver calendario de reservaciones | Como usuario quiero visualizar todas las reservaciones en un calendario para tener una vista clara de la disponibilidad diaria y semanal. | 3 |
 | 9     | US32          | Enviar confirmación al cliente | Como usuario quiero que el sistema envíe una confirmación automática al cliente al registrar su reservación para brindar confianza en el servicio.| 3 |
 | 10    | US33          | Recordatorio de reservación | Como usuario quiero que el sistema envíe recordatorios automáticos a los clientes antes de su reservación para reducir inasistencias. | 3 |
-| 11    | US1           | Crear grupo de ventas | Como usuario, quiero crear un grupo de ventas para poder agrupar todas mis ventas en un solo grupo. | 4 |
-| 12    | US3           | Registrar una venta | CComo usuario, quiero registrar una venta para tener una mejor organización. | 4 |
-| 13    | US5           | Editar una venta | Como usuario, quiero editar una venta para cambiar el contenido de una venta.| 4 |
-| 14    | US6           | Generar reporte de ventas | Como usuario, quiero generar un reporte de ventas para tener conocimiento de mis ganancias. | 4 |
+| 11    | US1           | Crear grupo de ventas | Como usuario, quiero crear un grupo de ventas para poder agrupar todas mis ventas en un solo grupo. | 5 |
+| 12    | US3           | Registrar una venta | CComo usuario, quiero registrar una venta para tener una mejor organización. | 5 |
+| 13    | US5           | Editar una venta | Como usuario, quiero editar una venta para cambiar el contenido de una venta.| 5 |
+| 14    | US6           | Generar reporte de ventas | Como usuario, quiero generar un reporte de ventas para tener conocimiento de mis ganancias. | 5 |
 | 15    | US8           | Agregar un proveedor | Como usuario, quiero agregar la información de un nuevo proveedor para poder registrar a las empresas que me abastecen. | 2 |
 | 16    | US11          | Ver el listado de proveedores | Como usuario, quiero ver la lista de todos mis proveedores para tener un panorama de con quiénes trabajo. | 2 |
 | 17    | US18          | Recibir alerta de stock crítico | Como usuario, quiero recibir una notificación cuando el stock de un producto llegue a un nivel crítico para poder contactar al proveedor a tiempo. | 2 |
@@ -1516,68 +1565,69 @@ Para desplegar el la app web se uso Render aqui muestro las evidencia
 Evidencia de avance de equipo en el github
 <img alt="upc-logo" src="/assets/images/sprint2.png"/><br>
 
-# 5.2.3. Sprint 3
+# 5.3. Sprint 3
 
 El tercer sprint se centró en validar el prototipo funcional de FoodStock mediante entrevistas con emprendedores reales, además de revisar el avance técnico del backend y definir mejoras prioritarias. Este sprint fue clave para determinar la utilidad del sistema y la claridad de sus flujos principales.
 
 ---
 
-## 5.2.3.1. Sprint Planning 3
+## 5.3.1. Sprint Planning 3
 
-A continuación se presentará el sprint planning para esta tercera entrega, donde definimos qué trabajo se realizará y cómo se logrará.
+**Sprint #:** Sprint 3  
 
-| Sprint # | Sprint 3 |
-|---------|----------|
-| **Sprint planning background** | |
-| **Date** | 2025/11/09 |
-| **Time** | 6:00 PM |
-| **Location** | Reunión grupal en Discord |
-| **Prepared By** | Gonzalo Quintanilla |
-| **Attendees (to planning meeting)** | Melina Santillán, Jean Pool Huamán, Javier Nikaido, José María Del Carpio, Gonzalo Quintanilla |
+**Sprint Planning background**
+
+- **Date:** 2025/11/09  
+- **Time:** 6:00 PM  
+- **Location:** Reunión grupal en Discord  
+- **Prepared By:** Gonzalo Quintanilla  
+- **Attendees:** Melina Santillán, Jean Pool Huamán, Javier Nikaido, José María Del Carpio, Gonzalo Quintanilla
 
 ---
 
-### Sprint 1 Review
+### **Sprint 1 Review**  
 Se completó la landing page.  
-En este sprint se revisó nuevamente y se determinó que aún faltan mejoras para actualizarla con información del producto real.
+En este sprint se revisó nuevamente y se determinó que **aún faltan mejoras** para actualizarla con la información del producto real.
 
-### Sprint 2 Review
+### **Sprint 2 Review**  
 Se logró el despliegue con Vue + fake API.  
 En el Sprint 3 se identificó que:
 
 - Se avanzó en inventario y ventas.  
 - Hay una **base inicial del backend**, pero incompleta.  
 - Faltan varios **bounded contexts** importantes.  
-- Algunos módulos están avanzados, pero no pudieron incluirse en este sprint por límite de tiempo.
+- Algunos módulos están avanzados, pero **no pudieron incluirse en este sprint** por límite de tiempo y líneas implementadas.
 
-
----
-
-### Sprint Goal & User Stories
-
-| Sprint 3 Goal | Validar el prototipo con usuarios reales y consolidar un backend mínimo funcional (inventario + ventas). |
-|---------------|-----------------------------------------------------------------------------------------------------------|
-| **Sprint 3 Velocity** | 18 |
-| **Sum of Story Points** | 32 |
+**Conclusión:**  
+➡ Hay mejoras, pero **todavía falta bastante trabajo técnico**, que pasará al Sprint 4.
 
 ---
 
-## 5.2.3.2. Aspect Leaders and Collaborators
+### **Sprint Goal & User Stories**
 
-Los aspectos considerados dentro de este sprint fueron: **Reportes, Reservaciones, Inventario, Proveedores y Ventas**.
+**Sprint 3 Goal:**  
+Validar el prototipo con usuarios reales y consolidar un backend mínimo funcional (inventario + ventas).
 
-| Team Member Last Name, First Name | GitHub Username | Report L/C | Reservation L/C | Inventory L/C | Suppliers L/C | Sales L/C |
-|----------------------------------|-----------------|-------------|------------------|----------------|---------------|-----------|
-| Quintanilla Gonzalo | GoldQP | C | C | **L** | C | C |
-| Huamán Jean Pool | charlie404x | **L** | C | C | C | C |
-| Santillán Melina | melinaasantillan | C | C | C | C | **L** |
-| Nikaido Javier | MassiFlip | C | **L** | C | **L** | C |
-| Del Carpio José María | VoltTrd | C | C | C | C | C |
-
+**Sprint 3 Velocity:** 18  
+**Sum of Story Points:** 32
 
 ---
 
-## 5.2.3.3. Sprint Backlog 3
+## 5.3.2. Aspect Leaders and Collaborators
+
+- **Gonzalo Samuel Quintanilla Pozo — Sprint Leader (L)**  
+- **Javier Masaru Nikaido Vargas — Documentation & Integration (L/C)**  
+- **Melina Liz Santillán Alvarado — UX Testing & QA (L/C)**  
+- **Jean Pool Huamán De La Cruz — Frontend Logic (C)**  
+- **José María Franco del Carpio — UI Layout (C)**  
+
+**Nota:**  
+Aiko Napanga, Aldo Zavala y Gabriel Cermeño **no pertenecen al equipo**.  
+Solo participaron como **entrevistados externos para validación**.
+
+---
+
+## 5.3.3. Sprint Backlog 3
 
 - Implementar registro de productos.  
 - Mejorar vista de inventario.  
@@ -1586,26 +1636,11 @@ Los aspectos considerados dentro de este sprint fueron: **Reportes, Reservacione
 - Realizar 3 entrevistas de validación.  
 - Documentar hallazgos y mejoras.  
 - Refinar botones, textos y navegación.  
-- Consolidar backend base de inventario y ventas.
+- Consolidar backend base de inventario y ventas.  
 
 ---
 
-### User Story – Work Item Breakdown
-
-| User Story | Work-Item / Task | Description | Estimation (Hours) | Assigned To | Status |
-|------------|------------------|-------------|---------------------|-------------|--------|
-| US41 – Inventario | T1 – Implementar registro de productos | Permitir registrar productos con nombre, cantidad y fecha de vencimiento. | 5 | Jean Pool | Done |
-| US41 – Inventario | T2 – Mejorar vista de inventario | Implementar alertas simples para insumos próximos a vencer. | 4 | Gonzalo | In-Process |
-| US42 – Ventas | T3 – Conectar módulo de ventas al backend | Conectar formulario de ventas con API base. | 6 | Javier | To-do |
-| US43 – Alertas | T4 – Crear alertas básicas de stock crítico | Diseñar primer prototipo de alertas. | 4 | Melina | To-do |
-| US44 – Validación | T5 – Preparar prototipo navegable | Integrar vistas para validación con usuarios reales. | 3 | José María | Done |
-| US44 – Validación | T6 – Realizar entrevistas (x3) | Sesiones de validación con emprendedores. | 2 | Equipo | Done |
-| US44 – Validación | T7 – Documentar hallazgos | Registrar conclusiones de entrevistas. | 2 | Javier | Done |
-| US45 – UI/UX | T8 – Refinar navegación | Mejorar textos, iconografía y botones. | 2 | Melina | In-Process |
-
----
-
-## 5.2.3.4. Development Evidence for Sprint Review
+## 5.3.4. Development Evidence for Sprint Review
 
 - Registro de productos implementado.  
 - Inventario funcionando con fechas y cantidades.  
@@ -1617,7 +1652,7 @@ https://github.com/FoodStock-1ASI0730-2520-7420/FoodStock-report.git
 
 ---
 
-## 5.2.3.5. Execution Evidence for Sprint Review
+## 5.3.5. Execution Evidence for Sprint Review
 
 - Pruebas realizadas durante grabación de entrevistas.  
 - Capturas de registro, inventario y alertas.  
@@ -1625,52 +1660,52 @@ https://github.com/FoodStock-1ASI0730-2520-7420/FoodStock-report.git
 
 ---
 
-## 5.2.3.6. Services Documentation Evidence for Sprint Review
+## 5.3.6. Services Documentation Evidence for Sprint Review
 
 - README.md actualizado.  
 - Manual interno de pruebas.  
-- Documentación inicial del backend.
+- Documentación inicial del backend.  
 
 ---
 
-## 5.2.3.7. Software Deployment Evidence for Sprint Review
+## 5.3.7. Software Deployment Evidence for Sprint Review
 
-El prototipo fue desplegado temporalmente en Azure para permitir pruebas reales durante las entrevistas.  
-Los logs del despliegue confirmaron estabilidad durante las pruebas.
+El prototipo fue desplegado temporalmente en Azure para permitir pruebas reales durante las entrevistas.
 
-Link:  
-https://app-251113235013.azurewebsites.net/swagger/index.html
+Los logs del despliegue confirman estabilidad y correcto funcionamiento.
+
+Link: https://app-251113235013.azurewebsites.net/swagger/index.html
 
 ---
 
-## 5.2.3.8. Team Collaboration Insights during Sprint
+## 5.3.8. Team Collaboration Insights during Sprint
 
 - Reuniones constantes por Discord.  
 - Flujo de trabajo compartido vía GitHub.  
-- Ajustes rápidos basados en las entrevistas de validación.
+- Ejecución rápida de cambios según feedback de entrevistas.  
 
 ---
 
-# 5.2.3.9. Validation Interviews
+# 5.3.9. Validation Interviews
 
 Durante este sprint se realizaron entrevistas con emprendedores y microempresarios para validar la claridad, utilidad y usabilidad del prototipo.
 
 ---
 
-## 5.2.3.9.1. Diseño de Entrevistas
+## 5.3.9.1. Diseño de Entrevistas
 
-**Objetivo:**  
-Validar la comprensión del prototipo, la utilidad del inventario y la efectividad de las alertas.
+### **Objetivo**
+Validar la comprensión del prototipo, la utilidad del inventario y la efectividad de las alertas en el día a día de emprendedores.
 
-**Elementos evaluados:**  
+### **Elementos Evaluados**
 - Landing page  
 - Inicio de sesión  
 - Registro de productos  
 - Inventario  
 - Alertas  
-- Flujo general
+- Flujo de uso general  
 
-**Preguntas aplicadas:**  
+### **Preguntas Aplicadas**
 1. ¿Qué entendiste de la landing page?  
 2. ¿Te generó confianza?  
 3. ¿Te registrarías?  
@@ -1687,47 +1722,41 @@ Validar la comprensión del prototipo, la utilidad del inventario y la efectivid
 
 ---
 
-## 5.2.3.9.2. Registro de Entrevistas (Resumen)
+## 5.3.9.2. Registro de Entrevistas (Resumen)
 
-### Entrevistado 1: **Aldo Zavala — Emprendedor gastronómico**  
-- Sistema claro y útil.  
-- Alertas muy valiosas.  
-- Sugiere mejorar edición de productos.
+### **Entrevistado 1: Aldo Zavala — Emprendedor gastronómico**  
+Encontró el sistema claro y útil. Consideró las alertas esenciales para evitar pérdidas. Sugirió mejorar la edición de productos.
 
-### Entrevistado 2: **Gabriel Cermeño — Emprendedor desde casa**  
-- Inventario claro y fácil.  
-- Sugiere agregar campos como lote y fecha de elaboración.
+### **Entrevistado 2: Gabriel Cermeño — Emprendedor desde casa**  
+Valoró la facilidad del registro y la claridad del inventario. Recomendó agregar campos como lote y fecha de elaboración.
 
-### Entrevistado 3: **Aiko Napanga (18 años) — Microemprendedora**  
-- Landing clara y confiable.  
-- Inventario fácil de usar.  
-- Prefiere alertas por WhatsApp.  
-- Sugiere ampliar opciones de actualización.
+### **Entrevistado 3: Aiko Napanga, 18 años — Microemprendedora**  
+Consideró que la landing es clara y confiable. Vio el inventario como fácil de usar y destacó que las alertas por WhatsApp serían ideales. Recomendó ampliar opciones de actualización de productos.
 
 ---
 
-## 5.2.3.10. Sprint 3 Findings
+## 5.3.10. Sprint 3 Findings
 
-### Aspectos Positivos
-- Prototipo intuitivo.  
-- Alertas fueron lo más valorado.  
-- Inventario claro y ordenado.  
-- Registro de productos sencillo.  
-- Los 3 entrevistados recomendarían el sistema.
+### **Aspectos Positivos**
+- El prototipo es intuitivo.  
+- Las alertas fueron la funcionalidad más valorada.  
+- El inventario resultó claro y ordenado.  
+- El registro de productos fue considerado fácil.  
+- Los 3 entrevistados recomendarían el sistema a otros emprendedores.
 
-### Oportunidades de Mejora
-- Acceso por número telefónico.  
-- Campos adicionales (lote, elaboración).  
+### **Oportunidades de Mejora**
+- Acceso con número telefónico.  
+- Campos como lote y fecha de elaboración.  
 - Mejoras en edición y actualización.  
-- Completar bounded contexts faltantes.  
-- Ejemplos reales en la landing.
+- Completar bounded contexts del backend.  
+- Incluir ejemplos reales en la landing.
 
 ---
 
-## 5.2.3.11. Sprint 3 Conclusion
+## 5.3.11. Sprint 3 Conclusion
 
 El Sprint 3 cumplió con validar el prototipo con emprendedores reales, confirmando la utilidad del sistema para controlar inventarios y evitar pérdidas.  
-Aunque existe una base del backend, aún faltan bounded contexts clave por desarrollar.  
+Aunque existe una base de backend funcionando, aún faltan bounded contexts clave por desarrollar.  
 Los hallazgos obtenidos guiarán el Sprint 4 para fortalecer el producto y completar la arquitectura.
 
 # 5.2.4. Sprint 4
@@ -1845,8 +1874,6 @@ La integración entre frontend y backend quedó estable para la presentación fi
 El sistema quedó en un estado funcional para realizar la demostración final de FoodStock.
 
 
-
-
 # Conclusiones
 ## Conlusiones y recomendaciones
 
@@ -1888,3 +1915,4 @@ Agencia Andina. (2024, octubre 5). Transformación digital en restaurantes permi
 - Video de exposición https://upcedupe-my.sharepoint.com/:f:/g/personal/u202315007_upc_edu_pe/Evlv0pljdSVLt_cnpfplxWABoKVx52CHBJNqV8AG5rU2iw?e=BMj1Sv
 - Prototipo web https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315007_upc_edu_pe/EeAzZ7O94UNBjI-m3GEFAJoBdh7icX2NrDKKDqoguOUnNA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=eT6CO0
 - FoodStock - Web Application: desplegado en render https://foodstock-p2lr.onrender.com/suppliers
+
