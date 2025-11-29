@@ -1,4 +1,5 @@
-<div align ="center">
+
+ <div align ="center">
 
 <h3>Universidad Peruana de Ciencias Aplicadas</h3>
 
@@ -68,7 +69,6 @@
 
 
 # Contenido
-
 ## Tabla de contenidos
 
 
@@ -178,6 +178,7 @@
   - [5.2.4.5. Execution Evidence for Sprint Review](#5245-execution-evidence-for-sprint-review)
   - [5.2.4.6. Team Collaboration Insights](#5246-team-collaboration-insights)
   - [5.2.4.7. Sprint 4 Conclusion](#5247-sprint-4-conclusion)
+ 
 
 ## Student Outcome
 **ABET – EAC - Student Outcome 5**  
@@ -1295,81 +1296,151 @@ https://foodstock-landingpage.onrender.com/
 ### 5.2. Landing Page, Services & Applications Implementation
 #### 5.2.1. Sprint 1
 
-El primer sprint se centró en la creación de la página de aterrizaje (Landing Page) de FoodStock. El objetivo era presentar una visión clara y atractiva del producto para generar una primera impresión positiva en los futuros usuarios.
+El primer sprint se enfoco en la creacion de la pagina de aterrizaje (landing page) de FoodStock para presentar de forma clara la propuesta de valor.
 ##### 5.2.1.1. Sprint Planning 1
-A continuación, se detalla la planificación del primer sprint, donde se definieron los objetivos, las tareas y el equipo a cargo de su ejecución.
-
-Sprint #: Sprint 1
-
-Sprint Planning:
-
-Fecha: 2025/08/30
-
-Hora: 5:00 PM
-
-Lugar: Reunión virtual en Google Meet
-
-Objetivo del Sprint:
-
-Nuestro enfoque está en presentar una landing page que muestre las principales funcionalidades y características de FoodStock.
-
-Creemos que esto generará una sólida primera impresión sobre la propuesta de valor de FoodStock para nuestros segmentos objetivo.
-
-Esto se confirmará cuando los usuarios accedan a la landing page y naveguen por sus secciones clave.
-
-Velocidad del Sprint (Sprint Velocity): 9
-
-Puntos de Historia (Sum of story points): 9
+| Sprint #                        | Sprint 1                                                                                                                             |
+|---------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
+| Sprint planning background      | Definir y lanzar la landing page inicial de FoodStock.                                                                               |
+| Date                            | 2025/08/30                                                                                                                           |
+| Time                            | 5:00 PM                                                                                                                              |
+| Location                        | Reunion virtual en Google Meet                                                                                                       |
+| Prepared By                     | Equipo FoodStock                                                                                                                     |
+| Attendees (to planning meeting) | Melina Santillan, Jean Pool Huaman, Javier Nikaido, Gonzalo Quintanilla, Jose Maria Del Carpio                                        |
+| Sprint Goal & User Stories      | Presentar secciones Heroe, Beneficios, About, Planes y FAQ para validar interes inicial de usuarios objetivo.                         |
+| Sprint Velocity                 | 9                                                                                                                                    |
+| Sum of story points             | 9                                                                                                                                    |
 ##### 5.2.1.2. Aspect Leaders and Collaborators
-El equipo de FoodStock utilizó una Matriz de Liderazgo y Colaboración (LACX) para definir las responsabilidades en el primer sprint. Esta matriz asegura que cada tarea tenga un líder principal (L) y colaboradores (C) de apoyo.
+El equipo uso la matriz LACX para asignar responsabilidades en las secciones de la landing page.
 
-- Melina Liz Santillan Alvarado: Lideró la sección "About Us" y colaboró en las secciones de "Beneficios", "Testimonios" y "Precios".
+<div style="font-size:70%;">
 
-- Javier Masaru Nikaido Vargas: Fue el líder de la sección de "Preguntas Frecuentes" y colaboró en "Héroe", "Beneficios" y "Contacto".
+| Team Member | GitHub Username | Heroe L/C | Beneficios L/C | About/Product L/C | Planes/Precios L/C | FAQ L/C | Footer/Contacto L/C |
+|:-----------:|:---------------:|:---------:|:--------------:|:-----------------:|:------------------:|:------:|:-------------------:|
+| Melina Liz Santillan Alvarado | melinaasantillan | C | C | L | L | L | C |
+| Javier Masaru Nikaido Vargas | MassiFlip | L | L | C | L | L | L |
+| Jean Pool Huaman De La Cruz | charlie404x | L | L | L | L | C | L |
+| Gonzalo Samuel Quintanilla Pozo | GoldQP | C | L | C | L | L | C |
+| Jose Maria Franco del Carpio | VoltTrd | C | C | C | C | C | C |
 
-- Jean Pool Huaman De La Cruz: Lideró la sección de "Beneficios" y colaboró en "Héroe", "Testimonios", "Precios", "Contacto" y "Pie de página".
+</div>
 
-- Gonzalo Samuel Quintanilla Pozo: Lideró las secciones "Héroe" y "Planes" y colaboró en "Testimonios", "Contacto" y "Pie de página".
+<div style="text-align: center; font-size:85%; margin-top: 0.5rem;">
 
-- José María Franco del Carpio: Colaboró en la seccion de entrevista
+Nota. L = Leader (responsable principal). C = Collaborator (apoyo).
+
+</div>
 ##### 5.2.1.3. Sprint Backlog 1
-El backlog del primer sprint se centró en la maquetación y desarrollo de la página de aterrizaje (landing page) de FoodStock. Las tareas incluyeron:
-
-
-* Implementar la barra de navegación y el pie de página (footer) con los enlaces correspondientes.
-
-* Crear la sección de "Características" (Benefits).
-
-* Desarrollar la sección "About the product".
-
-* Diseñar e implementar la sección "About Us" para presentar al equipo.
-
-* Crear la página de "Planes" con la información de los precios.
-
-* Desarrollar la sección de "Preguntas Frecuentes" (FAQ).
-
-* Configurar el despliegue automático en Render.Maquetar y desarrollar la sección principal o "Héroe".
-
+<table>
+  <tr>
+    <td>Sprint #</td>
+    <td colspan="7">Sprint 1</td>
+  </tr>
+  <tr>
+    <td colspan="2">User Story</td>
+    <td colspan="2">Work-Item / Task</td>
+    <td>Description</td>
+    <td>Estimation (Hours)</td>
+    <td>Assigned To</td>
+    <td>Status (To-do / In-Process / Done)</td>
+  </tr>
+  <tr>
+    <td>Id</td>
+    <td>Title</td>
+    <td>Id</td>
+    <td>Title</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>US-LP01</td>
+    <td>Ver informacion general del producto</td>
+    <td>T1</td>
+    <td>Maquetar seccion Heroe</td>
+    <td>Crear hero con titulo, subtitulo y CTA hacia la propuesta de valor.</td>
+    <td>6 hr</td>
+    <td>Dev Frontend</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-LP02</td>
+    <td>Conocer beneficios clave</td>
+    <td>T2</td>
+    <td>Diseñar seccion Beneficios</td>
+    <td>Listar 3-4 beneficios con iconos y texto breve.</td>
+    <td>5 hr</td>
+    <td>Dev Frontend</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-LP03</td>
+    <td>Conocer equipo y producto</td>
+    <td>T3</td>
+    <td>Implementar About Us / About product</td>
+    <td>Seccion con descripcion corta del equipo y del producto.</td>
+    <td>5 hr</td>
+    <td>Dev Frontend</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-LP04</td>
+    <td>Revisar planes y precios</td>
+    <td>T4</td>
+    <td>Construir seccion Planes</td>
+    <td>Tabla de planes con precios y llamados a accion.</td>
+    <td>6 hr</td>
+    <td>Dev Frontend</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-LP05</td>
+    <td>Resolver dudas frecuentes</td>
+    <td>T5</td>
+    <td>Agregar seccion FAQ</td>
+    <td>Desplegables con preguntas y respuestas frecuentes.</td>
+    <td>4 hr</td>
+    <td>Dev Frontend</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-LP06</td>
+    <td>Contactar al equipo</td>
+    <td>T6</td>
+    <td>Footer y contacto</td>
+    <td>Footer con enlaces a redes/contacto y llamadas a accion.</td>
+    <td>3 hr</td>
+    <td>Dev Frontend</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-LP07</td>
+    <td>Ver sitio desplegado</td>
+    <td>T7</td>
+    <td>Configurar despliegue en Render</td>
+    <td>Pipeline de build y deploy automatico de la landing page.</td>
+    <td>4 hr</td>
+    <td>Dev Frontend</td>
+    <td>Done</td>
+  </tr>
+</table>
 ##### 5.2.1.4. Development Evidence for Sprint Review
-Las evidencias de desarrollo de este sprint se reflejan en el código fuente y las capturas de pantalla de la interfaz, que documentan la implementación de cada sección. El código completo del proyecto se encuentra en el repositorio de GitHub.
-https://github.com/FoodStock-1ASI0730-2520-7420/FoodStock-report.git
-
+Evidencias de codigo y capturas de la interfaz en el repositorio: https://github.com/FoodStock-1ASI0730-2520-7420/FoodStock-report.git
 ##### 5.2.1.5. Execution Evidence for Sprint Review
-La evidencia de la ejecución muestra el producto funcional tal como se visualiza en un navegador web. Se tomaron capturas del sitio web en vivo para validar la correcta visualización de las secciones desarrolladas y su rendimiento.
+Capturas del sitio en vivo que validan visualizacion y rendimiento de las secciones desarrolladas.
 ##### 5.2.1.6. Services Documentation Evidence for Sprint Review
-La documentación inicial del proyecto se encuentra en el archivo README.md del repositorio de GitHub. Este documento detalla la configuración del entorno de desarrollo, las convenciones de código y los pasos para el despliegue.
+Documentacion inicial en README.md con configuracion de entorno, convenciones de codigo y pasos de despliegue.
 ##### 5.2.1.7. Software Deployment Evidence for Sprint Review
-El despliegue de la landing page de FoodStock se realizó exitosamente en la plataforma Render. La evidencia de despliegue incluye los logs de la plataforma que confirman la finalización del proceso. El sitio web está accesible a través de la siguiente URL: https://foodstock-landingpage.onrender.com/.
+Landing page desplegada en Render. Logs de despliegue correctos. URL: https://foodstock-landingpage.onrender.com/
 ##### 5.2.1.8. Team Collaboration Insights during Sprint
-
-Evidencia de avance de equipo en el github
+Evidencia de avance del equipo en GitHub.  
 <img alt="upc-logo" src="/assets/images/EvidenciaGit.png"/><br>
 
-#### 5.2.1.1. Sprint Planning 2
+#### 5.2.2.1. Sprint Planning 2
 
 | Sprint #                             | Sprint 2                                                                                                                                                                                                                                                  |
 |--------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Sprint planning <br> background      |                                                                                                                                                                                                                                                           |
+| Sprint planning <br> background      |En este sprint revisamos el frontend desarrollado con Vite + Vue, validando la estructura inicial del proyecto y los módulos creados (Home, Inventory, Sales, Suppliers). Se evaluó la navegación entre componentes y la organización del router. El enfoque principal fue continuar el desarrollo del frontend, mejorar la interfaz del inventario y preparar un prototipo funcional para las entrevistas de validación.|
 | Date                                 | 2025/10/11                                                                                                                                                                                                                                                |
 | Time                                 | 10:59 AM                                                                                                                                                                                                                                                  |
 | Location                             | Llamada grupal en la plataforma Discord                                                                                                                                                                                                                   |
@@ -1571,193 +1642,212 @@ El tercer sprint se centró en validar el prototipo funcional de FoodStock media
 
 ---
 
-## 5.3.1. Sprint Planning 3
+#### 5.3.1. Sprint Planning 3
 
-**Sprint #:** Sprint 3  
-
-**Sprint Planning background**
-
-- **Date:** 2025/11/09  
-- **Time:** 6:00 PM  
-- **Location:** Reunión grupal en Discord  
-- **Prepared By:** Gonzalo Quintanilla  
-- **Attendees:** Melina Santillán, Jean Pool Huamán, Javier Nikaido, José María Del Carpio, Gonzalo Quintanilla
-
----
-
-### **Sprint 1 Review**  
-Se completó la landing page.  
-En este sprint se revisó nuevamente y se determinó que **aún faltan mejoras** para actualizarla con la información del producto real.
-
-### **Sprint 2 Review**  
-Se logró el despliegue con Vue + fake API.  
-En el Sprint 3 se identificó que:
-
-- Se avanzó en inventario y ventas.  
-- Hay una **base inicial del backend**, pero incompleta.  
-- Faltan varios **bounded contexts** importantes.  
-- Algunos módulos están avanzados, pero **no pudieron incluirse en este sprint** por límite de tiempo y líneas implementadas.
-
-**Conclusión:**  
-➡ Hay mejoras, pero **todavía falta bastante trabajo técnico**, que pasará al Sprint 4.
+| Sprint #                             | Sprint 3                                                                                                                                                                                                                         |
+|--------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Sprint planning <br> background      |          Se revisó el avance del frontend desarrollado con Vite + Vue, verificando los módulos principales (Home, Inventory, Sales, Suppliers). Se evaluó la navegación entre vistas y se definió completar las funcionalidades mínimas del prototipo para validarlo con usuarios reales. El enfoque del sprint fue mejorar Inventario y agregar alertas básicas, además de preparar un flujo navegable para entrevistas.                                                                                                                                                                                                                         |
+| Date                                 | 2025/11/09                                                                                                                                                                                                                        |
+| Time                                 | 6:00 PM                                                                                                                                                                                                                           |
+| Location                             | Reunión grupal en Discord                                                                                                                                                                                                         |
+| Prepared By                          | Gonzalo Quintanilla                                                                                                                                                                                                               |
+| Attendees <br> (to planning meeting) | Melina Santillán, Jean Pool Huamán, Javier Nikaido, José María Del Carpio, Gonzalo Quintanilla                                                                                                                                    |
+| Sprint 1 Review                      | Se completó la landing page, pero se identificó que aún faltan mejoras para actualizarla según el producto real.                                                                                                                 |
+| Sprint 2 Review                      | Se logró el despliegue con Vue + fake API. Hubo avances en inventario y ventas, pero el backend sigue incompleto. Faltan bounded contexts y algunos módulos quedaron fuera por límite de tiempo.                                  |
+| **Sprint Goal & User Stories**       |                                                                                                                                                                                                                                   |
+| Sprint 3 Goal                        | Validar el prototipo con usuarios reales y consolidar un backend mínimo funcional (inventario + ventas).                                                                                                                         |
+| Sprint 3 Velocity                    | 18                                                                                                                                                                                                                                |
+| Sum of story points                  | 32                                                                                                                                                                                                                                |
 
 ---
 
-### **Sprint Goal & User Stories**
+#### 5.3.2. Aspect Leaders and Collaborators
 
-**Sprint 3 Goal:**  
-Validar el prototipo con usuarios reales y consolidar un backend mínimo funcional (inventario + ventas).
+<div style="font-size:70%;">
 
-**Sprint 3 Velocity:** 18  
-**Sum of Story Points:** 32
+| **Team Member** <br> Last Name, First Name | **GitHub Username** | **Report** <br> L/C | **Reservation** <br> L/C | **Inventory** <br> L/C | **Suppliers** <br> L/C | **Sales** <br> L/C |
+|:------------------------------------------:|:-------------------:|:-------------------:|:------------------------:|:----------------------:|:----------------------:|:------------------:|
+| **Quintanilla Gonzalo**                    | GoldQP              | L                   | C                        | C                      | C                      | C                  |
+| **Nikaido Javier**                         | MassiFlip           | C                   | C                        | L                      | C                      | C                  |
+| **Santillán Melina**                       | melinaasantillan    | C                   | C                        | C                      | C                      | L                  |
+| **Huamán Jean Pool**                       | charlie404x         | C                   | L                        | C                      | C                      | C                  |
+| **Del Carpio José María**                  | VoltTrd             | C                   | C                        | C                      | C                      | C                  |
 
----
+</div>
 
-## 5.3.2. Aspect Leaders and Collaborators
-
-- **Gonzalo Samuel Quintanilla Pozo — Sprint Leader (L)**  
-- **Javier Masaru Nikaido Vargas — Documentation & Integration (L/C)**  
-- **Melina Liz Santillán Alvarado — UX Testing & QA (L/C)**  
-- **Jean Pool Huamán De La Cruz — Frontend Logic (C)**  
-- **José María Franco del Carpio — UI Layout (C)**  
-
-**Nota:**  
-Aiko Napanga, Aldo Zavala y Gabriel Cermeño **no pertenecen al equipo**.  
-Solo participaron como **entrevistados externos para validación**.
+<div style="text-align: center; font-size:85%; margin-top: 0.5rem;">
+**Nota.** L = *Leader* (responsable principal del aspecto).  
+C = *Collaborator* (apoya el desarrollo del aspecto).
+</div>
 
 ---
 
-## 5.3.3. Sprint Backlog 3
+#### 5.3.3. Sprint Backlog 3
 
-- Implementar registro de productos.  
-- Mejorar vista de inventario.  
-- Agregar alertas básicas de vencimiento.  
-- Preparar prototipo navegable para entrevistas.  
-- Realizar 3 entrevistas de validación.  
-- Documentar hallazgos y mejoras.  
-- Refinar botones, textos y navegación.  
-- Consolidar backend base de inventario y ventas.  
+<table>
+  <tr>
+    <td>Sprint #</td>
+    <td colspan="7">Sprint 3</td>
+  </tr>
+  <tr>
+    <td colspan="2">User Story</td>
+    <td colspan="2">Work-Item / Task</td>
+    <td>Description</td>
+    <td>Estimation (Hours)</td>
+    <td>Assigned To</td>
+    <td>Status (To-do / In-Process / Done)</td>
+  </tr>
+  <tr>
+    <td>Id</td>
+    <td>Title</td>
+    <td>Id</td>
+    <td>Title</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+
+  <!-- Tareas del sprint -->
+  <tr>
+    <td>US35</td>
+    <td>Registrar producto</td>
+    <td>T1</td>
+    <td>Implementar registro de productos</td>
+    <td>Implementación del formulario y lógica para registrar productos.</td>
+    <td>6 hr</td>
+    <td>Dev Frontend</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US34</td>
+    <td>Historial de inventario</td>
+    <td>T2</td>
+    <td>Mejorar vista de inventario</td>
+    <td>Añadir vista detallada, fechas, cantidades y movimientos.</td>
+    <td>8 hr</td>
+    <td>Dev Fullstack</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>TS06</td>
+    <td>Alertas por fecha de vencimiento</td>
+    <td>T3</td>
+    <td>Agregar alertas básicas</td>
+    <td>Sistema básico de alertas para productos próximos a vencer.</td>
+    <td>7 hr</td>
+    <td>Dev Fullstack</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>—</td>
+    <td>Prototipo navegable</td>
+    <td>T4</td>
+    <td>Preparar prototipo para entrevistas</td>
+    <td>Ensambles visuales, navegación y flujo funcional.</td>
+    <td>5 hr</td>
+    <td>Dev Frontend</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>—</td>
+    <td>Entrevistas de validación</td>
+    <td>T5</td>
+    <td>Realizar 3 entrevistas</td>
+    <td>Aplicación del instrumento de validación con 3 emprendedores reales.</td>
+    <td>4 hr</td>
+    <td>Team</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>—</td>
+    <td>Documentación de hallazgos</td>
+    <td>T6</td>
+    <td>Registrar feedback</td>
+    <td>Documentar dificultades, comentarios y oportunidades de mejora.</td>
+    <td>3 hr</td>
+    <td>Report Team</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US01, US03</td>
+    <td>Ventas</td>
+    <td>T7</td>
+    <td>Refinar botones y navegación</td>
+    <td>Mejoras visuales, interacción y consistencia del módulo.</td>
+    <td>6 hr</td>
+    <td>Dev Frontend</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>TS02</td>
+    <td>Backend inventario + ventas</td>
+    <td>T8</td>
+    <td>Consolidar backend</td>
+    <td>Unificación de endpoints base y conexión funcional mínima.</td>
+    <td>9 hr</td>
+    <td>Dev Backend</td>
+    <td>Done</td>
+  </tr>
+
+</table>
 
 ---
 
-## 5.3.4. Development Evidence for Sprint Review
+#### 5.3.4. Development Evidence for Sprint Review
 
 - Registro de productos implementado.  
-- Inventario funcionando con fechas y cantidades.  
-- Alertas básicas agregadas.  
-- Backend conectado parcialmente al módulo de inventario/ventas.
+- Inventario funcional con manejo de fechas, cantidades y movimientos.  
+- Alertas básicas implementadas.  
+- Backend conectado parcialmente al inventario y ventas.
 
-Código en GitHub:  
-https://github.com/FoodStock-1ASI0730-2520-7420/FoodStock-report.git
-
----
-
-## 5.3.5. Execution Evidence for Sprint Review
-
-- Pruebas realizadas durante grabación de entrevistas.  
-- Capturas de registro, inventario y alertas.  
-- Demostración del prototipo ejecutado en navegador.
+Repositorio:  
+**https://github.com/FoodStock-1ASI0730-2520-7420/FoodStock-report.git**
 
 ---
 
-## 5.3.6. Services Documentation Evidence for Sprint Review
+#### 5.3.5. Execution Evidence for Sprint Review
+
+- Pruebas ejecutadas durante entrevistas con usuarios.  
+- Flujo navegable validado.  
+- Capturas del inventario, alertas y registro funcional.
+
+---
+
+#### 5.3.6. Services Documentation Evidence for Sprint Review
 
 - README.md actualizado.  
 - Manual interno de pruebas.  
-- Documentación inicial del backend.  
+- Documentación de endpoints base del backend.
 
 ---
 
-## 5.3.7. Software Deployment Evidence for Sprint Review
+#### 5.3.7. Deployment Evidence for Sprint Review
 
-El prototipo fue desplegado temporalmente en Azure para permitir pruebas reales durante las entrevistas.
+Backend desplegado temporalmente en Azure:
 
-Los logs del despliegue confirman estabilidad y correcto funcionamiento.
+🔗 **https://app-251113235013.azurewebsites.net/swagger/index.html**
 
-Link: https://app-251113235013.azurewebsites.net/swagger/index.html
-
----
-
-## 5.3.8. Team Collaboration Insights during Sprint
-
-- Reuniones constantes por Discord.  
-- Flujo de trabajo compartido vía GitHub.  
-- Ejecución rápida de cambios según feedback de entrevistas.  
+Logs confirmaron correcto funcionamiento durante entrevistas.
 
 ---
 
-# 5.3.9. Validation Interviews
+#### 5.3.8. Team Collaboration Insights during Sprint
 
-Durante este sprint se realizaron entrevistas con emprendedores y microempresarios para validar la claridad, utilidad y usabilidad del prototipo.
-
----
-
-## 5.3.9.1. Diseño de Entrevistas
-
-### **Objetivo**
-Validar la comprensión del prototipo, la utilidad del inventario y la efectividad de las alertas en el día a día de emprendedores.
-
-### **Elementos Evaluados**
-- Landing page  
-- Inicio de sesión  
-- Registro de productos  
-- Inventario  
-- Alertas  
-- Flujo de uso general  
-
-### **Preguntas Aplicadas**
-1. ¿Qué entendiste de la landing page?  
-2. ¿Te generó confianza?  
-3. ¿Te registrarías?  
-4. ¿Qué información agregarías?  
-5. ¿Cómo te pareció el inicio de sesión?  
-6. ¿Cómo te fue registrando un producto?  
-7. ¿Agregarías campos adicionales?  
-8. ¿Qué opinas del inventario?  
-9. ¿Te servirían las alertas?  
-10. ¿Por dónde las preferirías?  
-11. ¿Usarías FoodStock en tu negocio?  
-12. ¿Qué mejorarías?  
-13. ¿Lo recomendarías?  
+- Coordinación continua por Discord.  
+- Trabajo colaborativo vía GitHub.  
+- Cambios rápidos aplicados según feedback en entrevistas.
 
 ---
 
-## 5.3.9.2. Registro de Entrevistas (Resumen)
 
-### **Entrevistado 1: Aldo Zavala — Emprendedor gastronómico**  
-Encontró el sistema claro y útil. Consideró las alertas esenciales para evitar pérdidas. Sugirió mejorar la edición de productos.
-
-### **Entrevistado 2: Gabriel Cermeño — Emprendedor desde casa**  
-Valoró la facilidad del registro y la claridad del inventario. Recomendó agregar campos como lote y fecha de elaboración.
-
-### **Entrevistado 3: Aiko Napanga, 18 años — Microemprendedora**  
-Consideró que la landing es clara y confiable. Vio el inventario como fácil de usar y destacó que las alertas por WhatsApp serían ideales. Recomendó ampliar opciones de actualización de productos.
-
----
-
-## 5.3.10. Sprint 3 Findings
-
-### **Aspectos Positivos**
-- El prototipo es intuitivo.  
-- Las alertas fueron la funcionalidad más valorada.  
-- El inventario resultó claro y ordenado.  
-- El registro de productos fue considerado fácil.  
-- Los 3 entrevistados recomendarían el sistema a otros emprendedores.
-
-### **Oportunidades de Mejora**
-- Acceso con número telefónico.  
-- Campos como lote y fecha de elaboración.  
-- Mejoras en edición y actualización.  
-- Completar bounded contexts del backend.  
-- Incluir ejemplos reales en la landing.
-
----
-
-## 5.3.11. Sprint 3 Conclusion
-
-El Sprint 3 cumplió con validar el prototipo con emprendedores reales, confirmando la utilidad del sistema para controlar inventarios y evitar pérdidas.  
-Aunque existe una base de backend funcionando, aún faltan bounded contexts clave por desarrollar.  
-Los hallazgos obtenidos guiarán el Sprint 4 para fortalecer el producto y completar la arquitectura.
 
 # 5.2.4. Sprint 4
 
@@ -1769,7 +1859,7 @@ El cuarto sprint consolidó el desarrollo del backend, completó los módulos pr
 
 | Sprint # | Sprint 4 |
 |---------|----------|
-| **Sprint planning background** | |
+| **Sprint planning background** | Se analizaron los resultados del Sprint 3 y el feedback de las entrevistas. Se identificó la necesidad de fortalecer el backend real, completar los módulos incompletos y reemplazar la fake API. El sprint se enfocó en integrar Vue con la API real, mejorar funciones clave como inventario y ventas, y preparar el sistema para avanzar hacia un MVP más sólido.|
 | **Date** | 2025/12/01 |
 | **Time** | 7:00 PM |
 | **Location** | Google Meet |
@@ -1788,7 +1878,7 @@ En el Sprint 3 se validó el prototipo funcional con usuarios reales y se identi
 - Flujo de edición limitado.  
 
 **Conclusión:**  
-➡ El Sprint 4 debe centrarse en completar el backend, mejorar la experiencia del usuario y preparar el producto final para la presentación.
+ El Sprint 4 debe centrarse en completar el backend, mejorar la experiencia del usuario y preparar el producto final para la presentación.
 
 ---
 
