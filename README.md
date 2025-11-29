@@ -1424,16 +1424,21 @@ Nota. L = Leader (responsable principal). C = Collaborator (apoyo).
     <td>Done</td>
   </tr>
 </table>
+
 ##### 5.2.1.4. Development Evidence for Sprint Review
-Evidencias de codigo y capturas de la interfaz en el repositorio: https://github.com/FoodStock-1ASI0730-2520-7420/FoodStock-report.git
+ Evidencias de codigo y capturas de la interfaz en el repositorio: https://github.com/FoodStock-1ASI0730-2520-7420/FoodStock-report.git
+ 
 ##### 5.2.1.5. Execution Evidence for Sprint Review
-Capturas del sitio en vivo que validan visualizacion y rendimiento de las secciones desarrolladas.
+ Capturas del sitio en vivo que validan visualizacion y rendimiento de las secciones desarrolladas.
+ 
 ##### 5.2.1.6. Services Documentation Evidence for Sprint Review
-Documentacion inicial en README.md con configuracion de entorno, convenciones de codigo y pasos de despliegue.
+ Documentacion inicial en README.md con configuracion de entorno, convenciones de codigo y pasos de despliegue.
+ 
 ##### 5.2.1.7. Software Deployment Evidence for Sprint Review
-Landing page desplegada en Render. Logs de despliegue correctos. URL: https://foodstock-landingpage.onrender.com/
+ Landing page desplegada en Render. Logs de despliegue correctos. URL: https://foodstock-landingpage.onrender.com/
+ 
 ##### 5.2.1.8. Team Collaboration Insights during Sprint
-Evidencia de avance del equipo en GitHub.  
+ Evidencia de avance del equipo en GitHub.  
 <img alt="upc-logo" src="/assets/images/EvidenciaGit.png"/><br>
 
 #### 5.2.2.1. Sprint Planning 2
