@@ -1972,19 +1972,53 @@ El sistema quedó en un estado funcional para realizar la demostración final de
 # Conclusiones
 ## Conlusiones y recomendaciones
 
-**Conclusiones**
+# Conclusiones del Informe Final
 
-El desarrollo de FoodStock ha demostrado la viabilidad y el potencial de una solución digital para optimizar la gestión de pequeños y medianos restaurantes. A través de la implementación de una arquitectura de software robusta, un diseño centrado en el usuario y una metodología ágil, se logró construir una Landing Page funcional que comunica eficazmente la propuesta de valor del producto.
+Tras el desarrollo completo del proyecto **FoodStock**, se pueden establecer las siguientes conclusiones que reflejan el progreso del equipo, los aprendizajes obtenidos y el impacto generado por la solución propuesta.
 
-Las conclusiones clave del proyecto son las siguientes:
+## **1. Cumplimiento de Objetivos del Proyecto**
 
-- Viabilidad del Producto: El análisis de mercado y las entrevistas de validación confirmaron la existencia de una necesidad real en el sector gastronómico. El diseño de la plataforma y su arquitectura de información (AI) están alineados con las operaciones diarias de los usuarios objetivo, lo que minimiza la curva de aprendizaje y aumenta la probabilidad de adopción.
+El equipo logró completar satisfactoriamente todas las etapas planteadas: investigación, análisis de requerimientos, diseño UX/UI, arquitectura de software, implementación de sprints, validación y documentación final. FoodStock evolucionó desde una idea inicial hasta un producto funcional y evaluado con usuarios reales.
 
-- Implementación Técnica Exitosa: La elección de tecnologías como React y Node.js y la adopción de una arquitectura C4 facilitaron un desarrollo estructurado y escalable. El uso de GitFlow y Conventional Commits en GitHub aseguró un control de versiones y una colaboración en equipo ordenados y eficientes.
+## **2. Validación del Problema y de la Solución**
 
-- Impacto del Diseño de Producto: El diseño de la interfaz y la experiencia de usuario (UI/UX) se guió por principios de simplicidad y claridad. La guía de estilo y el sistema de etiquetado son coherentes y consistentes, lo que contribuye a una experiencia de usuario fluida, tal como se validó en las entrevistas.
+A través de entrevistas, análisis competitivo y validaciones sucesivas, se comprobó que los emprendedores y microempresas gastronómicas enfrentan problemas reales de inventario, pérdidas por productos perecibles, desorden en reservas y registros manuales. La solución propuesta fue bien recibida, destacando su simplicidad, automatización y utilidad.
 
-- Validación de la Propuesta de Valor: Las entrevistas de validación iniciales proporcionaron retroalimentación valiosa, confirmando que las funcionalidades propuestas (gestión de inventario, ventas y proveedores) son de gran utilidad para el público objetivo.
+## **3. Crecimiento del Producto mediante Iteraciones (Sprints)**
+
+El producto mejoró sprint tras sprint:
+
+* En **Sprint 1**, se establecieron bases funcionales y diseño inicial.
+* En **Sprint 2**, se ampliaron funcionalidades y se integraron nuevas vistas.
+* En **Sprint 3**, se validaron características clave con usuarios reales.
+* En **Sprint 4**, se consolidó el producto con mejoras finales y mayor estabilidad.
+
+Cada iteración aportó valor, resolvió errores detectados y fortaleció la experiencia del usuario.
+
+## **4. Trabajo en Equipo y Colaboración (ABET – SO5)**
+
+El grupo demostró un trabajo altamente colaborativo, distribuyendo responsabilidades según fortalezas individuales, coordinando tareas en múltiples áreas (UX, desarrollo, investigación, arquitectura, entrevistas) y manteniendo comunicación constante. Esto permitió avanzar de manera ordenada y eficiente.
+
+## **5. Impacto del Proyecto en el Entorno del Usuario**
+
+FoodStock se consolidó como una solución accesible, útil y adaptable para pequeños negocios gastronómicos. La automatización del inventario, reportes y alertas tiene un impacto directo en la reducción de pérdidas, la mejora del control operativo y un incremento en la rentabilidad del negocio.
+
+## **6. Aprendizajes Técnicos y Profesionales**
+
+El equipo reforzó habilidades en:
+
+* Diseño UX/UI centrado en el usuario.
+* Arquitectura orientada al dominio (DDD).
+* Desarrollo web con buenas prácticas.
+* Gestión ágil mediante sprints y artefactos.
+* Comunicación, análisis y trabajo interdisciplinario.
+
+Estos aprendizajes reflejan un crecimiento significativo alineado a los objetivos del curso.
+
+## **7. Conclusión General**
+
+FoodStock culmina como un producto sólido que responde a una necesidad real en el mercado gastronómico, demostrando la importancia de la investigación, el diseño centrado en el usuario, las metodologías ágiles y el trabajo colaborativo. El equipo alcanzó con éxito los objetivos propuestos y sentó las bases para futuras mejoras o una posible evolución hacia un producto comercial.
+
 
 **Recomendaciones**
 
