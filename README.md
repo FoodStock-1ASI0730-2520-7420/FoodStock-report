@@ -67,6 +67,72 @@
 # Project Report Collaboration Insights
 
 
+Esta sección presenta el análisis del trabajo colaborativo desarrollado por el equipo del proyecto **FoodStock**. Se describe la estructura de ramas utilizada en el repositorio, la actividad registrada durante el desarrollo del informe y la distribución de tareas asumidas por cada integrante del equipo.
+
+---
+
+## Estructura de Ramas del Repositorio
+
+El repositorio del proyecto implementó una estructura basada en un flujo similar a GitFlow, con el objetivo de conservar un control organizado del trabajo colaborativo.
+
+**Ramas principales utilizadas:**
+- `main`: Contiene la versión final y estable del informe.
+- `develop`: Integra los avances del equipo antes de incorporarlos a la rama principal.
+
+**Ramas de desarrollo:**
+- `feature/capitulo-1`
+- `feature/capitulo-2`
+- `feature/capitulo-3`
+- `feature/capitulo-4`
+- `feature/capitulo-5`
+
+Este esquema facilitó que los integrantes trabajaran en paralelo, manteniendo un flujo de integración ordenado y evitando conflictos entre versiones.
+
+**Ejemplo visual de la estructura:**
+```
+main  
+develop  
+feature/capitulo-1  
+feature/capitulo-2  
+feature/capitulo-3  
+feature/capitulo-4  
+feature/capitulo-5  
+```
+
+---
+
+## Actividad del Repositorio
+
+(Espacio reservado para incluir capturas correspondientes)
+
+### Network Graph
+```
+```
+
+### Actividad por integrante (commits)
+```
+```
+
+### Líneas añadidas y eliminadas
+```
+```
+
+---
+
+## Distribución de Tareas por Integrante
+
+La siguiente tabla resume los aportes de cada integrante durante el desarrollo del informe. Todos participaron en diferentes etapas del proyecto, contribuyendo en redacción, análisis, diseño, documentación técnica e integración final.
+
+| Integrante | Aportes Realizados |
+|------------|--------------------|
+| **José María Franco Del Carpio** | - Redacción y organización general del documento.<br>- Corrección de estilo, coherencia y ortografía.<br>- Transcripción y ordenamiento de la información obtenida en entrevistas.<br>- Elaboración de escenarios de usuario y criterios de aceptación.<br>- Documentación de evidencias, capturas y pruebas realizadas.<br>- Apoyo en la integración final del archivo en la rama principal. |
+| **Jean Pool Huamán De La Cruz** | - Diseño, ejecución y análisis de entrevistas a los usuarios objetivo.<br>- Construcción de User Personas y análisis de necesidades.<br>- Colaboración en la elaboración del Product Backlog y levantamiento de requisitos.<br>- Redacción de secciones analíticas del informe y contextualización del problema.<br>- Preparación del Sprint Planning y organización del backlog.<br>- Revisión cruzada para garantizar la coherencia entre capítulos. |
+| **Javier Masaru Nikaido Vargas** | - Desarrollo de los requerimientos funcionales y no funcionales.<br>- Elaboración de User Stories y priorización mediante la técnica MoSCoW.<br>- Construcción del Impact Mapping y articulación lógica de los requisitos.<br>- Aporte técnico en la descripción del funcionamiento del backend y frontend.<br>- Revisión conceptual general para asegurar consistencia interna del documento.<br>- Apoyo en la documentación de evidencias técnicas del sistema. |
+| **Quintanilla Pozo Gonzalo Samuel** | - Diseño visual del proyecto: wireframes, mockups y diagramación gráfica.<br>- Creación de matrices, flujos y representaciones visuales del sistema.<br>- Organización visual del informe, incluyendo tablas e imágenes.<br>- Colaboración en la presentación del producto y descripción de funcionalidades.<br>- Redacción de apartados explicativos relacionados con el diseño.<br>- Preparación y tratamiento de recursos gráficos utilizados en el documento. |
+| **Melina Liz Santillán Alvarado** | - Integración final de todos los capítulos dentro del repositorio.<br>- Gestión de ramas, merges y organización del material entregado.<br>- Revisión de formato, estilo y consistencia visual del documento completo.<br>- Incorporación de evidencias del sprint, capturas y documentación de soporte.<br>- Organización del documento para la entrega final.<br>- Validación general previa al merge en la rama principal. |
+
+---
+
 
 # Contenido
 ## Tabla de contenidos
