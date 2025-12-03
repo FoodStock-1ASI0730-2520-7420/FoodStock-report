@@ -1,9 +1,10 @@
 
  <div align ="center">
 
-<h3>Universidad Peruana de Ciencias Aplicadas</h3>
 
 <img alt="upc-logo" src="/assets/images/UPC_logo_transparente.png" width="200"/><br>
+
+<h3>Universidad Peruana de Ciencias Aplicadas</h3>
 
 <strong>Ingeniería de Software - 2025-2</strong><br>
 <strong>1ASI0730 - Aplicaciones Web</strong><br>
