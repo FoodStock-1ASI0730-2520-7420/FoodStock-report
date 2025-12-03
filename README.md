@@ -1,4 +1,5 @@
-<div align ="center">
+
+ <div align ="center">
 
 <h3>Universidad Peruana de Ciencias Aplicadas</h3>
 
@@ -66,9 +67,70 @@
 # Project Report Collaboration Insights
 
 
+Esta sección presenta el análisis del trabajo colaborativo desarrollado por el equipo del proyecto **FoodStock**. Se describe la estructura de ramas utilizada en el repositorio, la actividad registrada durante el desarrollo del informe y la distribución de tareas asumidas por cada integrante del equipo.
+
+---
+
+## Estructura de Ramas del Repositorio
+
+El repositorio del proyecto implementó una estructura basada en un flujo similar a GitFlow, con el objetivo de conservar un control organizado del trabajo colaborativo.
+
+**Ramas principales utilizadas:**
+- `main`: Contiene la versión final y estable del informe.
+- `develop`: Integra los avances del equipo antes de incorporarlos a la rama principal.
+
+**Ramas de desarrollo:**
+- `feature/capitulo-1`
+- `feature/capitulo-2`
+- `feature/capitulo-3`
+- `feature/capitulo-4`
+- `feature/capitulo-5`
+
+Este esquema facilitó que los integrantes trabajaran en paralelo, manteniendo un flujo de integración ordenado y evitando conflictos entre versiones.
+
+**Ejemplo visual de la estructura:**
+```
+main  
+develop  
+feature/capitulo-1  
+feature/capitulo-2  
+feature/capitulo-3  
+feature/capitulo-4  
+feature/capitulo-5  
+```
+
+---
+
+## Actividad del Repositorio
+
+**Frontend**
+![Frontend Activity](assets/images/frontend.jpg)
+
+**Backend**
+![Backend Activity](assets/images/backend.jpg)
+
+**Reporte**
+![Report Activity](assets/images/report.jpg)
+
+
+
+
+## Distribución de Tareas por Integrante
+
+La siguiente tabla resume los aportes de cada integrante durante el desarrollo del informe. Todos participaron en diferentes etapas del proyecto, contribuyendo en redacción, análisis, diseño, documentación técnica e integración final.
+
+| Integrante | Aportes Realizados |
+|------------|--------------------|
+| **José María Franco Del Carpio** | - Redacción y organización general del documento.<br>- Corrección de estilo, coherencia y ortografía.<br>- Transcripción y ordenamiento de la información obtenida en entrevistas.<br>- Elaboración de escenarios de usuario y criterios de aceptación.<br>- Documentación de evidencias, capturas y pruebas realizadas.<br>- Apoyo en la integración final del archivo en la rama principal. |
+| **Jean Pool Huamán De La Cruz** | - Diseño, ejecución y análisis de entrevistas a los usuarios objetivo.<br>- Construcción de User Personas y análisis de necesidades.<br>- Colaboración en la elaboración del Product Backlog y levantamiento de requisitos.<br>- Redacción de secciones analíticas del informe y contextualización del problema.<br>- Preparación del Sprint Planning y organización del backlog.<br>- Revisión cruzada para garantizar la coherencia entre capítulos. |
+| **Javier Masaru Nikaido Vargas** | - Desarrollo de los requerimientos funcionales y no funcionales.<br>- Elaboración de User Stories y priorización mediante la técnica MoSCoW.<br>- Construcción del Impact Mapping y articulación lógica de los requisitos.<br>- Aporte técnico en la descripción del funcionamiento del backend y frontend.<br>- Revisión conceptual general para asegurar consistencia interna del documento.<br>- Apoyo en la documentación de evidencias técnicas del sistema. |
+| **Quintanilla Pozo Gonzalo Samuel** | - Diseño visual del proyecto: wireframes, mockups y diagramación gráfica.<br>- Creación de matrices, flujos y representaciones visuales del sistema.<br>- Organización visual del informe, incluyendo tablas e imágenes.<br>- Colaboración en la presentación del producto y descripción de funcionalidades.<br>- Redacción de apartados explicativos relacionados con el diseño.<br>- Preparación y tratamiento de recursos gráficos utilizados en el documento. |
+| **Melina Liz Santillán Alvarado** | - Integración final de todos los capítulos dentro del repositorio.<br>- Gestión de ramas, merges y organización del material entregado.<br>- Revisión de formato, estilo y consistencia visual del documento completo.<br>- Incorporación de evidencias del sprint, capturas y documentación de soporte.<br>- Organización del documento para la entrega final.<br>- Validación general previa al merge en la rama principal. |
+
+---
+
 
 # Contenido
-
 ## Tabla de contenidos
 - [Student Outcome](#student-outcome)
 - [Capítulo I: Introducción](#capítulo-i-introducción)
@@ -83,6 +145,7 @@
             - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
             - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
     - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
+
 - [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
     - [2.1. Competidores](#21-competidores)
         - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
@@ -98,11 +161,17 @@
         - [2.3.4. Empathy Mapping](#234-empathy-mapping)
     - [2.4. Big Picture EventStorming](#24-big-picture-eventstorming)
     - [2.5. Ubiquitous Language](#25-ubiquitous-language)
+
 - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
     - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
     - [3.2. User Stories](#32-user-stories)
+        - [Epic Story](#epic-story)
+        - [Users Stories](#users-stories)
+        - [Technical Epic](#technical-epic)
+        - [Technical Story](#technical-story)
     - [3.3. Impact Mapping](#33-impact-mapping)
     - [3.4. Product Backlog](#34-product-backlog)
+
 - [Capítulo IV: Product Design](#capítulo-iv-product-design)
     - [4.1. Style Guidelines](#41-style-guidelines)
         - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
@@ -119,8 +188,8 @@
     - [4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)
         - [4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)
         - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
-        - [4.4.2. Web Applications Mock-ups](#442-web-applications-mock-ups)
-        - [4.4.3. Web Applications User Flow Diagrams](#443-web-applications-user-flow-diagrams)
+        - [4.4.3. Web Applications Mock-ups](#443-web-applications-mock-ups)
+        - [4.4.4. Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)
     - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
     - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
         - [4.6.1. Software Architecture Context Diagram](#461-software-architecture-context-diagram)
@@ -130,6 +199,7 @@
         - [4.7.1. Class Diagrams](#471-class-diagrams)
     - [4.8. Database Design](#48-database-design)
         - [4.8.1. Database Diagrams](#481-database-diagrams)
+
 - [Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation--deployment)
     - [5.1. Software Configuration Management](#51-software-configuration-management)
         - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
@@ -147,18 +217,18 @@
             - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
             - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
     - [5.3. Validation Interviews](#53-validation-interviews)
-      - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
-      - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
-      - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
+        - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
+        - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
+        - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
     - [5.4. Video About-the-Product](#54-video-about-the-product)
+
 - [Conclusiones](#conclusiones)
 - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
 - [Video About-the-Team](#video-about-the-team)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
 
----
-
+ 
 ## Student Outcome
 **ABET – EAC - Student Outcome 5**  
 **Criterio:** La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.  
@@ -176,16 +246,17 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
     </tr>
   </thead>
   <tbody>
-    <!-- Criterio 1 -->
     <tr>
       <td rowspan="5">Trabaja en equipo para proporcionar liderazgo en forma conjunta</td>
       <td>Gonzalo Samuel Quintanilla Pozo</td>
       <td>
         TB1: Realizó la mayor parte del Capítulo 4: Information Architecture, Landing Page UI Design, Web Applications UX/UI Design, Prototyping y Domain-Driven Software Architecture. También aportó en User Stories, análisis de competidores y Lean UX Process (Problem Statements, Assumptions, Hypothesis Statements, Lean UX Canvas).
-        <br>
-        TP:<br>
-        TB2:<br>
-        TF:
+        <br><br>
+        TP: Avanzó de manera significativa en el desarrollo del frontend, implementando pantallas principales y resolviendo detalles visuales, además de colaborar en el reporte del trabajo parcial.
+        <br><br>
+        TB2: Contribuyó al backend implementando funcionalidades centrales, corrigió elementos visuales del frontend y participó activamente en las correcciones del reporte.
+        <br><br>
+        TF: Finalizó tareas de backend pendientes y apoyó en la depuración técnica del informe final.
       </td>
       <td rowspan="5">El equipo demostró liderazgo conjunto mediante la organización, coordinación y desarrollo de tareas clave, asegurando que cada miembro contribuyera de manera estratégica al proyecto.</td>
     </tr>
@@ -193,40 +264,48 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       <td>Melina Liz Santillan Alvarado</td>
       <td>
         TB1: Diseñó wireframes, mock-ups, diagramas de base de datos y de clases, style guidelines, segmentación de objetivos y diseño de entrevistas, además de aportar en User Stories.
-        <br>
-        TP:<br>
-        TB2:<br>
-        TF:
+        <br><br>
+        TP: Desarrolló componentes del frontend, refinó la presentación visual del prototipo y apoyó en la elaboración del reporte del trabajo parcial.
+        <br><br>
+        TB2: Implementó partes del backend, ajustó elementos del frontend y colaboró en la revisión general del documento académico.
+        <br><br>
+        TF: Culminó funcionalidades backend y ayudó en la corrección técnica final del informe.
       </td>
     </tr>
     <tr>
       <td>Javier Masaru Nikaido Vargas</td>
       <td>
         TB1: Aportó en Capítulo II: Requirements Elicitation & Analysis, análisis de competidores, User Stories, Wireframes, Wireflow Diagrams, Mock-ups y User Flow Diagrams, Web Applications Prototyping y Domain-Driven Software Architecture.
-        <br>
-        TP:<br>
-        TB2:<br>
-        TF:
+        <br><br>
+        TP: Se encargó del avance del reporte, realizó entrevistas y validaciones con usuarios y brindó apoyo puntual al frontend.
+        <br><br>
+        TB2: Colaboró en tareas del backend, amplió y corrigió contenido del reporte y fortaleció la documentación técnica del proyecto.
+        <br><br>
+        TF: Apoyó en las integraciones finales del backend y completó las correcciones finales del informe.
       </td>
     </tr>
     <tr>
       <td>Jean Pool Huaman De La Cruz</td>
       <td>
         TB1: Elaboró antecedentes y problemática, To-Be Scenario Mapping, Lean UX Process, definición de segmentos objetivo, Impact Mapping y Product Backlog.
-        <br>
-        TP:<br>
-        TB2:<br>
-        TF:
+        <br><br>
+        TP: Avanzó en el frontend, implementó componentes funcionales y colaboró con partes centrales del reporte del trabajo parcial.
+        <br><br>
+        TB2: Se encargó de funcionalidades backend, revisó elementos del frontend y aportó en la actualización del documento.
+        <br><br>
+        TF: Completó módulos backend asignados y participó en la revisión técnica final del informe.
       </td>
     </tr>
     <tr>
       <td>José María Franco Del Carpio</td>
       <td>
         TB1: Aportó ideas puntuales en User Stories y en entrevistas iniciales.
-        <br>
-        TP:<br>
-        TB2:<br>
-        TF:
+        <br><br>
+        TP: Avanzó en la redacción del reporte, realizó entrevistas adicionales y apoyó con pequeños ajustes en el frontend.
+        <br><br>
+        TB2: Dio soporte en backend y trabajó en correcciones de estructura y contenido del documento.
+        <br><br>
+        TF: Contribuyó en la revisión final del backend y fortaleció la versión final del informe.
       </td>
     </tr>
     <!-- Criterio 2 -->
@@ -235,58 +314,69 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       <td>Gonzalo Samuel Quintanilla Pozo</td>
       <td>
         TB1: Coordinó tareas del capítulo 4, revisó prototipos de la landing page, definió etiquetas SEO y sistemas de navegación, y apoyó en User Stories.
-        <br>
-        TP:<br>
-        TB2:<br>
-        TF:
+        <br><br>
+        TP: Lideró la implementación del frontend, organizó tiempos de entrega y apoyó en la estructura del reporte del trabajo parcial.
+        <br><br>
+        TB2: Colaboró en la implementación del backend y las correcciones del reporte, además de mejoras visuales del frontend.
+        <br><br>
+        TF: Finalizó el backend en conjunto con el equipo y contribuyó a la depuración del informe final.
       </td>
-      <td rowspan="5">El equipo fomentó un entorno colaborativo e inclusivo mediante la distribución de tareas, coordinación entre miembros y planificación de actividades para cumplir los objetivos del proyecto.
-        </td>
+      <td rowspan="5">
+        El equipo fomentó un entorno colaborativo e inclusivo mediante la distribución de tareas, coordinación entre miembros y planificación de actividades para cumplir los objetivos del proyecto.
+      </td>
     </tr>
     <tr>
       <td>Melina Liz Santillan Alvarado</td>
       <td>
         TB1: Diseñó wireframes y mock-ups, elaboró diagramas de base de datos y de clases, definió style guidelines, segmentación de objetivos y diseñó entrevistas.
-        <br>
-        TP:<br>
-        TB2:<br>
-        TF:
+        <br><br>
+        TP: Trabajó en el frontend, refinó elementos visuales y apoyó en la elaboración del reporte del trabajo parcial.
+        <br><br>
+        TB2: Avanzó en backend, realizó ajustes del frontend y participó en correcciones del documento.
+        <br><br>
+        TF: Terminó tareas backend y ayudó en la corrección técnica final del informe.
       </td>
     </tr>
     <tr>
       <td>Javier Masaru Nikaido Vargas</td>
       <td>
         TB1: Realizó análisis de competidores, elaboró User Stories, Wireframes, Wireflow Diagrams y Mock-ups, y participó en prototipado y arquitectura orientada a dominios.
-        <br>
-        TP:<br>
-        TB2:<br>
-        TF:
+        <br><br>
+        TP: Avanzó en el reporte del trabajo parcial, desarrolló validaciones de usuarios y brindó soporte básico al frontend.
+        <br><br>
+        TB2: Aportó en backend, amplió el contenido del reporte y corrigió secciones clave del documento.
+        <br><br>
+        TF: Trabajó en correcciones finales del informe y revisiones finales del backend.
       </td>
     </tr>
     <tr>
       <td>Jean Pool Huaman De La Cruz</td>
       <td>
         TB1: Elaboró antecedentes y problemática, definió To-Be Scenario Mapping, segmentación de objetivos, Impact Mapping y Product Backlog.
-        <br>
-        TP:<br>
-        TB2:<br>
-        TF:
+        <br><br>
+        TP: Implementó partes del frontend y redactó secciones importantes del reporte del trabajo parcial.
+        <br><br>
+        TB2: Participó en el backend, realizó correcciones visuales y ayudó en ajustes documentales.
+        <br><br>
+        TF: Completó implementaciones backend y colaboró en la revisión final del informe.
       </td>
     </tr>
     <tr>
       <td>José María Franco Del Carpio</td>
       <td>
         TB1: Aportó ideas puntuales en User Stories y en entrevistas iniciales.
-        <br>
-        TP:<br>
-        TB2:<br>
-        TF:
+        <br><br>
+        TP: Avanzó en el reporte del trabajo parcial, realizó entrevistas del Sprint 3 y apoyó en ajustes ligeros del frontend.
+        <br><br>
+        TB2: Colaboró con el backend y continuó con las correcciones generales del documento.
+        <br><br>
+        TF: Participó en las correcciones finales del informe y ajustes del backend.
       </td>
     </tr>
+
   </tbody>
 </table>
 </div>
-
 
 
 ## Capítulo I: Introducción
@@ -305,7 +395,7 @@ Convertirnos en una startup referente en el Perú en la creación de aplicacione
 | Estudiante                                                                                                                 | Descripción                                                                                                                                                                                                                                                | Conocimientos                                                                                   |
 |----------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
 | <img src="assets/images/fotoMelina.jpg" alt="fotoMelina" height="150" /> <br> Melina Liz Santillan Alvarado <br> U202216058                                                                | Soy estudiante de la carrera de Ingeniería de Software en la UPC y tengo 21 años. Me desempeño bien en los trabajos en equipo, además, soy responsable.                                                                                                                                                                          | Tengo conocimientos en diferentes lenguajes de programación como c#, c++ entre otros.                                                                          |
-| <img src="assets/images/masaru.jpg" alt="AgroTrack Logo" height="150" /> <br> Javier Masaru Nikaido Vargas <br> U20221G099 | Estudiante de Ingenieria de Software de 5to ciclo de la Universidad Peruana de Ciencias. Me gusta hacer las cosas con tiempo y ordenadamente, trabajar con tranquilidad y terminar mis deberes a tiempo.| conocimientos en C++, java, python.  |
+| <img src="assets/images/masaru.jpg" alt="masaru Logo" height="150" /> <br> Javier Masaru Nikaido Vargas <br> U20221G099 | Estudiante de Ingenieria de Software de 5to ciclo de la Universidad Peruana de Ciencias. Me gusta hacer las cosas con tiempo y ordenadamente, trabajar con tranquilidad y terminar mis deberes a tiempo.| conocimientos en C++, java, python.  |
 |<img src="assets/images/josemaria.jpg" alt="fotojosemaria" height="150" /> <br> José María Franco del Carpio <br> U202319178                                                                                  | Soy estudiante de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias (UPC) y tengo 20 años. Me interesa mucho lo que es la programación aunque aun soy muy verde en eso.                                                                                                                                                                                                                                                | tengo conocimientos en gamemaker, c++.                                                                                   |
 | <img src="assets/images/gonzalo.jpg" alt="fotogonzalo" height="150" /> <br> Gonzalo Samuel Quintanilla Pozo <br> U202315007                                                                | Soy estudiante de la carrera de Ingenieria de Software en la UPC y tengo 20 años, como compañero me gusta apoyar y tomar iniciativa en trabajos grupales | Me especializo en los lenguajes CSS, Java y Pyhton. Tengo experiencia desarrolando  paginas web |
 | <img src="assets/images/fotoJean.png" alt="fotoJean" height="150" /> <br> Jean Pool Huaman De La Cruz <br> U20201E781                                                                                 | Soy estudiante de la carrera de Ingenieria de Software en la UPC y Tengo 22 años. A lo largo de mi formación me he destacado por mi compromiso con el aprendizaje constante, siempre buscando reforzar mis conocimientos y mejorar en las áreas que lo requieren.                                                                                                                                                                 | Conocimientos en Python, C++ y otros lenguajes de programación.    | 
@@ -1195,12 +1285,13 @@ En esta sección se presenta los mock-ups de nuestra landing page, donde se refl
 <img alt="upc-logo" src="/assets/images/Mackups/4.png"/><br>
 
 ### 4.4. Web Applications UX/UI Design
+El diseÇño de experiencia de usuario (UX) y diseÇño de interfaz de usuario (UI) en aplicaciones web busca crear experiencias digitales intuitivas y satisfactorias. La UX se enfoca en comprender las necesidades del usuario y diseÇñar flujos de interacciÇün eficientes, mientras que la UI se encarga del aspecto visual, como botones, menÇ§s y disposiciÇün de contenido. Un diseÇño UX/UI exitoso fusiona estÇ_tica y funcionalidad, ofreciendo una experiencia fluida y memorable.
 #### 4.4.1. Web Applications Wireframes
 #### 4.4.2. Web Applications Wireflow Diagrams
 <img alt="upc-logo" src="/assets/images/Wireframes_app.png"/><br>
 
-#### 4.4.2. Web Applications Mock-ups
-#### 4.4.3. Web Applications User Flow Diagrams
+#### 4.4.3. Web Applications Mock-ups
+#### 4.4.4. Web Applications User Flow Diagrams
 
 **User goal:** Acceder a la web application
 **User persona:** Microoempresa y emprendedores
@@ -1228,8 +1319,9 @@ En esta sección se explica y evidencia el proceso de Design-Level EventStorming
 #### 4.6.3. Software Architecture Components Diagrams
 <img alt="c42" src="/assets/images/C42.jpg"/>
 
-### 4.6.4. Software Architecture Components Diagrams
+### 4.6.4. Software Architecture Code Diagrams
 <img alt="c42" src="/assets/images/C43.jpg"/>
+
 ### 4.7. Software Object-Oriented Design
 #### 4.7.1. Class Diagrams
 <img alt="diagrama-clases" src="/assets/images/diagrama-clases.png"/>
@@ -1275,81 +1367,156 @@ https://foodstock-landingpage.onrender.com/
 ### 5.2. Landing Page, Services & Applications Implementation
 #### 5.2.1. Sprint 1
 
-El primer sprint se centró en la creación de la página de aterrizaje (Landing Page) de FoodStock. El objetivo era presentar una visión clara y atractiva del producto para generar una primera impresión positiva en los futuros usuarios.
+El primer sprint se enfoco en la creacion de la pagina de aterrizaje (landing page) de FoodStock para presentar de forma clara la propuesta de valor.
 ##### 5.2.1.1. Sprint Planning 1
-A continuación, se detalla la planificación del primer sprint, donde se definieron los objetivos, las tareas y el equipo a cargo de su ejecución.
-
-Sprint #: Sprint 1
-
-Sprint Planning:
-
-Fecha: 2025/08/30
-
-Hora: 5:00 PM
-
-Lugar: Reunión virtual en Google Meet
-
-Objetivo del Sprint:
-
-Nuestro enfoque está en presentar una landing page que muestre las principales funcionalidades y características de FoodStock.
-
-Creemos que esto generará una sólida primera impresión sobre la propuesta de valor de FoodStock para nuestros segmentos objetivo.
-
-Esto se confirmará cuando los usuarios accedan a la landing page y naveguen por sus secciones clave.
-
-Velocidad del Sprint (Sprint Velocity): 9
-
-Puntos de Historia (Sum of story points): 9
+| Sprint #                        | Sprint 1                                                                                                                             |
+|---------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
+| Sprint planning background      | Definir y lanzar la landing page inicial de FoodStock.                                                                               |
+| Date                            | 2025/08/30                                                                                                                           |
+| Time                            | 5:00 PM                                                                                                                              |
+| Location                        | Reunion virtual en Google Meet                                                                                                       |
+| Prepared By                     | Equipo FoodStock                                                                                                                     |
+| Attendees (to planning meeting) | Melina Santillan, Jean Pool Huaman, Javier Nikaido, Gonzalo Quintanilla, Jose Maria Del Carpio                                        |
+| Sprint Goal & User Stories      | Presentar secciones Heroe, Beneficios, About, Planes y FAQ para validar interes inicial de usuarios objetivo.                         |
+| Sprint Velocity                 | 9                                                                                                                                    |
+| Sum of story points             | 9                                                                                                                                    |
 ##### 5.2.1.2. Aspect Leaders and Collaborators
-El equipo de FoodStock utilizó una Matriz de Liderazgo y Colaboración (LACX) para definir las responsabilidades en el primer sprint. Esta matriz asegura que cada tarea tenga un líder principal (L) y colaboradores (C) de apoyo.
+El equipo uso la matriz LACX para asignar responsabilidades en las secciones de la landing page.
 
-- Melina Liz Santillan Alvarado: Lideró la sección "About Us" y colaboró en las secciones de "Beneficios", "Testimonios" y "Precios".
+<div style="font-size:70%;">
 
-- Javier Masaru Nikaido Vargas: Fue el líder de la sección de "Preguntas Frecuentes" y colaboró en "Héroe", "Beneficios" y "Contacto".
+| Team Member | GitHub Username | Heroe L/C | Beneficios L/C | About/Product L/C | Planes/Precios L/C | FAQ L/C | Footer/Contacto L/C |
+|:-----------:|:---------------:|:---------:|:--------------:|:-----------------:|:------------------:|:------:|:-------------------:|
+| Melina Liz Santillan Alvarado | melinaasantillan | C | C | L | L | L | C |
+| Javier Masaru Nikaido Vargas | MassiFlip | L | L | C | L | L | L |
+| Jean Pool Huaman De La Cruz | charlie404x | L | L | L | L | C | L |
+| Gonzalo Samuel Quintanilla Pozo | GoldQP | C | L | C | L | L | C |
+| Jose Maria Franco del Carpio | VoltTrd | C | C | C | C | C | C |
 
-- Jean Pool Huaman De La Cruz: Lideró la sección de "Beneficios" y colaboró en "Héroe", "Testimonios", "Precios", "Contacto" y "Pie de página".
+</div>
 
-- Gonzalo Samuel Quintanilla Pozo: Lideró las secciones "Héroe" y "Planes" y colaboró en "Testimonios", "Contacto" y "Pie de página".
+<div style="text-align: center; font-size:85%; margin-top: 0.5rem;">
 
-- José María Franco del Carpio: Colaboró en la seccion de entrevista
+Nota. L = Leader (responsable principal). C = Collaborator (apoyo).
+
+</div>
 ##### 5.2.1.3. Sprint Backlog 1
-El backlog del primer sprint se centró en la maquetación y desarrollo de la página de aterrizaje (landing page) de FoodStock. Las tareas incluyeron:
-
-
-* Implementar la barra de navegación y el pie de página (footer) con los enlaces correspondientes.
-
-* Crear la sección de "Características" (Benefits).
-
-* Desarrollar la sección "About the product".
-
-* Diseñar e implementar la sección "About Us" para presentar al equipo.
-
-* Crear la página de "Planes" con la información de los precios.
-
-* Desarrollar la sección de "Preguntas Frecuentes" (FAQ).
-
-* Configurar el despliegue automático en Render.Maquetar y desarrollar la sección principal o "Héroe".
+<table>
+  <tr>
+    <td>Sprint #</td>
+    <td colspan="7">Sprint 1</td>
+  </tr>
+  <tr>
+    <td colspan="2">User Story</td>
+    <td colspan="2">Work-Item / Task</td>
+    <td>Description</td>
+    <td>Estimation (Hours)</td>
+    <td>Assigned To</td>
+    <td>Status (To-do / In-Process / Done)</td>
+  </tr>
+  <tr>
+    <td>Id</td>
+    <td>Title</td>
+    <td>Id</td>
+    <td>Title</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>US-LP01</td>
+    <td>Ver informacion general del producto</td>
+    <td>T1</td>
+    <td>Maquetar seccion Heroe</td>
+    <td>Crear hero con titulo, subtitulo y CTA hacia la propuesta de valor.</td>
+    <td>6 hr</td>
+    <td>Dev Frontend</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-LP02</td>
+    <td>Conocer beneficios clave</td>
+    <td>T2</td>
+    <td>Diseñar seccion Beneficios</td>
+    <td>Listar 3-4 beneficios con iconos y texto breve.</td>
+    <td>5 hr</td>
+    <td>Dev Frontend</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-LP03</td>
+    <td>Conocer equipo y producto</td>
+    <td>T3</td>
+    <td>Implementar About Us / About product</td>
+    <td>Seccion con descripcion corta del equipo y del producto.</td>
+    <td>5 hr</td>
+    <td>Dev Frontend</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-LP04</td>
+    <td>Revisar planes y precios</td>
+    <td>T4</td>
+    <td>Construir seccion Planes</td>
+    <td>Tabla de planes con precios y llamados a accion.</td>
+    <td>6 hr</td>
+    <td>Dev Frontend</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-LP05</td>
+    <td>Resolver dudas frecuentes</td>
+    <td>T5</td>
+    <td>Agregar seccion FAQ</td>
+    <td>Desplegables con preguntas y respuestas frecuentes.</td>
+    <td>4 hr</td>
+    <td>Dev Frontend</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-LP06</td>
+    <td>Contactar al equipo</td>
+    <td>T6</td>
+    <td>Footer y contacto</td>
+    <td>Footer con enlaces a redes/contacto y llamadas a accion.</td>
+    <td>3 hr</td>
+    <td>Dev Frontend</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-LP07</td>
+    <td>Ver sitio desplegado</td>
+    <td>T7</td>
+    <td>Configurar despliegue en Render</td>
+    <td>Pipeline de build y deploy automatico de la landing page.</td>
+    <td>4 hr</td>
+    <td>Dev Frontend</td>
+    <td>Done</td>
+  </tr>
+</table>
 
 ##### 5.2.1.4. Development Evidence for Sprint Review
-Las evidencias de desarrollo de este sprint se reflejan en el código fuente y las capturas de pantalla de la interfaz, que documentan la implementación de cada sección. El código completo del proyecto se encuentra en el repositorio de GitHub.
-https://github.com/FoodStock-1ASI0730-2520-7420/FoodStock-report.git
-
+ Evidencias de codigo y capturas de la interfaz en el repositorio: https://github.com/FoodStock-1ASI0730-2520-7420/FoodStock-report.git
+ 
 ##### 5.2.1.5. Execution Evidence for Sprint Review
-La evidencia de la ejecución muestra el producto funcional tal como se visualiza en un navegador web. Se tomaron capturas del sitio web en vivo para validar la correcta visualización de las secciones desarrolladas y su rendimiento.
+ Capturas del sitio en vivo que validan visualizacion y rendimiento de las secciones desarrolladas.
+ 
 ##### 5.2.1.6. Services Documentation Evidence for Sprint Review
-La documentación inicial del proyecto se encuentra en el archivo README.md del repositorio de GitHub. Este documento detalla la configuración del entorno de desarrollo, las convenciones de código y los pasos para el despliegue.
+ Documentacion inicial en README.md con configuracion de entorno, convenciones de codigo y pasos de despliegue.
+ 
 ##### 5.2.1.7. Software Deployment Evidence for Sprint Review
-El despliegue de la landing page de FoodStock se realizó exitosamente en la plataforma Render. La evidencia de despliegue incluye los logs de la plataforma que confirman la finalización del proceso. El sitio web está accesible a través de la siguiente URL: https://foodstock-landingpage.onrender.com/.
+ Landing page desplegada en Render. Logs de despliegue correctos. URL: https://foodstock-landingpage.onrender.com/
+ 
 ##### 5.2.1.8. Team Collaboration Insights during Sprint
-
-Evidencia de avance de equipo en el github
+ Evidencia de avance del equipo en GitHub.  
 <img alt="upc-logo" src="/assets/images/EvidenciaGit.png"/><br>
 
-#### 5.2.1.1. Sprint Planning 2
+#### 5.2.2.1. Sprint Planning 2
 
 | Sprint #                             | Sprint 2                                                                                                                                                                                                                                                  |
 |--------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Sprint planning <br> background      |                                                                                                                                                                                                                                                           |
+| Sprint planning <br> background      |En este sprint revisamos el frontend desarrollado con Vite + Vue, validando la estructura inicial del proyecto y los módulos creados (Home, Inventory, Sales, Suppliers). Se evaluó la navegación entre componentes y la organización del router. El enfoque principal fue continuar el desarrollo del frontend, mejorar la interfaz del inventario y preparar un prototipo funcional para las entrevistas de validación.|
 | Date                                 | 2025/10/11                                                                                                                                                                                                                                                |
 | Time                                 | 10:59 AM                                                                                                                                                                                                                                                  |
 | Location                             | Llamada grupal en la plataforma Discord                                                                                                                                                                                                                   |
@@ -1545,232 +1712,702 @@ Para desplegar el la app web se uso Render aqui muestro las evidencia
 Evidencia de avance de equipo en el github
 <img alt="upc-logo" src="/assets/images/sprint2.png"/><br>
 
-# 5.3. Sprint 3
+#### 5.2.3. Sprint 3
 
 El tercer sprint se centró en validar el prototipo funcional de FoodStock mediante entrevistas con emprendedores reales, además de revisar el avance técnico del backend y definir mejoras prioritarias. Este sprint fue clave para determinar la utilidad del sistema y la claridad de sus flujos principales.
 
 ---
 
-## 5.3.1. Sprint Planning 3
+##### 5.2.3.1. Sprint Planning 3
 
-**Sprint #:** Sprint 3  
-
-**Sprint Planning background**
-
-- **Date:** 2025/11/09  
-- **Time:** 6:00 PM  
-- **Location:** Reunión grupal en Discord  
-- **Prepared By:** Gonzalo Quintanilla  
-- **Attendees:** Melina Santillán, Jean Pool Huamán, Javier Nikaido, José María Del Carpio, Gonzalo Quintanilla
+| Sprint #                             | Sprint 3                                                                                                                                                                                                                         |
+|--------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Sprint planning <br> background      |          Se revisó el avance del frontend desarrollado con Vite + Vue, verificando los módulos principales (Home, Inventory, Sales, Suppliers). Se evaluó la navegación entre vistas y se definió completar las funcionalidades mínimas del prototipo para validarlo con usuarios reales. El enfoque del sprint fue mejorar Inventario y agregar alertas básicas, además de preparar un flujo navegable para entrevistas.                                                                                                                                                                                                                         |
+| Date                                 | 2025/11/09                                                                                                                                                                                                                        |
+| Time                                 | 6:00 PM                                                                                                                                                                                                                           |
+| Location                             | Reunión grupal en Discord                                                                                                                                                                                                         |
+| Prepared By                          | Gonzalo Quintanilla                                                                                                                                                                                                               |
+| Attendees <br> (to planning meeting) | Melina Santillán, Jean Pool Huamán, Javier Nikaido, José María Del Carpio, Gonzalo Quintanilla                                                                                                                                    |
+| Sprint 1 Review                      | Se completó la landing page, pero se identificó que aún faltan mejoras para actualizarla según el producto real.                                                                                                                 |
+| Sprint 2 Review                      | Se logró el despliegue con Vue + fake API. Hubo avances en inventario y ventas, pero el backend sigue incompleto. Faltan bounded contexts y algunos módulos quedaron fuera por límite de tiempo.                                  |
+| **Sprint Goal & User Stories**       |                                                                                                                                                                                                                                   |
+| Sprint 3 Goal                        | Validar el prototipo con usuarios reales y consolidar un backend mínimo funcional (inventario + ventas).                                                                                                                         |
+| Sprint 3 Velocity                    | 18                                                                                                                                                                                                                                |
+| Sum of story points                  | 32                                                                                                                                                                                                                                |
 
 ---
 
-### **Sprint 1 Review**  
-Se completó la landing page.  
-En este sprint se revisó nuevamente y se determinó que **aún faltan mejoras** para actualizarla con la información del producto real.
+##### 5.2.3.2. Aspect Leaders and Collaborators
 
-### **Sprint 2 Review**  
-Se logró el despliegue con Vue + fake API.  
-En el Sprint 3 se identificó que:
+<div style="font-size:70%;">
 
-- Se avanzó en inventario y ventas.  
-- Hay una **base inicial del backend**, pero incompleta.  
-- Faltan varios **bounded contexts** importantes.  
-- Algunos módulos están avanzados, pero **no pudieron incluirse en este sprint** por límite de tiempo y líneas implementadas.
+| **Team Member** <br> Last Name, First Name | **GitHub Username** | **Report** <br> L/C | **Reservation** <br> L/C | **Inventory** <br> L/C | **Suppliers** <br> L/C | **Sales** <br> L/C |
+|:------------------------------------------:|:-------------------:|:-------------------:|:------------------------:|:----------------------:|:----------------------:|:------------------:|
+| **Quintanilla Gonzalo**                    | GoldQP              | L                   | C                        | C                      | C                      | C                  |
+| **Nikaido Javier**                         | MassiFlip           | C                   | C                        | L                      | C                      | C                  |
+| **Santillán Melina**                       | melinaasantillan    | C                   | C                        | C                      | C                      | L                  |
+| **Huamán Jean Pool**                       | charlie404x         | C                   | L                        | C                      | C                      | C                  |
+| **Del Carpio José María**                  | VoltTrd             | C                   | C                        | C                      | C                      | C                  |
+
+</div>
+
+<div style="text-align: center; font-size:85%; margin-top: 0.5rem;">
+**Nota.** L = *Leader* (responsable principal del aspecto).  
+C = *Collaborator* (apoya el desarrollo del aspecto).
+</div>
+
+---
+
+##### 5.2.3.3. Sprint Backlog 3
+
+<table>
+  <tr>
+    <td>Sprint #</td>
+    <td colspan="7">Sprint 3</td>
+  </tr>
+  <tr>
+    <td colspan="2">User Story</td>
+    <td colspan="2">Work-Item / Task</td>
+    <td>Description</td>
+    <td>Estimation (Hours)</td>
+    <td>Assigned To</td>
+    <td>Status (To-do / In-Process / Done)</td>
+  </tr>
+  <tr>
+    <td>Id</td>
+    <td>Title</td>
+    <td>Id</td>
+    <td>Title</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+
+  <!-- Tareas del sprint -->
+  <tr>
+    <td>US35</td>
+    <td>Registrar producto</td>
+    <td>T1</td>
+    <td>Implementar registro de productos</td>
+    <td>Implementación del formulario y lógica para registrar productos.</td>
+    <td>6 hr</td>
+    <td>Dev Frontend</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US34</td>
+    <td>Historial de inventario</td>
+    <td>T2</td>
+    <td>Mejorar vista de inventario</td>
+    <td>Añadir vista detallada, fechas, cantidades y movimientos.</td>
+    <td>8 hr</td>
+    <td>Dev Fullstack</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>TS06</td>
+    <td>Alertas por fecha de vencimiento</td>
+    <td>T3</td>
+    <td>Agregar alertas básicas</td>
+    <td>Sistema básico de alertas para productos próximos a vencer.</td>
+    <td>7 hr</td>
+    <td>Dev Fullstack</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>—</td>
+    <td>Prototipo navegable</td>
+    <td>T4</td>
+    <td>Preparar prototipo para entrevistas</td>
+    <td>Ensambles visuales, navegación y flujo funcional.</td>
+    <td>5 hr</td>
+    <td>Dev Frontend</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>—</td>
+    <td>Entrevistas de validación</td>
+    <td>T5</td>
+    <td>Realizar 3 entrevistas</td>
+    <td>Aplicación del instrumento de validación con 3 emprendedores reales.</td>
+    <td>4 hr</td>
+    <td>Team</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>—</td>
+    <td>Documentación de hallazgos</td>
+    <td>T6</td>
+    <td>Registrar feedback</td>
+    <td>Documentar dificultades, comentarios y oportunidades de mejora.</td>
+    <td>3 hr</td>
+    <td>Report Team</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US01, US03</td>
+    <td>Ventas</td>
+    <td>T7</td>
+    <td>Refinar botones y navegación</td>
+    <td>Mejoras visuales, interacción y consistencia del módulo.</td>
+    <td>6 hr</td>
+    <td>Dev Frontend</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>TS02</td>
+    <td>Backend inventario + ventas</td>
+    <td>T8</td>
+    <td>Consolidar backend</td>
+    <td>Unificación de endpoints base y conexión funcional mínima.</td>
+    <td>9 hr</td>
+    <td>Dev Backend</td>
+    <td>Done</td>
+  </tr>
+
+</table>
+
+---
+
+##### 5.2.3.4. Development Evidence for Sprint Review
+
+A continuación, se detallan los avances realizados en el desarrollo de la aplicación web y la API backend, con los commits registrados hasta el 13 de noviembre de 2025.
+
+| Repo      | Branch | Commit   | Message                                                            | Date          |
+|-----------|--------|-----------|--------------------------------------------------------------------|---------------|
+| Frontend  | develop | efc36f9  | feature: add frontend                                             | 03/10/2025    |
+| Frontend  | develop | 194bf09  | feature: add Sales                                                | 04/10/2025    |
+| Frontend  | develop | 42b8acf  | app: ADD MERGE OF ITEMS AND PRODUCT IN INVENTORY                  | 05/10/2025    |
+| Frontend  | develop | cef6303  | feat(reports): add new components and update report features      | 09/10/2025    |
+| Frontend  | develop | 936fd99  | add comment                                                       | 09/10/2025    |
+| Frontend  | develop | 2f5215b  | Add getAllSaleItems method to sales-api.js                        | 09/10/2025    |
+| Frontend  | develop | f4cad5f  | app: add new product "Papa" and update UI labels                  | 10/10/2025    |
+| Frontend  | develop | 60a90bc  | app: enhance inventory management                                 | 10/10/2025    |
+| Backend   | develop | 44dfed5  | feat: implement report                                            | 11/10/2025    |
+| Backend   | develop | 143546f  | feat: update environment variables + supplier data                | 11/10/2025    |
+| Backend   | develop | 7c30d8e  | feat: implement supplier management functionality                 | 11/10/2025    |
+| Frontend  | develop | cfeb9c4  | app: update API integration (base classes + env vars)             | 11/10/2025    |
+| Frontend  | develop | 5d203d3  | app: update API integration                                       | 11/10/2025    |
+| Frontend  | develop | 981c551  | app: update API integration                                       | 11/10/2025    |
+| Frontend  | develop | 586096f  | feature: update getSaleItems                                      | 11/10/2025    |
+| Frontend  | develop | 000a329  | feature: update sale file                                         | 11/10/2025    |
+| Frontend  | develop | 2bd55bd  | feature: update files                                             | 11/10/2025    |
+| Frontend  | develop | 3b68eae  | Merge branch 'Reports'                                            | 11/10/2025    |
+| Frontend  | develop | 85b62a1  | feature: update sale                                              | 11/10/2025    |
+| Backend   | develop | 6343e61  | feature: add FoodStock backend                                    | 08/11/2025    |
+| Backend   | develop | b133537  | feature: update foodStock                                         | 13/11/2025    |
+| Backend   | develop | 49571a7  | feature: add Sales                                                | 13/11/2025    |
+| Backend   | develop | 823cadd  | feature: add price unit to dish creation                          | 13/11/2025    |
+| Backend   | develop | 3f2ee79  | feature: implement product & dish management                      | 13/11/2025    |
+
+
+
+##### 5.2.3.5. Execution Evidence for Sprint Review
+
+- Swagger del backend (endpoints y schemas validados):  
+  - ![Swagger overview](resources/SPRINT3/Swagger1.png)  
+  - ![Swagger endpoints](resources/SPRINT3/Swagger2.png)  
+  - ![Swagger schemas](resources/SPRINT3/Swagger3.png)  
+- Capturas del frontend (modos claro/oscuro y navegaci?n principal):  
+  - ![Clientes - modo oscuro](resources/SPRINT3/pantalla_clientes_oscuro.png)  
+  - ![Clientes - modo claro](resources/SPRINT3/pantalla_clientes_claro.png)  
+  - ![Landing - modo claro](resources/SPRINT3/Landing_page_claro.png)  
+  - ![Landing - modo oscuro](resources/SPRINT3/landing_page_oscuro.png)  
+
+---
+
+##### 5.2.3.6. Services Documentation Evidence for Sprint Review
+
+| Metodo | Endpoint | Descripcion |
+|--------|----------|-------------|
+| GET    | /api/v1/user/{userId} | Obtiene un usuario por ID |
+| POST   | /api/v1/user | Crea un nuevo usuario |
+| GET    | /api/v1/products | Lista los productos segun filtros basicos |
+| POST   | /api/v1/products | Registra un producto |
+| GET    | /api/v1/sale/{saleId} | Obtiene una venta por ID |
+| POST   | /api/v1/purchase-order | Genera una orden de compra |
+
+---
+
+##### 5.2.3.7. Deployment Evidence for Sprint Review
+
+Backend desplegado temporalmente en Azure:
+
+- **https://app-251113235013.azurewebsites.net/swagger/index.html**
+
+Logs confirmaron correcto funcionamiento durante entrevistas.
+
+---
+
+##### 5.2.3.8. Team Collaboration Insights during Sprint
+
+- Coordinaci?n continua por Discord.  
+- Trabajo colaborativo v?a GitHub con merges diarios.  
+- Cambios r?pidos aplicados seg?n feedback en entrevistas.  
+- Capturas de participaci?n y actividad del sprint:  
+  - ![Actividad Sprint 3](resources/SPRINT3/team_activity.png)  
+  - ![Commits Sprint 3](resources/SPRINT3/team_commits.png)  
+
+---
+
+##### 5.2.3.9. Validation Interviews
+
+Las entrevistas de validaci?n del Sprint 3 se enfocaron en comprobar la navegabilidad del prototipo y la cobertura del backend m?nimo.
+
+###### 5.2.3.9.1. Dise?o de Entrevistas
+- Objetivo: validar inventario, alertas y flujo de ventas con usuarios finales.  
+- Formato: recorrido guiado del prototipo y preguntas de usabilidad.  
+- Roles: un entrevistador y un observador tomando notas.  
+
+###### 5.2.3.9.2. Registro de Entrevistas (Resumen)
+- Entrevista 1: validaci?n del flujo de inventario y alertas (feedback positivo sobre alertas de vencimiento).  
+- Entrevista 2: revisi?n de ventas y reportes (solicitud de m?s filtros en reportes).  
+- Evidencia visual: ![Validaci?n Sprint 3](resources/SPRINT3/validation_interview.png)  
+
+##### 5.2.3.10. Sprint 3 Findings
+- El inventario y las alertas cubren los casos principales pero requieren optimizar tiempos de carga.  
+- Se necesita ampliar filtros en reportes y simplificar el alta de proveedores.  
+- Los usuarios valoran el modo oscuro y la consistencia entre landing y aplicaci?n.  
+
+##### 5.2.3.11. Sprint 3 Conclusion
+Sprint 3 permiti? validar el flujo end-to-end con usuarios reales, confirmando la prioridad de robustecer backend y reportes antes del despliegue final.
+
+---
+
+#### 5.2.4. Sprint 4
+
+El cuarto sprint consolidó el desarrollo del backend, completó los módulos principales y preparó la versión estable del producto para la presentación final. Este sprint se centró en cerrar funcionalidades clave y mejorar la integración del frontend con los servicios del sistema.
+
+---
+
+##### 5.2.4.1. Sprint Planning 4
+
+| Sprint # | Sprint 4 |
+|---------|----------|
+| **Sprint planning background** | Se analizaron los resultados del Sprint 3 y el feedback de las entrevistas. Se identificó la necesidad de fortalecer el backend real, completar los módulos incompletos y reemplazar la fake API. El sprint se enfocó en integrar Vue con la API real, mejorar funciones clave como inventario y ventas, y preparar el sistema para avanzar hacia un MVP más sólido.|
+| **Date** | 2025/12/01 |
+| **Time** | 7:00 PM |
+| **Location** | Google Meet |
+| **Prepared By** | Jean Pool Huamán |
+| **Attendees** | Gonzalo Quintanilla, Jean Pool Huamán, Melina Santillán, Javier Nikaido, José María Del Carpio |
+
+---
+
+###### Sprint 2 & 3 Review Summary
+
+En el Sprint 3 se validó el prototipo funcional con usuarios reales y se identificaron mejoras importantes, entre ellas:
+
+- Funciones clave aún incompletas en el backend.  
+- Falta integrar flujos completos como proveedores y reservas.  
+- Necesidad de agregar campos adicionales.  
+- Flujo de edición limitado.  
 
 **Conclusión:**  
-➡ Hay mejoras, pero **todavía falta bastante trabajo técnico**, que pasará al Sprint 4.
+ El Sprint 4 debe centrarse en completar el backend, mejorar la experiencia del usuario y preparar el producto final para la presentación.
 
 ---
 
-### **Sprint Goal & User Stories**
+###### Sprint Goal & User Stories
 
-**Sprint 3 Goal:**  
-Validar el prototipo con usuarios reales y consolidar un backend mínimo funcional (inventario + ventas).
-
-**Sprint 3 Velocity:** 18  
-**Sum of Story Points:** 32
-
----
-
-## 5.3.2. Aspect Leaders and Collaborators
-
-- **Gonzalo Samuel Quintanilla Pozo — Sprint Leader (L)**  
-- **Javier Masaru Nikaido Vargas — Documentation & Integration (L/C)**  
-- **Melina Liz Santillán Alvarado — UX Testing & QA (L/C)**  
-- **Jean Pool Huamán De La Cruz — Frontend Logic (C)**  
-- **José María Franco del Carpio — UI Layout (C)**  
-
-**Nota:**  
-Aiko Napanga, Aldo Zavala y Gabriel Cermeño **no pertenecen al equipo**.  
-Solo participaron como **entrevistados externos para validación**.
+| Sprint 4 Goal | Completar el backend principal (inventario, ventas, proveedores y reservas), integrar los módulos con el frontend y preparar la versión estable para la demostración final del proyecto. |
+|---------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint 4 Velocity** | 20 |
+| **Sum of Story Points** | 35 |
 
 ---
 
-## 5.3.3. Sprint Backlog 3
+##### 5.2.4.2. Aspect Leaders and Collaborators
 
-- Implementar registro de productos.  
-- Mejorar vista de inventario.  
-- Agregar alertas básicas de vencimiento.  
-- Preparar prototipo navegable para entrevistas.  
-- Realizar 3 entrevistas de validación.  
-- Documentar hallazgos y mejoras.  
-- Refinar botones, textos y navegación.  
-- Consolidar backend base de inventario y ventas.  
-
----
-
-## 5.3.4. Development Evidence for Sprint Review
-
-- Registro de productos implementado.  
-- Inventario funcionando con fechas y cantidades.  
-- Alertas básicas agregadas.  
-- Backend conectado parcialmente al módulo de inventario/ventas.
-
-Código en GitHub:  
-https://github.com/FoodStock-1ASI0730-2520-7420/FoodStock-report.git
+| Team Member | GitHub Username | Report L/C | Reservation L/C | Inventory L/C | Suppliers L/C | Sales L/C |
+|-------------|----------------|------------|------------------|----------------|----------------|-----------|
+| Quintanilla Gonzalo | GoldQP | C | C | **L** | C | C |
+| Huamán Jean Pool | charlie404x | **L** | C | C | C | C |
+| Santillán Melina | melinaasantillan | C | C | C | C | **L** |
+| Nikaido Javier | MassiFlip | C | **L** | C | **L** | C |
+| Del Carpio José María | VoltTrd | C | C | C | C | C |
 
 ---
 
-## 5.3.5. Execution Evidence for Sprint Review
+##### 5.2.4.3. Sprint Backlog 4
 
-- Pruebas realizadas durante grabación de entrevistas.  
-- Capturas de registro, inventario y alertas.  
-- Demostración del prototipo ejecutado en navegador.
-
----
-
-## 5.3.6. Services Documentation Evidence for Sprint Review
-
-- README.md actualizado.  
-- Manual interno de pruebas.  
-- Documentación inicial del backend.  
-
----
-
-## 5.3.7. Software Deployment Evidence for Sprint Review
-
-El prototipo fue desplegado temporalmente en Azure para permitir pruebas reales durante las entrevistas.
-
-Los logs del despliegue confirman estabilidad y correcto funcionamiento.
-
-Link: https://app-251113235013.azurewebsites.net/swagger/index.html
+| User Story | Work Item / Task | Description | Hours | Assigned To | Status |
+|------------|------------------|-------------|--------|--------------|--------|
+| US51 – Backend | T1 – Completar módulo de reservas | CRUD completo + integración con frontend. | 6 | Javier | In-Process |
+| US52 – Backend | T2 – Implementar módulo de proveedores | CRUD + validaciones e integración a backend. | 5 | Gonzalo | To-do |
+| US53 – Reportes | T3 – Crear reportes avanzados | Ventas por fechas, productos más vendidos. | 4 | Jean Pool | In-Process |
+| US54 – Inventario | T4 – Añadir campos avanzados | Agregar lote y fecha de elaboración. | 3 | Melina | To-do |
+| US55 – UI/UX | T5 – Mejorar edición de productos | Ajustes de formularios y actualización visual. | 2 | José María | To-do |
+| US56 – QA | T6 – Pruebas end-to-end | Validación completa del flujo y corrección de errores. | 4 | Todo el equipo | In-Process |
+| US57 – Deployment | T7 – Preparación del build final | Ajuste de rutas, configuración y despliegue final. | 3 | Javier | To-do |
+| US58 – Presentación | T8 – Preparar demo final | Script, recorrido del producto y grabación. | 2 | Jean Pool | To-do |
 
 ---
 
-## 5.3.8. Team Collaboration Insights during Sprint
+##### 5.2.4.4. Development Evidence for Sprint Review
 
-- Reuniones constantes por Discord.  
-- Flujo de trabajo compartido vía GitHub.  
-- Ejecución rápida de cambios según feedback de entrevistas.  
 
----
+A continuación, se presentan los avances registrados desde el 30 de noviembre de 2025 hasta el cierre del Sprint 4.
 
-# 5.3.9. Validation Interviews
+| Repo      | Branch | Commit   | Message                                                            | Date          |
+|-----------|--------|-----------|--------------------------------------------------------------------|---------------|
+| Backend   | develop | f0195ec  | feat: implement dish & product management commands                 | 30/11/2025    |
+| Backend   | develop | 631c4bb  | feature: update project paths and versioning                      | 30/11/2025    |
+| Backend   | develop | 0e2550   | feature: update assembly informational version                     | 30/11/2025    |
+| Backend   | develop | 5d54f6a  | feature: add supplier management commands                          | 01/12/2025    |
+| Backend   | develop | a04a5da  | feature: implement reservations CRUD & availability checks         | 02/12/2025    |
+| Backend   | develop | aab4159  | docs(readme): update TablesController full code                   | 02/12/2025    |
+| Backend   | develop | e932b5b  | docs(readme): update ReservationsController full code             | 02/12/2025    |
+| Frontend  | develop | e1a5d87  | feat: add initial db.json (sample posts, comments, profiles)       | 02/12/2025    |
+| Frontend  | develop | fae3de1  | feat: enhance user authentication + API integration                | 02/12/2025    |
+| Frontend  | develop | 24250f6  | feat: user auth views with local storage integration               | 02/12/2025    |
 
-Durante este sprint se realizaron entrevistas con emprendedores y microempresarios para validar la claridad, utilidad y usabilidad del prototipo.
-
----
-
-## 5.3.9.1. Diseño de Entrevistas
-
-### **Objetivo**
-Validar la comprensión del prototipo, la utilidad del inventario y la efectividad de las alertas en el día a día de emprendedores.
-
-### **Elementos Evaluados**
-- Landing page  
-- Inicio de sesión  
-- Registro de productos  
-- Inventario  
-- Alertas  
-- Flujo de uso general  
-
-### **Preguntas Aplicadas**
-1. ¿Qué entendiste de la landing page?  
-2. ¿Te generó confianza?  
-3. ¿Te registrarías?  
-4. ¿Qué información agregarías?  
-5. ¿Cómo te pareció el inicio de sesión?  
-6. ¿Cómo te fue registrando un producto?  
-7. ¿Agregarías campos adicionales?  
-8. ¿Qué opinas del inventario?  
-9. ¿Te servirían las alertas?  
-10. ¿Por dónde las preferirías?  
-11. ¿Usarías FoodStock en tu negocio?  
-12. ¿Qué mejorarías?  
-13. ¿Lo recomendarías?  
 
 ---
 
-## 5.3.9.2. Registro de Entrevistas (Resumen)
+##### 5.2.4.5. Execution Evidence for Sprint Review
 
-### **Entrevistado 1: Aldo Zavala — Emprendedor gastronómico**  
-Encontró el sistema claro y útil. Consideró las alertas esenciales para evitar pérdidas. Sugirió mejorar la edición de productos.
+- Pruebas funcionales en navegador del inventario, ventas y reservas.  
+- Flujo completo validado en entorno temporal de pruebas.  
+- Capturas de confirmación del correcto funcionamiento del API.
 
-### **Entrevistado 2: Gabriel Cermeño — Emprendedor desde casa**  
-Valoró la facilidad del registro y la claridad del inventario. Recomendó agregar campos como lote y fecha de elaboración.
-
-### **Entrevistado 3: Aiko Napanga, 18 años — Microemprendedora**  
-Consideró que la landing es clara y confiable. Vio el inventario como fácil de usar y destacó que las alertas por WhatsApp serían ideales. Recomendó ampliar opciones de actualización de productos.
+> _Aquí insertar capturas de las pruebas ejecutadas._
 
 ---
 
-## 5.3.10. Sprint 3 Findings
+##### 5.2.4.6. Team Collaboration Insights
 
-### **Aspectos Positivos**
-- El prototipo es intuitivo.  
-- Las alertas fueron la funcionalidad más valorada.  
-- El inventario resultó claro y ordenado.  
-- El registro de productos fue considerado fácil.  
-- Los 3 entrevistados recomendarían el sistema a otros emprendedores.
+Durante este sprint, el equipo trabaj? activamente mediante:
 
-### **Oportunidades de Mejora**
-- Acceso con número telefónico.  
-- Campos como lote y fecha de elaboración.  
-- Mejoras en edición y actualización.  
-- Completar bounded contexts del backend.  
-- Incluir ejemplos reales en la landing.
+- Estrategia GitFlow con ramas por m?dulo.  
+- Reuniones semanales v?a Discord.  
+- Validaci?n colectiva del backend.  
+- QA colaborativo entre frontend, backend y documentaci?n.  
+- Capturas de participaci?n y actividad del sprint:  
+  - ![Actividad Sprint 4](resources/SPRINT4/team_activity.png)  
+  - ![Commits Sprint 4](resources/SPRINT4/team_commits.png)  
 
 ---
 
-## 5.3.11. Sprint 3 Conclusion
+##### 5.2.4.7. Sprint 4 Conclusion
 
-El Sprint 3 cumplió con validar el prototipo con emprendedores reales, confirmando la utilidad del sistema para controlar inventarios y evitar pérdidas.  
-Aunque existe una base de backend funcionando, aún faltan bounded contexts clave por desarrollar.  
-Los hallazgos obtenidos guiarán el Sprint 4 para fortalecer el producto y completar la arquitectura.
+El Sprint 4 permitió consolidar el backend del sistema y completar los módulos principales del proyecto.  
+La integración entre frontend y backend quedó estable para la presentación final, y se mejoraron funcionalidades críticas como reservas, proveedores e inventario avanzado.
+
+El sistema quedó en un estado funcional para realizar la demostración final de FoodStock.
+
+
+# 5.3. Validation Interviews
+
+## 5.3.1. Diseño de Entrevistas
+
+Para validar la usabilidad y claridad de la aplicación web **FoodStock**, el equipo realizó entrevistas con usuarios reales correspondientes a distintos perfiles: estudiantes emprendedores, vendedores independientes y microempresarios.  
+El objetivo fue evaluar la experiencia del usuario en la **Landing Page**, el **inicio de sesión**, el **registro de productos**, la **tabla de inventario** y el sistema de **alertas**, identificando puntos fuertes y oportunidades de mejora.
+
+Las preguntas realizadas fueron:
+
+1. ¿Cómo calificas el diseño visual de la Landing Page?  
+2. ¿El mensaje principal quedó claro para ti?  
+3. ¿Te resultó fácil navegar por la página?  
+4. ¿Encontraste la información que esperabas del producto?  
+5. ¿Qué tan intuitiva te pareció la interfaz de FoodStock?  
+6. ¿Qué tan útil sería FoodStock para tus problemas de inventario?  
+7. ¿Cómo fue tu experiencia al iniciar sesión?  
+8. ¿El formulario para registrar productos fue claro y sencillo?  
+9. ¿La tabla de inventario mostró la información de manera clara?  
+10. ¿Qué canal prefieres para recibir alertas (vencimiento o stock bajo)?  
+11. ¿Qué mejorarías de la aplicación?  
+12. ¿Recomendarías FoodStock?
+
+---
+
+## 5.3.2. Registro de Entrevistas
+
+---
+
+## Entrevistas realizadas por **Javier Masaru Nikaido**
+
+---
+
+### Entrevista N°1 – Cliente (Estudiante / Emprendedora)
+
+**Entrevistador:** Javier Masaru Nikaido  
+**Entrevistada:** Aiko Napanga  
+**Fecha:** 2025-11-13  
+**Link de la entrevista:** *[Entrevista de Validación]*  
+
+![Aiko](assets/images/aiko.jpg)
+
+**Resumen:**  
+La entrevistada entendió que FoodStock permite **organizar productos y controlar fechas de vencimiento**, destacando que la Landing Page es clara, profesional y confiable.  
+Sugirió agregar **un ejemplo real de inventario** para visualizar su uso práctico.
+
+El inicio de sesión fue rápido, aunque recomendó implementar acceso mediante **código o número de celular**.  
+La tabla de inventario le pareció muy clara.
+
+El formulario fue sencillo, pero mencionó que sería útil incluir **número de lote** y **fecha de operación**.  
+Las alertas serían muy útiles y preferiría recibirlas por **WhatsApp**.
+
+Indicó que **sí usaría FoodStock** y que lo recomendaría.
+
+---
+
+### Entrevista N°2 – Cliente (Emprendedor de productos caseros)
+
+**Entrevistador:** Javier Masaru Nikaido  
+**Entrevistado:** Aldo Zavala  
+**Fecha:** 2025-11-13  
+**Link de la entrevista:** *[Entrevista de Validación]*  
+
+![Aldo Zavala](assets/images/aldo.jpg)
+
+**Resumen:**  
+El entrevistado comprendió que FoodStock sirve para **controlar y organizar alimentos**.  
+Describió la Landing Page como clara, simple y confiable. Sugirió incluir **ejemplos visuales del inventario**.
+
+Calificó el inicio de sesión como rápido, recomendando agregar acceso por **número de celular**.  
+La tabla de inventario le pareció ordenada.
+
+El formulario fue fácil de completar, aunque sugirió permitir **duplicar productos** para registrar varios más rápido.
+
+Consideró que las alertas serían muy útiles y preferiría recibirlas por **WhatsApp**.
+
+Afirmó que **sí usaría FoodStock** y la recomendaría.
+
+---
+
+### Entrevista N°3 – Cliente (Emprendedor de comida y snacks)
+
+**Entrevistador:** Javier Masaru Nikaido  
+**Entrevistado:** Gabriel Cermeño  
+**Fecha:** 2025-11-13  
+**Link de la entrevista:** *[Entrevista de Validación]*  
+
+![Gabriel Cermeño](assets/images/gabriel.jpg)
+
+**Resumen:**  
+El entrevistado destacó que FoodStock ofrece un sistema útil para **organizar alimentos y gestionar inventario**.  
+La Landing Page le pareció clara, sencilla y confiable.
+
+Sugirió incluir **ejemplos de uso diario**.  
+El inicio de sesión fue rápido, pero recomendó habilitar acceso mediante **número de celular**.
+
+El formulario fue intuitivo, añadiendo que sería ideal permitir **subir más fotos por producto**.  
+La vista de inventario le pareció clara y útil.
+
+Consideró fundamentales las alertas y prefiere recibirlas por **WhatsApp**.  
+Confirmó que sí usaría FoodStock y que lo recomendaría.
+
+---
+
+## Entrevistas realizadas por **José María Franco Del Carpio**
+
+---
+
+### Entrevista N°4 – Microempresaria del sector gastronómico
+
+**Entrevistador:** José María Franco Del Carpio  
+**Entrevistada:** Carmela Silva  
+**Fecha:** 2025-11-13  
+**Link de la entrevista:** *[Entrevista de Validación]*  
+
+![Carmela Silva](assets/images/carmela.jpg)
+
+**Resumen:**  
+La entrevistada valoró positivamente el diseño de la Landing Page por ser claro y directo.  
+Señaló que el propósito de la plataforma es fácil de entender. Sugirió agregar **testimonios reales** para generar más confianza.
+
+La tabla de inventario le pareció útil, recomendando añadir **categoría, proveedor y stock mínimo**.  
+Prefiere recibir alertas vía **WhatsApp** por ser su canal más utilizado.
+
+---
+
+### Entrevista N°5 – Administrador de microempresa
+
+**Entrevistador:** José María Franco Del Carpio  
+**Entrevistado:** Alberto Carrasco  
+**Fecha:** 2025-11-13  
+**Link de la entrevista:** *[Entrevista de Validación]*  
+
+![Alberto Carrasco](assets/images/alberto.jpg)
+
+**Resumen:**  
+El entrevistado mencionó que FoodStock tiene un diseño ordenado y profesional.  
+Confirmó que encontró toda la información necesaria en la landing y que la interfaz es intuitiva.
+
+Sugirió mejorar la sección de **datos del cliente** y automatizar ciertos procesos para ahorrar tiempo.  
+Comentó que usaría la aplicación diariamente para consultar **ventas y stock**.
+
+---
+
+### Entrevista N°6 – Productor y microempresario
+
+**Entrevistador:** José María Franco Del Carpio  
+**Entrevistado:** Alfonso Chávez  
+**Fecha:** 2025-11-13  
+**Link de la entrevista:** *[Entrevista de Validación]*  
+
+![Alfonso Chávez](assets/images/alfonso.jpg)
+
+**Resumen:**  
+El entrevistado consideró el diseño visual atractivo y el mensaje principal claro.  
+Afirmó que encontró la información necesaria y que la navegación vertical facilita su uso.
+
+Mencionó que FoodStock es funcional y valioso para la gestión diaria del inventario y que probablemente lo usaría de forma regular.
+
+---
 
 
 
 # Conclusiones
-## Conlusiones y recomendaciones
 
-**Conclusiones**
+El proyecto **FoodStock** representó un proceso de desarrollo progresivo en el que se logró transformar una necesidad identificada en el entorno de pequeños negocios gastronómicos en una solución funcional y validada. Desde las primeras fases de investigación hasta las pruebas finales con usuarios, el equipo consiguió mantener una línea de trabajo ordenada, fundamentada y orientada a la mejora continua del producto.
 
-El desarrollo de FoodStock ha demostrado la viabilidad y el potencial de una solución digital para optimizar la gestión de pequeños y medianos restaurantes. A través de la implementación de una arquitectura de software robusta, un diseño centrado en el usuario y una metodología ágil, se logró construir una Landing Page funcional que comunica eficazmente la propuesta de valor del producto.
+A lo largo del proyecto se confirmó que los pequeños emprendedores enfrentan dificultades reales al momento de gestionar sus inventarios, especialmente en lo relacionado con el control de fechas de vencimiento, la organización de insumos y la actualización constante de cantidades. Las entrevistas realizadas evidenciaron que la mayoría de usuarios depende de métodos manuales o poco estructurados, lo que incrementa el riesgo de pérdidas. En este contexto, FoodStock se percibió como una herramienta clara, útil y aplicable a la operación diaria de estos negocios.
 
-Las conclusiones clave del proyecto son las siguientes:
+El desarrollo del sistema avanzó mediante iteraciones, permitiendo refinar los aspectos funcionales y visuales del producto. Las validaciones del Sprint 3 fueron clave para identificar mejoras necesarias en el inicio de sesión, la tabla de inventario y el registro de productos, mientras que el Sprint 4 permitió consolidar un prototipo más estable y alineado con las expectativas de los usuarios. Los comentarios recogidos durante las entrevistas, como la importancia de integrar alertas por WhatsApp o añadir campos más detallados en el formulario, reflejaron la pertinencia del sistema y el interés de los usuarios por utilizarlo en su día a día.
 
-- Viabilidad del Producto: El análisis de mercado y las entrevistas de validación confirmaron la existencia de una necesidad real en el sector gastronómico. El diseño de la plataforma y su arquitectura de información (AI) están alineados con las operaciones diarias de los usuarios objetivo, lo que minimiza la curva de aprendizaje y aumenta la probabilidad de adopción.
+El trabajo en equipo desempeñó un rol fundamental en el avance del proyecto. Cada integrante aportó desde sus fortalezas, logrando una coordinación eficiente y un cumplimiento adecuado de los objetivos planteados. Esta colaboración constante permitió enfrentar los desafíos del desarrollo y obtener un resultado coherente con los lineamientos del curso, especialmente con el Student Outcome 5, relacionado con el trabajo colaborativo en entornos multidisciplinarios.
 
-- Implementación Técnica Exitosa: La elección de tecnologías como React y Node.js y la adopción de una arquitectura C4 facilitaron un desarrollo estructurado y escalable. El uso de GitFlow y Conventional Commits en GitHub aseguró un control de versiones y una colaboración en equipo ordenados y eficientes.
+Finalmente, FoodStock demostró ser una solución con impacto real en la eficiencia de los procesos de inventario. La automatización, la claridad visual y las alertas contribuyen a reducir pérdidas, optimizar tiempos y mejorar la toma de decisiones del emprendedor. Además, el desarrollo del proyecto permitió al equipo adquirir conocimientos valiosos en diseño centrado en el usuario, validación de requisitos, metodologías ágiles y buenas prácticas de desarrollo, fortaleciendo sus habilidades tanto técnicas como profesionales.
 
-- Impacto del Diseño de Producto: El diseño de la interfaz y la experiencia de usuario (UI/UX) se guió por principios de simplicidad y claridad. La guía de estilo y el sistema de etiquetado son coherentes y consistentes, lo que contribuye a una experiencia de usuario fluida, tal como se validó en las entrevistas.
+## 5.3.3. Evaluación según heurísticas (basada únicamente en observaciones del público)
 
-- Validación de la Propuesta de Valor: Las entrevistas de validación iniciales proporcionaron retroalimentación valiosa, confirmando que las funcionalidades propuestas (gestión de inventario, ventas y proveedores) son de gran utilidad para el público objetivo.
+La siguiente evaluación recoge exclusivamente los problemas mencionados por los entrevistados durante sus pruebas del sistema. Todos los hallazgos provienen de su experiencia con la **Landing Page**, el **inicio de sesión**, el **inventario**, el **registro de productos**, las **alertas** y la **navegación general** de la aplicación.
 
-**Recomendaciones**
+---
 
-Basándonos en las lecciones aprendidas durante el proyecto, se proponen las siguientes recomendaciones para futuras etapas de desarrollo:
+### Tabla de problemas detectados (solo público)
 
-- Continuar con la Validación: Se recomienda realizar más entrevistas de validación con el fin de profundizar en las necesidades de los usuarios y obtener retroalimentación sobre la interfaz de usuario. Esto ayudará a priorizar las funcionalidades para el MVP.
+| Nº | Problema observado por los usuarios | Severidad | Heurística afectada |
+|----|-------------------------------------|-----------|----------------------|
+| 1 | Falta de opciones de inicio de sesión rápido (Google, celular, código). | Media | Control y libertad del usuario |
+| 2 | Landing Page sin ejemplos reales o casos de uso. | Media | Correspondencia con el mundo real |
+| 3 | Tabla de inventario incompleta (faltan categoría, proveedor, lote, fecha de operación, stock mínimo). | Alta | Visibilidad y lenguaje del mundo real |
+| 4 | Registro de productos lento por falta de opción para duplicar ítems. | Alta | Eficiencia y flexibilidad |
+| 5 | Alertas limitadas y sin envío directo por WhatsApp. | Alta | Prevención de errores |
+| 6 | Registro de productos no permite añadir varios productos seguidos de manera rápida. | Media | Eficiencia del usuario |
+| 7 | Inventario carece de vista rápida de productos próximos a vencer. | Media | Visibilidad del estado del sistema |
+| 8 | Home sin guía inicial para nuevos usuarios. | Baja | Reconocimiento vs. recuerdo |
 
-- Desarrollo del Backend: Priorizar la construcción del módulo de Inventario y el módulo de Ventas como las funcionalidades principales del MVP. Estos módulos son el corazón de la propuesta de valor de FoodStock.
+---
 
-- Ampliación del Equipo: Considerar la inclusión de un especialista en bases de datos (DBA) para optimizar la estructura de datos y asegurar un rendimiento óptimo de la aplicación a medida que la base de usuarios crezca.
+## Descripción de problemas
 
-- Integración de la Arquitectura: Para las siguientes fases, se recomienda seguir utilizando la arquitectura C4 para documentar los niveles de código y despliegue. Esto mantendrá la coherencia y la claridad en la estructura del software.
+---
 
-- Estrategia de Crecimiento: Definir una estrategia de lanzamiento escalonado para probar la plataforma con un grupo reducido de usuarios (beta testers) antes de un lanzamiento masivo. Esto permitirá identificar errores y puntos de mejora en un entorno controlado.
+### Problema 1: Falta de opciones de inicio de sesión rápido  
+**Severidad:** Media  
+**Heurística:** Control y libertad del usuario  
+**Evidencia:**  
+![Login](assets/images/LOGIN.jpg)
+
+Los usuarios señalaron que, aunque el inicio de sesión actual es sencillo, preferirían un acceso más rápido por **número de celular**, **Google** o **código inmediato**, ya que trabajan con poco tiempo disponible.
+
+**Recomendación:**  
+Agregar accesos alternativos como Google Login y número de celular.
+
+---
+
+### Problema 2: Landing Page sin ejemplos reales  
+**Severidad:** Media  
+**Heurística:** Correspondencia con el mundo real  
+**Evidencia:**  
+![Home](assets/images/HOME.jpg)
+
+Varias personas mencionaron que les gustaría ver **inventarios reales**, fotos o casos de microempresas usando FoodStock para imaginar mejor cómo se aplicaría en su día a día.
+
+**Recomendación:**  
+Agregar secciones como “Ejemplo real”, “Caso de uso” o “Demo del sistema”.
+
+---
+
+### Problema 3: Campos insuficientes en Inventario  
+**Severidad:** Alta  
+**Heurística:** Visibilidad y lenguaje del mundo real  
+**Evidencia:**  
+![Inventario](assets/images/INVENTORY.jpg)
+
+Los usuarios comentaron que, para sus negocios, necesitan campos como **categoría**, **proveedor**, **número de lote**, **fecha de elaboración/operación** y **stock mínimo**, los cuales no están presentes.
+
+**Recomendación:**  
+Incorporar estos campos para adaptar FoodStock a escenarios reales de negocio.
+
+---
+
+### Problema 4: No se puede duplicar productos  
+**Severidad:** Alta  
+**Heurística:** Eficiencia y flexibilidad  
+**Evidencia:**  
+![Inventario](assets/images/INVENTORY.jpg)
+
+Los entrevistados, especialmente emprendedores con muchos ítems similares, indicaron que registrar productos manualmente uno por uno es lento.
+
+**Recomendación:**  
+Agregar un botón de **Duplicar producto**.
+
+---
+
+### Problema 5: Alertas limitadas y sin integración con WhatsApp  
+**Severidad:** Alta  
+**Heurística:** Prevención de errores  
+**Evidencia:**  
+![Inventario](assets/images/INVENTORY.jpg)
+
+Todos los usuarios prefieren recibir alertas por **WhatsApp**, canal que revisan diariamente.  
+Además, solicitaron alertas de **stock mínimo**, **producto próximo a vencer** y **personalización de notificaciones**.
+
+**Recomendación:**  
+Integrar envíos por WhatsApp y permitir configurar tipos de alertas.
+
+---
+
+### Problema 6: Registro de productos poco eficiente  
+**Severidad:** Media  
+**Heurística:** Eficiencia del usuario  
+**Evidencia:**  
+![Inventario](assets/images/INVENTORY.jpg)
+
+Los usuarios señalaron que sería ideal poder registrar varios productos seguidos sin volver a la tabla o recargar la vista.
+
+**Recomendación:**  
+Agregar un modo de “Registro continuo”.
+
+---
+
+### Problema 7: No existe una vista rápida de productos próximos a vencer  
+**Severidad:** Media  
+**Heurística:** Visibilidad del estado del sistema  
+**Evidencia:**  
+![Inventario](assets/images/INVENTORY.jpg)
+
+Muchos usuarios valoran saber qué productos vencerán pronto, pero actualmente deben revisarlo manualmente.
+
+**Recomendación:**  
+Crear una sección “Por vencer” con orden automático.
+
+---
+
+### Problema 8: Home sin guía inicial para nuevos usuarios  
+**Severidad:** Baja  
+**Heurística:** Reconocimiento vs. recuerdo  
+**Evidencia:**  
+![Home](assets/images/HOME.jpg)
+
+Algunos entrevistados comentaron que sería útil incluir una guía inicial o recomendaciones para nuevos usuarios.
+
+**Recomendación:**  
+Agregar un pequeño onboarding o tarjetas de orientación.
+
+---
+
 
 ### Bibliografía
 
@@ -1778,7 +2415,25 @@ Agencia Andina. (2024, octubre 5). Transformación digital en restaurantes permi
 
 ### Anexos
 - About the team : https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315007_upc_edu_pe/IQAZmOZB8p74TIR9eVHuI0YYAXk_94GXw5yC9uG_dQS2VdY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=wnHZxh
-- Landing Page: Desplegado en Render https://foodstock-landingpage.onrender.com/
+- Landing Page: Desplegado en Render https://foodstock-1asi0730-2520-7420.github.io/FoodStock-LandingPage/
 - Video de exposición https://upcedupe-my.sharepoint.com/:f:/g/personal/u202315007_upc_edu_pe/Evlv0pljdSVLt_cnpfplxWABoKVx52CHBJNqV8AG5rU2iw?e=BMj1Sv
 - Prototipo web https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315007_upc_edu_pe/EeAzZ7O94UNBjI-m3GEFAJoBdh7icX2NrDKKDqoguOUnNA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=eT6CO0
 - FoodStock - Web Application: desplegado en render https://foodstock-p2lr.onrender.com/suppliers
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
