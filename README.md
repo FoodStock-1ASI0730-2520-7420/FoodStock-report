@@ -1883,19 +1883,36 @@ C = *Collaborator* (apoya el desarrollo del aspecto).
 
 ##### 5.2.3.4. Development Evidence for Sprint Review
 
-Commits destacados del Sprint 3 vinculados a backend y frontend:
+A continuación, se detallan los avances realizados en el desarrollo de la aplicación web y la API backend, con los commits registrados hasta el 13 de noviembre de 2025.
 
-| Repo | Branch | Commit | Message | Date |
-|------|--------|--------|---------|------|
-| WebServices | develop | e9b1a10 | feat: inventory adjustments controller | 19/06/2025 |
-| WebServices | develop | ac67b1f | feat: deployed database | 19/06/2025 |
-| Frontend-Web-Application | refactor/all | 11eab0e | feat: Add: sections inventory, reporting, sales | 20/06/2025 |
-| Frontend-Web-Application | main | fbec934 | merge pull request 'refactor/all' into main | 20/06/2025 |
-| Frontend-Web-Application | refactor/all | 0914e24 | feat: not found page added | 13/06/2025 |
+| Repo      | Branch | Commit   | Message                                                            | Date          |
+|-----------|--------|-----------|--------------------------------------------------------------------|---------------|
+| Frontend  | develop | efc36f9  | feature: add frontend                                             | 03/10/2025    |
+| Frontend  | develop | 194bf09  | feature: add Sales                                                | 04/10/2025    |
+| Frontend  | develop | 42b8acf  | app: ADD MERGE OF ITEMS AND PRODUCT IN INVENTORY                  | 05/10/2025    |
+| Frontend  | develop | cef6303  | feat(reports): add new components and update report features      | 09/10/2025    |
+| Frontend  | develop | 936fd99  | add comment                                                       | 09/10/2025    |
+| Frontend  | develop | 2f5215b  | Add getAllSaleItems method to sales-api.js                        | 09/10/2025    |
+| Frontend  | develop | f4cad5f  | app: add new product "Papa" and update UI labels                  | 10/10/2025    |
+| Frontend  | develop | 60a90bc  | app: enhance inventory management                                 | 10/10/2025    |
+| Backend   | develop | 44dfed5  | feat: implement report                                            | 11/10/2025    |
+| Backend   | develop | 143546f  | feat: update environment variables + supplier data                | 11/10/2025    |
+| Backend   | develop | 7c30d8e  | feat: implement supplier management functionality                 | 11/10/2025    |
+| Frontend  | develop | cfeb9c4  | app: update API integration (base classes + env vars)             | 11/10/2025    |
+| Frontend  | develop | 5d203d3  | app: update API integration                                       | 11/10/2025    |
+| Frontend  | develop | 981c551  | app: update API integration                                       | 11/10/2025    |
+| Frontend  | develop | 586096f  | feature: update getSaleItems                                      | 11/10/2025    |
+| Frontend  | develop | 000a329  | feature: update sale file                                         | 11/10/2025    |
+| Frontend  | develop | 2bd55bd  | feature: update files                                             | 11/10/2025    |
+| Frontend  | develop | 3b68eae  | Merge branch 'Reports'                                            | 11/10/2025    |
+| Frontend  | develop | 85b62a1  | feature: update sale                                              | 11/10/2025    |
+| Backend   | develop | 6343e61  | feature: add FoodStock backend                                    | 08/11/2025    |
+| Backend   | develop | b133537  | feature: update foodStock                                         | 13/11/2025    |
+| Backend   | develop | 49571a7  | feature: add Sales                                                | 13/11/2025    |
+| Backend   | develop | 823cadd  | feature: add price unit to dish creation                          | 13/11/2025    |
+| Backend   | develop | 3f2ee79  | feature: implement product & dish management                      | 13/11/2025    |
 
-Repositorios de referencia:
-- https://github.com/StockHunters/Frontend-Web-Application.git
-- https://github.com/StockHunters/WebServices.git
+
 
 ##### 5.2.3.5. Execution Evidence for Sprint Review
 
@@ -2040,16 +2057,22 @@ En el Sprint 3 se validó el prototipo funcional con usuarios reales y se identi
 
 ##### 5.2.4.4. Development Evidence for Sprint Review
 
-Durante el Sprint 4 se logró:
 
-- Completar el módulo de reservas en un 80%.  
-- Avanzar en el módulo de proveedores con CRUD funcional.  
-- Integrar reportes avanzados conectados al backend.  
-- Añadir campos avanzados al inventario.  
-- Mejorar la interfaz en edición y navegación.  
-- Refactorizar el backend para mayor estabilidad.  
+A continuación, se presentan los avances registrados desde el 30 de noviembre de 2025 hasta el cierre del Sprint 4.
 
-> _Aquí insertar capturas del backend, proveedores, reservas y reportes._
+| Repo      | Branch | Commit   | Message                                                            | Date          |
+|-----------|--------|-----------|--------------------------------------------------------------------|---------------|
+| Backend   | develop | f0195ec  | feat: implement dish & product management commands                 | 30/11/2025    |
+| Backend   | develop | 631c4bb  | feature: update project paths and versioning                      | 30/11/2025    |
+| Backend   | develop | 0e2550   | feature: update assembly informational version                     | 30/11/2025    |
+| Backend   | develop | 5d54f6a  | feature: add supplier management commands                          | 01/12/2025    |
+| Backend   | develop | a04a5da  | feature: implement reservations CRUD & availability checks         | 02/12/2025    |
+| Backend   | develop | aab4159  | docs(readme): update TablesController full code                   | 02/12/2025    |
+| Backend   | develop | e932b5b  | docs(readme): update ReservationsController full code             | 02/12/2025    |
+| Frontend  | develop | e1a5d87  | feat: add initial db.json (sample posts, comments, profiles)       | 02/12/2025    |
+| Frontend  | develop | fae3de1  | feat: enhance user authentication + API integration                | 02/12/2025    |
+| Frontend  | develop | 24250f6  | feat: user auth views with local storage integration               | 02/12/2025    |
+
 
 ---
 
