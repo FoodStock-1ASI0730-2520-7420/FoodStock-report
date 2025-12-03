@@ -2217,17 +2217,14 @@ Confirmó que sí usaría FoodStock y que lo recomendaría.
 **Entrevistador:** José María Franco Del Carpio  
 **Entrevistada:** Carmela Silva  
 **Fecha:** 2025-11-13  
-**Link de la entrevista:** *[Entrevista de Validación]*  
+**Link de la entrevista:** https://upcedupe-my.sharepoint.com/personal/u202315007_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202315007%5Fupc%5Fedu%5Fpe%2FDocuments%2Fvideos%5FfoodStock%2FEntrevistas%202%2Fentrevista%201%2Djm%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E614baef8%2Da7eb%2D4c1b%2D954f%2D05efca6e2a02  
 
 ![Carmela Silva](assets/images/carmela.jpg)
 
 **Resumen:**  
-La entrevistada valoró positivamente el diseño de la Landing Page por ser claro y directo.  
-Señaló que el propósito de la plataforma es fácil de entender. Sugirió agregar **testimonios reales** para generar más confianza.
+La señora Carmela probó Foodstock y comprendió claramente su propósito. La landing page le pareció confiable y útil, aunque sugirió añadir testimonios. Comentó que Foodstock sí la motivaría a registrar su negocio porque ayudaría a organizar insumos y reducir desperdicios. El inicio de sesión le resultó fácil, pero recomendó opciones de acceso rápido como inicio con Google. En la gestión de inventarios encontró la tabla clara y pidió añadir categorías, proveedores y stock mínimo.
 
-La tabla de inventario le pareció útil, recomendando añadir **categoría, proveedor y stock mínimo**.  
-Prefiere recibir alertas vía **WhatsApp** por ser su canal más utilizado.
-
+Sobre el registro de productos, consideró el formulario intuitivo y vio muy conveniente la opción de duplicar productos. Finalmente, afirmó que las alertas de vencimiento y stock bajo serían de gran ayuda, y que preferiría recibirlas por WhatsApp.
 ---
 
 ### Entrevista N°5 – Administrador de microempresa
@@ -2235,16 +2232,14 @@ Prefiere recibir alertas vía **WhatsApp** por ser su canal más utilizado.
 **Entrevistador:** José María Franco Del Carpio  
 **Entrevistado:** Alberto Carrasco  
 **Fecha:** 2025-11-13  
-**Link de la entrevista:** *[Entrevista de Validación]*  
+**Link de la entrevista:** https://upcedupe-my.sharepoint.com/personal/u202315007_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202315007%5Fupc%5Fedu%5Fpe%2FDocuments%2Fvideos%5FfoodStock%2FEntrevistas%202%2Fentrevista%201%2Djm%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E614baef8%2Da7eb%2D4c1b%2D954f%2D05efca6e2a02  
 
 ![Alberto Carrasco](assets/images/alberto.jpg)
 
 **Resumen:**  
-El entrevistado mencionó que FoodStock tiene un diseño ordenado y profesional.  
-Confirmó que encontró toda la información necesaria en la landing y que la interfaz es intuitiva.
+La entrevista se realizó a Alberto Carrasco, microempresario que evaluó el prototipo de Foodstock. EL entendió que la plataforma sirve para gestionar inventarios, controlar vencimientos y organizar productos, y señaló que la landing page transmite confianza, aunque sugirió añadir ejemplos prácticos. El inicio de sesión le resultó fácil, pero recomendó opciones como recordar contraseña o ingresar con Google. Sobre el inventario, valoró la tabla clara y propuso incluir categorías, proveedores, stock mínimo y alertas automáticas.
 
-Sugirió mejorar la sección de **datos del cliente** y automatizar ciertos procesos para ahorrar tiempo.  
-Comentó que usaría la aplicación diariamente para consultar **ventas y stock**.
+En el registro de productos destacó la facilidad de uso y sugirió una función para duplicar artículos. Finalmente, consideró muy útiles las alertas de vencimiento y stock bajo, prefiriendo recibirlas por WhatsApp.
 
 ---
 
@@ -2253,18 +2248,16 @@ Comentó que usaría la aplicación diariamente para consultar **ventas y stock*
 **Entrevistador:** José María Franco Del Carpio  
 **Entrevistado:** Alfonso Chávez  
 **Fecha:** 2025-11-13  
-**Link de la entrevista:** *[Entrevista de Validación]*  
+**Link de la entrevista:** https://upcedupe-my.sharepoint.com/personal/u202315007_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202315007%5Fupc%5Fedu%5Fpe%2FDocuments%2Fvideos%5FfoodStock%2FEntrevistas%202%2Fentrevista%203%2Djm%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E9ee29c48%2D3af5%2D42da%2Daeee%2Ddee7d40bd7ba  
 
 ![Alfonso Chávez](assets/images/alfonso.jpg)
 
 **Resumen:**  
-El entrevistado consideró el diseño visual atractivo y el mensaje principal claro.  
-Afirmó que encontró la información necesaria y que la navegación vertical facilita su uso.
+El señor Alfonso evaluó la plataforma Foodstock y comprendió claramente su función para gestionar inventarios. Consideró que la landing page es confiable, aunque sugirió incluir más información sobre protección de datos y ejemplos de uso para productores. Señaló que sí registraría su negocio, ya que maneja productos con fechas de vencimiento y lotes. En el inicio de sesión no tuvo problemas, pero recomendó añadir accesos rápidos como inicio con Google. Sobre la gestión de inventarios, mencionó que la tabla es clara y que los datos principales se ven bien. Sugirió agregar campos como categoría, proveedor, stock mínimo y fecha de elaboración, esencial para su rubro.
 
-Mencionó que FoodStock es funcional y valioso para la gestión diaria del inventario y que probablemente lo usaría de forma regular.
+En el registro de productos consideró el formulario claro, pero pidió más campos opcionales y la función de duplicar productos para ahorrar tiempo. Finalmente, afirmó que las alertas de vencimiento y stock bajo serían muy útiles para mantener el control de calidad y evitar faltantes.
 
 ---
-
 
 
 # Conclusiones
