@@ -248,7 +248,6 @@ La siguiente tabla resume los aportes de cada integrante durante el desarrollo d
   - [5.3.1. Diseno de Entrevistas](#531-diseno-de-entrevistas)
   - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
  
-
 ## Student Outcome
 **ABET – EAC - Student Outcome 5**  
 **Criterio:** La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.  
@@ -266,16 +265,17 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
     </tr>
   </thead>
   <tbody>
-    <!-- Criterio 1 -->
     <tr>
       <td rowspan="5">Trabaja en equipo para proporcionar liderazgo en forma conjunta</td>
       <td>Gonzalo Samuel Quintanilla Pozo</td>
       <td>
         TB1: Realizó la mayor parte del Capítulo 4: Information Architecture, Landing Page UI Design, Web Applications UX/UI Design, Prototyping y Domain-Driven Software Architecture. También aportó en User Stories, análisis de competidores y Lean UX Process (Problem Statements, Assumptions, Hypothesis Statements, Lean UX Canvas).
-        <br>
-        TP:<br>
-        TB2:<br>
-        TF:
+        <br><br>
+        TP: Avanzó de manera significativa en el desarrollo del frontend, implementando pantallas principales y resolviendo detalles visuales, además de colaborar en el reporte del trabajo parcial.
+        <br><br>
+        TB2: Contribuyó al backend implementando funcionalidades centrales, corrigió elementos visuales del frontend y participó activamente en las correcciones del reporte.
+        <br><br>
+        TF: Finalizó tareas de backend pendientes y apoyó en la depuración técnica del informe final.
       </td>
       <td rowspan="5">El equipo demostró liderazgo conjunto mediante la organización, coordinación y desarrollo de tareas clave, asegurando que cada miembro contribuyera de manera estratégica al proyecto.</td>
     </tr>
@@ -283,40 +283,48 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       <td>Melina Liz Santillan Alvarado</td>
       <td>
         TB1: Diseñó wireframes, mock-ups, diagramas de base de datos y de clases, style guidelines, segmentación de objetivos y diseño de entrevistas, además de aportar en User Stories.
-        <br>
-        TP:<br>
-        TB2:<br>
-        TF:
+        <br><br>
+        TP: Desarrolló componentes del frontend, refinó la presentación visual del prototipo y apoyó en la elaboración del reporte del trabajo parcial.
+        <br><br>
+        TB2: Implementó partes del backend, ajustó elementos del frontend y colaboró en la revisión general del documento académico.
+        <br><br>
+        TF: Culminó funcionalidades backend y ayudó en la corrección técnica final del informe.
       </td>
     </tr>
     <tr>
       <td>Javier Masaru Nikaido Vargas</td>
       <td>
         TB1: Aportó en Capítulo II: Requirements Elicitation & Analysis, análisis de competidores, User Stories, Wireframes, Wireflow Diagrams, Mock-ups y User Flow Diagrams, Web Applications Prototyping y Domain-Driven Software Architecture.
-        <br>
-        TP:<br>
-        TB2:<br>
-        TF:
+        <br><br>
+        TP: Se encargó del avance del reporte, realizó entrevistas y validaciones con usuarios y brindó apoyo puntual al frontend.
+        <br><br>
+        TB2: Colaboró en tareas del backend, amplió y corrigió contenido del reporte y fortaleció la documentación técnica del proyecto.
+        <br><br>
+        TF: Apoyó en las integraciones finales del backend y completó las correcciones finales del informe.
       </td>
     </tr>
     <tr>
       <td>Jean Pool Huaman De La Cruz</td>
       <td>
         TB1: Elaboró antecedentes y problemática, To-Be Scenario Mapping, Lean UX Process, definición de segmentos objetivo, Impact Mapping y Product Backlog.
-        <br>
-        TP:<br>
-        TB2:<br>
-        TF:
+        <br><br>
+        TP: Avanzó en el frontend, implementó componentes funcionales y colaboró con partes centrales del reporte del trabajo parcial.
+        <br><br>
+        TB2: Se encargó de funcionalidades backend, revisó elementos del frontend y aportó en la actualización del documento.
+        <br><br>
+        TF: Completó módulos backend asignados y participó en la revisión técnica final del informe.
       </td>
     </tr>
     <tr>
       <td>José María Franco Del Carpio</td>
       <td>
         TB1: Aportó ideas puntuales en User Stories y en entrevistas iniciales.
-        <br>
-        TP:<br>
-        TB2:<br>
-        TF:
+        <br><br>
+        TP: Avanzó en la redacción del reporte, realizó entrevistas adicionales y apoyó con pequeños ajustes en el frontend.
+        <br><br>
+        TB2: Dio soporte en backend y trabajó en correcciones de estructura y contenido del documento.
+        <br><br>
+        TF: Contribuyó en la revisión final del backend y fortaleció la versión final del informe.
       </td>
     </tr>
     <!-- Criterio 2 -->
@@ -325,58 +333,69 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       <td>Gonzalo Samuel Quintanilla Pozo</td>
       <td>
         TB1: Coordinó tareas del capítulo 4, revisó prototipos de la landing page, definió etiquetas SEO y sistemas de navegación, y apoyó en User Stories.
-        <br>
-        TP:<br>
-        TB2:<br>
-        TF:
+        <br><br>
+        TP: Lideró la implementación del frontend, organizó tiempos de entrega y apoyó en la estructura del reporte del trabajo parcial.
+        <br><br>
+        TB2: Colaboró en la implementación del backend y las correcciones del reporte, además de mejoras visuales del frontend.
+        <br><br>
+        TF: Finalizó el backend en conjunto con el equipo y contribuyó a la depuración del informe final.
       </td>
-      <td rowspan="5">El equipo fomentó un entorno colaborativo e inclusivo mediante la distribución de tareas, coordinación entre miembros y planificación de actividades para cumplir los objetivos del proyecto.
-        </td>
+      <td rowspan="5">
+        El equipo fomentó un entorno colaborativo e inclusivo mediante la distribución de tareas, coordinación entre miembros y planificación de actividades para cumplir los objetivos del proyecto.
+      </td>
     </tr>
     <tr>
       <td>Melina Liz Santillan Alvarado</td>
       <td>
         TB1: Diseñó wireframes y mock-ups, elaboró diagramas de base de datos y de clases, definió style guidelines, segmentación de objetivos y diseñó entrevistas.
-        <br>
-        TP:<br>
-        TB2:<br>
-        TF:
+        <br><br>
+        TP: Trabajó en el frontend, refinó elementos visuales y apoyó en la elaboración del reporte del trabajo parcial.
+        <br><br>
+        TB2: Avanzó en backend, realizó ajustes del frontend y participó en correcciones del documento.
+        <br><br>
+        TF: Terminó tareas backend y ayudó en la corrección técnica final del informe.
       </td>
     </tr>
     <tr>
       <td>Javier Masaru Nikaido Vargas</td>
       <td>
         TB1: Realizó análisis de competidores, elaboró User Stories, Wireframes, Wireflow Diagrams y Mock-ups, y participó en prototipado y arquitectura orientada a dominios.
-        <br>
-        TP:<br>
-        TB2:<br>
-        TF:
+        <br><br>
+        TP: Avanzó en el reporte del trabajo parcial, desarrolló validaciones de usuarios y brindó soporte básico al frontend.
+        <br><br>
+        TB2: Aportó en backend, amplió el contenido del reporte y corrigió secciones clave del documento.
+        <br><br>
+        TF: Trabajó en correcciones finales del informe y revisiones finales del backend.
       </td>
     </tr>
     <tr>
       <td>Jean Pool Huaman De La Cruz</td>
       <td>
         TB1: Elaboró antecedentes y problemática, definió To-Be Scenario Mapping, segmentación de objetivos, Impact Mapping y Product Backlog.
-        <br>
-        TP:<br>
-        TB2:<br>
-        TF:
+        <br><br>
+        TP: Implementó partes del frontend y redactó secciones importantes del reporte del trabajo parcial.
+        <br><br>
+        TB2: Participó en el backend, realizó correcciones visuales y ayudó en ajustes documentales.
+        <br><br>
+        TF: Completó implementaciones backend y colaboró en la revisión final del informe.
       </td>
     </tr>
     <tr>
       <td>José María Franco Del Carpio</td>
       <td>
         TB1: Aportó ideas puntuales en User Stories y en entrevistas iniciales.
-        <br>
-        TP:<br>
-        TB2:<br>
-        TF:
+        <br><br>
+        TP: Avanzó en el reporte del trabajo parcial, realizó entrevistas del Sprint 3 y apoyó en ajustes ligeros del frontend.
+        <br><br>
+        TB2: Colaboró con el backend y continuó con las correcciones generales del documento.
+        <br><br>
+        TF: Participó en las correcciones finales del informe y ajustes del backend.
       </td>
     </tr>
+
   </tbody>
 </table>
 </div>
-
 
 
 ## Capítulo I: Introducción
@@ -2244,69 +2263,147 @@ Mencionó que FoodStock es funcional y valioso para la gestión diaria del inven
 
 
 # Conclusiones
-## Conlusiones y recomendaciones
 
-# Conclusiones del Informe Final
+El proyecto **FoodStock** representó un proceso de desarrollo progresivo en el que se logró transformar una necesidad identificada en el entorno de pequeños negocios gastronómicos en una solución funcional y validada. Desde las primeras fases de investigación hasta las pruebas finales con usuarios, el equipo consiguió mantener una línea de trabajo ordenada, fundamentada y orientada a la mejora continua del producto.
 
-Tras el desarrollo completo del proyecto **FoodStock**, se pueden establecer las siguientes conclusiones que reflejan el progreso del equipo, los aprendizajes obtenidos y el impacto generado por la solución propuesta.
+A lo largo del proyecto se confirmó que los pequeños emprendedores enfrentan dificultades reales al momento de gestionar sus inventarios, especialmente en lo relacionado con el control de fechas de vencimiento, la organización de insumos y la actualización constante de cantidades. Las entrevistas realizadas evidenciaron que la mayoría de usuarios depende de métodos manuales o poco estructurados, lo que incrementa el riesgo de pérdidas. En este contexto, FoodStock se percibió como una herramienta clara, útil y aplicable a la operación diaria de estos negocios.
 
-## **1. Cumplimiento de Objetivos del Proyecto**
+El desarrollo del sistema avanzó mediante iteraciones, permitiendo refinar los aspectos funcionales y visuales del producto. Las validaciones del Sprint 3 fueron clave para identificar mejoras necesarias en el inicio de sesión, la tabla de inventario y el registro de productos, mientras que el Sprint 4 permitió consolidar un prototipo más estable y alineado con las expectativas de los usuarios. Los comentarios recogidos durante las entrevistas, como la importancia de integrar alertas por WhatsApp o añadir campos más detallados en el formulario, reflejaron la pertinencia del sistema y el interés de los usuarios por utilizarlo en su día a día.
 
-El equipo logró completar satisfactoriamente todas las etapas planteadas: investigación, análisis de requerimientos, diseño UX/UI, arquitectura de software, implementación de sprints, validación y documentación final. FoodStock evolucionó desde una idea inicial hasta un producto funcional y evaluado con usuarios reales.
+El trabajo en equipo desempeñó un rol fundamental en el avance del proyecto. Cada integrante aportó desde sus fortalezas, logrando una coordinación eficiente y un cumplimiento adecuado de los objetivos planteados. Esta colaboración constante permitió enfrentar los desafíos del desarrollo y obtener un resultado coherente con los lineamientos del curso, especialmente con el Student Outcome 5, relacionado con el trabajo colaborativo en entornos multidisciplinarios.
 
-## **2. Validación del Problema y de la Solución**
+Finalmente, FoodStock demostró ser una solución con impacto real en la eficiencia de los procesos de inventario. La automatización, la claridad visual y las alertas contribuyen a reducir pérdidas, optimizar tiempos y mejorar la toma de decisiones del emprendedor. Además, el desarrollo del proyecto permitió al equipo adquirir conocimientos valiosos en diseño centrado en el usuario, validación de requisitos, metodologías ágiles y buenas prácticas de desarrollo, fortaleciendo sus habilidades tanto técnicas como profesionales.
 
-A través de entrevistas, análisis competitivo y validaciones sucesivas, se comprobó que los emprendedores y microempresas gastronómicas enfrentan problemas reales de inventario, pérdidas por productos perecibles, desorden en reservas y registros manuales. La solución propuesta fue bien recibida, destacando su simplicidad, automatización y utilidad.
+## 5.3.3. Evaluación según heurísticas (basada únicamente en observaciones del público)
 
-## **3. Crecimiento del Producto mediante Iteraciones (Sprints)**
+La siguiente evaluación recoge exclusivamente los problemas mencionados por los entrevistados durante sus pruebas del sistema. Todos los hallazgos provienen de su experiencia con la **Landing Page**, el **inicio de sesión**, el **inventario**, el **registro de productos**, las **alertas** y la **navegación general** de la aplicación.
 
-El producto mejoró sprint tras sprint:
+---
 
-* En **Sprint 1**, se establecieron bases funcionales y diseño inicial.
-* En **Sprint 2**, se ampliaron funcionalidades y se integraron nuevas vistas.
-* En **Sprint 3**, se validaron características clave con usuarios reales.
-* En **Sprint 4**, se consolidó el producto con mejoras finales y mayor estabilidad.
+### Tabla de problemas detectados (solo público)
 
-Cada iteración aportó valor, resolvió errores detectados y fortaleció la experiencia del usuario.
+| Nº | Problema observado por los usuarios | Severidad | Heurística afectada |
+|----|-------------------------------------|-----------|----------------------|
+| 1 | Falta de opciones de inicio de sesión rápido (Google, celular, código). | Media | Control y libertad del usuario |
+| 2 | Landing Page sin ejemplos reales o casos de uso. | Media | Correspondencia con el mundo real |
+| 3 | Tabla de inventario incompleta (faltan categoría, proveedor, lote, fecha de operación, stock mínimo). | Alta | Visibilidad y lenguaje del mundo real |
+| 4 | Registro de productos lento por falta de opción para duplicar ítems. | Alta | Eficiencia y flexibilidad |
+| 5 | Alertas limitadas y sin envío directo por WhatsApp. | Alta | Prevención de errores |
+| 6 | Registro de productos no permite añadir varios productos seguidos de manera rápida. | Media | Eficiencia del usuario |
+| 7 | Inventario carece de vista rápida de productos próximos a vencer. | Media | Visibilidad del estado del sistema |
+| 8 | Home sin guía inicial para nuevos usuarios. | Baja | Reconocimiento vs. recuerdo |
 
-## **4. Trabajo en Equipo y Colaboración (ABET – SO5)**
+---
 
-El grupo demostró un trabajo altamente colaborativo, distribuyendo responsabilidades según fortalezas individuales, coordinando tareas en múltiples áreas (UX, desarrollo, investigación, arquitectura, entrevistas) y manteniendo comunicación constante. Esto permitió avanzar de manera ordenada y eficiente.
+## Descripción de problemas
 
-## **5. Impacto del Proyecto en el Entorno del Usuario**
+---
 
-FoodStock se consolidó como una solución accesible, útil y adaptable para pequeños negocios gastronómicos. La automatización del inventario, reportes y alertas tiene un impacto directo en la reducción de pérdidas, la mejora del control operativo y un incremento en la rentabilidad del negocio.
+### Problema 1: Falta de opciones de inicio de sesión rápido  
+**Severidad:** Media  
+**Heurística:** Control y libertad del usuario  
+**Evidencia:**  
+![Login](assets/images/LOGIN.jpg)
 
-## **6. Aprendizajes Técnicos y Profesionales**
+Los usuarios señalaron que, aunque el inicio de sesión actual es sencillo, preferirían un acceso más rápido por **número de celular**, **Google** o **código inmediato**, ya que trabajan con poco tiempo disponible.
 
-El equipo reforzó habilidades en:
+**Recomendación:**  
+Agregar accesos alternativos como Google Login y número de celular.
 
-* Diseño UX/UI centrado en el usuario.
-* Arquitectura orientada al dominio (DDD).
-* Desarrollo web con buenas prácticas.
-* Gestión ágil mediante sprints y artefactos.
-* Comunicación, análisis y trabajo interdisciplinario.
+---
 
-Estos aprendizajes reflejan un crecimiento significativo alineado a los objetivos del curso.
+### Problema 2: Landing Page sin ejemplos reales  
+**Severidad:** Media  
+**Heurística:** Correspondencia con el mundo real  
+**Evidencia:**  
+![Home](assets/images/HOME.jpg)
 
-## **7. Conclusión General**
+Varias personas mencionaron que les gustaría ver **inventarios reales**, fotos o casos de microempresas usando FoodStock para imaginar mejor cómo se aplicaría en su día a día.
 
-FoodStock culmina como un producto sólido que responde a una necesidad real en el mercado gastronómico, demostrando la importancia de la investigación, el diseño centrado en el usuario, las metodologías ágiles y el trabajo colaborativo. El equipo alcanzó con éxito los objetivos propuestos y sentó las bases para futuras mejoras o una posible evolución hacia un producto comercial.
+**Recomendación:**  
+Agregar secciones como “Ejemplo real”, “Caso de uso” o “Demo del sistema”.
 
+---
 
-**Recomendaciones**
+### Problema 3: Campos insuficientes en Inventario  
+**Severidad:** Alta  
+**Heurística:** Visibilidad y lenguaje del mundo real  
+**Evidencia:**  
+![Inventario](assets/images/INVENTORY.jpg)
 
-Basándonos en las lecciones aprendidas durante el proyecto, se proponen las siguientes recomendaciones para futuras etapas de desarrollo:
+Los usuarios comentaron que, para sus negocios, necesitan campos como **categoría**, **proveedor**, **número de lote**, **fecha de elaboración/operación** y **stock mínimo**, los cuales no están presentes.
 
-- Continuar con la Validación: Se recomienda realizar más entrevistas de validación con el fin de profundizar en las necesidades de los usuarios y obtener retroalimentación sobre la interfaz de usuario. Esto ayudará a priorizar las funcionalidades para el MVP.
+**Recomendación:**  
+Incorporar estos campos para adaptar FoodStock a escenarios reales de negocio.
 
-- Desarrollo del Backend: Priorizar la construcción del módulo de Inventario y el módulo de Ventas como las funcionalidades principales del MVP. Estos módulos son el corazón de la propuesta de valor de FoodStock.
+---
 
-- Ampliación del Equipo: Considerar la inclusión de un especialista en bases de datos (DBA) para optimizar la estructura de datos y asegurar un rendimiento óptimo de la aplicación a medida que la base de usuarios crezca.
+### Problema 4: No se puede duplicar productos  
+**Severidad:** Alta  
+**Heurística:** Eficiencia y flexibilidad  
+**Evidencia:**  
+![Inventario](assets/images/INVENTORY.jpg)
 
-- Integración de la Arquitectura: Para las siguientes fases, se recomienda seguir utilizando la arquitectura C4 para documentar los niveles de código y despliegue. Esto mantendrá la coherencia y la claridad en la estructura del software.
+Los entrevistados, especialmente emprendedores con muchos ítems similares, indicaron que registrar productos manualmente uno por uno es lento.
 
-- Estrategia de Crecimiento: Definir una estrategia de lanzamiento escalonado para probar la plataforma con un grupo reducido de usuarios (beta testers) antes de un lanzamiento masivo. Esto permitirá identificar errores y puntos de mejora en un entorno controlado.
+**Recomendación:**  
+Agregar un botón de **Duplicar producto**.
+
+---
+
+### Problema 5: Alertas limitadas y sin integración con WhatsApp  
+**Severidad:** Alta  
+**Heurística:** Prevención de errores  
+**Evidencia:**  
+![Inventario](assets/images/INVENTORY.jpg)
+
+Todos los usuarios prefieren recibir alertas por **WhatsApp**, canal que revisan diariamente.  
+Además, solicitaron alertas de **stock mínimo**, **producto próximo a vencer** y **personalización de notificaciones**.
+
+**Recomendación:**  
+Integrar envíos por WhatsApp y permitir configurar tipos de alertas.
+
+---
+
+### Problema 6: Registro de productos poco eficiente  
+**Severidad:** Media  
+**Heurística:** Eficiencia del usuario  
+**Evidencia:**  
+![Inventario](assets/images/INVENTORY.jpg)
+
+Los usuarios señalaron que sería ideal poder registrar varios productos seguidos sin volver a la tabla o recargar la vista.
+
+**Recomendación:**  
+Agregar un modo de “Registro continuo”.
+
+---
+
+### Problema 7: No existe una vista rápida de productos próximos a vencer  
+**Severidad:** Media  
+**Heurística:** Visibilidad del estado del sistema  
+**Evidencia:**  
+![Inventario](assets/images/INVENTORY.jpg)
+
+Muchos usuarios valoran saber qué productos vencerán pronto, pero actualmente deben revisarlo manualmente.
+
+**Recomendación:**  
+Crear una sección “Por vencer” con orden automático.
+
+---
+
+### Problema 8: Home sin guía inicial para nuevos usuarios  
+**Severidad:** Baja  
+**Heurística:** Reconocimiento vs. recuerdo  
+**Evidencia:**  
+![Home](assets/images/HOME.jpg)
+
+Algunos entrevistados comentaron que sería útil incluir una guía inicial o recomendaciones para nuevos usuarios.
+
+**Recomendación:**  
+Agregar un pequeño onboarding o tarjetas de orientación.
+
+---
+
 
 ### Bibliografía
 
