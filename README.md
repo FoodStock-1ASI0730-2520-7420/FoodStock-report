@@ -103,21 +103,17 @@ feature/capitulo-5
 
 ## Actividad del Repositorio
 
-(Espacio reservado para incluir capturas correspondientes)
+**Frontend**
+![Frontend Activity](assets/images/frontend.jpg)
 
-### Network Graph
-```
-```
+**Backend**
+![Backend Activity](assets/images/backend.jpg)
 
-### Actividad por integrante (commits)
-```
-```
+**Reporte**
+![Report Activity](assets/images/report.jpg)
 
-### Líneas añadidas y eliminadas
-```
-```
 
----
+
 
 ## Distribución de Tareas por Integrante
 
@@ -2423,7 +2419,6 @@ Agencia Andina. (2024, octubre 5). Transformación digital en restaurantes permi
 - Video de exposición https://upcedupe-my.sharepoint.com/:f:/g/personal/u202315007_upc_edu_pe/Evlv0pljdSVLt_cnpfplxWABoKVx52CHBJNqV8AG5rU2iw?e=BMj1Sv
 - Prototipo web https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315007_upc_edu_pe/EeAzZ7O94UNBjI-m3GEFAJoBdh7icX2NrDKKDqoguOUnNA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=eT6CO0
 - FoodStock - Web Application: desplegado en render https://foodstock-p2lr.onrender.com/suppliers
-
 
 
 
