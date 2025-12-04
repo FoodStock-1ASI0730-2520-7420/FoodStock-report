@@ -240,7 +240,6 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
   <thead>
     <tr>
       <th>Criterio específico</th>
-      <th>Nombre</th>
       <th>Acciones realizadas</th>
       <th>Conclusiones</th>
     </tr>
@@ -248,8 +247,9 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
   <tbody>
     <tr>
       <td rowspan="5">Trabaja en equipo para proporcionar liderazgo en forma conjunta</td>
-      <td>Gonzalo Samuel Quintanilla Pozo</td>
       <td>
+        Gonzalo Samuel Quintanilla Pozo  
+        <br><br>
         TB1: Realizó la mayor parte del Capítulo 4: Information Architecture, Landing Page UI Design, Web Applications UX/UI Design, Prototyping y Domain-Driven Software Architecture. También aportó en User Stories, análisis de competidores y Lean UX Process (Problem Statements, Assumptions, Hypothesis Statements, Lean UX Canvas).
         <br><br>
         TP: Avanzó de manera significativa en el desarrollo del frontend, implementando pantallas principales y resolviendo detalles visuales, además de colaborar en el reporte del trabajo parcial.
@@ -261,8 +261,9 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       <td rowspan="5">El equipo demostró liderazgo conjunto mediante la organización, coordinación y desarrollo de tareas clave, asegurando que cada miembro contribuyera de manera estratégica al proyecto.</td>
     </tr>
     <tr>
-      <td>Melina Liz Santillan Alvarado</td>
       <td>
+        Melina Liz Santillan Alvarado
+        <br><br>
         TB1: Diseñó wireframes, mock-ups, diagramas de base de datos y de clases, style guidelines, segmentación de objetivos y diseño de entrevistas, además de aportar en User Stories.
         <br><br>
         TP: Desarrolló componentes del frontend, refinó la presentación visual del prototipo y apoyó en la elaboración del reporte del trabajo parcial.
@@ -273,8 +274,9 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       </td>
     </tr>
     <tr>
-      <td>Javier Masaru Nikaido Vargas</td>
       <td>
+        Javier Masaru Nikaido Vargas
+        <br><br>
         TB1: Aportó en Capítulo II: Requirements Elicitation & Analysis, análisis de competidores, User Stories, Wireframes, Wireflow Diagrams, Mock-ups y User Flow Diagrams, Web Applications Prototyping y Domain-Driven Software Architecture.
         <br><br>
         TP: Se encargó del avance del reporte, realizó entrevistas y validaciones con usuarios y brindó apoyo puntual al frontend.
@@ -285,8 +287,9 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       </td>
     </tr>
     <tr>
-      <td>Jean Pool Huaman De La Cruz</td>
       <td>
+        Jean Pool Huaman De La Cruz
+        <br><br>
         TB1: Elaboró antecedentes y problemática, To-Be Scenario Mapping, Lean UX Process, definición de segmentos objetivo, Impact Mapping y Product Backlog.
         <br><br>
         TP: Avanzó en el frontend, implementó componentes funcionales y colaboró con partes centrales del reporte del trabajo parcial.
@@ -297,8 +300,9 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       </td>
     </tr>
     <tr>
-      <td>José María Franco Del Carpio</td>
       <td>
+        José María Franco Del Carpio
+         <br><br>
         TB1: Aportó ideas puntuales en User Stories y en entrevistas iniciales.
         <br><br>
         TP: Avanzó en la redacción del reporte, realizó entrevistas adicionales y apoyó con pequeños ajustes en el frontend.
@@ -311,8 +315,9 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
     <!-- Criterio 2 -->
     <tr>
       <td rowspan="5">Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</td>
-      <td>Gonzalo Samuel Quintanilla Pozo</td>
       <td>
+        Gonzalo Samuel Quintanilla Pozo
+        <br><br>
         TB1: Coordinó tareas del capítulo 4, revisó prototipos de la landing page, definió etiquetas SEO y sistemas de navegación, y apoyó en User Stories.
         <br><br>
         TP: Lideró la implementación del frontend, organizó tiempos de entrega y apoyó en la estructura del reporte del trabajo parcial.
@@ -326,8 +331,9 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       </td>
     </tr>
     <tr>
-      <td>Melina Liz Santillan Alvarado</td>
       <td>
+        Melina Liz Santillan Alvarado
+        <br><br>
         TB1: Diseñó wireframes y mock-ups, elaboró diagramas de base de datos y de clases, definió style guidelines, segmentación de objetivos y diseñó entrevistas.
         <br><br>
         TP: Trabajó en el frontend, refinó elementos visuales y apoyó en la elaboración del reporte del trabajo parcial.
@@ -338,8 +344,9 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       </td>
     </tr>
     <tr>
-      <td>Javier Masaru Nikaido Vargas</td>
       <td>
+        Javier Masaru Nikaido Vargas
+        <br><br>
         TB1: Realizó análisis de competidores, elaboró User Stories, Wireframes, Wireflow Diagrams y Mock-ups, y participó en prototipado y arquitectura orientada a dominios.
         <br><br>
         TP: Avanzó en el reporte del trabajo parcial, desarrolló validaciones de usuarios y brindó soporte básico al frontend.
@@ -350,8 +357,9 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       </td>
     </tr>
     <tr>
-      <td>Jean Pool Huaman De La Cruz</td>
       <td>
+        Jean Pool Huaman De La Cruz
+        <br><br>
         TB1: Elaboró antecedentes y problemática, definió To-Be Scenario Mapping, segmentación de objetivos, Impact Mapping y Product Backlog.
         <br><br>
         TP: Implementó partes del frontend y redactó secciones importantes del reporte del trabajo parcial.
@@ -362,8 +370,9 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       </td>
     </tr>
     <tr>
-      <td>José María Franco Del Carpio</td>
       <td>
+        José María Franco Del Carpio
+        <br><br>
         TB1: Aportó ideas puntuales en User Stories y en entrevistas iniciales.
         <br><br>
         TP: Avanzó en el reporte del trabajo parcial, realizó entrevistas del Sprint 3 y apoyó en ajustes ligeros del frontend.
