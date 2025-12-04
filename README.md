@@ -18,16 +18,39 @@
 
 
 ### Team Members:
+  <table>
+    <thead>
+      <tr>
+        <th align="center">Member</th>
+        <th align="center">Code</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td align="center">José María Franco Del Carpio</td>
+        <td align="center">U202319178</td>
+      </tr>
+      <tr>
+        <td align="center">Jean Pool Huaman De La Cruz</td>
+        <td align="center">U20201E781</td>
+      </tr>
+      <tr>
+        <td align="center">Javier Masaru Nikaido Vargas</td>
+        <td align="center">U20221G099</td>
+      </tr>
+      <tr>
+        <td align="center">Quintanilla Pozo Gonzalo Samuel</td>
+        <td align="center">U202315007</td>
+      </tr>
+      <tr>
+        <td align="center">Melina Liz Santillan Alvarado</td>
+        <td align="center">U202216058</td>
+      </tr>
+    </tbody>
+</table>
 
-|             Member              |    Code    |
-|:-------------------------------:|:----------:|
-|  José María Franco Del Carpio   |   U202319178   |
-|   Jean Pool Huaman De La Cruz   |    U20201E781  |
-|  Javier Masaru Nikaido Vargas   |    U20221G099  |
-| Quintanilla Pozo Gonzalo Samuel | u202315007 |
-|  Melina Liz Santillan Alvarado  | U202216058 |
+  <p align="center"><strong>Setiembre 2025</strong></p>
 
-<strong> Setiembre 2025</strong><br>
 </div>
 
 # Registro de Versiones del Informe
@@ -1409,7 +1432,9 @@ El equipo uso la matriz LACX para asignar responsabilidades en las secciones de 
 Nota. L = Leader (responsable principal). C = Collaborator (apoyo).
 
 </div>
+
 ##### 5.2.1.3. Sprint Backlog 1
+
 <table>
   <tr>
     <td>Sprint #</td>
@@ -1521,7 +1546,8 @@ Nota. L = Leader (responsable principal). C = Collaborator (apoyo).
  Evidencia de avance del equipo en GitHub.  
 <img alt="upc-logo" src="/assets/images/EvidenciaGit.png"/><br>
 
-#### 5.2.2.1. Sprint Planning 2
+#### 5.2.1. Sprint 2
+##### 5.2.2.1. Sprint Planning 2
 
 | Sprint #                             | Sprint 2                                                                                                                                                                                                                                                  |
 |--------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -1537,7 +1563,7 @@ Nota. L = Leader (responsable principal). C = Collaborator (apoyo).
 | Sprint 2 Velocity                    | 21                                                                                                                                                                                                                                                        |
 | Sum of story points                  | 66                                                                                                                                                                                                                                                        |
 
-#### 5.2.2.2. Aspect Leaders and Collaborators.
+##### 5.2.2.2. Aspect Leaders and Collaborators.
 
 <div style="font-size:70%;">
 
@@ -1558,7 +1584,7 @@ C = *Collaborator* (apoya el desarrollo del aspecto).
 
 </div>
 
-#### 5.2.2.3. Sprint Backlog 2.
+##### 5.2.2.3. Sprint Backlog 2.
 Nuestro enfoque principal en este sprint fue desarrollar la aplicación web utilizando Vue.js y una API falsa para simular la funcionalidad del backend. Nos centramos en implementar las funcionalidades clave de los módulos de Inventario, Proveedores y Ventas, siguiendo la arquitectura definida en el diagrama C4.
 
 <table>
@@ -1708,10 +1734,20 @@ Nuestro enfoque principal en este sprint fue desarrollar la aplicación web util
 </table>
 
 #### 5.2.2.4. Development Evidence for Sprint Review.
-Para desplegar el la app web se uso Render aqui muestro las evidencia
+Para desplegar el la app web se uso linkdink aqui muestro las evidencia
+<img alt="web-app" src="/assets/images/Sprint 2/evidencia sprint 2.png"/><br>
 
 #### 5.2.2.5. Execution Evidence for Sprint Review.
+Capturas del sitio en vivo que validan visualizacion y rendimiento de las secciones desarrolladas.
+<img alt="web-app" src="/assets/images/Sprint 2/Sprint2-evidencia1.png"/><br>
+<img alt="web-app" src="/assets/images/Sprint 2/Sprint2-evidencia2.png"/><br>
+
+
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review.
+La pagina web fue desplegada en netlify aqui muestro las evidencias
+<img alt="web-app" src="/assets/images/Sprint 2/netfly.png"/><br>
+
+
 #### 5.2.2.7.  Deployment Evidence for Sprint Review.
 <img alt="upc-logo" src="/assets/images/render sprint2.png"/><br>
 <img alt="upc-logo" src="/assets/images/deploy sprint2.png"/><br>
@@ -1922,15 +1958,12 @@ A continuación, se detallan los avances realizados en el desarrollo de la aplic
 ##### 5.2.3.5. Execution Evidence for Sprint Review
 
 - Swagger del backend (endpoints y schemas validados):  
-  - ![Swagger overview](resources/SPRINT3/Swagger1.png)  
-  - ![Swagger endpoints](resources/SPRINT3/Swagger2.png)  
-  - ![Swagger schemas](resources/SPRINT3/Swagger3.png)  
-- Capturas del frontend (modos claro/oscuro y navegaci?n principal):  
-  - ![Clientes - modo oscuro](resources/SPRINT3/pantalla_clientes_oscuro.png)  
-  - ![Clientes - modo claro](resources/SPRINT3/pantalla_clientes_claro.png)  
-  - ![Landing - modo claro](resources/SPRINT3/Landing_page_claro.png)  
-  - ![Landing - modo oscuro](resources/SPRINT3/landing_page_oscuro.png)  
-
+  - ![Swagger overview](assets/images/SWAGGER.jpg)   
+  - 
+- Capturas del frontend (modos claro/oscuro y navegacion principal):  
+  - ![Clientes - modo oscuro](assets/images/SALE.jpg)  
+  - ![Clientes - modo oscuro](assets/images/RSERVATION.jpg)
+  - ![Clientes - modo oscuro](assets/images/REPORTS.jpg)
 ---
 
 ##### 5.2.3.6. Services Documentation Evidence for Sprint Review
@@ -1958,36 +1991,33 @@ Logs confirmaron correcto funcionamiento durante entrevistas.
 
 ##### 5.2.3.8. Team Collaboration Insights during Sprint
 
-- Coordinaci?n continua por Discord.  
-- Trabajo colaborativo v?a GitHub con merges diarios.  
-- Cambios r?pidos aplicados seg?n feedback en entrevistas.  
-- Capturas de participaci?n y actividad del sprint:  
-  - ![Actividad Sprint 3](resources/SPRINT3/team_activity.png)  
-  - ![Commits Sprint 3](resources/SPRINT3/team_commits.png)  
+- Coordinacion continua por Discord.  
+- Trabajo colaborativo va GitHub con merges diarios.  
+- Cambios rapidos aplicados segun feedback en entrevistas.  
+
 
 ---
 
 ##### 5.2.3.9. Validation Interviews
 
-Las entrevistas de validaci?n del Sprint 3 se enfocaron en comprobar la navegabilidad del prototipo y la cobertura del backend m?nimo.
+Las entrevistas de validacion del Sprint 3 se enfocaron en comprobar la navegabilidad del prototipo y la cobertura del backend minimo.
 
-###### 5.2.3.9.1. Dise?o de Entrevistas
+###### 5.2.3.9.1. Diseño de Entrevistas
 - Objetivo: validar inventario, alertas y flujo de ventas con usuarios finales.  
 - Formato: recorrido guiado del prototipo y preguntas de usabilidad.  
 - Roles: un entrevistador y un observador tomando notas.  
 
 ###### 5.2.3.9.2. Registro de Entrevistas (Resumen)
-- Entrevista 1: validaci?n del flujo de inventario y alertas (feedback positivo sobre alertas de vencimiento).  
-- Entrevista 2: revisi?n de ventas y reportes (solicitud de m?s filtros en reportes).  
-- Evidencia visual: ![Validaci?n Sprint 3](resources/SPRINT3/validation_interview.png)  
+- Entrevista 1: validacion del flujo de inventario y alertas (feedback positivo sobre alertas de vencimiento).  
+- Entrevista 2: revision de ventas y reportes (solicitud de más filtros en reportes).  
 
 ##### 5.2.3.10. Sprint 3 Findings
 - El inventario y las alertas cubren los casos principales pero requieren optimizar tiempos de carga.  
 - Se necesita ampliar filtros en reportes y simplificar el alta de proveedores.  
-- Los usuarios valoran el modo oscuro y la consistencia entre landing y aplicaci?n.  
+- Los usuarios valoran el modo oscuro y la consistencia entre landing y aplicacion.  
 
 ##### 5.2.3.11. Sprint 3 Conclusion
-Sprint 3 permiti? validar el flujo end-to-end con usuarios reales, confirmando la prioridad de robustecer backend y reportes antes del despliegue final.
+Sprint 3 permitie validar el flujo end-to-end con usuarios reales, confirmando la prioridad de robustecer backend y reportes antes del despliegue final.
 
 ---
 
@@ -2093,13 +2123,13 @@ A continuación, se presentan los avances registrados desde el 30 de noviembre d
 
 ##### 5.2.4.6. Team Collaboration Insights
 
-Durante este sprint, el equipo trabaj? activamente mediante:
+Durante este sprint, el equipo trabajo activamente mediante:
 
-- Estrategia GitFlow con ramas por m?dulo.  
-- Reuniones semanales v?a Discord.  
-- Validaci?n colectiva del backend.  
-- QA colaborativo entre frontend, backend y documentaci?n.  
-- Capturas de participaci?n y actividad del sprint:  
+- Estrategia GitFlow con ramas por modulo.  
+- Reuniones semanales via Discord.  
+- Validacion colectiva del backend.  
+- QA colaborativo entre frontend, backend y documentacion.  
+- Capturas de participacion y actividad del sprint:  
   - ![Actividad Sprint 4](resources/SPRINT4/team_activity.png)  
   - ![Commits Sprint 4](resources/SPRINT4/team_commits.png)  
 
@@ -2141,16 +2171,15 @@ Las preguntas realizadas fueron:
 
 ---
 
-## Entrevistas realizadas por **Javier Masaru Nikaido**
+### Entrevistas realizadas por **Javier Masaru Nikaido**
 
----
 
-### Entrevista N°1 – Cliente (Estudiante / Emprendedora)
+#### Entrevista N°1 – Cliente (Estudiante / Emprendedora)
 
 **Entrevistador:** Javier Masaru Nikaido  
 **Entrevistada:** Aiko Napanga  
 **Fecha:** 2025-11-13  
-**Link de la entrevista:** *[Entrevista de Validación]*  
+**Link de la entrevista: https://drive.google.com/file/d/1ZUGWrz7efTHX81M81SaAYF9bjJWL8zgd/view?usp=drive_link
 
 ![Aiko](assets/images/aiko.jpg)
 
@@ -2428,7 +2457,7 @@ Agencia Andina. (2024, octubre 5). Transformación digital en restaurantes permi
 - Video de exposición https://upcedupe-my.sharepoint.com/:f:/g/personal/u202315007_upc_edu_pe/Evlv0pljdSVLt_cnpfplxWABoKVx52CHBJNqV8AG5rU2iw?e=BMj1Sv
 - Prototipo web https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315007_upc_edu_pe/EeAzZ7O94UNBjI-m3GEFAJoBdh7icX2NrDKKDqoguOUnNA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=eT6CO0
 - FoodStock - Web Application: desplegado en render https://foodstock-p2lr.onrender.com/suppliers
-
+- deployment: https://app-251202235518.azurewebsites.net/swagger/index.htm
 
 
 
