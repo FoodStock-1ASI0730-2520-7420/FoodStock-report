@@ -2002,12 +2002,12 @@ Logs confirmaron correcto funcionamiento durante entrevistas.
 
 Las entrevistas de validacion del Sprint 3 se enfocaron en comprobar la navegabilidad del prototipo y la cobertura del backend minimo.
 
-###### 5.2.3.9.1. Diseño de Entrevistas
+##### 5.2.3.9.1. Diseño de Entrevistas
 - Objetivo: validar inventario, alertas y flujo de ventas con usuarios finales.  
 - Formato: recorrido guiado del prototipo y preguntas de usabilidad.  
 - Roles: un entrevistador y un observador tomando notas.  
 
-###### 5.2.3.9.2. Registro de Entrevistas (Resumen)
+##### 5.2.3.9.2. Registro de Entrevistas (Resumen)
 - Entrevista 1: validacion del flujo de inventario y alertas (feedback positivo sobre alertas de vencimiento).  
 - Entrevista 2: revision de ventas y reportes (solicitud de más filtros en reportes).  
 
@@ -2040,7 +2040,7 @@ El cuarto sprint consolidó el desarrollo del backend, completó los módulos pr
 
 ---
 
-###### Sprint 2 & 3 Review Summary
+##### Sprint 2 & 3 Review Summary
 
 En el Sprint 3 se validó el prototipo funcional con usuarios reales y se identificaron mejoras importantes, entre ellas:
 
@@ -2054,7 +2054,7 @@ En el Sprint 3 se validó el prototipo funcional con usuarios reales y se identi
 
 ---
 
-###### Sprint Goal & User Stories
+##### Sprint Goal & User Stories
 
 | Sprint 4 Goal | Completar el backend principal (inventario, ventas, proveedores y reservas), integrar los módulos con el frontend y preparar la versión estable para la demostración final del proyecto. |
 |---------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -2117,7 +2117,7 @@ A continuación, se presentan los avances registrados desde el 30 de noviembre d
 - Flujo completo validado en entorno temporal de pruebas.  
 - Capturas de confirmación del correcto funcionamiento del API.
 
-> _Aquí insertar capturas de las pruebas ejecutadas._
+![Swagger overview](assets/images/SWAGGER.jpg)
 
 ---
 
@@ -2130,8 +2130,9 @@ Durante este sprint, el equipo trabajo activamente mediante:
 - Validacion colectiva del backend.  
 - QA colaborativo entre frontend, backend y documentacion.  
 - Capturas de participacion y actividad del sprint:  
-  - ![Actividad Sprint 4](resources/SPRINT4/team_activity.png)  
-  - ![Commits Sprint 4](resources/SPRINT4/team_commits.png)  
+
+![Sprint 4 Collaboration](assets/images/Sprint4/sprint4.png)
+![Sprint 4 Collaboration](assets/images/Sprint4/sprint4-1.png)
 
 ---
 
@@ -2179,7 +2180,7 @@ Las preguntas realizadas fueron:
 **Entrevistador:** Javier Masaru Nikaido  
 **Entrevistada:** Aiko Napanga  
 **Fecha:** 2025-11-13  
-**Link de la entrevista: https://drive.google.com/file/d/1ZUGWrz7efTHX81M81SaAYF9bjJWL8zgd/view?usp=drive_link
+**Link de la entrevista:** [Entrevista de Validación](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315007_upc_edu_pe/IQDkXvfp7PiuT5SaBOo_zBjAAUr2Kh7qvVnB45u2BXo-Qhk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=f9E5tD)
 
 ![Aiko](assets/images/aiko.jpg)
 
@@ -2202,7 +2203,7 @@ Indicó que **sí usaría FoodStock** y que lo recomendaría.
 **Entrevistador:** Javier Masaru Nikaido  
 **Entrevistado:** Aldo Zavala  
 **Fecha:** 2025-11-13  
-**Link de la entrevista:** *[Entrevista de Validación]*  
+**Link de la entrevista:** [Entrevista de Validación](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315007_upc_edu_pe/IQBvyKSMhgtQQ7YN9PefHfi-ARfvx68MY-cllW35csTa55c?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=6qIflm)  
 
 ![Aldo Zavala](assets/images/aldo.jpg)
 
@@ -2226,7 +2227,7 @@ Afirmó que **sí usaría FoodStock** y la recomendaría.
 **Entrevistador:** Javier Masaru Nikaido  
 **Entrevistado:** Gabriel Cermeño  
 **Fecha:** 2025-11-13  
-**Link de la entrevista:** *[Entrevista de Validación]*  
+**Link de la entrevista:** [Entrevista de Validación](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315007_upc_edu_pe/IQCNdP-4fL5iQa405O8nqrVKAdxDkQiJwETxCdsdtTqQ_1Y?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=2Mk6lR)  
 
 ![Gabriel Cermeño](assets/images/gabriel.jpg)
 
@@ -2254,7 +2255,7 @@ Confirmó que sí usaría FoodStock y que lo recomendaría.
 **Entrevistador:** José María Franco Del Carpio  
 **Entrevistada:** Carmela Silva  
 **Fecha:** 2025-11-13  
-**Link de la entrevista:** *[Entrevista de Validación]*  
+**Link de la entrevista:** [Entrevista de Validación](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315007_upc_edu_pe/IQBZWo5267KuRqPJ70mqKN9VASuzfn2OtCKYAmQdCLJ0Fs8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=BctLzk)  
 
 ![Carmela Silva](assets/images/carmela.jpg)
 
@@ -2272,7 +2273,7 @@ Prefiere recibir alertas vía **WhatsApp** por ser su canal más utilizado.
 **Entrevistador:** José María Franco Del Carpio  
 **Entrevistado:** Alberto Carrasco  
 **Fecha:** 2025-11-13  
-**Link de la entrevista:** *[Entrevista de Validación]*  
+**Link de la entrevista:** [Entrevista de Validación](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315007_upc_edu_pe/IQB_voxeafSHQIqG5ABfZc0uAYHEh2Nvgojxi5DUqXL-rhI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=NiNz0X)  
 
 ![Alberto Carrasco](assets/images/alberto.jpg)
 
@@ -2290,7 +2291,7 @@ Comentó que usaría la aplicación diariamente para consultar **ventas y stock*
 **Entrevistador:** José María Franco Del Carpio  
 **Entrevistado:** Alfonso Chávez  
 **Fecha:** 2025-11-13  
-**Link de la entrevista:** *[Entrevista de Validación]*  
+**Link de la entrevista:** [Entrevista de Validación](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315007_upc_edu_pe/IQDwF92ABvdGTpidCOuNz9hkAUgj0u5PudyF0yw3MfBiAug?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=DzoW1f)  
 
 ![Alfonso Chávez](assets/images/alfonso.jpg)
 
@@ -2452,12 +2453,12 @@ Agregar un pequeño onboarding o tarjetas de orientación.
 Agencia Andina. (2024, octubre 5). Transformación digital en restaurantes permite ahorrar tiempo y mejorar rentabilidad. Andina. https://andina.pe/agencia/noticia-transformacion-digital-restaurantes-permite-ahorrar-tiempo-y-mejorar-rentabilidad-1002883.aspx
 
 ### Anexos
-- About the team : https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315007_upc_edu_pe/IQAZmOZB8p74TIR9eVHuI0YYAXk_94GXw5yC9uG_dQS2VdY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=wnHZxh
-- Landing Page: Desplegado en Render https://foodstock-1asi0730-2520-7420.github.io/FoodStock-LandingPage/
-- Video de exposición https://upcedupe-my.sharepoint.com/:f:/g/personal/u202315007_upc_edu_pe/Evlv0pljdSVLt_cnpfplxWABoKVx52CHBJNqV8AG5rU2iw?e=BMj1Sv
-- Prototipo web https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315007_upc_edu_pe/EeAzZ7O94UNBjI-m3GEFAJoBdh7icX2NrDKKDqoguOUnNA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=eT6CO0
-- FoodStock - Web Application: desplegado en render https://foodstock-p2lr.onrender.com/suppliers
-- deployment: https://app-251202235518.azurewebsites.net/swagger/index.htm
+- About the team : [Enlace Aqui](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315007_upc_edu_pe/IQAZmOZB8p74TIR9eVHuI0YYAXk_94GXw5yC9uG_dQS2VdY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=wnHZxh)
+- Landing Page: Desplegado en github [Enlace Aqui](https://foodstock-1asi0730-2520-7420.github.io/FoodStock-LandingPage/)
+- Video de exposición [Enlace Aqui](https://upcedupe-my.sharepoint.com/:f:/g/personal/u202315007_upc_edu_pe/Evlv0pljdSVLt_cnpfplxWABoKVx52CHBJNqV8AG5rU2iw?e=BMj1Sv)
+- Prototipo web [Enlace Aqui](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315007_upc_edu_pe/EeAzZ7O94UNBjI-m3GEFAJoBdh7icX2NrDKKDqoguOUnNA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=eT6CO0)
+- FoodStock - Web Application: desplegado en netlify [Enlace Aqui](https://foodstock-p2lr.onrender.com/suppliers)
+- deployment: [Enlace Aqui](https://app-251202235518.azurewebsites.net/swagger/index.htm)
 
 
 
